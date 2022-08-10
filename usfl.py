@@ -59,7 +59,7 @@ def getJsonInFolder(folder:str):
     
     return json_list
 
-def downloadUsflGame(gameID:int,season:int,apiKey:str):
+def downloadUsflGame(gameID:int,apiKey:str):
     """
     Retrives game data for a USFL game, given a proper
     USFL game ID.
@@ -81,7 +81,7 @@ def downloadUsflGame(gameID:int,season:int,apiKey:str):
     """
     url = f"https://api.foxsports.com/bifrost/v1/usfl/event/{gameID}/data?apikey={apiKey}"
     try:
-        urllib.request.urlretrieve(url, filename=f"Gamelogs/{season}/{gameID}.json")
+        urllib.request.urlretrieve(url, filename=f"Gamelogs/{gameID}.json")
         time.sleep(5)
     except:
         time.sleep(5)
@@ -95,11 +95,12 @@ def parseUsflSchedule(game_jsons:list,saveResults=False):
         #print(f'data: \n {data}')
         #print(data['header']['id'],data['header']['socialStartTime'])
         game_id = data['header']['id']
-        game_date = data['header']['socialStartTime']
+        game_date = data['header']['eventTime']
         game_df = pd.DataFrame(columns=['game_id'],data=[game_id])
         game_df['season'] = game_date[:4]
         game_df['analytics_description']  = data['header']['analyticsDescription']
         game_df['event_status'] = data['header']['eventStatus']
+
         game_df['is_tba'] = data['header']['isTba']
         game_df['game_start'] = data['header']['socialStartTime']
         game_df['game_end'] = data['header']['socialStopTime']
@@ -142,8 +143,8 @@ def parseUsflSchedule(game_jsons:list,saveResults=False):
     main_df = main_df.astype({"game_id":int,"season":int})
     main_df = main_df.infer_objects()
     main_df = main_df.sort_values('game_id')
-    print(main_df.dtypes)
-    print(main_df)
+    #print(main_df.dtypes)
+    #print(main_df)
 
     if saveResults == True:
         maxSeason = main_df['season'].max()
@@ -156,13 +157,247 @@ def parseUsflSchedule(game_jsons:list,saveResults=False):
 
     return main_df
 
+def parseUsflPlayerStats(game_jsons:list,saveResults=False):
+    main_df = pd.DataFrame()
+    game_df = pd.DataFrame()
+    s_df = pd.DataFrame()
+    
+    passing_df = pd.DataFrame()
+    rush_df = pd.DataFrame()
+    receiving_df = pd.DataFrame()
+    defensive_df = pd.DataFrame()
+    fumbles_df = pd.DataFrame()
+    kick_return_df = pd.DataFrame()
+    punt_return_df = pd.DataFrame()
+    kicking_df = pd.DataFrame()
+    punting_df = pd.DataFrame()
+
+    index_0 = ""
+    #game_df = pd.DataFrame()
+    
+    for i in tqdm(game_jsons): 
+        game_df = pd.DataFrame()
+        with open(i, 'r',encoding='utf8') as j:
+            data = json.load(j)
+        game_id = data['header']['id']
+        game_date = data['header']['eventTime']
+        game_date = game_date[:10]
+        season = game_date[:4]
+
+        away_team_id = data['header']['leftTeam']['name']
+        away_team_nickname = data['header']['leftTeam']['longName']
+
+        home_team_id = data['header']['rightTeam']['name']
+        home_team_nickname = data['header']['rightTeam']['longName']
+     
+        for j in data['boxscore']['boxscoreSections']:
+            team_title = j['title']
+            if j['title'] != 'MATCHUP':
+                for k in j['boxscoreItems']:
+                    column_list = []
+                    for l in k['boxscoreTable']['headers']:
+                        for m in l['columns']:
+                            if m['index'] == 0:
+                                index_0 = m['text']
+                                #print(index_0)
+                                column_list.append('player_name')
+                            else:
+                                column_list.append(m['text'])
+                    #print(column_list)
+                    for l in k['boxscoreTable']['rows']:
+                        stat_column = []
+                        
+                        for m in l['columns']:
+                            stat_column.append(m['text'])
+                        
+                        s_df = pd.DataFrame(columns=column_list,data=[stat_column])
+                        s_df['season'] = season
+                        s_df['game_id'] = game_id
+                        s_df['game_date'] = game_date
+
+                        if team_title == away_team_nickname:
+                            s_df['team'] = away_team_id
+                            s_df['team_nickname'] = team_title
+                            s_df['loc'] = 'A'
+                            s_df['opponent'] = home_team_id
+                            s_df['opponent_nickname'] = home_team_nickname
+                        elif team_title == home_team_nickname:
+                            s_df['team'] = home_team_id
+                            s_df['team_nickname'] = team_title
+                            s_df['loc'] = 'H'
+                            s_df['opponent'] = away_team_id
+                            s_df['opponent_nickname'] = away_team_nickname
+                        else:
+                            pass
+
+                        try:
+                            s_df['analytics_id'] = l['entityLink']['analyticsName']
+                        except:
+                            pass
+                        try:
+                            s_df['player_name'] = str(l['entityLink']['title']).title()
+                        except:
+                            pass
+                        try:
+                            s_df['player_id'] = l['entityLink']['layout']['tokens']['id']
+                        except:
+                            pass
+                        try:
+                            s_df['player_image'] = l['entityLink']['imageUrl']
+                        except:
+                            pass
+                    
+                        if index_0 == "PASSING":
+                            passing_df = pd.concat([passing_df,s_df],ignore_index=True)
+                            
+                        elif index_0 == "RUSHING":
+                            rush_df = pd.concat([rush_df,s_df],ignore_index=True)
+                        elif index_0 == "RECEIVING":
+                            receiving_df = pd.concat([receiving_df,s_df],ignore_index=True)
+                        elif index_0 == "DEFENSIVE":
+                            defensive_df = pd.concat([defensive_df,s_df],ignore_index=True)
+                        elif index_0 == "FUMBLES":
+                            fumbles_df = pd.concat([fumbles_df,s_df],ignore_index=True)
+                        elif index_0 == "KICK RETURN":
+                            kick_return_df = pd.concat([kick_return_df,s_df],ignore_index=True)
+                        elif index_0 == "PUNT RETURN":
+                            punt_return_df = pd.concat([punt_return_df,s_df],ignore_index=True)
+                        elif index_0 == "KICKING":
+                            kicking_df = pd.concat([kicking_df,s_df],ignore_index=True)
+                        elif index_0 == "PUNTING":
+                            punting_df = pd.concat([punting_df,s_df],ignore_index=True)
+                        else:
+                            print(f'Need DF for {index_0}')
+    pass_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','COMP','ATT','COMP%','PASS YDS','PASS TD','PASS INT','NFL QBR','YPA','YPC']
+    try:
+        passing_df[['COMP','ATT']] = passing_df['COM'].str.split('/',expand=True)
+        passing_df.drop(['COM'],axis=1,inplace=True)
+    except:
+        pass
+
+    ## PASSING
+    passing_df = passing_df.drop_duplicates()
+    passing_df.rename(columns={'PCT':'COMP%','YDS':'PASS YDS','AVG':'YPA','TD':'PASS TD','INT':'PASS INT','QBR':'NFL QBR'},inplace=True)
+    passing_df['NFL QBR'] = passing_df['NFL QBR'].replace(['-'],None)
+    passing_df[['COMP','ATT','COMP%','PASS YDS','YPA','PASS TD','PASS INT','NFL QBR']] = passing_df[['COMP','ATT','COMP%','PASS YDS','YPA','PASS TD','PASS INT','NFL QBR']].apply(pd.to_numeric)
+    passing_df['COMP%'] = (passing_df['COMP'] / passing_df['ATT']) *100
+    passing_df['YPA'] = (passing_df['PASS YDS']/passing_df['COMP'])
+    passing_df['YPC'] = (passing_df['PASS YDS']/passing_df['COMP'])
+    passing_df = passing_df.reindex(columns=pass_column_names)
+    #passing_df.to_csv('test_pass.csv',index=False)
+
+    ## RUSHING
+    rush_df = rush_df.drop_duplicates()
+    rush_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','RUSH','RUSH YDS','RUSH AVG','RUSH TD','RUSH LONG']
+    rush_df.rename(columns={'ATT':'RUSH','YDS':'RUSH YDS','AVG':'RUSH AVG','TD':'RUSH TD','LNG':'RUSH LONG'},inplace=True)
+    rush_df[['RUSH','RUSH YDS','RUSH AVG','RUSH TD','RUSH LONG']] = rush_df[['RUSH','RUSH YDS','RUSH AVG','RUSH TD','RUSH LONG']].apply(pd.to_numeric)
+    rush_df['RUSH AVG'] = (rush_df['RUSH YDS']/rush_df['RUSH'])
+    rush_df = rush_df.reindex(columns=rush_column_names)
+    #rush_df.to_csv('test_rush.csv',index=False)
+
+    ## Reciving
+    receiving_df = receiving_df.drop_duplicates()
+    rec_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','REC TARGETS','REC','REC YDS','REC AVG','REC TD','REC LONG','CATCH%','YDS/TARGET']
+    receiving_df.rename(columns={'TGT':'REC TARGETS','YDS':'REC YDS','AVG':'REC AVG','TD':'REC TD','LNG':'REC LONG'},inplace=True)
+    receiving_df['REC AVG'] = receiving_df['REC AVG'].replace(['-'],None)
+    receiving_df[['REC TARGETS','REC','REC YDS','REC AVG','REC TD','REC LONG']] = receiving_df[['REC TARGETS','REC','REC YDS','REC AVG','REC TD','REC LONG']].apply(pd.to_numeric)
+    receiving_df['REC AVG'] = (receiving_df['REC YDS']/receiving_df['REC'])
+    receiving_df['CATCH%'] = (receiving_df['REC']/receiving_df['REC TARGETS']) * 100
+    receiving_df['YDS/TARGET'] = (receiving_df['REC YDS']/receiving_df['REC'])
+    receiving_df = receiving_df.reindex(columns=rec_column_names)
+    #receiving_df.to_csv('test_rec.csv',index=False)
+
+    ## Fumbles
+    fumbles_df = fumbles_df.drop_duplicates()
+    fum_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','FUMBLES','FUMBLES LOST','FF','FR']
+    fumbles_df.rename(columns={'FUM':'FUMBLES','LST':'FUMBLES LOST','REC':'FR'},inplace=True)
+    #fumbles_df[['FUMBLES','FUMBLES LOST','FF','FR']] = fumbles_df[['FUMBLES','FUMBLES LOST','FF','FR']].apply(pd.to_numeric)
+    fumbles_df = fumbles_df.reindex(columns=fum_column_names)
+    #fumbles_df.to_csv('test_fum.csv',index=False)
+
+    ## Defense
+    defensive_df = defensive_df.drop_duplicates()
+    def_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','TOTAL','SOLO','AST','TFL','SACKS','INT','PD','DEF TD']
+    defensive_df.rename(columns={'TCK':'TOTAL','SOL':'SOLO','SCK':'SACKS','TD':'DEF TD'},inplace=True)
+    defensive_df[['TOTAL','SOLO','TFL','SACKS','INT','PD','DEF TD']] = defensive_df[['TOTAL','SOLO','TFL','SACKS','INT','PD','DEF TD']].apply(pd.to_numeric)
+    defensive_df['AST'] = defensive_df['TOTAL'] - defensive_df['SOLO']
+    defensive_df = defensive_df.reindex(columns=def_column_names)
+    #defensive_df.to_csv('test_def.csv',index=False)
+    
+    ## FG Kicking
+    kicking_df = kicking_df.drop_duplicates()
+    kicking_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','FGM','FGA','FG%','FG LONG','XPM','XPA','XP%']
+    kicking_df.drop(['PTS','PCT'],axis=1,inplace=True)
+    kicking_df[['FGM','FGA']] = kicking_df['FG'].str.split('/',expand=True)
+    kicking_df.drop(['FG'],axis=1,inplace=True)
+    
+    kicking_df[['XPM','XPA']] = kicking_df['XP'].str.split('/',expand=True)
+    kicking_df.drop(['XP'],axis=1,inplace=True)
+    kicking_df.rename(columns={'LNG':'FG LONG'},inplace=True)
+    kicking_df['FG LONG'] = kicking_df['FG LONG'].replace(['-'],None)
+    kicking_df[['FGM','FGA','XPM','XPA']] = kicking_df[['FGM','FGA','XPM','XPA']].apply(pd.to_numeric)
+    kicking_df['FG%'] = kicking_df['FGM']/kicking_df['FGA']
+    kicking_df['XP%'] = kicking_df['XPM']/kicking_df['XPA']
+    kicking_df = kicking_df.reindex(columns=kicking_column_names)
+    #kicking_df.to_csv('test_kick.csv',index=False)
+
+    ## Punting
+    punting_df = punting_df.drop_duplicates()
+    punting_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name',
+    'PUNTS','GROSS PUNT YDS','GROSS PUNT AVG','PUNT TB','PUNTS IN 20','PUNTS BLK','PUNT LONG']
+    punting_df.rename(columns={'NO':'PUNTS','AVG':'GROSS PUNT AVG','20':'PUNTS IN 20','TB':'PUNT TB','LNG':'PUNT LONG','BLK':'PUNTS BLK'},inplace=True)
+    punting_df[['PUNTS','GROSS PUNT AVG','PUNT TB','PUNTS IN 20','PUNTS BLK','PUNT LONG']] = punting_df[['PUNTS','GROSS PUNT AVG','PUNT TB','PUNTS IN 20','PUNTS BLK','PUNT LONG']].apply(pd.to_numeric)
+    punting_df['GROSS PUNT YDS'] = (punting_df['GROSS PUNT AVG']*punting_df['PUNTS']).astype('int')
+    punting_df = punting_df.reindex(columns=punting_column_names)
+    #punting_df.to_csv('test_punt.csv',index=False)
+    
+    ## KR
+    kick_return_df = kick_return_df.drop_duplicates()
+    kr_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','KR','KR YDS','KR AVG','KR TD','KR LONG']
+    kick_return_df.rename(columns={'RET':'KR','YDS':'KR YDS','AVG':'KR AVG','LNG':'KR LONG','TD':'KR TD'},inplace=True)
+    kick_return_df[['KR','KR YDS','KR AVG','KR TD','KR LONG']] = kick_return_df[['KR','KR YDS','KR AVG','KR TD','KR LONG']].apply(pd.to_numeric)
+    kick_return_df['KR AVG'] = kick_return_df['KR YDS']/kick_return_df['KR']
+    kick_return_df = kick_return_df.reindex(columns=kr_column_names)
+    #kick_return_df.to_csv('test_kr.csv',index=False)
+    
+    ## PR
+    punt_return_df = punt_return_df.drop_duplicates()
+    pr_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name','PR','PR YDS','PR AVG','PR TD','PR LONG']
+    punt_return_df.rename(columns={'RET':'PR','YDS':'PR YDS','AVG':'PR AVG','LNG':'PR LONG','TD':'PR TD'},inplace=True)
+    punt_return_df['PR LONG'] = punt_return_df['PR LONG'].replace(['-'],None)
+    punt_return_df['PR AVG'] = punt_return_df['PR AVG'].replace(['-'],None)
+    punt_return_df[['PR','PR YDS','PR AVG','PR TD','PR LONG']] = punt_return_df[['PR','PR YDS','PR AVG','PR TD','PR LONG']].apply(pd.to_numeric)
+    punt_return_df['PR AVG'] = (punt_return_df['PR YDS']/punt_return_df['PR'])
+    punt_return_df = punt_return_df.reindex(columns=pr_column_names)
+    #punt_return_df.to_csv('test_pr.csv',index=False)
+    
+    main_df = passing_df
+    main_df = pd.merge(main_df,rush_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,receiving_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,fumbles_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,defensive_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,kicking_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,punting_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,punt_return_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = pd.merge(main_df,kick_return_df, on=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],how='outer')
+    main_df = main_df[main_df['player_name']!='TOTALS']
+    main_df = main_df.drop_duplicates(subset=['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name'],keep='last')
+    
+    if saveResults == True:
+        min_season = int(main_df['season'].min())
+        max_season = int(main_df['season'].max())
+        for i in range(min_season,max_season+1):
+            main_df.to_csv(f'player_stats/{i}_player_stats.csv',index=False)
+
+    return main_df
+
 def main():
     print('Starting up')
     key = "firefox" ## This is not a proper key. "firefox" is being used as a placeholder.
     #downloadUsflGame(1,2022,key)
-    json_list = getJsonInFolder('Gamelogs/2022')
-    parseUsflSchedule(json_list,True)
-
+    json_list = getJsonInFolder('Gamelogs')
+    #parseUsflSchedule(json_list,True)
+    parseUsflPlayerStats(json_list,True)
     #print(os.path.abspath('Gamelogs/2022'))
 if __name__ == "__main__":
     main()
