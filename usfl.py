@@ -391,13 +391,143 @@ def parseUsflPlayerStats(game_jsons:list,saveResults=False):
 
     return main_df
 
+def parseUsflPbp(game_jsons:list,saveResults=False):
+    main_df = pd.DataFrame()
+    game_df = pd.DataFrame()
+    play_df = pd.DataFrame()
+    for i in tqdm(game_jsons): 
+        away_score = 0
+        home_score = 0
+        
+        game_df = pd.DataFrame()
+        
+        with open(i, 'r',encoding='utf8') as j:
+            data = json.load(j)
+        
+        game_id = data['header']['id']
+        game_date = data['header']['eventTime']
+        game_date = game_date[:10]
+        season = game_date[:4]
+
+        away_team_id = data['header']['leftTeam']['name']
+        away_team_nickname = data['header']['leftTeam']['longName']
+        away_team_full_name = data['header']['leftTeam']['alternateName']
+
+        home_team_id = data['header']['rightTeam']['name']
+        home_team_nickname = data['header']['rightTeam']['longName']
+        home_team_full_name = data['header']['rightTeam']['alternateName']
+
+        for j in data['pbp']['sections']:
+            quarter = j['title']
+            print(quarter)
+
+            for k in j['groups']:
+                drive_play_num = 1
+                drive_id = k['id']
+                drive_result = k['title']
+                drive_summary = str(k['subtitle'])
+                drive_plays, drive_yards, drive_time = drive_summary.split(' · ')
+                drive_plays = drive_plays.replace(' plays','')
+                drive_yards = drive_yards.replace(' yards','')
+
+                off_team_full_name = k['imageAltText']
+                if off_team_full_name == away_team_full_name: ## Offense == away team
+                    off_team_nickname = away_team_nickname
+                    off_team_id = away_team_id
+                    def_team_id = home_team_id
+                    def_team_nickname = home_team_nickname
+                    def_team_full_name = home_team_full_name
+
+                elif off_team_full_name == home_team_full_name:
+                    off_team_nickname = home_team_nickname
+                    off_team_id = home_team_id
+                    def_team_id = away_team_id
+                    def_team_nickname = away_team_nickname
+                    def_team_full_name = away_team_full_name
+                for play in k['plays']:
+                    #print(play['id'])
+                    play_df = pd.DataFrame(columns=['game_id'],data=[game_id])
+                    play_df['season'] = season
+                    play_df['game_date'] = game_date
+                    play_df['away_team_id'] = away_team_id
+                    play_df['away_team_nickname'] = away_team_nickname
+                    play_df['away_team_full_name'] = away_team_full_name
+                    play_df['home_team_id'] = home_team_id
+                    play_df['home_team_nickname'] = home_team_nickname
+                    play_df['home_team_full_name'] = home_team_full_name
+                    play_df['off_team_id'] = off_team_id
+                    play_df['off_team_nickname'] = off_team_nickname
+                    play_df['off_team_full_name'] = off_team_full_name
+                    play_df['def_team_id'] = def_team_id
+                    play_df['def_team_nickname'] = def_team_nickname
+                    play_df['def_team_full_name'] = def_team_full_name
+                    play_df['quarter'] = quarter
+                    play_df['drive_id'] = drive_id
+                    play_df['play_id'] = play['id']
+                    
+                    try:
+                        down_and_distance = play['title']
+                    except:
+                        down_and_distance = None
+                    play_df['down_and_distance'] = down_and_distance
+                    play_down = 0
+                    play_distance = 0
+                    if down_and_distance == "END QUARTER" or down_and_distance == "KICKOFF" or down_and_distance == "PAT" or down_and_distance == None:
+                        pass
+                    else:
+                        play_down, play_distance = down_and_distance.split(' AND ')
+                        play_down = play_down[0]
+                        #print(down)
+                    play_df['down'] = play_down
+                    play_df['distance'] = play_distance
+
+                    try:
+                        play_df['ball_on'] = play['subtitle']
+                    except:
+                        play_df['ball_on'] = None
+                    
+                    play_df['time_of_play'] = play['timeOfPlay']
+                    play_df[['time_of_play_min','time_of_play_sec']] =play_df['time_of_play'].str.split(':',expand=True)
+
+                    play_df['drive_play_num'] = drive_play_num
+                    
+                    play_df['play_description'] = play['playDescription']
+                    play_df['away_team_score_change'] = play['leftTeamScoreChange']
+                    play_df['home_team_score_change'] = play['rightTeamScoreChange']
+
+                    try:
+                        away_score = play['leftTeamScore']
+                        home_score = play['rightTeamScore']
+                    except:
+                        pass
+                    play_df['away_score'] = away_score
+                    play_df['home_score'] = home_score
+
+                    #drive_plays, drive_yards, drive_time
+                    play_df['drive_plays'] = drive_plays
+                    play_df['drive_yards'] = drive_yards
+                    play_df['drive_time'] = drive_time
+                    #kicking_df[['XPM','XPA']] = kicking_df['XP'].str.split('/',expand=True)
+                    play_df[['drive_time_min','drive_time_sec']] =play_df['drive_time'].str.split(':',expand=True)
+                    
+                    play_df['drive_result'] = drive_result
+                    game_df = pd.concat([game_df,play_df],ignore_index=True)
+                    drive_play_num += 1
+        main_df = pd.concat([main_df,game_df],ignore_index=True)
+    main_df.to_csv('pbp/usfl_play_by_play.csv',index=False)
+    print(main_df)
+
+
+
+
 def main():
     print('Starting up')
     key = "firefox" ## This is not a proper key. "firefox" is being used as a placeholder.
     #downloadUsflGame(1,2022,key)
     json_list = getJsonInFolder('Gamelogs')
-    #parseUsflSchedule(json_list,True)
-    parseUsflPlayerStats(json_list,True)
-    #print(os.path.abspath('Gamelogs/2022'))
+    
+    #parseUsflPlayerStats(json_list,True)
+    parseUsflPbp(json_list,True)
+
 if __name__ == "__main__":
     main()
