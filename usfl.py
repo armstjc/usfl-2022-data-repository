@@ -522,11 +522,13 @@ def parseUsflPbp(game_jsons:list,saveResults=False):
 
 def main():
     print('Starting up')
-    key = "firefox" ## This is not a proper key. "firefox" is being used as a placeholder.
-    #downloadUsflGame(1,2022,key)
+    #key = "firefox" ## This is not a proper key. "firefox" is being used as a placeholder.
+    key = os.environ['USFL_KEY']
+    for i in range(1,43):
+        downloadUsflGame(i,key)
     json_list = getJsonInFolder('Gamelogs')
     
-    #parseUsflPlayerStats(json_list,True)
+    parseUsflPlayerStats(json_list,True)
     parseUsflPbp(json_list,True)
 
 if __name__ == "__main__":
