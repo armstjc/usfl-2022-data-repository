@@ -524,7 +524,7 @@ def main():
     print('Starting up')
     #key = "firefox" ## This is not a proper key. "firefox" is being used as a placeholder.
     key = os.environ['USFL_KEY']
-    for i in range(1,43):
+    for i in tqdm(range(1,43)):
         downloadUsflGame(i,key)
     json_list = getJsonInFolder('Gamelogs')
     
