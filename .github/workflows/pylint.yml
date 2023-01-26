@@ -35,7 +35,7 @@ jobs:
       env:
         USFL_KEY: ${ {secrets.USFL_KEY }}
       run: |
-        python py_baseball_pbp.py
+        python usfl.py
     - name: commit files
       run: |
           git config --local user.email "action@github.com"
