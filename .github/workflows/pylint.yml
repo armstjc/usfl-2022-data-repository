@@ -33,7 +33,7 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: runPythonScript
       env:
-        USFL_KEY: ${ {secrets.USFL_KEY }}
+        USFL_KEY: ${{ secrets.USFL_KEY }}
       run: |
         python usfl.py
     - name: commit files
