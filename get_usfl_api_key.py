@@ -4,7 +4,7 @@ import platform
 
 def get_usfl_api_key(key_path=""):
     try:
-        key = os.environ['USFL_API_TOKEN']
+        key = os.environ['USFL_KEY']
         return key
     except:
         print('The USFL API token was not found in this python environment. Attempting to load the API token from a file.')
