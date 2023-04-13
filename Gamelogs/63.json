@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "63",
+    "liveStartTime": "2023-05-14T18:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/63/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-14T19:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Protective Stadium",
+    "venueLocation": "Birmingham, AL",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "memphis-showboats-vs-new-orleans-breakers-20230514",
+    "socialStartTime": "2023-05-13T19:00:00Z",
+    "socialStopTime": "2023-05-15T22:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/63",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Protective-Stadium.vresize.2240.1260.medium.1.jpg",
+    "countdownImageAltText": "Protective Stadium",
+    "shareText": "FOX Sports: Memphis Showboats at New Orleans Breakers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/20005E676A0F9841",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "MEM",
+      "longName": "SHOWBOATS",
+      "alternateName": "Memphis Showboats",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Memphis Showboats"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Memphis Showboats"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Memphis Showboats",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MEMPHIS SHOWBOATS",
+        "webUrl": "/usfl/memphis-showboats-team",
+        "color": "0, 18, 40, 76",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Memphis Showboats",
+        "contentUri": "football/usfl/teams/20",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "20",
+            "contentUri": "football/usfl/teams/20"
+          }
+        },
+        "analyticsName": "memphis-showboats",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/20",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 18, 40, 76",
+      "alternateColor": "0, 255, 183, 27"
+    },
+    "rightTeam": {
+      "name": "NO",
+      "longName": "BREAKERS",
+      "alternateName": "New Orleans Breakers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW ORLEANS BREAKERS",
+        "webUrl": "/usfl/new-orleans-breakers-team",
+        "color": "0, 0, 53, 149",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Orleans Breakers",
+        "contentUri": "football/usfl/teams/7",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "7",
+            "contentUri": "football/usfl/teams/7"
+          }
+        },
+        "analyticsName": "new-orleans-breakers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/7",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 53, 149",
+      "alternateColor": "0, 65, 151, 203"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "MEM",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Memphis Showboats",
+      "contentUri": "football/usfl/teams/20",
+      "contentType": "team",
+      "name": "Memphis Showboats",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "NO",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "contentUri": "football/usfl/teams/7",
+      "contentType": "team",
+      "name": "New Orleans Breakers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/20,team:football/usfl/teams/7"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Memphis Showboats vs New Orleans Breakers",
+      "canonicalUrl": "/usfl/week-5-memphis-showboats-vs-new-orleans-breakers-may-14-2023-game-boxscore-63"
+    }
+  }
+}

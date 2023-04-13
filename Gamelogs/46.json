@@ -1,0 +1,171 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "46",
+    "liveStartTime": "2023-04-16T15:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/46/data",
+    "eventStatus": 2,
+    "eventTime": "2023-04-16T16:00:00Z",
+    "isTba": false,
+    "tvStation": "NBC",
+    "broadcasts": [
+      {
+        "callsign": "NBC"
+      },
+      {
+        "callsign": "Peacock"
+      }
+    ],
+    "venueName": "Simmons Bank Liberty Stadium",
+    "venueLocation": "Memphis, TN",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "michigan-panthers-vs-houston-gamblers-20230416",
+    "socialStartTime": "2023-04-15T16:00:00Z",
+    "socialStopTime": "2023-04-17T19:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/46",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Simmons-Bank-Liberty-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Simmons Bank Liberty Stadium",
+    "shareText": "FOX Sports: Michigan Panthers at Houston Gamblers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/1B005E652AED97AC",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "MICH",
+      "longName": "PANTHERS",
+      "alternateName": "Michigan Panthers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MICHIGAN PANTHERS",
+        "webUrl": "/usfl/michigan-panthers-team",
+        "color": "0, 112, 46, 62",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Michigan Panthers",
+        "contentUri": "football/usfl/teams/11",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "11",
+            "contentUri": "football/usfl/teams/11"
+          }
+        },
+        "analyticsName": "michigan-panthers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/11",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 112, 46, 62",
+      "alternateColor": "0, 255, 77, 0"
+    },
+    "rightTeam": {
+      "name": "HOU",
+      "longName": "GAMBLERS",
+      "alternateName": "Houston Gamblers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "HOUSTON GAMBLERS",
+        "webUrl": "/usfl/houston-gamblers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Houston Gamblers",
+        "contentUri": "football/usfl/teams/6",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "6",
+            "contentUri": "football/usfl/teams/6"
+          }
+        },
+        "analyticsName": "houston-gamblers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/6",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 234, 0, 41"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "MICH",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "contentUri": "football/usfl/teams/11",
+      "contentType": "team",
+      "name": "Michigan Panthers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "HOU",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "contentUri": "football/usfl/teams/6",
+      "contentType": "team",
+      "name": "Houston Gamblers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/11,team:football/usfl/teams/6"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Michigan Panthers vs Houston Gamblers",
+      "canonicalUrl": "/usfl/week-1-michigan-panthers-vs-houston-gamblers-apr-16-2023-game-boxscore-46"
+    }
+  }
+}

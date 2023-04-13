@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "60",
+    "liveStartTime": "2023-05-13T16:00:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/60/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-13T16:30:00Z",
+    "isTba": false,
+    "tvStation": "USA",
+    "broadcasts": [
+      {
+        "callsign": "USA"
+      }
+    ],
+    "venueName": "Ford Field",
+    "venueLocation": "Detroit, MI",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "pittsburgh-maulers-vs-michigan-panthers-20230513",
+    "socialStartTime": "2023-05-12T16:30:00Z",
+    "socialStopTime": "2023-05-14T19:30:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/60",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/SR-Ford-Field.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Ford Field",
+    "shareText": "FOX Sports: Pittsburgh Maulers at Michigan Panthers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/08005E4EE43D5D97",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "PIT",
+      "longName": "MAULERS",
+      "alternateName": "Pittsburgh Maulers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PITTSBURGH MAULERS",
+        "webUrl": "/usfl/pittsburgh-maulers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+        "imageType": "image-logo",
+        "imageAltText": "Pittsburgh Maulers",
+        "contentUri": "football/usfl/teams/16",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "16",
+            "contentUri": "football/usfl/teams/16"
+          }
+        },
+        "analyticsName": "pittsburgh-maulers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/16",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 255, 183, 27"
+    },
+    "rightTeam": {
+      "name": "MICH",
+      "longName": "PANTHERS",
+      "alternateName": "Michigan Panthers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MICHIGAN PANTHERS",
+        "webUrl": "/usfl/michigan-panthers-team",
+        "color": "0, 112, 46, 62",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Michigan Panthers",
+        "contentUri": "football/usfl/teams/11",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "11",
+            "contentUri": "football/usfl/teams/11"
+          }
+        },
+        "analyticsName": "michigan-panthers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/11",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 112, 46, 62",
+      "alternateColor": "0, 255, 77, 0"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "PIT",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "contentUri": "football/usfl/teams/16",
+      "contentType": "team",
+      "name": "Pittsburgh Maulers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+    },
+    "rightEntity": {
+      "text": "MICH",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "contentUri": "football/usfl/teams/11",
+      "contentType": "team",
+      "name": "Michigan Panthers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/16,team:football/usfl/teams/11"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Pittsburgh Maulers vs Michigan Panthers",
+      "canonicalUrl": "/usfl/week-5-pittsburgh-maulers-vs-michigan-panthers-may-13-2023-game-boxscore-60"
+    }
+  }
+}

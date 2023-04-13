@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "79",
+    "liveStartTime": "2023-06-11T22:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/79/data",
+    "eventStatus": 2,
+    "eventTime": "2023-06-11T23:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Tom Benson Hall of Fame Stadium",
+    "venueLocation": "Canton, OH",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "philadelphia-stars-vs-new-jersey-generals-20230611",
+    "socialStartTime": "2023-06-10T23:00:00Z",
+    "socialStopTime": "2023-06-13T02:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/79",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Tom-Benson-Hall-of-Fame-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Tom Benson Hall of Fame Stadium",
+    "shareText": "FOX Sports: Philadelphia Stars at New Jersey Generals",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/05005E63DBC4516B",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "PHI",
+      "longName": "STARS",
+      "alternateName": "Philadelphia Stars",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PHILADELPHIA STARS",
+        "webUrl": "/usfl/philadelphia-stars-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "contentUri": "football/usfl/teams/4",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "4",
+            "contentUri": "football/usfl/teams/4"
+          }
+        },
+        "analyticsName": "philadelphia-stars",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/4",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 255, 107, 0"
+    },
+    "rightTeam": {
+      "name": "NJ",
+      "longName": "GENERALS",
+      "alternateName": "New Jersey Generals",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW JERSEY GENERALS",
+        "webUrl": "/usfl/new-jersey-generals-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Jersey Generals",
+        "contentUri": "football/usfl/teams/12",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "12",
+            "contentUri": "football/usfl/teams/12"
+          }
+        },
+        "analyticsName": "new-jersey-generals",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/12",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 204, 159, 83"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "PHI",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "contentUri": "football/usfl/teams/4",
+      "contentType": "team",
+      "name": "Philadelphia Stars",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "NJ",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "contentUri": "football/usfl/teams/12",
+      "contentType": "team",
+      "name": "New Jersey Generals",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/4,team:football/usfl/teams/12"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Philadelphia Stars vs New Jersey Generals",
+      "canonicalUrl": "/usfl/week-9-philadelphia-stars-vs-new-jersey-generals-jun-11-2023-game-boxscore-79"
+    }
+  }
+}

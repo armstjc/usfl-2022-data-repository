@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "47",
+    "liveStartTime": "2023-04-16T22:00:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/47/data",
+    "eventStatus": 2,
+    "eventTime": "2023-04-16T22:30:00Z",
+    "isTba": false,
+    "tvStation": "FS1",
+    "broadcasts": [
+      {
+        "callsign": "FS1"
+      }
+    ],
+    "venueName": "Protective Stadium",
+    "venueLocation": "Birmingham, AL",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "pittsburgh-maulers-vs-new-orleans-breakers-20230416",
+    "socialStartTime": "2023-04-15T22:30:00Z",
+    "socialStopTime": "2023-04-18T01:30:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/47",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Protective-Stadium.vresize.2240.1260.medium.1.jpg",
+    "countdownImageAltText": "Protective Stadium",
+    "shareText": "FOX Sports: Pittsburgh Maulers at New Orleans Breakers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/20005E676A02977F",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "PIT",
+      "longName": "MAULERS",
+      "alternateName": "Pittsburgh Maulers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PITTSBURGH MAULERS",
+        "webUrl": "/usfl/pittsburgh-maulers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+        "imageType": "image-logo",
+        "imageAltText": "Pittsburgh Maulers",
+        "contentUri": "football/usfl/teams/16",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "16",
+            "contentUri": "football/usfl/teams/16"
+          }
+        },
+        "analyticsName": "pittsburgh-maulers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/16",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 255, 183, 27"
+    },
+    "rightTeam": {
+      "name": "NO",
+      "longName": "BREAKERS",
+      "alternateName": "New Orleans Breakers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW ORLEANS BREAKERS",
+        "webUrl": "/usfl/new-orleans-breakers-team",
+        "color": "0, 0, 53, 149",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Orleans Breakers",
+        "contentUri": "football/usfl/teams/7",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "7",
+            "contentUri": "football/usfl/teams/7"
+          }
+        },
+        "analyticsName": "new-orleans-breakers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/7",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 53, 149",
+      "alternateColor": "0, 65, 151, 203"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "PIT",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "contentUri": "football/usfl/teams/16",
+      "contentType": "team",
+      "name": "Pittsburgh Maulers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+    },
+    "rightEntity": {
+      "text": "NO",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "contentUri": "football/usfl/teams/7",
+      "contentType": "team",
+      "name": "New Orleans Breakers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/16,team:football/usfl/teams/7"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Pittsburgh Maulers vs New Orleans Breakers",
+      "canonicalUrl": "/usfl/week-1-pittsburgh-maulers-vs-new-orleans-breakers-apr-16-2023-game-boxscore-47"
+    }
+  }
+}

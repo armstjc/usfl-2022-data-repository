@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "59",
+    "liveStartTime": "2023-05-07T22:00:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/59/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-07T22:30:00Z",
+    "isTba": false,
+    "tvStation": "FS1",
+    "broadcasts": [
+      {
+        "callsign": "FS1"
+      }
+    ],
+    "venueName": "Tom Benson Hall of Fame Stadium",
+    "venueLocation": "Canton, OH",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "birmingham-stallions-vs-pittsburgh-maulers-20230507",
+    "socialStartTime": "2023-05-06T22:30:00Z",
+    "socialStopTime": "2023-05-09T01:30:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/59",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Tom-Benson-Hall-of-Fame-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Tom Benson Hall of Fame Stadium",
+    "shareText": "FOX Sports: Birmingham Stallions at Pittsburgh Maulers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/05005E63DBB85156",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "BHAM",
+      "longName": "STALLIONS",
+      "alternateName": "Birmingham Stallions",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "BIRMINGHAM STALLIONS",
+        "webUrl": "/usfl/birmingham-stallions-team",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "contentUri": "football/usfl/teams/2",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "2",
+            "contentUri": "football/usfl/teams/2"
+          }
+        },
+        "analyticsName": "birmingham-stallions",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/2",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 163, 32, 53",
+      "alternateColor": "0, 198, 183, 132"
+    },
+    "rightTeam": {
+      "name": "PIT",
+      "longName": "MAULERS",
+      "alternateName": "Pittsburgh Maulers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PITTSBURGH MAULERS",
+        "webUrl": "/usfl/pittsburgh-maulers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+        "imageType": "image-logo",
+        "imageAltText": "Pittsburgh Maulers",
+        "contentUri": "football/usfl/teams/16",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "16",
+            "contentUri": "football/usfl/teams/16"
+          }
+        },
+        "analyticsName": "pittsburgh-maulers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/16",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 255, 183, 27"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "BHAM",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "contentUri": "football/usfl/teams/2",
+      "contentType": "team",
+      "name": "Birmingham Stallions",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "PIT",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "contentUri": "football/usfl/teams/16",
+      "contentType": "team",
+      "name": "Pittsburgh Maulers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/2,team:football/usfl/teams/16"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Birmingham Stallions vs Pittsburgh Maulers",
+      "canonicalUrl": "/usfl/week-4-birmingham-stallions-vs-pittsburgh-maulers-may-07-2023-game-boxscore-59"
+    }
+  }
+}

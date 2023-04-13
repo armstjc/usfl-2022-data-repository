@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "82",
+    "liveStartTime": "2023-06-18T19:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/82/data",
+    "eventStatus": 2,
+    "eventTime": "2023-06-18T20:00:00Z",
+    "isTba": false,
+    "tvStation": "FS1",
+    "broadcasts": [
+      {
+        "callsign": "FS1"
+      }
+    ],
+    "venueName": "Simmons Bank Liberty Stadium",
+    "venueLocation": "Memphis, TN",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "new-orleans-breakers-vs-houston-gamblers-20230618",
+    "socialStartTime": "2023-06-17T20:00:00Z",
+    "socialStopTime": "2023-06-19T23:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/82",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Simmons-Bank-Liberty-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Simmons Bank Liberty Stadium",
+    "shareText": "FOX Sports: New Orleans Breakers at Houston Gamblers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/1B005E652BC99846",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "NO",
+      "longName": "BREAKERS",
+      "alternateName": "New Orleans Breakers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Orleans Breakers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW ORLEANS BREAKERS",
+        "webUrl": "/usfl/new-orleans-breakers-team",
+        "color": "0, 0, 53, 149",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Orleans Breakers",
+        "contentUri": "football/usfl/teams/7",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "7",
+            "contentUri": "football/usfl/teams/7"
+          }
+        },
+        "analyticsName": "new-orleans-breakers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/7",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 53, 149",
+      "alternateColor": "0, 65, 151, 203"
+    },
+    "rightTeam": {
+      "name": "HOU",
+      "longName": "GAMBLERS",
+      "alternateName": "Houston Gamblers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "HOUSTON GAMBLERS",
+        "webUrl": "/usfl/houston-gamblers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Houston Gamblers",
+        "contentUri": "football/usfl/teams/6",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "6",
+            "contentUri": "football/usfl/teams/6"
+          }
+        },
+        "analyticsName": "houston-gamblers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/6",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 234, 0, 41"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "NO",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Orleans Breakers",
+      "contentUri": "football/usfl/teams/7",
+      "contentType": "team",
+      "name": "New Orleans Breakers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "HOU",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "contentUri": "football/usfl/teams/6",
+      "contentType": "team",
+      "name": "Houston Gamblers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/7,team:football/usfl/teams/6"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "New Orleans Breakers vs Houston Gamblers",
+      "canonicalUrl": "/usfl/week-10-new-orleans-breakers-vs-houston-gamblers-jun-18-2023-game-boxscore-82"
+    }
+  }
+}

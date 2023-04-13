@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "69",
+    "liveStartTime": "2023-05-28T00:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/69/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-28T01:00:00Z",
+    "isTba": false,
+    "tvStation": "FS1",
+    "broadcasts": [
+      {
+        "callsign": "FS1"
+      }
+    ],
+    "venueName": "Tom Benson Hall of Fame Stadium",
+    "venueLocation": "Canton, OH",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "philadelphia-stars-vs-pittsburgh-maulers-20230527",
+    "socialStartTime": "2023-05-27T01:00:00Z",
+    "socialStopTime": "2023-05-29T04:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/69",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Tom-Benson-Hall-of-Fame-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Tom Benson Hall of Fame Stadium",
+    "shareText": "FOX Sports: Philadelphia Stars at Pittsburgh Maulers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/05005E63DBBA5158",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "PHI",
+      "longName": "STARS",
+      "alternateName": "Philadelphia Stars",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PHILADELPHIA STARS",
+        "webUrl": "/usfl/philadelphia-stars-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "contentUri": "football/usfl/teams/4",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "4",
+            "contentUri": "football/usfl/teams/4"
+          }
+        },
+        "analyticsName": "philadelphia-stars",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/4",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 255, 107, 0"
+    },
+    "rightTeam": {
+      "name": "PIT",
+      "longName": "MAULERS",
+      "alternateName": "Pittsburgh Maulers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PITTSBURGH MAULERS",
+        "webUrl": "/usfl/pittsburgh-maulers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+        "imageType": "image-logo",
+        "imageAltText": "Pittsburgh Maulers",
+        "contentUri": "football/usfl/teams/16",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "16",
+            "contentUri": "football/usfl/teams/16"
+          }
+        },
+        "analyticsName": "pittsburgh-maulers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/16",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 255, 183, 27"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "PHI",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "contentUri": "football/usfl/teams/4",
+      "contentType": "team",
+      "name": "Philadelphia Stars",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "PIT",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "contentUri": "football/usfl/teams/16",
+      "contentType": "team",
+      "name": "Pittsburgh Maulers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/4,team:football/usfl/teams/16"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Philadelphia Stars vs Pittsburgh Maulers",
+      "canonicalUrl": "/usfl/week-7-philadelphia-stars-vs-pittsburgh-maulers-may-27-2023-game-boxscore-69"
+    }
+  }
+}

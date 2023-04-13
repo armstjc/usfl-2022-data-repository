@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "65",
+    "liveStartTime": "2023-05-20T19:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/65/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-20T20:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Ford Field",
+    "venueLocation": "Detroit, MI",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "birmingham-stallions-vs-michigan-panthers-20230520",
+    "socialStartTime": "2023-05-19T20:00:00Z",
+    "socialStopTime": "2023-05-21T23:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/65",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/SR-Ford-Field.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Ford Field",
+    "shareText": "FOX Sports: Birmingham Stallions at Michigan Panthers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/08005E4EE4405DA9",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "BHAM",
+      "longName": "STALLIONS",
+      "alternateName": "Birmingham Stallions",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "BIRMINGHAM STALLIONS",
+        "webUrl": "/usfl/birmingham-stallions-team",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "contentUri": "football/usfl/teams/2",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "2",
+            "contentUri": "football/usfl/teams/2"
+          }
+        },
+        "analyticsName": "birmingham-stallions",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/2",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 163, 32, 53",
+      "alternateColor": "0, 198, 183, 132"
+    },
+    "rightTeam": {
+      "name": "MICH",
+      "longName": "PANTHERS",
+      "alternateName": "Michigan Panthers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MICHIGAN PANTHERS",
+        "webUrl": "/usfl/michigan-panthers-team",
+        "color": "0, 112, 46, 62",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Michigan Panthers",
+        "contentUri": "football/usfl/teams/11",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "11",
+            "contentUri": "football/usfl/teams/11"
+          }
+        },
+        "analyticsName": "michigan-panthers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/11",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 112, 46, 62",
+      "alternateColor": "0, 255, 77, 0"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "BHAM",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "contentUri": "football/usfl/teams/2",
+      "contentType": "team",
+      "name": "Birmingham Stallions",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "MICH",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "contentUri": "football/usfl/teams/11",
+      "contentType": "team",
+      "name": "Michigan Panthers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/2,team:football/usfl/teams/11"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Birmingham Stallions vs Michigan Panthers",
+      "canonicalUrl": "/usfl/week-6-birmingham-stallions-vs-michigan-panthers-may-20-2023-game-boxscore-65"
+    }
+  }
+}

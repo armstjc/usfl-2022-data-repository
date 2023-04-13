@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "55",
+    "liveStartTime": "2023-04-30T19:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/55/data",
+    "eventStatus": 2,
+    "eventTime": "2023-04-30T20:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Ford Field",
+    "venueLocation": "Detroit, MI",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "new-jersey-generals-vs-michigan-panthers-20230430",
+    "socialStartTime": "2023-04-29T20:00:00Z",
+    "socialStopTime": "2023-05-01T23:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/55",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/SR-Ford-Field.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Ford Field",
+    "shareText": "FOX Sports: New Jersey Generals at Michigan Panthers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/08005E4EE4375D8F",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "NJ",
+      "longName": "GENERALS",
+      "alternateName": "New Jersey Generals",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW JERSEY GENERALS",
+        "webUrl": "/usfl/new-jersey-generals-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Jersey Generals",
+        "contentUri": "football/usfl/teams/12",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "12",
+            "contentUri": "football/usfl/teams/12"
+          }
+        },
+        "analyticsName": "new-jersey-generals",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/12",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 204, 159, 83"
+    },
+    "rightTeam": {
+      "name": "MICH",
+      "longName": "PANTHERS",
+      "alternateName": "Michigan Panthers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MICHIGAN PANTHERS",
+        "webUrl": "/usfl/michigan-panthers-team",
+        "color": "0, 112, 46, 62",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Michigan Panthers",
+        "contentUri": "football/usfl/teams/11",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "11",
+            "contentUri": "football/usfl/teams/11"
+          }
+        },
+        "analyticsName": "michigan-panthers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/11",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 112, 46, 62",
+      "alternateColor": "0, 255, 77, 0"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "NJ",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "contentUri": "football/usfl/teams/12",
+      "contentType": "team",
+      "name": "New Jersey Generals",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "MICH",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "contentUri": "football/usfl/teams/11",
+      "contentType": "team",
+      "name": "Michigan Panthers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/12,team:football/usfl/teams/11"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "New Jersey Generals vs Michigan Panthers",
+      "canonicalUrl": "/usfl/week-3-new-jersey-generals-vs-michigan-panthers-apr-30-2023-game-boxscore-55"
+    }
+  }
+}

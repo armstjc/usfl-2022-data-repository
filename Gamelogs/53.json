@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "53",
+    "liveStartTime": "2023-04-29T22:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/53/data",
+    "eventStatus": 2,
+    "eventTime": "2023-04-29T23:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Simmons Bank Liberty Stadium",
+    "venueLocation": "Memphis, TN",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "memphis-showboats-vs-houston-gamblers-20230429",
+    "socialStartTime": "2023-04-28T23:00:00Z",
+    "socialStopTime": "2023-05-01T02:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/53",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Simmons-Bank-Liberty-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Simmons Bank Liberty Stadium",
+    "shareText": "FOX Sports: Memphis Showboats at Houston Gamblers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/1B005E652B0797CF",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "MEM",
+      "longName": "SHOWBOATS",
+      "alternateName": "Memphis Showboats",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Memphis Showboats"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Memphis Showboats"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Memphis Showboats",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MEMPHIS SHOWBOATS",
+        "webUrl": "/usfl/memphis-showboats-team",
+        "color": "0, 18, 40, 76",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Memphis Showboats",
+        "contentUri": "football/usfl/teams/20",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "20",
+            "contentUri": "football/usfl/teams/20"
+          }
+        },
+        "analyticsName": "memphis-showboats",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/20",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 18, 40, 76",
+      "alternateColor": "0, 255, 183, 27"
+    },
+    "rightTeam": {
+      "name": "HOU",
+      "longName": "GAMBLERS",
+      "alternateName": "Houston Gamblers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "HOUSTON GAMBLERS",
+        "webUrl": "/usfl/houston-gamblers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Houston Gamblers",
+        "contentUri": "football/usfl/teams/6",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "6",
+            "contentUri": "football/usfl/teams/6"
+          }
+        },
+        "analyticsName": "houston-gamblers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/6",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 234, 0, 41"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "MEM",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Memphis Showboats",
+      "contentUri": "football/usfl/teams/20",
+      "contentType": "team",
+      "name": "Memphis Showboats",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "HOU",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "contentUri": "football/usfl/teams/6",
+      "contentType": "team",
+      "name": "Houston Gamblers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/20,team:football/usfl/teams/6"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Memphis Showboats vs Houston Gamblers",
+      "canonicalUrl": "/usfl/week-3-memphis-showboats-vs-houston-gamblers-apr-29-2023-game-boxscore-53"
+    }
+  }
+}

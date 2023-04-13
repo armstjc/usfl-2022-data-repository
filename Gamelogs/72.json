@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "72",
+    "liveStartTime": "2023-06-03T15:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/72/data",
+    "eventStatus": 2,
+    "eventTime": "2023-06-03T16:00:00Z",
+    "isTba": false,
+    "tvStation": "USA",
+    "broadcasts": [
+      {
+        "callsign": "USA"
+      }
+    ],
+    "venueName": "Tom Benson Hall of Fame Stadium",
+    "venueLocation": "Canton, OH",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "houston-gamblers-vs-pittsburgh-maulers-20230603",
+    "socialStartTime": "2023-06-02T16:00:00Z",
+    "socialStopTime": "2023-06-04T19:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/72",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Tom-Benson-Hall-of-Fame-Stadium.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Tom Benson Hall of Fame Stadium",
+    "shareText": "FOX Sports: Houston Gamblers at Pittsburgh Maulers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/05005E63DBBE5161",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "HOU",
+      "longName": "GAMBLERS",
+      "alternateName": "Houston Gamblers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "HOUSTON GAMBLERS",
+        "webUrl": "/usfl/houston-gamblers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Houston Gamblers",
+        "contentUri": "football/usfl/teams/6",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "6",
+            "contentUri": "football/usfl/teams/6"
+          }
+        },
+        "analyticsName": "houston-gamblers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/6",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 234, 0, 41"
+    },
+    "rightTeam": {
+      "name": "PIT",
+      "longName": "MAULERS",
+      "alternateName": "Pittsburgh Maulers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+          "type": "image-logo",
+          "altText": "Pittsburgh Maulers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PITTSBURGH MAULERS",
+        "webUrl": "/usfl/pittsburgh-maulers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+        "imageType": "image-logo",
+        "imageAltText": "Pittsburgh Maulers",
+        "contentUri": "football/usfl/teams/16",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "16",
+            "contentUri": "football/usfl/teams/16"
+          }
+        },
+        "analyticsName": "pittsburgh-maulers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/16",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 255, 183, 27"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "HOU",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "contentUri": "football/usfl/teams/6",
+      "contentType": "team",
+      "name": "Houston Gamblers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "PIT",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+      "imageType": "image-logo",
+      "imageAltText": "Pittsburgh Maulers",
+      "contentUri": "football/usfl/teams/16",
+      "contentType": "team",
+      "name": "Pittsburgh Maulers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/6,team:football/usfl/teams/16"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Houston Gamblers vs Pittsburgh Maulers",
+      "canonicalUrl": "/usfl/week-8-houston-gamblers-vs-pittsburgh-maulers-jun-03-2023-game-boxscore-72"
+    }
+  }
+}

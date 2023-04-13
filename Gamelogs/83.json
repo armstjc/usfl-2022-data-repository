@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "83",
+    "liveStartTime": "2023-06-18T22:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/83/data",
+    "eventStatus": 2,
+    "eventTime": "2023-06-18T23:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Ford Field",
+    "venueLocation": "Detroit, MI",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "philadelphia-stars-vs-michigan-panthers-20230618",
+    "socialStartTime": "2023-06-17T23:00:00Z",
+    "socialStopTime": "2023-06-20T02:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/83",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/SR-Ford-Field.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Ford Field",
+    "shareText": "FOX Sports: Philadelphia Stars at Michigan Panthers",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/08005E4EE4425DBC",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "PHI",
+      "longName": "STARS",
+      "alternateName": "Philadelphia Stars",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PHILADELPHIA STARS",
+        "webUrl": "/usfl/philadelphia-stars-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "contentUri": "football/usfl/teams/4",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "4",
+            "contentUri": "football/usfl/teams/4"
+          }
+        },
+        "analyticsName": "philadelphia-stars",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/4",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 255, 107, 0"
+    },
+    "rightTeam": {
+      "name": "MICH",
+      "longName": "PANTHERS",
+      "alternateName": "Michigan Panthers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Michigan Panthers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "MICHIGAN PANTHERS",
+        "webUrl": "/usfl/michigan-panthers-team",
+        "color": "0, 112, 46, 62",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Michigan Panthers",
+        "contentUri": "football/usfl/teams/11",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "11",
+            "contentUri": "football/usfl/teams/11"
+          }
+        },
+        "analyticsName": "michigan-panthers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/11",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 112, 46, 62",
+      "alternateColor": "0, 255, 77, 0"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "PHI",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "contentUri": "football/usfl/teams/4",
+      "contentType": "team",
+      "name": "Philadelphia Stars",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "MICH",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Michigan Panthers",
+      "contentUri": "football/usfl/teams/11",
+      "contentType": "team",
+      "name": "Michigan Panthers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/4,team:football/usfl/teams/11"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Philadelphia Stars vs Michigan Panthers",
+      "canonicalUrl": "/usfl/week-10-philadelphia-stars-vs-michigan-panthers-jun-18-2023-game-boxscore-83"
+    }
+  }
+}

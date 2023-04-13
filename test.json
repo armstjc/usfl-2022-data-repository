@@ -1,0 +1,1024 @@
+{
+  "standingsSections": [
+    {
+      "id": "1",
+      "title": "DIVISION",
+      "pageTitle": "2022 USFL DIVISION STANDINGS",
+      "lastUpdated": "2022-06-20T03:17:18Z",
+      "standings": [
+        {
+          "template": "table-standings",
+          "headers": [
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "NORTH",
+                  "priority": 1,
+                  "template": "cell-rank",
+                  "weight": 0.5,
+                  "emphasized": true
+                },
+                {
+                  "index": 1,
+                  "priority": 2,
+                  "template": "cell-entity",
+                  "weight": 4.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 2,
+                  "text": "W-L-T",
+                  "priority": 3,
+                  "template": "cell-record",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "PCT",
+                  "priority": 4,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "PF",
+                  "priority": 6,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "PA",
+                  "priority": 7,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "HOME",
+                  "priority": 9,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "AWAY",
+                  "priority": 10,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "DIV",
+                  "priority": 8,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "STRK",
+                  "priority": 5,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                }
+              ],
+              "isPrimary": true
+            }
+          ],
+          "rows": [
+            {
+              "columns": [
+                { "index": 0, "text": "1", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "9-1", "emphasized": false },
+                { "index": 3, "text": ".900", "emphasized": false },
+                { "index": 4, "text": "232", "emphasized": false },
+                { "index": 5, "text": "182", "emphasized": false },
+                { "index": 6, "text": "5-0", "emphasized": false },
+                { "index": 7, "text": "4-1", "emphasized": false },
+                { "index": 8, "text": "6-0", "emphasized": false },
+                { "index": 9, "text": "W9", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "2", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Stars",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "6-4", "emphasized": false },
+                { "index": 3, "text": ".600", "emphasized": false },
+                { "index": 4, "text": "262", "emphasized": false },
+                { "index": 5, "text": "243", "emphasized": false },
+                { "index": 6, "text": "3-2", "emphasized": false },
+                { "index": 7, "text": "3-2", "emphasized": false },
+                { "index": 8, "text": "4-2", "emphasized": false },
+                { "index": 9, "text": "L1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "4", "contentUri": "football/usfl/teams/4" }
+                },
+                "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "3", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Panthers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Michigan Panthers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "2-8", "emphasized": false },
+                { "index": 3, "text": ".200", "emphasized": false },
+                { "index": 4, "text": "211", "emphasized": false },
+                { "index": 5, "text": "236", "emphasized": false },
+                { "index": 6, "text": "1-4", "emphasized": false },
+                { "index": 7, "text": "1-4", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "W1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MICHIGAN PANTHERS",
+                "webUrl": "/usfl/michigan-panthers-team",
+                "color": "0, 112, 46, 62",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Michigan Panthers",
+                "contentUri": "football/usfl/teams/11",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "11",
+                    "contentUri": "football/usfl/teams/11"
+                  }
+                },
+                "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "4", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                { "index": 2, "text": "1-9", "emphasized": false },
+                { "index": 3, "text": ".100", "emphasized": false },
+                { "index": 4, "text": "147", "emphasized": false },
+                { "index": 5, "text": "243", "emphasized": false },
+                { "index": 6, "text": "0-5", "emphasized": false },
+                { "index": 7, "text": "1-4", "emphasized": false },
+                { "index": 8, "text": "0-6", "emphasized": false },
+                { "index": 9, "text": "L5", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            }
+          ]
+        },
+        {
+          "template": "table-standings",
+          "headers": [
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "SOUTH",
+                  "priority": 1,
+                  "template": "cell-rank",
+                  "weight": 0.5,
+                  "emphasized": true
+                },
+                {
+                  "index": 1,
+                  "priority": 2,
+                  "template": "cell-entity",
+                  "weight": 4.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 2,
+                  "text": "W-L-T",
+                  "priority": 3,
+                  "template": "cell-record",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "PCT",
+                  "priority": 4,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "PF",
+                  "priority": 6,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "PA",
+                  "priority": 7,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "HOME",
+                  "priority": 9,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "AWAY",
+                  "priority": 10,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "DIV",
+                  "priority": 8,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "STRK",
+                  "priority": 5,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                }
+              ],
+              "isPrimary": true
+            }
+          ],
+          "rows": [
+            {
+              "columns": [
+                { "index": 0, "text": "1", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Stallions",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Birmingham Stallions",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "9-1", "emphasized": false },
+                { "index": 3, "text": ".900", "emphasized": false },
+                { "index": 4, "text": "234", "emphasized": false },
+                { "index": 5, "text": "169", "emphasized": false },
+                { "index": 6, "text": "4-1", "emphasized": false },
+                { "index": 7, "text": "5-0", "emphasized": false },
+                { "index": 8, "text": "5-1", "emphasized": false },
+                { "index": 9, "text": "W1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "2", "contentUri": "football/usfl/teams/2" }
+                },
+                "analyticsName": "birmingham-stallions",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "2", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Breakers",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Orleans Breakers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "6-4", "emphasized": false },
+                { "index": 3, "text": ".600", "emphasized": false },
+                { "index": 4, "text": "196", "emphasized": false },
+                { "index": 5, "text": "164", "emphasized": false },
+                { "index": 6, "text": "4-1", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "3-3", "emphasized": false },
+                { "index": 9, "text": "L1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "7", "contentUri": "football/usfl/teams/7" }
+                },
+                "analyticsName": "new-orleans-breakers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "3", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Bandits",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Tampa Bay Bandits",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "4-6", "emphasized": false },
+                { "index": 3, "text": ".400", "emphasized": false },
+                { "index": 4, "text": "162", "emphasized": false },
+                { "index": 5, "text": "195", "emphasized": false },
+                { "index": 6, "text": "2-3", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "L2", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "TAMPA BAY BANDITS",
+                "webUrl": "/usfl/tampa-bay-bandits-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Tampa Bay Bandits",
+                "contentUri": "football/usfl/teams/18",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "18",
+                    "contentUri": "football/usfl/teams/18"
+                  }
+                },
+                "analyticsName": "tampa-bay-bandits",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "4", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "3-7", "emphasized": false },
+                { "index": 3, "text": ".300", "emphasized": false },
+                { "index": 4, "text": "196", "emphasized": false },
+                { "index": 5, "text": "208", "emphasized": false },
+                { "index": 6, "text": "1-4", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "W2", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "6", "contentUri": "football/usfl/teams/6" }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            }
+          ]
+        }
+      ],
+      "legend": {
+        "details": [
+          { "key": "Y", "text": "Clinched Division" },
+          { "key": "X", "text": "Clinched Playoffs" }
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "title": "LEAGUE",
+      "pageTitle": "2022 USFL LEAGUE STANDINGS",
+      "lastUpdated": "2022-06-20T03:17:18Z",
+      "standings": [
+        {
+          "template": "table-standings",
+          "headers": [
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "TEAMS",
+                  "priority": 1,
+                  "template": "cell-rank",
+                  "weight": 0.5,
+                  "emphasized": true
+                },
+                {
+                  "index": 1,
+                  "priority": 2,
+                  "template": "cell-entity",
+                  "weight": 4.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 2,
+                  "text": "W-L-T",
+                  "priority": 3,
+                  "template": "cell-record",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "PCT",
+                  "priority": 4,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "PF",
+                  "priority": 6,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "PA",
+                  "priority": 7,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "HOME",
+                  "priority": 9,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "AWAY",
+                  "priority": 10,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "DIV",
+                  "priority": 8,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "STRK",
+                  "priority": 5,
+                  "template": "cell-number",
+                  "weight": 2.5,
+                  "emphasized": false
+                }
+              ],
+              "isPrimary": true
+            }
+          ],
+          "rows": [
+            {
+              "columns": [
+                { "index": 0, "text": "1", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Stallions",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Birmingham Stallions",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "9-1", "emphasized": false },
+                { "index": 3, "text": ".900", "emphasized": false },
+                { "index": 4, "text": "234", "emphasized": false },
+                { "index": 5, "text": "169", "emphasized": false },
+                { "index": 6, "text": "4-1", "emphasized": false },
+                { "index": 7, "text": "5-0", "emphasized": false },
+                { "index": 8, "text": "5-1", "emphasized": false },
+                { "index": 9, "text": "W1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "2", "contentUri": "football/usfl/teams/2" }
+                },
+                "analyticsName": "birmingham-stallions",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "1", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "9-1", "emphasized": false },
+                { "index": 3, "text": ".900", "emphasized": false },
+                { "index": 4, "text": "232", "emphasized": false },
+                { "index": 5, "text": "182", "emphasized": false },
+                { "index": 6, "text": "5-0", "emphasized": false },
+                { "index": 7, "text": "4-1", "emphasized": false },
+                { "index": 8, "text": "6-0", "emphasized": false },
+                { "index": 9, "text": "W9", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "2", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Stars",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "6-4", "emphasized": false },
+                { "index": 3, "text": ".600", "emphasized": false },
+                { "index": 4, "text": "262", "emphasized": false },
+                { "index": 5, "text": "243", "emphasized": false },
+                { "index": 6, "text": "3-2", "emphasized": false },
+                { "index": 7, "text": "3-2", "emphasized": false },
+                { "index": 8, "text": "4-2", "emphasized": false },
+                { "index": 9, "text": "L1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "4", "contentUri": "football/usfl/teams/4" }
+                },
+                "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "2", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Breakers",
+                  "superscript": "X",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Orleans Breakers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "6-4", "emphasized": false },
+                { "index": 3, "text": ".600", "emphasized": false },
+                { "index": 4, "text": "196", "emphasized": false },
+                { "index": 5, "text": "164", "emphasized": false },
+                { "index": 6, "text": "4-1", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "3-3", "emphasized": false },
+                { "index": 9, "text": "L1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "7", "contentUri": "football/usfl/teams/7" }
+                },
+                "analyticsName": "new-orleans-breakers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "3", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Bandits",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Tampa Bay Bandits",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "4-6", "emphasized": false },
+                { "index": 3, "text": ".400", "emphasized": false },
+                { "index": 4, "text": "162", "emphasized": false },
+                { "index": 5, "text": "195", "emphasized": false },
+                { "index": 6, "text": "2-3", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "L2", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "TAMPA BAY BANDITS",
+                "webUrl": "/usfl/tampa-bay-bandits-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Bandits-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Tampa Bay Bandits",
+                "contentUri": "football/usfl/teams/18",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "18",
+                    "contentUri": "football/usfl/teams/18"
+                  }
+                },
+                "analyticsName": "tampa-bay-bandits",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "4", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "3-7", "emphasized": false },
+                { "index": 3, "text": ".300", "emphasized": false },
+                { "index": 4, "text": "196", "emphasized": false },
+                { "index": 5, "text": "208", "emphasized": false },
+                { "index": 6, "text": "1-4", "emphasized": false },
+                { "index": 7, "text": "2-3", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "W2", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": { "id": "6", "contentUri": "football/usfl/teams/6" }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "5", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Panthers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Michigan Panthers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+                },
+                { "index": 2, "text": "2-8", "emphasized": false },
+                { "index": 3, "text": ".200", "emphasized": false },
+                { "index": 4, "text": "211", "emphasized": false },
+                { "index": 5, "text": "236", "emphasized": false },
+                { "index": 6, "text": "1-4", "emphasized": false },
+                { "index": 7, "text": "1-4", "emphasized": false },
+                { "index": 8, "text": "2-4", "emphasized": false },
+                { "index": 9, "text": "W1", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MICHIGAN PANTHERS",
+                "webUrl": "/usfl/michigan-panthers-team",
+                "color": "0, 112, 46, 62",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Michigan Panthers",
+                "contentUri": "football/usfl/teams/11",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "11",
+                    "contentUri": "football/usfl/teams/11"
+                  }
+                },
+                "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                { "index": 0, "text": "6", "emphasized": false },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                { "index": 2, "text": "1-9", "emphasized": false },
+                { "index": 3, "text": ".100", "emphasized": false },
+                { "index": 4, "text": "147", "emphasized": false },
+                { "index": 5, "text": "243", "emphasized": false },
+                { "index": 6, "text": "0-5", "emphasized": false },
+                { "index": 7, "text": "1-4", "emphasized": false },
+                { "index": 8, "text": "0-6", "emphasized": false },
+                { "index": 9, "text": "L5", "emphasized": false }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            }
+          ]
+        }
+      ],
+      "legend": {
+        "details": [
+          { "key": "Y", "text": "Clinched Division" },
+          { "key": "X", "text": "Clinched Playoffs" }
+        ]
+      }
+    }
+  ],
+  "selections": [
+    {
+      "name": "Season",
+      "id": "season",
+      "items": [
+        {
+          "id": "2022",
+          "name": "2022",
+          "webUrl": "/standings?season=2022",
+          "parameters": { "season": "2022" },
+          "selected": true
+        }
+      ]
+    }
+  ]
+}

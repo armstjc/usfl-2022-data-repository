@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "45",
+    "liveStartTime": "2023-04-15T23:00:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/45/data",
+    "eventStatus": 2,
+    "eventTime": "2023-04-15T23:30:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Protective Stadium",
+    "venueLocation": "Birmingham, AL",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "new-jersey-generals-vs-birmingham-stallions-20230415",
+    "socialStartTime": "2023-04-14T23:30:00Z",
+    "socialStopTime": "2023-04-17T02:30:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/45",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Protective-Stadium.vresize.2240.1260.medium.1.jpg",
+    "countdownImageAltText": "Protective Stadium",
+    "shareText": "FOX Sports: New Jersey Generals at Birmingham Stallions",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/20005E676A009605",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "NJ",
+      "longName": "GENERALS",
+      "alternateName": "New Jersey Generals",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "New Jersey Generals"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "NEW JERSEY GENERALS",
+        "webUrl": "/usfl/new-jersey-generals-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "New Jersey Generals",
+        "contentUri": "football/usfl/teams/12",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "12",
+            "contentUri": "football/usfl/teams/12"
+          }
+        },
+        "analyticsName": "new-jersey-generals",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/12",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 204, 159, 83"
+    },
+    "rightTeam": {
+      "name": "BHAM",
+      "longName": "STALLIONS",
+      "alternateName": "Birmingham Stallions",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Birmingham Stallions"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "BIRMINGHAM STALLIONS",
+        "webUrl": "/usfl/birmingham-stallions-team",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "contentUri": "football/usfl/teams/2",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "2",
+            "contentUri": "football/usfl/teams/2"
+          }
+        },
+        "analyticsName": "birmingham-stallions",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/2",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 163, 32, 53",
+      "alternateColor": "0, 198, 183, 132"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "NJ",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "New Jersey Generals",
+      "contentUri": "football/usfl/teams/12",
+      "contentType": "team",
+      "name": "New Jersey Generals",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "BHAM",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Birmingham Stallions",
+      "contentUri": "football/usfl/teams/2",
+      "contentType": "team",
+      "name": "Birmingham Stallions",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/12,team:football/usfl/teams/2"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "New Jersey Generals vs Birmingham Stallions",
+      "canonicalUrl": "/usfl/week-1-new-jersey-generals-vs-birmingham-stallions-apr-15-2023-game-boxscore-45"
+    }
+  }
+}

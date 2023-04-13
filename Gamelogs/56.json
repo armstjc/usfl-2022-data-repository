@@ -1,0 +1,168 @@
+{
+  "header": {
+    "template": "event-header-team",
+    "id": "56",
+    "liveStartTime": "2023-05-06T16:30:00Z",
+    "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/56/data",
+    "eventStatus": 2,
+    "eventTime": "2023-05-06T17:00:00Z",
+    "isTba": false,
+    "tvStation": "FOX",
+    "broadcasts": [
+      {
+        "callsign": "FOX"
+      }
+    ],
+    "venueName": "Ford Field",
+    "venueLocation": "Detroit, MI",
+    "analyticsSport": "usfl",
+    "analyticsDescription": "houston-gamblers-vs-philadelphia-stars-20230506",
+    "socialStartTime": "2023-05-05T17:00:00Z",
+    "socialStopTime": "2023-05-07T20:00:00Z",
+    "contentType": "event",
+    "contentUri": "football/usfl/events/56",
+    "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
+    "sportLogoAltText": "United States Football League",
+    "countdownText": "KICKOFF IN",
+    "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/SR-Ford-Field.vresize.2240.1260.medium.0.jpg",
+    "countdownImageAltText": "Ford Field",
+    "shareText": "FOX Sports: Houston Gamblers at Philadelphia Stars",
+    "importance": 0,
+    "ticketLink": "https://www.ticketmaster.com/event/08005E4FD6554DB3",
+    "leagueUri": "football/usfl/league/1",
+    "leftTeam": {
+      "name": "HOU",
+      "longName": "GAMBLERS",
+      "alternateName": "Houston Gamblers",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Houston Gamblers"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "HOUSTON GAMBLERS",
+        "webUrl": "/usfl/houston-gamblers-team",
+        "color": "0, 0, 0, 0",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Houston Gamblers",
+        "contentUri": "football/usfl/teams/6",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "6",
+            "contentUri": "football/usfl/teams/6"
+          }
+        },
+        "analyticsName": "houston-gamblers",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/6",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 0, 0, 0",
+      "alternateColor": "0, 234, 0, 41"
+    },
+    "rightTeam": {
+      "name": "PHI",
+      "longName": "STARS",
+      "alternateName": "Philadelphia Stars",
+      "images": {
+        "primary": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        },
+        "mark": {
+          "url": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-mark.vresize.80.80.medium.0.png",
+          "altUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+          "type": "image-logo",
+          "altText": "Philadelphia Stars"
+        }
+      },
+      "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "record": "0-0",
+      "isLoser": false,
+      "hasPossession": false,
+      "entityLink": {
+        "title": "PHILADELPHIA STARS",
+        "webUrl": "/usfl/philadelphia-stars-team",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "contentUri": "football/usfl/teams/4",
+        "contentType": "team",
+        "layout": {
+          "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+          "tokens": {
+            "id": "4",
+            "contentUri": "football/usfl/teams/4"
+          }
+        },
+        "analyticsName": "philadelphia-stars",
+        "analyticsSport": "usfl",
+        "type": "entity"
+      },
+      "contentType": "team",
+      "contentUri": "football/usfl/teams/4",
+      "alternateLogoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png",
+      "primaryColor": "0, 193, 2, 48",
+      "alternateColor": "0, 255, 107, 0"
+    }
+  },
+  "favoriteCta": {
+    "title": "FOLLOW",
+    "text": "Follow a team and personalize your FOX Sports experience",
+    "leftEntity": {
+      "text": "HOU",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Houston Gamblers",
+      "contentUri": "football/usfl/teams/6",
+      "contentType": "team",
+      "name": "Houston Gamblers",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+    },
+    "rightEntity": {
+      "text": "PHI",
+      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+      "imageType": "image-logo",
+      "imageAltText": "Philadelphia Stars",
+      "contentUri": "football/usfl/teams/4",
+      "contentType": "team",
+      "name": "Philadelphia Stars",
+      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+    }
+  },
+  "trackingData": {
+    "contentEntityUri": "team:football/usfl/teams/6,team:football/usfl/teams/4"
+  },
+  "metadata": {
+    "parameters": {
+      "additionalTitle": null,
+      "eventTitle": "Houston Gamblers vs Philadelphia Stars",
+      "canonicalUrl": "/usfl/week-4-houston-gamblers-vs-philadelphia-stars-may-06-2023-game-boxscore-56"
+    }
+  }
+}
