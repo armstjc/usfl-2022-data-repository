@@ -87,26 +87,154 @@ def get_usfl_game(gameID:int,apiKey:str,save=False):
     #     time.sleep(5)
     response = urlopen(url)
     json_data = json.loads(response.read())
-
+    time.sleep(1)
     if save == True:
         with open(f"Gamelogs/{gameID}.json","w+") as f:
             f.write(json.dumps(json_data,indent=2))
 
     return json_data
 
-def get_usfl_rosters(season:int,week=0,save=False):
-    raise NotImplementedError('This function isn\'t ready.')
-    # for i in range(0,8):
-    #     url = f"https://api.foxsports.com/bifrost/v1/usfl/team/{team_id}/roster?apikey=jE7yBJVRNAwdDesMgTzTXUUSx1It41Fq"
+def get_usfl_rosters(season:int,apiKey:str,week=0,save=False):
+    rosters_df = pd.DataFrame()
+    row_df = pd.DataFrame()
 
-    #     response = urlopen(url)
-    #     json_data = json.loads(response.read())
+    teams_df = pd.read_csv('teams/usfl_teams.csv')
+
+    team_ids_arr = teams_df['team_id'].to_list()
+    team_analytics_arr = teams_df['team_analytics_name'].to_list()
+    team_name_arr = teams_df['team_name'].to_list()
+
+    for i in tqdm(range(0,len(team_ids_arr))):
+
+        team_id = team_ids_arr[i]
+        team_analytics_name = team_analytics_arr[i]
+        team_name = team_name_arr[i]
+
+        print(f'\nGetting the {season} {team_name} roster.')
+        url = f"https://api.foxsports.com/bifrost/v1/usfl/team/{team_id}/roster?apikey={apiKey}"
+
+        response = urlopen(url)
+        time.sleep(1)
+        json_data = json.loads(response.read())
+
+        for i in json_data['groups']:
+            if len(i['rows']) > 1:
+                for j in i['rows']:
+                    row_df = pd.DataFrame(
+                        {
+                            'season':season,
+                            'team_id':team_id,
+                            'team_analytics_name':team_analytics_name,
+                            'team_name_arr':team_name
+                        },
+                        index=[0]
+                    )
+                    row_df['jersey_number'] = str(j['columns'][0]['superscript']).replace('#','')
+
+                    row_df['player_id'] = j['entityLink']['layout']['tokens']['id']
+                    row_df['player_analytics_name'] = j['entityLink']['analyticsName']
+                    row_df['player_name'] = j['columns'][0]['text']
+                    row_df['player_pos'] = j['columns'][1]['text']
+                    row_df['player_age'] = j['columns'][2]['text']
+                    row_df['player_height'] = j['columns'][3]['text']
+                    row_df['player_weight'] = str(j['columns'][4]['text']).replace(' lbs','')
+                    row_df['player_college'] = j['columns'][5]['text']
+                    row_df['player_headshot'] = j['entityLink']['imageUrl']
+                    row_df['player_url'] = j['entityLink']['contentUri']
+
+                    rosters_df = pd.concat([rosters_df,row_df],ignore_index=True)
+
+    if save == True:
+        rosters_df.to_csv(f'rosters/season/csv/{season}_usfl_rosters.csv',index=False)
+        rosters_df.to_parquet(f'rosters/season/parquet/{season}_usfl_rosters.parquet',index=False)
+
+        if week > 0:
+            rosters_df.to_csv(f'rosters/weekly/csv/{season}_{week}_usfl_rosters.csv',index=False)
+            rosters_df.to_parquet(f'rosters/weekly/parquet/{season}_{week}_usfl_rosters.parquet',index=False)
+    return rosters_df
 
 
-
-def get_usfl_schedule(season:int,apiKey:str):
-    #print(game_jsons)
+def get_usfl_schedule(game_jsons:list,save=False):
     main_df = pd.DataFrame()
+    for i in tqdm(game_jsons): 
+        with open(i, 'r',encoding='utf8') as j:
+            data = json.load(j)
+        #print(f'data: \n {data}')
+        #print(data['header']['id'],data['header']['socialStartTime'])
+        game_id = data['header']['id']
+        game_date = data['header']['eventTime']
+        game_df = pd.DataFrame(columns=['game_id'],data=[game_id])
+        game_df['season'] = game_date[:4]
+        game_df['analytics_description']  = data['header']['analyticsDescription']
+        game_df['event_status'] = data['header']['eventStatus']
+
+        game_df['is_tba'] = data['header']['isTba']
+        game_df['game_start'] = data['header']['socialStartTime']
+        game_df['game_end'] = data['header']['socialStopTime']
+        
+        try:
+            game_df['status_line'] = data['header']['statusLine']
+        except:
+            game_df['status_line'] = None
+
+        game_df['venue_name'] = data['header']['venueName']
+        game_df['venue_location'] = data['header']['venueLocation']
+        game_df['share_text'] = data['header']['shareText']
+        game_df['importance'] = data['header']['importance']
+
+        ## data['header']['leftTeam'] == Away Team
+        game_df['away_team_abv'] = data['header']['leftTeam']['name']
+        game_df['away_team_nickname'] = data['header']['leftTeam']['longName']
+        game_df['away_team_full_name'] = data['header']['leftTeam']['alternateName']
+        game_df['away_team_record'] = data['header']['leftTeam']['record']
+        
+        try:
+            game_df['away_team_score'] = data['header']['leftTeam']['score']
+        except:
+            game_df['away_team_score'] = None
+
+        game_df['away_team_is_loser'] = data['header']['leftTeam']['isLoser']
+        game_df['away_team_has_possession'] = data['header']['leftTeam']['hasPossession']
+
+        ## data['header']['rightTeam'] == Home Team
+        game_df['home_team_abv'] = data['header']['rightTeam']['name']
+        game_df['home_team_nickname'] = data['header']['rightTeam']['longName']
+        game_df['home_team_full_name'] = data['header']['rightTeam']['alternateName']
+        game_df['home_team_record'] = data['header']['rightTeam']['record']
+        try:
+            game_df['home_team_score'] = data['header']['rightTeam']['score']
+        except:
+            game_df['home_team_score'] = None
+            
+        game_df['home_team_is_loser'] = data['header']['rightTeam']['isLoser']
+        game_df['home_team_has_possession'] = data['header']['rightTeam']['hasPossession']
+
+        try:
+            game_df['additional_title'] = data['metadata']['parameters']['additionalTitle']
+        except:
+            pass
+
+        try:
+            game_df['event_title'] = data['metadata']['parameters']['eventTitle']
+        except:
+            pass
+        main_df = pd.concat([game_df,main_df],ignore_index=True)
+        
+    
+    main_df = main_df.astype({"game_id":int,"season":int})
+    main_df = main_df.infer_objects()
+    main_df = main_df.sort_values('game_id')
+    #print(main_df.dtypes)
+    #print(main_df)
+
+    if save == True:
+        maxSeason = main_df['season'].max()
+        minSeason = main_df['season'].min()
+
+        for i in range(maxSeason,minSeason+1):
+            main_df.to_csv(f'schedules/{i}_schedule.csv',index=False)
+    else:
+        pass
 
     return main_df
 
@@ -467,7 +595,7 @@ def parse_usfl_pbp(game_jsons:list,saveResults=False):
         try:
             for j in data['pbp']['sections']:
                 quarter = j['title']
-                print(f'\n{quarter}')
+                #print(f'\n{quarter}')
 
                 for k in j['groups']:
                     drive_play_num = 1
@@ -583,13 +711,16 @@ def main():
     print('Starting up')
     key = get_usfl_api_key()
     # # key = os.environ['USFL_KEY']
-    for i in tqdm(range(1,84)):
-        get_usfl_game(i,key)
+    # for i in tqdm(range(44,84)):
+    #     get_usfl_game(i,key)
     json_list = get_json_in_folder('Gamelogs')
     
-    parse_usfl_player_stats(json_list,True)
-    parse_usfl_pbp(json_list,True)
+    # parse_usfl_player_stats(json_list,True)
+    # parse_usfl_pbp(json_list,True)
+    get_usfl_schedule(json_list,True)
+
     get_usfl_standings(2023,key,True)
+    get_usfl_rosters(2023,key,1,True)
 
 if __name__ == "__main__":
     main()
