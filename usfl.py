@@ -87,7 +87,7 @@ def get_usfl_game(gameID:int,apiKey:str,save=False):
     #     time.sleep(5)
     response = urlopen(url)
     json_data = json.loads(response.read())
-    time.sleep(1)
+    time.sleep(3)
     if save == True:
         with open(f"Gamelogs/{gameID}.json","w+") as f:
             f.write(json.dumps(json_data,indent=2))
@@ -454,7 +454,7 @@ def parse_usfl_player_stats(game_jsons:list,saveResults=False):
     passing_df['NFL_QBR'] = passing_df['NFL_QBR'].replace(['-'],None)
     passing_df[['COMP','ATT','COMP%','PASS_YDS','YPA','PASS_TD','PASS_INT','NFL_QBR']] = passing_df[['COMP','ATT','COMP%','PASS_YDS','YPA','PASS_TD','PASS_INT','NFL_QBR']].apply(pd.to_numeric)
     passing_df['COMP%'] = (passing_df['COMP'] / passing_df['ATT']) *100
-    passing_df['YPA'] = (passing_df['PASS_YDS']/passing_df['COMP'])
+    passing_df['YPA'] = (passing_df['PASS_YDS']/passing_df['ATT'])
     passing_df['YPC'] = (passing_df['PASS_YDS']/passing_df['COMP'])
     passing_df = passing_df.reindex(columns=pass_column_names)
     #passing_df.to_csv('test_pass.csv',index=False)
@@ -710,13 +710,12 @@ def parse_usfl_pbp(game_jsons:list,saveResults=False):
 def main():
     print('Starting up')
     key = get_usfl_api_key()
-    # # key = os.environ['USFL_KEY']
-    # for i in tqdm(range(44,84)):
-    #     get_usfl_game(i,key)
+    for i in tqdm(range(44,84)):
+        get_usfl_game(i,key)
     json_list = get_json_in_folder('Gamelogs')
     
-    # parse_usfl_player_stats(json_list,True)
-    # parse_usfl_pbp(json_list,True)
+    parse_usfl_player_stats(json_list,True)
+    parse_usfl_pbp(json_list,True)
     get_usfl_schedule(json_list,True)
 
     get_usfl_standings(2023,key,True)
