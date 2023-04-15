@@ -127,7 +127,7 @@ def generate_usfl_player_season_stats(season:int,save=False):
 
 def main():
     print("Starting up!")
-    generate_usfl_player_season_stats(2022,True)
+    generate_usfl_player_season_stats(2023,True)
     print("All done!")
 
 if __name__ == "__main__":

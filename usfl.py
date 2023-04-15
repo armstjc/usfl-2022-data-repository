@@ -87,7 +87,7 @@ def get_usfl_game(gameID:int,apiKey:str,save=False):
     #     time.sleep(5)
     response = urlopen(url)
     json_data = json.loads(response.read())
-    time.sleep(3)
+    time.sleep(1)
     if save == True:
         with open(f"Gamelogs/{gameID}.json","w+") as f:
             f.write(json.dumps(json_data,indent=2))
@@ -519,6 +519,7 @@ def parse_usfl_player_stats(game_jsons:list,saveResults=False):
     punting_column_names = ['season','game_id','game_date','team','team_nickname','loc','opponent','opponent_nickname','analytics_id','player_id','player_image','player_name',
     'PUNTS','GROSS_PUNT_YDS','GROSS_PUNT AVG','NET_PUNT_YDS','NET_PUNT_AVG','PUNT_TB','PUNTS_IN_20','PUNTS_BLK','PUNT_LONG']
     punting_df.rename(columns={'NO':'PUNTS','AVG':'GROSS_PUNT_AVG','20':'PUNTS_IN_20','TB':'PUNT_TB','LNG':'PUNT_LONG','BLK':'PUNTS_BLK'},inplace=True)
+    punting_df[['PUNTS','GROSS_PUNT_AVG','PUNT_TB','PUNTS_IN_20','PUNTS_BLK','PUNT_LONG']] = punting_df[['PUNTS','GROSS_PUNT_AVG','PUNT_TB','PUNTS_IN_20','PUNTS_BLK','PUNT_LONG']].replace('-','0')
     punting_df[['PUNTS','GROSS_PUNT_AVG','PUNT_TB','PUNTS_IN_20','PUNTS_BLK','PUNT_LONG']] = punting_df[['PUNTS','GROSS_PUNT_AVG','PUNT_TB','PUNTS_IN_20','PUNTS_BLK','PUNT_LONG']].apply(pd.to_numeric)
     punting_df['GROSS_PUNT_YDS'] = (punting_df['GROSS_PUNT_AVG']*punting_df['PUNTS']).astype('int')
     punting_df = punting_df.reindex(columns=punting_column_names)
@@ -691,7 +692,7 @@ def parse_usfl_pbp(game_jsons:list,saveResults=False):
                         drive_play_num += 1
             main_df = pd.concat([main_df,game_df],ignore_index=True)
         except:
-            print(f'Cannot parse play-by-play data from {game_id}')
+            print(f'Cannot parse play-by-play data from game #{game_id}.')
     
     main_df[['game_id','play_id']] = main_df[['game_id','play_id']].astype('int')
 
@@ -711,7 +712,7 @@ def main():
     print('Starting up')
     key = get_usfl_api_key()
     for i in tqdm(range(44,84)):
-        get_usfl_game(i,key)
+        get_usfl_game(i,key,True)
     json_list = get_json_in_folder('Gamelogs')
     
     parse_usfl_player_stats(json_list,True)
