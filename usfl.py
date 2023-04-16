@@ -321,7 +321,7 @@ def get_usfl_standings(season:int,apiKey:str,save=False):
     if save==True:
         #raise NotImplementedError('help')
         main_df.to_csv(f'standings/csv/{season}_usfl_standings.csv',index=False)
-        main_df.to_parquet(f'standings/parquet/{season}_usfl_standings.parquet',index=False)
+        #main_df.to_parquet(f'standings/parquet/{season}_usfl_standings.parquet',index=False)
         with open(f"standings/json/{season}_usfl_standings.json","w+") as f:
             f.write(json.dumps(json_data,indent=2))
 

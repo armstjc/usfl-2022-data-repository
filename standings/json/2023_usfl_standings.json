@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-02-07T22:21:58Z",
+      "lastUpdated": "2023-04-16T03:00:22Z",
       "standings": [
         {
           "template": "table-standings",
@@ -99,7 +99,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "1",
                   "emphasized": false
                 },
                 {
@@ -113,42 +113,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": "1.000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "27",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "23",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -180,7 +180,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "2",
                   "emphasized": false
                 },
                 {
@@ -261,88 +261,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
-                  }
-                },
-                "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -414,6 +333,87 @@
                   }
                 },
                 "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "10",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "27",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -514,7 +514,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "1",
                   "emphasized": false
                 },
                 {
@@ -528,42 +528,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": "1.000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "27",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "10",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -595,88 +595,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
+                  "text": "2",
                   "emphasized": false
                 },
                 {
@@ -757,17 +676,17 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
                   "index": 1,
-                  "text": "Showboats",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Memphis Showboats",
+                  "imageAltText": "Houston Gamblers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
@@ -813,6 +732,87 @@
               "isCutoff": false,
               "selected": false,
               "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Showboats",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Memphis Showboats",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "23",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "27",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
                 "title": "MEMPHIS SHOWBOATS",
                 "webUrl": "/usfl/memphis-showboats-team",
                 "color": "0, 18, 40, 76",
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-02-07T22:21:58Z",
+      "lastUpdated": "2023-04-16T03:00:22Z",
       "standings": [
         {
           "template": "table-standings",
@@ -937,7 +937,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "1",
                   "emphasized": false
                 },
                 {
@@ -951,42 +951,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": "1.000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "27",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "10",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -1018,7 +1018,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "1",
                   "emphasized": false
                 },
                 {
@@ -1032,42 +1032,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": "1.000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "27",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "23",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -1099,78 +1099,159 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "-",
+                  "text": "2",
                   "emphasized": false
                 },
                 {
                   "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "text": "Showboats",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
+                  "imageAltText": "Memphis Showboats",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": ".000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "23",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "27",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "title": "MEMPHIS SHOWBOATS",
+                "webUrl": "/usfl/memphis-showboats-team",
+                "color": "0, 18, 40, 76",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
+                "imageAltText": "Memphis Showboats",
+                "contentUri": "football/usfl/teams/20",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
+                    "id": "20",
+                    "contentUri": "football/usfl/teams/20"
                   }
                 },
-                "analyticsName": "houston-gamblers",
+                "analyticsName": "memphis-showboats",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "10",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "27",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1347,12 +1428,12 @@
                 },
                 {
                   "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
+                  "imageAltText": "Houston Gamblers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
@@ -1398,22 +1479,22 @@
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
                   }
                 },
-                "analyticsName": "new-jersey-generals",
+                "analyticsName": "houston-gamblers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1499,87 +1580,6 @@
                 "type": "entity"
               },
               "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Showboats",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Memphis Showboats",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MEMPHIS SHOWBOATS",
-                "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Memphis Showboats",
-                "contentUri": "football/usfl/teams/20",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "20",
-                    "contentUri": "football/usfl/teams/20"
-                  }
-                },
-                "analyticsName": "memphis-showboats",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
             }
           ]
         }
@@ -1591,6 +1591,15 @@
       "name": "Season",
       "id": "season",
       "items": [
+        {
+          "id": "2023",
+          "name": "2023",
+          "webUrl": "/standings?season=2023",
+          "parameters": {
+            "season": "2023"
+          },
+          "selected": true
+        },
         {
           "id": "2022",
           "name": "2022",
