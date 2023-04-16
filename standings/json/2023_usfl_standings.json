@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-16T03:00:22Z",
+      "lastUpdated": "2023-04-16T18:57:21Z",
       "standings": [
         {
           "template": "table-standings",
@@ -104,6 +104,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Panthers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Michigan Panthers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "29",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "13",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MICHIGAN PANTHERS",
+                "webUrl": "/usfl/michigan-panthers-team",
+                "color": "0, 112, 46, 62",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Michigan Panthers",
+                "contentUri": "football/usfl/teams/11",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "11",
+                    "contentUri": "football/usfl/teams/11"
+                  }
+                },
+                "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stars",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -171,87 +252,6 @@
                   }
                 },
                 "analyticsName": "philadelphia-stars",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Panthers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Michigan Panthers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MICHIGAN PANTHERS",
-                "webUrl": "/usfl/michigan-panthers-team",
-                "color": "0, 112, 46, 62",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Michigan Panthers",
-                "contentUri": "football/usfl/teams/11",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "11",
-                    "contentUri": "football/usfl/teams/11"
-                  }
-                },
-                "analyticsName": "michigan-panthers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -681,87 +681,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Showboats",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -833,6 +752,87 @@
                 "type": "entity"
               },
               "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "13",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "29",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
             }
           ]
         }
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-16T03:00:22Z",
+      "lastUpdated": "2023-04-16T18:57:21Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1023,6 +1023,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Panthers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Michigan Panthers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "29",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "13",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MICHIGAN PANTHERS",
+                "webUrl": "/usfl/michigan-panthers-team",
+                "color": "0, 112, 46, 62",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Michigan Panthers",
+                "contentUri": "football/usfl/teams/11",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "11",
+                    "contentUri": "football/usfl/teams/11"
+                  }
+                },
+                "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "1",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stars",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1185,6 +1266,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "13",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "29",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Generals",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1333,168 +1495,6 @@
                   }
                 },
                 "analyticsName": "new-orleans-breakers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Panthers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Michigan Panthers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MICHIGAN PANTHERS",
-                "webUrl": "/usfl/michigan-panthers-team",
-                "color": "0, 112, 46, 62",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Michigan Panthers",
-                "contentUri": "football/usfl/teams/11",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "11",
-                    "contentUri": "football/usfl/teams/11"
-                  }
-                },
-                "analyticsName": "michigan-panthers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
