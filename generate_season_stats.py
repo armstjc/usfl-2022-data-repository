@@ -121,7 +121,7 @@ def generate_usfl_player_season_stats(season:int,save=False):
     
     if save == True:
         season_df.to_csv(f'player_stats/season_stats/csv/{season}_player_stats.csv',index=False)
-        season_df.to_parquet(f'player_stats/season_stats/parquet/{season}_player_stats.parquet',index=False)
+        #season_df.to_parquet(f'player_stats/season_stats/parquet/{season}_player_stats.parquet',index=False)
     
     return season_df
 
