@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "47",
-    "liveStartTime": "2023-04-16T22:00:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/47/data",
     "eventStatus": 3,
     "eventTime": "2023-04-16T22:30:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Pittsburgh Maulers at New Orleans Breakers",
-    "oddsStartTime": "2023-04-17T01:44:46Z",
+    "oddsStartTime": "2023-04-17T16:06:42Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -442,7 +441,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
@@ -793,7 +792,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
@@ -1650,7 +1649,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "10",
+                      "text": "9",
                       "emphasized": false
                     },
                     {
@@ -1837,6 +1836,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/216.vresize.140.170.medium.77.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "Tarpley III",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ARNOLD TARPLEY III",
+                    "webUrl": "/usfl/arnold-tarpley-iii-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Arnold Tarpley III",
+                    "contentUri": "football/usfl/athletes/217",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "217",
+                        "contentUri": "football/usfl/athletes/217"
+                      }
+                    },
+                    "analyticsName": "arnold-tarpley-iii",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png"
                   },
                   "isFaded": false
                 },
@@ -2041,74 +2108,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/410.vresize.140.170.medium.79.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Tarpley III",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ARNOLD TARPLEY III",
-                    "webUrl": "/usfl/arnold-tarpley-iii-player",
-                    "color": "0, 0, 0, 0",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Arnold Tarpley III",
-                    "contentUri": "football/usfl/athletes/217",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "217",
-                        "contentUri": "football/usfl/athletes/217"
-                      }
-                    },
-                    "analyticsName": "arnold-tarpley-iii",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png"
                   },
                   "isFaded": false
                 },
@@ -2665,7 +2664,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "61",
+                      "text": "62",
                       "emphasized": true
                     },
                     {
@@ -3858,7 +3857,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "A Jones",
+                      "text": "Jones",
                       "emphasized": false
                     },
                     {
@@ -4144,7 +4143,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J Adams",
+                      "text": "Adams",
                       "emphasized": false
                     },
                     {
@@ -4333,7 +4332,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "A Jones",
+                      "text": "Jones",
                       "emphasized": false
                     },
                     {
@@ -4881,7 +4880,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -4980,6 +4979,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/322.vresize.140.170.medium.30.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "Howard Jr.",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "REGINALD HOWARD JR.",
+                    "webUrl": "/usfl/reggie-howard-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Reginald Howard Jr.",
+                    "contentUri": "football/usfl/athletes/274",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "274",
+                        "contentUri": "football/usfl/athletes/274"
+                      }
+                    },
+                    "analyticsName": "reggie-howard",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png"
                   },
                   "isFaded": false
                 },
@@ -5191,142 +5258,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Christian",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "CONNOR CHRISTIAN",
-                    "webUrl": "/usfl/christian-christian-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/128.vresize.140.170.medium.93.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Connor Christian",
-                    "contentUri": "football/usfl/athletes/128",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "128",
-                        "contentUri": "football/usfl/athletes/128"
-                      }
-                    },
-                    "analyticsName": "christian-christian",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/128.vresize.140.170.medium.93.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Howard Jr.",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "REGINALD HOWARD JR.",
-                    "webUrl": "/usfl/reggie-howard-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Reginald Howard Jr.",
-                    "contentUri": "football/usfl/athletes/274",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "274",
-                        "contentUri": "football/usfl/athletes/274"
-                      }
-                    },
-                    "analyticsName": "reggie-howard",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "Hills",
                       "emphasized": false
                     },
@@ -5456,6 +5387,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "Christian",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CONNOR CHRISTIAN",
+                    "webUrl": "/usfl/christian-christian-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/128.vresize.140.170.medium.93.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Connor Christian",
+                    "contentUri": "football/usfl/athletes/128",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "128",
+                        "contentUri": "football/usfl/athletes/128"
+                      }
+                    },
+                    "analyticsName": "christian-christian",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/128.vresize.140.170.medium.93.png"
                   },
                   "isFaded": false
                 },
@@ -5901,7 +5900,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "6",
+                      "text": "7",
                       "emphasized": true
                     },
                     {
@@ -5972,7 +5971,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "A Jones",
+                      "text": "Jones",
                       "emphasized": false
                     },
                     {
@@ -9310,7 +9309,7 @@
                 "imageAltText": "Anthony Jones",
                 "title": "2ND AND 5",
                 "subtitle": "PIT5",
-                "playDescription": "A.Jones rushed right guard to PIT 2 for 3 yards. Tackled by R.Foster at PIT 2.",
+                "playDescription": "A.Jones rushed right guard to PIT 2 for 3 yards. Tackled by A.Tarpley, R.Foster at PIT 2.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:56",
@@ -9416,7 +9415,7 @@
                 "imageAltText": "Madre London",
                 "title": "1ST AND 10",
                 "subtitle": "PIT47",
-                "playDescription": "M.London rushed up the middle to NO 47 for 6 yards. Tackled by C.Christian at NO 47.",
+                "playDescription": "M.London rushed up the middle to NO 47 for 6 yards. Tackled by R.Howard at NO 47.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:02",
@@ -9455,7 +9454,7 @@
                 "imageAltText": "Troy Williams",
                 "title": "2ND AND 10",
                 "subtitle": "NO39",
-                "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short middle intended for B.Gaither.",
+                "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short middle intended for B.Gaither (J.Elder).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:27",
@@ -9518,7 +9517,7 @@
           {
             "id": "20",
             "title": "END OF GAME",
-            "subtitle": "1 plays \u00b7 -1 yards \u00b7 0:04",
+            "subtitle": "1 plays \u00b7 -1 yards \u00b7 0:10",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "New Orleans Breakers",
@@ -9537,6 +9536,14 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:10"
+              },
+              {
+                "id": "180",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
@@ -10604,30 +10611,6 @@
         "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
       }
     ]
-  },
-  "favoriteCta": {
-    "title": "FOLLOW",
-    "text": "Follow a team and personalize your FOX Sports experience",
-    "leftEntity": {
-      "text": "PIT",
-      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-      "imageType": "image-logo",
-      "imageAltText": "Pittsburgh Maulers",
-      "contentUri": "football/usfl/teams/16",
-      "contentType": "team",
-      "name": "Pittsburgh Maulers",
-      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-    },
-    "rightEntity": {
-      "text": "NO",
-      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
-      "imageType": "image-logo",
-      "imageAltText": "New Orleans Breakers",
-      "contentUri": "football/usfl/teams/7",
-      "contentType": "team",
-      "name": "New Orleans Breakers",
-      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
-    }
   },
   "trackingData": {
     "contentEntityUri": "team:football/usfl/teams/16,team:football/usfl/teams/7"
