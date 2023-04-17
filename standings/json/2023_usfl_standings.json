@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-16T18:57:21Z",
+      "lastUpdated": "2023-04-17T01:39:54Z",
       "standings": [
         {
           "template": "table-standings",
@@ -275,42 +275,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": ".000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "15",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "22",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -609,42 +609,42 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": "-",
+                  "text": "1.000",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "-",
+                  "text": "22",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "-",
+                  "text": "15",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "-",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "-",
+                  "text": "0-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "-",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-16T18:57:21Z",
+      "lastUpdated": "2023-04-17T01:39:54Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1180,6 +1180,168 @@
               "columns": [
                 {
                   "index": 0,
+                  "text": "1",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Breakers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Orleans Breakers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "22",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "15",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "7",
+                    "contentUri": "football/usfl/teams/7"
+                  }
+                },
+                "analyticsName": "new-orleans-breakers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "15",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "22",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
                   "text": "2",
                   "emphasized": false
                 },
@@ -1414,168 +1576,6 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Breakers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Orleans Breakers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW ORLEANS BREAKERS",
-                "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Orleans Breakers",
-                "contentUri": "football/usfl/teams/7",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "7",
-                    "contentUri": "football/usfl/teams/7"
-                  }
-                },
-                "analyticsName": "new-orleans-breakers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "-",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "-",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
