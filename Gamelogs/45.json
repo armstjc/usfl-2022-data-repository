@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Jersey Generals at Birmingham Stallions",
-    "oddsStartTime": "2023-04-19T01:35:03Z",
+    "oddsStartTime": "2023-04-20T00:58:45Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -5659,6 +5659,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "Burns",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "LORENZO BURNS",
+                    "webUrl": "/usfl/lorenzo-burns-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/10.vresize.140.170.medium.33.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Lorenzo Burns",
+                    "contentUri": "football/usfl/athletes/10",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "10",
+                        "contentUri": "football/usfl/athletes/10"
+                      }
+                    },
+                    "analyticsName": "lorenzo-burns",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/10.vresize.140.170.medium.33.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Green",
                       "emphasized": false
                     },
@@ -5788,74 +5856,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/20.vresize.140.170.medium.38.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Burns",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "LORENZO BURNS",
-                    "webUrl": "/usfl/lorenzo-burns-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/10.vresize.140.170.medium.33.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Lorenzo Burns",
-                    "contentUri": "football/usfl/athletes/10",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "10",
-                        "contentUri": "football/usfl/athletes/10"
-                      }
-                    },
-                    "analyticsName": "lorenzo-burns",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/10.vresize.140.170.medium.33.png"
                   },
                   "isFaded": false
                 },
@@ -6752,7 +6752,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "64",
+                      "text": "65",
                       "emphasized": true
                     },
                     {
@@ -9899,7 +9899,7 @@
                 "imageAltText": "Kingston Davis",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM36",
-                "playDescription": "K.Davis rushed left guard to BHAM 32 for 4 yards. Tackled by J.Thompson at BHAM 32.",
+                "playDescription": "K.Davis rushed left guard to BHAM 32 for 4 yards. Tackled by J.Thompson, L.Burns at BHAM 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "3RD",
