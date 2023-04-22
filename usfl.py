@@ -116,10 +116,11 @@ def get_usfl_rosters(season:int,apiKey:str,week=0,save=False):
         response = urlopen(url)
         time.sleep(1)
         json_data = json.loads(response.read())
-
+        
         for i in json_data['groups']:
             if len(i['rows']) > 1:
                 for j in i['rows']:
+                    #print(j)
                     row_df = pd.DataFrame(
                         {
                             'season':season,
@@ -132,7 +133,11 @@ def get_usfl_rosters(season:int,apiKey:str,week=0,save=False):
                     row_df['jersey_number'] = str(j['columns'][0]['superscript']).replace('#','')
 
                     row_df['player_id'] = j['entityLink']['layout']['tokens']['id']
-                    row_df['player_analytics_name'] = j['entityLink']['analyticsName']
+                    try:
+                        row_df['player_analytics_name'] = j['entityLink']['analyticsName']
+                    except:
+                        row_df['player_analytics_name'] = None
+                    
                     row_df['player_name'] = j['columns'][0]['text']
                     row_df['player_pos'] = j['columns'][1]['text']
                     row_df['player_age'] = j['columns'][2]['text']
