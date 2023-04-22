@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-17T01:39:54Z",
+      "lastUpdated": "2023-04-22T19:30:16Z",
       "standings": [
         {
           "template": "table-standings",
@@ -519,6 +519,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Breakers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Orleans Breakers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "60",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "46",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "7",
+                    "contentUri": "football/usfl/teams/7"
+                  }
+                },
+                "analyticsName": "new-orleans-breakers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stallions",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -586,87 +667,6 @@
                   }
                 },
                 "analyticsName": "birmingham-stallions",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Breakers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Orleans Breakers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "22",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "15",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW ORLEANS BREAKERS",
-                "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Orleans Breakers",
-                "contentUri": "football/usfl/teams/7",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "7",
-                    "contentUri": "football/usfl/teams/7"
-                  }
-                },
-                "analyticsName": "new-orleans-breakers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -771,7 +771,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
@@ -781,12 +781,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "13",
+                  "text": "44",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "29",
+                  "text": "67",
                   "emphasized": false
                 },
                 {
@@ -796,17 +796,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "L2",
                   "emphasized": false
                 }
               ],
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-17T01:39:54Z",
+      "lastUpdated": "2023-04-22T19:30:16Z",
       "standings": [
         {
           "template": "table-standings",
@@ -942,16 +942,16 @@
                 },
                 {
                   "index": 1,
-                  "text": "Stallions",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "text": "Breakers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Birmingham Stallions",
+                  "imageAltText": "New Orleans Breakers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -961,17 +961,17 @@
                 },
                 {
                   "index": 4,
-                  "text": "27",
+                  "text": "60",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "10",
+                  "text": "46",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -981,34 +981,34 @@
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "W2",
                   "emphasized": false
                 }
               ],
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "BIRMINGHAM STALLIONS",
-                "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "Birmingham Stallions",
-                "contentUri": "football/usfl/teams/2",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "2",
-                    "contentUri": "football/usfl/teams/2"
+                    "id": "7",
+                    "contentUri": "football/usfl/teams/7"
                   }
                 },
-                "analyticsName": "birmingham-stallions",
+                "analyticsName": "new-orleans-breakers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1104,6 +1104,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Stallions",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Birmingham Stallions",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "27",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "10",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "2",
+                    "contentUri": "football/usfl/teams/2"
+                  }
+                },
+                "analyticsName": "birmingham-stallions",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "1",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stars",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1171,87 +1252,6 @@
                   }
                 },
                 "analyticsName": "philadelphia-stars",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "1",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Breakers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Orleans Breakers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "22",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "15",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW ORLEANS BREAKERS",
-                "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Orleans Breakers",
-                "contentUri": "football/usfl/teams/7",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "7",
-                    "contentUri": "football/usfl/teams/7"
-                  }
-                },
-                "analyticsName": "new-orleans-breakers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1437,7 +1437,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
@@ -1447,12 +1447,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "13",
+                  "text": "44",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "29",
+                  "text": "67",
                   "emphasized": false
                 },
                 {
@@ -1462,17 +1462,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "L2",
                   "emphasized": false
                 }
               ],
