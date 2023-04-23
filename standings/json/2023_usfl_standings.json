@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-22T19:30:16Z",
+      "lastUpdated": "2023-04-23T01:49:23Z",
       "standings": [
         {
           "template": "table-standings",
@@ -519,6 +519,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Stallions",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Birmingham Stallions",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "69",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "12",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "2",
+                    "contentUri": "football/usfl/teams/2"
+                  }
+                },
+                "analyticsName": "birmingham-stallions",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Breakers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -595,169 +676,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Stallions",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Birmingham Stallions",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "10",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "BIRMINGHAM STALLIONS",
-                "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Birmingham Stallions",
-                "contentUri": "football/usfl/teams/2",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "2",
-                    "contentUri": "football/usfl/teams/2"
-                  }
-                },
-                "analyticsName": "birmingham-stallions",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
                   "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Showboats",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Memphis Showboats",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "23",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MEMPHIS SHOWBOATS",
-                "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Memphis Showboats",
-                "contentUri": "football/usfl/teams/20",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "20",
-                    "contentUri": "football/usfl/teams/20"
-                  }
-                },
-                "analyticsName": "memphis-showboats",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -833,6 +752,87 @@
                 "type": "entity"
               },
               "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Showboats",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Memphis Showboats",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "25",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "69",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MEMPHIS SHOWBOATS",
+                "webUrl": "/usfl/memphis-showboats-team",
+                "color": "0, 18, 40, 76",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Memphis Showboats",
+                "contentUri": "football/usfl/teams/20",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "20",
+                    "contentUri": "football/usfl/teams/20"
+                  }
+                },
+                "analyticsName": "memphis-showboats",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
             }
           ]
         }
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-22T19:30:16Z",
+      "lastUpdated": "2023-04-23T01:49:23Z",
       "standings": [
         {
           "template": "table-standings",
@@ -942,12 +942,12 @@
                 },
                 {
                   "index": 1,
-                  "text": "Breakers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
+                  "text": "Stallions",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "New Orleans Breakers",
+                  "imageAltText": "Birmingham Stallions",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
@@ -961,12 +961,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "60",
+                  "text": "69",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "46",
+                  "text": "12",
                   "emphasized": false
                 },
                 {
@@ -993,22 +993,22 @@
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "NEW ORLEANS BREAKERS",
-                "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "New Orleans Breakers",
-                "contentUri": "football/usfl/teams/7",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "7",
-                    "contentUri": "football/usfl/teams/7"
+                    "id": "2",
+                    "contentUri": "football/usfl/teams/2"
                   }
                 },
-                "analyticsName": "new-orleans-breakers",
+                "analyticsName": "birmingham-stallions",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1104,16 +1104,16 @@
                 },
                 {
                   "index": 1,
-                  "text": "Stallions",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "text": "Breakers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Birmingham Stallions",
+                  "imageAltText": "New Orleans Breakers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -1123,17 +1123,17 @@
                 },
                 {
                   "index": 4,
-                  "text": "27",
+                  "text": "60",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "10",
+                  "text": "46",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -1143,34 +1143,34 @@
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "W2",
                   "emphasized": false
                 }
               ],
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "BIRMINGHAM STALLIONS",
-                "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "title": "NEW ORLEANS BREAKERS",
+                "webUrl": "/usfl/new-orleans-breakers-team",
+                "color": "0, 0, 53, 149",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "Birmingham Stallions",
-                "contentUri": "football/usfl/teams/2",
+                "imageAltText": "New Orleans Breakers",
+                "contentUri": "football/usfl/teams/7",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "2",
-                    "contentUri": "football/usfl/teams/2"
+                    "id": "7",
+                    "contentUri": "football/usfl/teams/7"
                   }
                 },
-                "analyticsName": "birmingham-stallions",
+                "analyticsName": "new-orleans-breakers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1252,6 +1252,87 @@
                   }
                 },
                 "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "44",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "67",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1356,87 +1437,6 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "23",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MEMPHIS SHOWBOATS",
-                "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Memphis Showboats",
-                "contentUri": "football/usfl/teams/20",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "20",
-                    "contentUri": "football/usfl/teams/20"
-                  }
-                },
-                "analyticsName": "memphis-showboats",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
                   "text": "0-2",
                   "emphasized": false
                 },
@@ -1447,12 +1447,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "44",
+                  "text": "25",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "67",
+                  "text": "69",
                   "emphasized": false
                 },
                 {
@@ -1479,22 +1479,22 @@
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "title": "MEMPHIS SHOWBOATS",
+                "webUrl": "/usfl/memphis-showboats-team",
+                "color": "0, 18, 40, 76",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
+                "imageAltText": "Memphis Showboats",
+                "contentUri": "football/usfl/teams/20",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
+                    "id": "20",
+                    "contentUri": "football/usfl/teams/20"
                   }
                 },
-                "analyticsName": "houston-gamblers",
+                "analyticsName": "memphis-showboats",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
