@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-23T01:49:23Z",
+      "lastUpdated": "2023-04-23T19:57:08Z",
       "standings": [
         {
           "template": "table-standings",
@@ -266,87 +266,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "15",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "22",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Generals",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -356,22 +275,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".000",
+                  "text": ".500",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "10",
+                  "text": "30",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "27",
+                  "text": "30",
                   "emphasized": false
                 },
                 {
@@ -381,17 +300,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -414,6 +333,87 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "18",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "42",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-23T01:49:23Z",
+      "lastUpdated": "2023-04-23T19:57:08Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1266,6 +1266,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "30",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "30",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Gamblers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1342,7 +1423,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -1356,7 +1437,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
@@ -1366,17 +1447,17 @@
                 },
                 {
                   "index": 4,
-                  "text": "15",
+                  "text": "18",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "22",
+                  "text": "42",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
@@ -1386,12 +1467,12 @@
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "L2",
                   "emphasized": false
                 }
               ],
@@ -1423,7 +1504,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -1495,87 +1576,6 @@
                   }
                 },
                 "analyticsName": "memphis-showboats",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "10",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
-                  }
-                },
-                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
