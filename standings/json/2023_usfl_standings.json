@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-23T19:57:08Z",
+      "lastUpdated": "2023-04-24T01:59:01Z",
       "standings": [
         {
           "template": "table-standings",
@@ -113,7 +113,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -123,12 +123,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "29",
+                  "text": "53",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "13",
+                  "text": "23",
                   "emphasized": false
                 },
                 {
@@ -138,17 +138,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-0",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "W2",
                   "emphasized": false
                 }
               ],
@@ -181,87 +181,6 @@
                 {
                   "index": 0,
                   "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "23",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
-                  }
-                },
-                "analyticsName": "philadelphia-stars",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -333,6 +252,87 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "37",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "47",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
+                  }
+                },
+                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-23T19:57:08Z",
+      "lastUpdated": "2023-04-24T01:59:01Z",
       "standings": [
         {
           "template": "table-standings",
@@ -942,6 +942,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Panthers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Michigan Panthers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": "1.000",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "53",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "23",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MICHIGAN PANTHERS",
+                "webUrl": "/usfl/michigan-panthers-team",
+                "color": "0, 112, 46, 62",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Michigan Panthers",
+                "contentUri": "football/usfl/teams/11",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "11",
+                    "contentUri": "football/usfl/teams/11"
+                  }
+                },
+                "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "1",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stallions",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1009,87 +1090,6 @@
                   }
                 },
                 "analyticsName": "birmingham-stallions",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "1",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Panthers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Michigan Panthers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "29",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "13",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "MICHIGAN PANTHERS",
-                "webUrl": "/usfl/michigan-panthers-team",
-                "color": "0, 112, 46, 62",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Michigan Panthers",
-                "contentUri": "football/usfl/teams/11",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "11",
-                    "contentUri": "football/usfl/teams/11"
-                  }
-                },
-                "analyticsName": "michigan-panthers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1180,87 +1180,6 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "1",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": "1.000",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "27",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "23",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
-                  }
-                },
-                "analyticsName": "philadelphia-stars",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
                   "text": "2",
                   "emphasized": false
                 },
@@ -1333,6 +1252,87 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "37",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "47",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
+                  }
+                },
+                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
