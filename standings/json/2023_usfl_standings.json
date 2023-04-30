@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-04-30T02:16:32Z",
+      "lastUpdated": "2023-04-30T18:58:07Z",
       "standings": [
         {
           "template": "table-standings",
@@ -266,87 +266,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "1-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".500",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "37",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "47",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
-                  }
-                },
-                "analyticsName": "philadelphia-stars",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Maulers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                   "imageType": "image-logo",
@@ -356,22 +275,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "0-2",
+                  "text": "1-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".000",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "18",
+                  "text": "39",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "42",
+                  "text": "55",
                   "emphasized": false
                 },
                 {
@@ -381,17 +300,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L2",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -414,6 +333,87 @@
                   }
                 },
                 "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "1-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".333",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "50",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "68",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
+                  }
+                },
+                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-04-30T02:16:32Z",
+      "lastUpdated": "2023-04-30T18:58:07Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1261,36 +1261,36 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
                   "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
+                  "imageAltText": "Pittsburgh Maulers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
                 },
                 {
                   "index": 2,
-                  "text": "1-1",
+                  "text": "1-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".500",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "37",
+                  "text": "39",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "47",
+                  "text": "55",
                   "emphasized": false
                 },
                 {
@@ -1300,39 +1300,39 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-0",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                 "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
                   }
                 },
-                "analyticsName": "philadelphia-stars",
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1423,51 +1423,51 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "5",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
                   "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
+                  "imageAltText": "Philadelphia Stars",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
                 },
                 {
                   "index": 2,
-                  "text": "0-2",
+                  "text": "1-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".000",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "18",
+                  "text": "50",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "42",
+                  "text": "68",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
                   "index": 7,
-                  "text": "0-1",
+                  "text": "1-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
@@ -1479,22 +1479,22 @@
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
                   }
                 },
-                "analyticsName": "pittsburgh-maulers",
+                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
