@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "54",
-    "liveStartTime": "2023-04-30T15:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/54/data",
     "eventStatus": 3,
     "eventTime": "2023-04-30T16:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Pittsburgh Maulers at Philadelphia Stars",
-    "oddsStartTime": "2023-04-30T19:10:09Z",
+    "oddsStartTime": "2023-04-30T20:29:47Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1456,6 +1455,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "Torneden",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "7",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "BRYCE TORNEDEN",
+                    "webUrl": "/usfl/bryce-torneden-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Bryce Torneden",
+                    "contentUri": "football/usfl/athletes/240",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "240",
+                        "contentUri": "football/usfl/athletes/240"
+                      }
+                    },
+                    "analyticsName": "bryce-torneden",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Tezino",
                       "emphasized": false
                     },
@@ -1517,74 +1584,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/216.vresize.140.170.medium.77.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Torneden",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "6",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "BRYCE TORNEDEN",
-                    "webUrl": "/usfl/bryce-torneden-player",
-                    "color": "0, 0, 0, 0",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Bryce Torneden",
-                    "contentUri": "football/usfl/athletes/240",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "240",
-                        "contentUri": "football/usfl/athletes/240"
-                      }
-                    },
-                    "analyticsName": "bryce-torneden",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png"
                   },
                   "isFaded": false
                 },
@@ -2068,7 +2067,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "E Walker",
+                      "text": "Walker",
                       "emphasized": false
                     },
                     {
@@ -2821,7 +2820,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "64",
+                      "text": "65",
                       "emphasized": true
                     },
                     {
@@ -4130,7 +4129,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Dex Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
@@ -4789,7 +4788,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Dex Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
@@ -5108,7 +5107,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C Brown",
+                      "text": "Brown",
                       "emphasized": false
                     },
                     {
@@ -5652,7 +5651,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "K Wright",
+                      "text": "Wright",
                       "emphasized": false
                     },
                     {
@@ -6826,7 +6825,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C Brown",
+                      "text": "Brown",
                       "emphasized": false
                     },
                     {
@@ -10500,7 +10499,7 @@
                 "imageAltText": "Diondre Overton",
                 "title": "2ND AND 3",
                 "subtitle": "PIT22",
-                "playDescription": "C.Cookus pass short left complete to PIT 22. Catch made by D.Overton at PIT 22. Gain of 8 yards. Tackled by D.Warren at PIT 14.",
+                "playDescription": "C.Cookus pass short left complete to PIT 15. Catch made by D.Overton at PIT 15. Gain of 8 yards. Tackled by D.Warren at PIT 14.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:58",
@@ -10548,7 +10547,7 @@
                 "imageAltText": "Corey Coleman",
                 "title": "3RD AND 18",
                 "subtitle": "PIT22",
-                "playDescription": "C.Cookus pass short right complete to PIT 22. Catch made by C.Coleman at PIT 22. Gain of 4 yards. Tackled by K.Gipson at PIT 18.",
+                "playDescription": "C.Cookus pass short right complete to PIT 19. Catch made by C.Coleman at PIT 19. Gain of 4 yards. Tackled by K.Gipson, B.Torneden at PIT 18.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:40",
@@ -10556,16 +10555,16 @@
               },
               {
                 "id": "180",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Case Cookus",
+                "imageAltText": "Corey Coleman",
                 "title": "4TH AND 14",
                 "subtitle": "PIT18",
-                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete deep left intended for C.Coleman. PENALTY on PHI-PHI, Offensive Pass Interference, 10 yards, declined.",
+                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete deep left intended for C.Coleman. PENALTY on PHI-C.Coleman, Offensive Pass Interference, 10 yards, declined.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:09",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
               }
             ],
             "entityLink": {
@@ -10612,6 +10611,14 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:01"
+              },
+              {
+                "id": "183",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
