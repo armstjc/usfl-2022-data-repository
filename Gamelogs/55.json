@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Jersey Generals at Michigan Panthers",
-    "oddsStartTime": "2023-05-06T07:11:26Z",
+    "oddsStartTime": "2023-05-06T08:12:25Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -242,13 +242,13 @@
               },
               {
                 "title": "Attempts",
-                "leftStat": "27",
+                "leftStat": "26",
                 "rightStat": "23",
                 "betterStat": "left"
               },
               {
                 "title": "Yards Per Rush",
-                "leftStat": "7.3",
+                "leftStat": "7.6",
                 "rightStat": "5.0",
                 "betterStat": "left"
               },
@@ -555,7 +555,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "10",
+                      "text": "9",
                       "emphasized": false
                     },
                     {
@@ -565,7 +565,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "9.8",
+                      "text": "10.9",
                       "emphasized": false
                     },
                     {
@@ -787,7 +787,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "27",
+                      "text": "26",
                       "emphasized": true
                     },
                     {
@@ -797,7 +797,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "7.3",
+                      "text": "7.6",
                       "emphasized": true
                     },
                     {
@@ -5593,6 +5593,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "Westbrooks",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ETHAN WESTBROOKS",
+                    "webUrl": "/usfl/ethan-westbrooks-player",
+                    "color": "0, 112, 46, 62",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Ethan Westbrooks",
+                    "contentUri": "football/usfl/athletes/352",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "352",
+                        "contentUri": "football/usfl/athletes/352"
+                      }
+                    },
+                    "analyticsName": "ethan-westbrooks",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Marino",
                       "emphasized": false
                     },
@@ -5654,74 +5722,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/567.vresize.140.170.medium.79.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Westbrooks",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ETHAN WESTBROOKS",
-                    "webUrl": "/usfl/ethan-westbrooks-player",
-                    "color": "0, 112, 46, 62",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Ethan Westbrooks",
-                    "contentUri": "football/usfl/athletes/352",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "352",
-                        "contentUri": "football/usfl/athletes/352"
-                      }
-                    },
-                    "analyticsName": "ethan-westbrooks",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png"
                   },
                   "isFaded": false
                 },
@@ -6152,7 +6152,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -7960,12 +7960,16 @@
               },
               {
                 "id": "53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Ethan Westbrooks",
                 "title": "3RD AND 5",
                 "subtitle": "NJ43",
-                "playDescription": "D.Johnson scrambles up the middle to NJ 43 for 0 yards. Tackled by E.Westbrooks at NJ 43.",
+                "playDescription": "D.Johnson steps back to pass. D.Johnson sacked at NJ 43 for 0 yards (E.Westbrooks)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:51"
+                "timeOfPlay": "10:51",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/352.vresize.140.170.medium.95.png"
               },
               {
                 "id": "54",
