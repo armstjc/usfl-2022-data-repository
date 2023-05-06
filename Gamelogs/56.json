@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "56",
-    "liveStartTime": "2023-05-06T16:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/56/data",
     "eventStatus": 3,
     "eventTime": "2023-05-06T17:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Houston Gamblers at Philadelphia Stars",
-    "oddsStartTime": "2023-05-06T20:12:37Z",
+    "oddsStartTime": "2023-05-06T20:16:09Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -144,7 +143,7 @@
               {
                 "title": "Time Of Possession",
                 "leftStat": "34:20",
-                "rightStat": "26:46",
+                "rightStat": "25:40",
                 "betterStat": "left"
               },
               {
@@ -161,7 +160,7 @@
               },
               {
                 "title": "Total Yards",
-                "leftStat": "465",
+                "leftStat": "463",
                 "rightStat": "199",
                 "betterStat": "left"
               },
@@ -237,7 +236,7 @@
             "rows": [
               {
                 "title": "Total Yards",
-                "leftStat": "221",
+                "leftStat": "219",
                 "rightStat": "44",
                 "betterStat": "left"
               },
@@ -249,7 +248,7 @@
               },
               {
                 "title": "Yards Per Rush",
-                "leftStat": "6.0",
+                "leftStat": "5.9",
                 "rightStat": "4.0",
                 "betterStat": "left"
               },
@@ -687,12 +686,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "51",
+                      "text": "49",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "5.7",
+                      "text": "5.4",
                       "emphasized": false
                     },
                     {
@@ -861,12 +860,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "221",
+                      "text": "219",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "6.0",
+                      "text": "5.9",
                       "emphasized": true
                     },
                     {
@@ -5239,6 +5238,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "Dublanko",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "7",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOEL DUBLANKO",
+                    "webUrl": "/usfl/joel-dublanko-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/845",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "845",
+                        "contentUri": "football/usfl/athletes/845"
+                      }
+                    },
+                    "analyticsName": "joel-dublanko",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Wiley",
                       "emphasized": false
                     },
@@ -5300,74 +5367,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/59.vresize.140.170.medium.13.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Dublanko",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "6",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0.5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JOEL DUBLANKO",
-                    "webUrl": "/usfl/joel-dublanko-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Default Headshot",
-                    "contentUri": "football/usfl/athletes/845",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "845",
-                        "contentUri": "football/usfl/athletes/845"
-                      }
-                    },
-                    "analyticsName": "joel-dublanko",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
                   },
                   "isFaded": false
                 },
@@ -5453,7 +5452,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "4",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -6468,7 +6467,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "66",
+                      "text": "67",
                       "emphasized": true
                     },
                     {
@@ -9874,7 +9873,7 @@
                 "imageAltText": "Matt Colburn II",
                 "title": "3RD AND 1",
                 "subtitle": "HOU34",
-                "playDescription": "M.Colburn rushed up the middle to HOU 32 for 2 yards. Tackled by M.Bunch, I.Chambers at HOU 32.",
+                "playDescription": "M.Colburn rushed left guard to HOU 32 for 2 yards. Tackled by M.Bunch, I.Chambers at HOU 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "11:42",
@@ -9976,7 +9975,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "1ST AND 10",
                 "subtitle": "HOU12",
-                "playDescription": "S.Jones rushed left guard to HOU 14 for 2 yards. Tackled by G.Sewell; C.Nelson at HOU 14.",
+                "playDescription": "S.Jones rushed up the middle to HOU 14 for 2 yards. Tackled by G.Sewell; C.Nelson at HOU 14.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "9:16",
@@ -10015,7 +10014,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "2ND AND 10",
                 "subtitle": "HOU27",
-                "playDescription": "S.Jones rushed left guard to HOU 32 for 5 yards. Tackled by S.Samuels at HOU 32.",
+                "playDescription": "S.Jones rushed left guard to HOU 32 for 5 yards. Tackled by J.Dublanko, S.Samuels at HOU 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "7:24",
@@ -10028,7 +10027,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "3RD AND 5",
                 "subtitle": "HOU32",
-                "playDescription": "T.Wilson pass short left complete to HOU 31. Catch made by S.Jones at HOU 31. Gain of 7 yards. Tackled by C.Nelson at HOU 39.",
+                "playDescription": "T.Wilson pass short left complete to HOU 30. Catch made by S.Jones at HOU 30. Gain of 7 yards. Tackled by C.Nelson at HOU 39.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "6:46",
@@ -10041,7 +10040,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "1ST AND 10",
                 "subtitle": "HOU39",
-                "playDescription": "S.Jones rushed up the middle to HOU 42 for 3 yards. Tackled by J.Dublanko at HOU 42.",
+                "playDescription": "S.Jones rushed left guard to HOU 42 for 3 yards. Tackled by J.Dublanko at HOU 42.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "6:01",
@@ -10139,7 +10138,7 @@
                 "imageAltText": "Corey Coleman",
                 "title": "1ST AND 10",
                 "subtitle": "PHI18",
-                "playDescription": "C.Cookus pass short left complete to PHI 27. Catch made by C.Coleman at PHI 27. Gain of 9 yards. Tackled by K.Tolson at PHI 27.",
+                "playDescription": "C.Cookus pass short left complete to PHI 28. Catch made by C.Coleman at PHI 28. Gain of 9 yards. Tackled by K.Tolson at PHI 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "4:18",
@@ -10175,7 +10174,7 @@
                 "id": "155",
                 "title": "1ST AND 10",
                 "subtitle": "PHI32",
-                "playDescription": "C.Cookus scrambles up the middle to PHI 45 for 13 yards. Tackled by I.Zuber at PHI 45.",
+                "playDescription": "C.Cookus scrambles left guard to PHI 45 for 13 yards. Tackled by I.Zuber at PHI 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "3:30"
@@ -10187,7 +10186,7 @@
                 "imageAltText": "Samuel Akem",
                 "title": "1ST AND 10",
                 "subtitle": "PHI45",
-                "playDescription": "C.Cookus pass short left complete to PHI 50. Catch made by S.Akem at PHI 50. Gain of 5 yards. Tackled by K.Tolson at PHI 50.",
+                "playDescription": "C.Cookus pass short left complete to PHI 49. Catch made by S.Akem at PHI 49. Gain of 5 yards. Tackled by K.Tolson at PHI 50.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:52",
@@ -10223,7 +10222,7 @@
                 "id": "159",
                 "title": "1ST AND 10",
                 "subtitle": "HOU44",
-                "playDescription": "C.Cookus scrambles left end to HOU 41 for 3 yards. Tackled by K.Tolson at HOU 41.",
+                "playDescription": "C.Cookus scrambles left tackle to HOU 41 for 3 yards. Tackled by K.Tolson at HOU 41.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:03"
@@ -10273,7 +10272,7 @@
                 "playDescription": "C.Cookus pass short right complete to HOU 6. Catch made by D.Overton at HOU 6. Gain of 8 yards. Tackled by D.Rutledge at HOU 7.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:30",
+                "timeOfPlay": "1:20",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png"
               },
               {
@@ -10292,7 +10291,7 @@
                 "imageAltText": "Dexter Williams",
                 "title": "1ST AND 7",
                 "subtitle": "HOU7",
-                "playDescription": "C.Cookus pass short right complete to HOU 7. Catch made by D.Williams at HOU 7. Gain of 7 yards. D.Williams for 7 yards, TOUCHDOWN.",
+                "playDescription": "C.Cookus pass short right complete to HOU 12. Catch made by D.Williams at HOU 12. Gain of 7 yards. D.Williams for 7 yards, TOUCHDOWN.",
                 "leftTeamScore": "41",
                 "rightTeamScore": "16",
                 "leftTeamScoreChange": false,
@@ -10336,7 +10335,7 @@
           {
             "id": "23",
             "title": "DOWNS",
-            "subtitle": "1 plays \u00b7 11 yards \u00b7 1:06",
+            "subtitle": "1 plays \u00b7 11 yards \u00b7 0:00",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Philadelphia Stars",
@@ -10354,7 +10353,7 @@
                 "imageAltText": "Jordan Suell",
                 "title": "4TH AND 12",
                 "subtitle": "PHI33",
-                "playDescription": "Alternative Kickoff. K.Thomson pass short right complete to PHI 33. Catch made by J.Suell at PHI 33. Gain of 11 yards. Tackled by D.Rutledge at PHI 44.",
+                "playDescription": "Alternative Kickoff. K.Thomson pass short right complete to PHI 44. Catch made by J.Suell at PHI 44. Gain of 11 yards. Tackled by D.Rutledge at PHI 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:06",
@@ -10386,7 +10385,7 @@
           {
             "id": "24",
             "title": "END OF GAME",
-            "subtitle": "2 plays \u00b7 -2 yards \u00b7 0:41",
+            "subtitle": "2 plays \u00b7 -4 yards \u00b7 1:06",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Houston Gamblers",
@@ -10401,19 +10400,27 @@
                 "id": "169",
                 "title": "1ST AND 10",
                 "subtitle": "PHI44",
-                "playDescription": "T.Wilson kneels at the PHI 45.",
+                "playDescription": "T.Wilson kneels at the PHI 47.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:06"
               },
               {
                 "id": "170",
-                "title": "2ND AND 12",
-                "subtitle": "PHI46",
-                "playDescription": "T.Wilson kneels at the PHI 47.",
+                "title": "2ND AND 13",
+                "subtitle": "PHI47",
+                "playDescription": "T.Wilson kneels at the PHI 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:29"
+              },
+              {
+                "id": "171",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
