@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "57",
-    "liveStartTime": "2023-05-06T23:00:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/57/data",
     "eventStatus": 3,
     "eventTime": "2023-05-06T23:30:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Memphis Showboats at Michigan Panthers",
-    "oddsStartTime": "2023-05-07T02:34:42Z",
+    "oddsStartTime": "2023-05-07T02:57:45Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -143,8 +142,8 @@
             "rows": [
               {
                 "title": "Time Of Possession",
-                "leftStat": "28:45",
-                "rightStat": "31:03",
+                "leftStat": "28:48",
+                "rightStat": "31:12",
                 "betterStat": "right"
               },
               {
@@ -6507,12 +6506,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "128",
+                      "text": "154",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "18.3",
+                      "text": "22.0",
                       "emphasized": false
                     },
                     {
@@ -6565,12 +6564,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "128",
+                      "text": "154",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "18.3",
+                      "text": "22.0",
                       "emphasized": true
                     },
                     {
@@ -7628,7 +7627,7 @@
           {
             "id": "6",
             "title": "INTERCEPTION",
-            "subtitle": "7 plays \u00b7 49 yards \u00b7 3:06",
+            "subtitle": "7 plays \u00b7 49 yards \u00b7 3:15",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Michigan Panthers",
@@ -9620,7 +9619,7 @@
           {
             "id": "18",
             "title": "DOWNS",
-            "subtitle": "6 plays \u00b7 38 yards \u00b7 2:53",
+            "subtitle": "6 plays \u00b7 38 yards \u00b7 2:56",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Memphis Showboats",
