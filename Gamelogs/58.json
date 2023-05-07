@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "58",
-    "liveStartTime": "2023-05-07T18:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/58/data",
     "eventStatus": 3,
     "eventTime": "2023-05-07T19:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Orleans Breakers at New Jersey Generals",
-    "oddsStartTime": "2023-05-07T22:11:47Z",
+    "oddsStartTime": "2023-05-07T22:24:52Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1529,6 +1528,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "Reed",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JUSTUS REED",
+                    "webUrl": "/usfl/justus-reed-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Justus Reed",
+                    "contentUri": "football/usfl/athletes/645",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "645",
+                        "contentUri": "football/usfl/athletes/645"
+                      }
+                    },
+                    "analyticsName": "justus-reed",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Fernandez",
                       "emphasized": false
                     },
@@ -1801,27 +1868,27 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Howard Jr.",
+                      "text": "Saint-Amour",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "2",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "1",
+                      "text": "0.5",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
@@ -1843,25 +1910,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "REGGIE HOWARD JR.",
-                    "webUrl": "/usfl/reggie-howard-player",
+                    "title": "ANREE SAINT-AMOUR",
+                    "webUrl": "/usfl/anree-saint-amour-player",
                     "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Reggie Howard Jr.",
-                    "contentUri": "football/usfl/athletes/274",
+                    "imageAltText": "Anree Saint-Amour",
+                    "contentUri": "football/usfl/athletes/139",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "274",
-                        "contentUri": "football/usfl/athletes/274"
+                        "id": "139",
+                        "contentUri": "football/usfl/athletes/139"
                       }
                     },
-                    "analyticsName": "reggie-howard",
+                    "analyticsName": "anree-saint-amour",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png"
                   },
                   "isFaded": false
                 },
@@ -1937,7 +2004,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Reed",
+                      "text": "Howard Jr.",
                       "emphasized": false
                     },
                     {
@@ -1952,12 +2019,12 @@
                     },
                     {
                       "index": 3,
-                      "text": "1",
+                      "text": "0.5",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
@@ -1979,25 +2046,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "JUSTUS REED",
-                    "webUrl": "/usfl/justus-reed-player",
+                    "title": "REGGIE HOWARD JR.",
+                    "webUrl": "/usfl/reggie-howard-player",
                     "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Justus Reed",
-                    "contentUri": "football/usfl/athletes/645",
+                    "imageAltText": "Reggie Howard Jr.",
+                    "contentUri": "football/usfl/athletes/274",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "645",
-                        "contentUri": "football/usfl/athletes/645"
+                        "id": "274",
+                        "contentUri": "football/usfl/athletes/274"
                       }
                     },
-                    "analyticsName": "justus-reed",
+                    "analyticsName": "reggie-howard",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png"
                   },
                   "isFaded": false
                 },
@@ -2066,74 +2133,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/818.vresize.140.170.medium.35.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Saint-Amour",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ANREE SAINT-AMOUR",
-                    "webUrl": "/usfl/anree-saint-amour-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Anree Saint-Amour",
-                    "contentUri": "football/usfl/athletes/139",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "139",
-                        "contentUri": "football/usfl/athletes/139"
-                      }
-                    },
-                    "analyticsName": "anree-saint-amour",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png"
                   },
                   "isFaded": false
                 },
@@ -2826,7 +2825,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "46",
+                      "text": "48",
                       "emphasized": true
                     },
                     {
@@ -2841,7 +2840,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "5",
+                      "text": "4",
                       "emphasized": true
                     },
                     {
@@ -4479,7 +4478,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "A Moore",
+                      "text": "Moore",
                       "emphasized": false
                     },
                     {
@@ -5458,7 +5457,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "B Young",
+                      "text": "Young",
                       "emphasized": false
                     },
                     {
@@ -6345,6 +6344,59 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "D Johnson",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DE'ANDRE JOHNSON",
+                    "webUrl": "/usfl/deandre-johnson-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "De'Andre Johnson",
+                    "contentUri": "football/usfl/athletes/192",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "192",
+                        "contentUri": "football/usfl/athletes/192"
+                      }
+                    },
+                    "analyticsName": "deandre-johnson",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "Williams",
                       "emphasized": false
                     },
@@ -6456,7 +6508,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": true
                     },
                     {
@@ -9978,7 +10030,7 @@
           },
           {
             "id": "22",
-            "title": "CURRENT - BALL ON ",
+            "title": "END OF GAME",
             "subtitle": "2 plays \u00b7 9 yards \u00b7 0:36",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
@@ -9997,7 +10049,7 @@
                 "imageAltText": "Reggie Howard Jr.",
                 "title": "1ST AND 10",
                 "subtitle": "NJ8",
-                "playDescription": "D.Johnson steps back to pass. D.Johnson sacked at NJ 5 for -3 yards (R.Howard)",
+                "playDescription": "D.Johnson steps back to pass. D.Johnson sacked at NJ 5 for -3 yards (R.Howard; A.Saint-Amour)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:36",
@@ -10005,25 +10057,37 @@
               },
               {
                 "id": "178",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/324.vresize.140.170.medium.31.png",
                 "imageType": "image-headshot",
-                "imageAltText": "De'Andre Johnson",
+                "imageAltText": "Jarey Elder",
                 "title": "2ND AND 13",
                 "subtitle": "NJ5",
-                "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep right intended for C.Echols-Luper. PENALTY on NO-NO, Defensive Holding, 5 yards, accepted. No Play.",
+                "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep right intended for C.Echols-Luper (A.Thomas). PENALTY on NO-J.Elder, Defensive Holding, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:03",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
+                "timeOfPlay": "0:13",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/324.vresize.140.170.medium.31.png"
               },
               {
                 "id": "180",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png",
+                "imageType": "image-headshot",
+                "imageAltText": "De'Andre Johnson",
                 "title": "1ST AND 10",
                 "subtitle": "NJ10",
-                "playDescription": "D.Johnson scrambles to NJ 17 for 7 yards. Tackled by NO at NJ 17.",
+                "playDescription": "D.Johnson FUMBLES (aborted). Fumble RECOVERED by NJ-D.Johnson at NJ 4. D.Johnson scrambles up the middle to NJ 17 for yards. Tackled by J.Reed at NJ 17.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:06"
+                "timeOfPlay": "0:06",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
+              },
+              {
+                "id": "182",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
