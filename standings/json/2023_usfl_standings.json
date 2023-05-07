@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-07T02:20:42Z",
+      "lastUpdated": "2023-05-07T22:02:25Z",
       "standings": [
         {
           "template": "table-standings",
@@ -113,27 +113,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-1",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".667",
+                  "text": ".500",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "58",
+                  "text": "75",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "43",
+                  "text": "63",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-0",
+                  "text": "0-1",
                   "emphasized": false
                 },
                 {
@@ -148,7 +148,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -528,7 +528,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-0",
+                  "text": "4-0",
                   "emphasized": false
                 },
                 {
@@ -538,12 +538,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "105",
+                  "text": "125",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "77",
+                  "text": "94",
                   "emphasized": false
                 },
                 {
@@ -553,7 +553,7 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -563,7 +563,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W3",
+                  "text": "W4",
                   "emphasized": false
                 }
               ],
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-07T02:20:42Z",
+      "lastUpdated": "2023-05-07T22:02:25Z",
       "standings": [
         {
           "template": "table-standings",
@@ -951,7 +951,7 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-0",
+                  "text": "4-0",
                   "emphasized": false
                 },
                 {
@@ -961,12 +961,12 @@
                 },
                 {
                   "index": 4,
-                  "text": "105",
+                  "text": "125",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "77",
+                  "text": "94",
                   "emphasized": false
                 },
                 {
@@ -976,7 +976,7 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
@@ -986,7 +986,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W3",
+                  "text": "W4",
                   "emphasized": false
                 }
               ],
@@ -1009,87 +1009,6 @@
                   }
                 },
                 "analyticsName": "new-orleans-breakers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".667",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "58",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "43",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W2",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
-                  }
-                },
-                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1171,6 +1090,87 @@
                   }
                 },
                 "analyticsName": "birmingham-stallions",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "75",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "63",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
