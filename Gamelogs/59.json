@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "59",
-    "liveStartTime": "2023-05-07T22:00:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/59/data",
     "eventStatus": 3,
     "eventTime": "2023-05-07T22:30:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Birmingham Stallions at Pittsburgh Maulers",
-    "oddsStartTime": "2023-05-08T01:45:29Z",
+    "oddsStartTime": "2023-05-08T13:05:14Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -197,19 +196,19 @@
               {
                 "title": "Total Yards",
                 "leftStat": "157",
-                "rightStat": "205",
+                "rightStat": "212",
                 "betterStat": "right"
               },
               {
                 "title": "Completions",
                 "leftStat": "17",
-                "rightStat": "20",
+                "rightStat": "21",
                 "betterStat": "right"
               },
               {
                 "title": "Passing Attempts",
                 "leftStat": "29",
-                "rightStat": "32",
+                "rightStat": "33",
                 "betterStat": "right"
               },
               {
@@ -238,13 +237,13 @@
               {
                 "title": "Total Yards",
                 "leftStat": "124",
-                "rightStat": "106",
+                "rightStat": "99",
                 "betterStat": "left"
               },
               {
                 "title": "Attempts",
                 "leftStat": "30",
-                "rightStat": "16",
+                "rightStat": "15",
                 "betterStat": "left"
               },
               {
@@ -561,12 +560,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "47",
+                      "text": "48",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "4.7",
+                      "text": "4.8",
                       "emphasized": false
                     },
                     {
@@ -619,12 +618,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "42",
+                      "text": "41",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "4.2",
+                      "text": "4.1",
                       "emphasized": false
                     },
                     {
@@ -1544,7 +1543,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -2000,7 +1999,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "R Smith",
+                      "text": "Smith",
                       "emphasized": false
                     },
                     {
@@ -2972,7 +2971,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": true
                     },
                     {
@@ -3920,22 +3919,22 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "20/32",
+                      "text": "21/33",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "62.5",
+                      "text": "63.6",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "210",
+                      "text": "217",
                       "emphasized": false
                     },
                     {
@@ -3955,7 +3954,7 @@
                     },
                     {
                       "index": 7,
-                      "text": "81.5",
+                      "text": "82.5",
                       "emphasized": false
                     }
                   ],
@@ -3993,17 +3992,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "20/32",
+                      "text": "21/33",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "62.5",
+                      "text": "63.6",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "210",
+                      "text": "217",
                       "emphasized": true
                     },
                     {
@@ -4097,7 +4096,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "Williams",
                       "emphasized": false
                     },
                     {
@@ -4271,64 +4270,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Gaither",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "7",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "7.0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "7",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "BAILEY GAITHER",
-                    "webUrl": "/usfl/bailey-gaither-player",
-                    "color": "0, 0, 0, 0",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/227.vresize.140.170.medium.38.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Bailey Gaither",
-                    "contentUri": "football/usfl/athletes/227",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "227",
-                        "contentUri": "football/usfl/athletes/227"
-                      }
-                    },
-                    "analyticsName": "bailey-gaither",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/227.vresize.140.170.medium.38.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "London",
                       "emphasized": false
                     },
@@ -4392,12 +4333,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "16",
+                      "text": "15",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "106",
+                      "text": "99",
                       "emphasized": true
                     },
                     {
@@ -4504,12 +4445,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "62",
+                      "text": "69",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "10.3",
+                      "text": "11.5",
                       "emphasized": false
                     },
                     {
@@ -4562,7 +4503,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
@@ -4572,7 +4513,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "14.3",
+                      "text": "10.8",
                       "emphasized": false
                     },
                     {
@@ -4587,7 +4528,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "6",
+                      "text": "7",
                       "emphasized": false
                     }
                   ],
@@ -5003,17 +4944,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "20",
+                      "text": "21",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "210",
+                      "text": "217",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "10.5",
+                      "text": "10.3",
                       "emphasized": true
                     },
                     {
@@ -5028,7 +4969,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "32",
+                      "text": "33",
                       "emphasized": true
                     }
                   ],
@@ -5128,7 +5069,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "5",
+                      "text": "6",
                       "emphasized": false
                     },
                     {
@@ -5138,7 +5079,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -5259,7 +5200,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "8",
+                      "text": "7",
                       "emphasized": false
                     },
                     {
@@ -6347,12 +6288,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "67",
+                      "text": "66",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "28",
+                      "text": "29",
                       "emphasized": true
                     },
                     {
@@ -6362,7 +6303,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
@@ -8734,16 +8675,16 @@
               },
               {
                 "id": "109",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/227.vresize.140.170.medium.38.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/439.vresize.140.170.medium.47.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Bailey Gaither",
+                "imageAltText": "Isiah Hennie",
                 "title": "2ND AND 12",
                 "subtitle": "PIT49",
-                "playDescription": "B.Gaither rushed left tackle to BHAM 44 for 7 yards. Tackled by T.Robinson, T.Carter at BHAM 44.",
+                "playDescription": "T.Williams pass short middle complete to PIT 46. Catch made by I.Hennie at PIT 46. Gain of -6 yards. Lateral to B.Gaither to BHAM 44 for yards. Tackled by T.Robinson, T.Carter at BHAM 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "6:58",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/227.vresize.140.170.medium.38.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/439.vresize.140.170.medium.47.png"
               },
               {
                 "id": "110",
@@ -9444,7 +9385,7 @@
           {
             "id": "17",
             "title": "END OF GAME",
-            "subtitle": "10 plays \u00b7 20 yards \u00b7 4:23",
+            "subtitle": "10 plays \u00b7 20 yards \u00b7 4:42",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Birmingham Stallions",
@@ -9501,7 +9442,7 @@
                 "imageAltText": "CJ Marable",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM47",
-                "playDescription": "C.Marable rushed up the middle to BHAM 43 for -4 yards. Tackled by K.Tezino; A.Tarpley at BHAM 43.",
+                "playDescription": "C.Marable rushed up the middle to BHAM 43 for -4 yards. Tackled by K.Tezino at BHAM 43.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:56",
@@ -9509,6 +9450,15 @@
               },
               {
                 "id": "155",
+                "title": "2ND AND 14",
+                "subtitle": "BHAM43",
+                "playDescription": "Timeout #2 by PIT.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "2:51"
+              },
+              {
+                "id": "156",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
                 "imageType": "image-headshot",
                 "imageAltText": "CJ Marable",
@@ -9521,7 +9471,16 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
-                "id": "156",
+                "id": "157",
+                "title": "3RD AND 10",
+                "subtitle": "BHAM47",
+                "playDescription": "Timeout #3 by PIT.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "2:43"
+              },
+              {
+                "id": "158",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/592.vresize.140.170.medium.51.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Austin Watkins",
@@ -9534,7 +9493,25 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/592.vresize.140.170.medium.51.png"
               },
               {
-                "id": "157",
+                "id": "159",
+                "title": "4TH AND 1",
+                "subtitle": "PIT44",
+                "playDescription": "Two minute warning.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "2:00"
+              },
+              {
+                "id": "160",
+                "title": "4TH AND 1",
+                "subtitle": "PIT44",
+                "playDescription": "Timeout #1 by BHAM.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "2:00"
+              },
+              {
+                "id": "161",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Alex McGough",
@@ -9547,35 +9524,52 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
               },
               {
-                "id": "158",
+                "id": "162",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/667.vresize.140.170.medium.16.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Zaquandre White",
                 "title": "1ST AND 10",
                 "subtitle": "PIT43",
-                "playDescription": "Z.White rushed right guard to PIT 42 for 1 yards. Tackled by K.Tezino at PIT 42.",
+                "playDescription": "Z.White rushed right guard to PIT 43 for 0 yards. Tackled by K.Tezino at PIT 43.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:47",
+                "timeOfPlay": "1:41",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/667.vresize.140.170.medium.16.png"
               },
               {
-                "id": "159",
-                "title": "2ND AND 9",
-                "subtitle": "PIT42",
+                "id": "163",
+                "title": "2ND AND 10",
+                "subtitle": "PIT43",
+                "playDescription": "Timeout #2 by BHAM.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:58"
+              },
+              {
+                "id": "164",
+                "title": "2ND AND 10",
+                "subtitle": "PIT43",
                 "playDescription": "A.McGough kneels at the PIT 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:58"
               },
               {
-                "id": "160",
+                "id": "165",
                 "title": "3RD AND 11",
                 "subtitle": "PIT44",
                 "playDescription": "A.McGough kneels at the PIT 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:21"
+                "timeOfPlay": "0:19"
+              },
+              {
+                "id": "166",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
@@ -10391,30 +10385,6 @@
         "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
       }
     ]
-  },
-  "favoriteCta": {
-    "title": "FOLLOW",
-    "text": "Follow a team and personalize your FOX Sports experience",
-    "leftEntity": {
-      "text": "BHAM",
-      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
-      "imageType": "image-logo",
-      "imageAltText": "Birmingham Stallions",
-      "contentUri": "football/usfl/teams/2",
-      "contentType": "team",
-      "name": "Birmingham Stallions",
-      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
-    },
-    "rightEntity": {
-      "text": "PIT",
-      "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-      "imageType": "image-logo",
-      "imageAltText": "Pittsburgh Maulers",
-      "contentUri": "football/usfl/teams/16",
-      "contentType": "team",
-      "name": "Pittsburgh Maulers",
-      "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-    }
   },
   "trackingData": {
     "contentEntityUri": "team:football/usfl/teams/2,team:football/usfl/teams/16"
