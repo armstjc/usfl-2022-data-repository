@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-13T20:00:27Z",
+      "lastUpdated": "2023-05-13T23:05:50Z",
       "standings": [
         {
           "template": "table-standings",
@@ -600,87 +600,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Stallions",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Birmingham Stallions",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "3-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".750",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "124",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "77",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "1-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "BIRMINGHAM STALLIONS",
-                "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Birmingham Stallions",
-                "contentUri": "football/usfl/teams/2",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "2",
-                    "contentUri": "football/usfl/teams/2"
-                  }
-                },
-                "analyticsName": "birmingham-stallions",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Gamblers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -690,22 +609,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-2",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".500",
+                  "text": ".600",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "115",
+                  "text": "142",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "109",
+                  "text": "129",
                   "emphasized": false
                 },
                 {
@@ -715,17 +634,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-1",
+                  "text": "2-1",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "1-1",
+                  "text": "2-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "W3",
                   "emphasized": false
                 }
               ],
@@ -748,6 +667,87 @@
                   }
                 },
                 "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Stallions",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Birmingham Stallions",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".600",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "144",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "104",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "1-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "BIRMINGHAM STALLIONS",
+                "webUrl": "/usfl/birmingham-stallions-team",
+                "color": "0, 163, 32, 53",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Birmingham Stallions",
+                "contentUri": "football/usfl/teams/2",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "2",
+                    "contentUri": "football/usfl/teams/2"
+                  }
+                },
+                "analyticsName": "birmingham-stallions",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-13T20:00:27Z",
+      "lastUpdated": "2023-05-13T23:05:50Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1023,6 +1023,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".600",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "142",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "129",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W3",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "2",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stallions",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1032,27 +1113,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-1",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".750",
+                  "text": ".600",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "124",
+                  "text": "144",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "77",
+                  "text": "104",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "2-1",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
@@ -1062,12 +1143,12 @@
                 },
                 {
                   "index": 8,
-                  "text": "1-1",
+                  "text": "1-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -1171,87 +1252,6 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".500",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "115",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "109",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "1-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "1-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W2",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
