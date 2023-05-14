@@ -499,6 +499,8 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                       'TD': 'PASS_TD', 'INT': 'PASS_INT', 'QBR': 'NFL_QBR'}, inplace=True)
     passing_df['NFL_QBR'] = passing_df['NFL_QBR'].replace(['-'], None)
     passing_df[['COMP', 'ATT', 'COMP%', 'PASS_YDS', 'YPA', 'PASS_TD', 'PASS_INT', 'NFL_QBR']] = passing_df[[
+        'COMP', 'ATT', 'COMP%', 'PASS_YDS', 'YPA', 'PASS_TD', 'PASS_INT', 'NFL_QBR']].replace('-', '0')
+    passing_df[['COMP', 'ATT', 'COMP%', 'PASS_YDS', 'YPA', 'PASS_TD', 'PASS_INT', 'NFL_QBR']] = passing_df[[
         'COMP', 'ATT', 'COMP%', 'PASS_YDS', 'YPA', 'PASS_TD', 'PASS_INT', 'NFL_QBR']].apply(pd.to_numeric)
     passing_df['COMP%'] = (passing_df['COMP'] / passing_df['ATT']) * 100
     passing_df['YPA'] = (passing_df['PASS_YDS']/passing_df['ATT'])
@@ -513,6 +515,8 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     rush_df.rename(columns={'ATT': 'RUSH', 'YDS': 'RUSH_YDS',
                    'AVG': 'RUSH_AVG', 'TD': 'RUSH_TD', 'LNG': 'RUSH_LONG'}, inplace=True)
     rush_df[['RUSH', 'RUSH_YDS', 'RUSH_AVG', 'RUSH_TD', 'RUSH_LONG']] = rush_df[[
+        'RUSH', 'RUSH_YDS', 'RUSH_AVG', 'RUSH_TD', 'RUSH_LONG']].replace('-', '0')
+    rush_df[['RUSH', 'RUSH_YDS', 'RUSH_AVG', 'RUSH_TD', 'RUSH_LONG']] = rush_df[[
         'RUSH', 'RUSH_YDS', 'RUSH_AVG', 'RUSH_TD', 'RUSH_LONG']].apply(pd.to_numeric)
     rush_df['RUSH_AVG'] = (rush_df['RUSH_YDS']/rush_df['RUSH'])
     rush_df = rush_df.reindex(columns=rush_column_names)
@@ -525,6 +529,8 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     receiving_df.rename(columns={'TGT': 'REC_TARGETS', 'YDS': 'REC_YDS',
                         'AVG': 'REC_AVG', 'TD': 'REC_TD', 'LNG': 'REC_LONG'}, inplace=True)
     receiving_df['REC_AVG'] = receiving_df['REC_AVG'].replace(['-'], None)
+    receiving_df[['REC_TARGETS', 'REC', 'REC_YDS', 'REC_AVG', 'REC_TD', 'REC_LONG']] = receiving_df[[
+        'REC_TARGETS', 'REC', 'REC_YDS', 'REC_AVG', 'REC_TD', 'REC_LONG']].replace('-', '0')
     receiving_df[['REC_TARGETS', 'REC', 'REC_YDS', 'REC_AVG', 'REC_TD', 'REC_LONG']] = receiving_df[[
         'REC_TARGETS', 'REC', 'REC_YDS', 'REC_AVG', 'REC_TD', 'REC_LONG']].apply(pd.to_numeric)
     receiving_df['REC_AVG'] = (receiving_df['REC_YDS']/receiving_df['REC'])
@@ -540,8 +546,12 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                         'analytics_id', 'player_id', 'player_image', 'player_name', 'FUMBLES', 'FUMBLES_LOST', 'FF', 'FR']
     fumbles_df.rename(
         columns={'FUM': 'FUMBLES', 'LST': 'FUMBLES_LOST', 'REC': 'FR'}, inplace=True)
-    # fumbles_df[['FUMBLES','FUMBLES LOST','FF','FR']] = fumbles_df[['FUMBLES','FUMBLES LOST','FF','FR']].apply(pd.to_numeric)
     fumbles_df = fumbles_df.reindex(columns=fum_column_names)
+    fumbles_df[['FUMBLES', 'FUMBLES_LOST', 'FF', 'FR']] = fumbles_df[[
+        'FUMBLES', 'FUMBLES_LOST', 'FF', 'FR']].replace('-', '0')
+    fumbles_df[['FUMBLES', 'FUMBLES_LOST', 'FF', 'FR']] = fumbles_df[[
+        'FUMBLES', 'FUMBLES_LOST', 'FF', 'FR']].apply(pd.to_numeric)
+    # fumbles_df = fumbles_df.reindex(columns=fum_column_names)
     # fumbles_df.to_csv('test_fum.csv',index=False)
 
     # Defense
@@ -550,6 +560,9 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                         'analytics_id', 'player_id', 'player_image', 'player_name', 'TOTAL', 'SOLO', 'AST', 'TFL', 'SACKS', 'INT', 'PD', 'DEF_TD']
     defensive_df.rename(columns={
                         'TCK': 'TOTAL', 'SOL': 'SOLO', 'SCK': 'SACKS', 'TD': 'DEF_TD'}, inplace=True)
+    defensive_df[['TOTAL', 'SOLO', 'TFL', 'SACKS', 'INT', 'PD', 'DEF_TD']] = defensive_df[[
+        'TOTAL', 'SOLO', 'TFL', 'SACKS', 'INT', 'PD', 'DEF_TD']].replace('-', '0')
+
     defensive_df[['TOTAL', 'SOLO', 'TFL', 'SACKS', 'INT', 'PD', 'DEF_TD']] = defensive_df[[
         'TOTAL', 'SOLO', 'TFL', 'SACKS', 'INT', 'PD', 'DEF_TD']].apply(pd.to_numeric)
     defensive_df['AST'] = defensive_df['TOTAL'] - defensive_df['SOLO']
@@ -560,6 +573,8 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     kicking_df = kicking_df.drop_duplicates()
     kicking_column_names = ['season', 'game_id', 'game_date', 'team', 'team_nickname', 'loc', 'opponent', 'opponent_nickname',
                             'analytics_id', 'player_id', 'player_image', 'player_name', 'FGM', 'FGA', 'FG%', 'FG_LONG', 'XPM', 'XPA', 'XP%']
+    # kicking_df = kicking_df.reindex(columns=kicking_column_names)
+
     kicking_df.drop(['PTS', 'PCT'], axis=1, inplace=True)
     kicking_df[['FGM', 'FGA']] = kicking_df['FG'].str.split('/', expand=True)
     kicking_df.drop(['FG'], axis=1, inplace=True)
@@ -568,11 +583,14 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     kicking_df.drop(['XP'], axis=1, inplace=True)
     kicking_df.rename(columns={'LNG': 'FG_LONG'}, inplace=True)
     kicking_df['FG_LONG'] = kicking_df['FG_LONG'].replace(['-'], None)
+
+    kicking_df[['FGM', 'FGA', 'FG_LONG', 'XPM', 'XPA']] = kicking_df[[
+        'FGM', 'FGA', 'FG_LONG', 'XPM', 'XPA']].replace('-', '0')
+
     kicking_df[['FGM', 'FGA', 'XPM', 'XPA']] = kicking_df[[
         'FGM', 'FGA', 'XPM', 'XPA']].apply(pd.to_numeric)
     kicking_df['FG%'] = kicking_df['FGM']/kicking_df['FGA']
     kicking_df['XP%'] = kicking_df['XPM']/kicking_df['XPA']
-    kicking_df = kicking_df.reindex(columns=kicking_column_names)
     # kicking_df.to_csv('test_kick.csv',index=False)
 
     # Punting
@@ -597,6 +615,9 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     kick_return_df.rename(columns={'RET': 'KR', 'YDS': 'KR_YDS',
                           'AVG': 'KR_AVG', 'LNG': 'KR_LONG', 'TD': 'KR_TD'}, inplace=True)
     kick_return_df[['KR', 'KR_YDS', 'KR_AVG', 'KR_TD', 'KR_LONG']] = kick_return_df[[
+        'KR', 'KR_YDS', 'KR_AVG', 'KR_TD', 'KR_LONG']].replace('-', '0')
+
+    kick_return_df[['KR', 'KR_YDS', 'KR_AVG', 'KR_TD', 'KR_LONG']] = kick_return_df[[
         'KR', 'KR_YDS', 'KR_AVG', 'KR_TD', 'KR_LONG']].apply(pd.to_numeric)
     kick_return_df['KR_AVG'] = kick_return_df['KR_YDS']/kick_return_df['KR']
     kick_return_df = kick_return_df.reindex(columns=kr_column_names)
@@ -610,6 +631,9 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                           'AVG': 'PR_AVG', 'LNG': 'PR_LONG', 'TD': 'PR_TD'}, inplace=True)
     punt_return_df['PR_LONG'] = punt_return_df['PR_LONG'].replace(['-'], None)
     punt_return_df['PR_AVG'] = punt_return_df['PR_AVG'].replace(['-'], None)
+    punt_return_df[['PR', 'PR_YDS', 'PR_AVG', 'PR_TD', 'PR_LONG']] = punt_return_df[[
+        'PR', 'PR_YDS', 'PR_AVG', 'PR_TD', 'PR_LONG']].replace('-', '0')
+
     punt_return_df[['PR', 'PR_YDS', 'PR_AVG', 'PR_TD', 'PR_LONG']] = punt_return_df[[
         'PR', 'PR_YDS', 'PR_AVG', 'PR_TD', 'PR_LONG']].apply(pd.to_numeric)
     punt_return_df['PR_AVG'] = (punt_return_df['PR_YDS']/punt_return_df['PR'])
