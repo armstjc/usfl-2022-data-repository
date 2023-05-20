@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-14T21:50:50Z",
+      "lastUpdated": "2023-05-20T19:23:53Z",
       "standings": [
         {
           "template": "table-standings",
@@ -185,87 +185,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".400",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "82",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "86",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -342,7 +261,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "4",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -414,6 +333,87 @@
                   }
                 },
                 "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-4",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".333",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "82",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "108",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -771,17 +771,17 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-3",
+                  "text": "3-3",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".400",
+                  "text": ".500",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "97",
+                  "text": "119",
                   "emphasized": false
                 },
                 {
@@ -791,7 +791,7 @@
                 },
                 {
                   "index": 6,
-                  "text": "0-1",
+                  "text": "1-1",
                   "emphasized": false
                 },
                 {
@@ -806,7 +806,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "W3",
                   "emphasized": false
                 }
               ],
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-14T21:50:50Z",
+      "lastUpdated": "2023-05-20T19:23:53Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1185,6 +1185,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Showboats",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Memphis Showboats",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "3-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "119",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "119",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "1-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W3",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "MEMPHIS SHOWBOATS",
+                "webUrl": "/usfl/memphis-showboats-team",
+                "color": "0, 18, 40, 76",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Memphis Showboats",
+                "contentUri": "football/usfl/teams/20",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "20",
+                    "contentUri": "football/usfl/teams/20"
+                  }
+                },
+                "analyticsName": "memphis-showboats",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Generals",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1261,88 +1342,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".400",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "82",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "86",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -1423,7 +1423,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -1504,41 +1504,41 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
+                  "text": "5",
                   "emphasized": false
                 },
                 {
                   "index": 1,
-                  "text": "Showboats",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                   "imageType": "image-logo",
-                  "imageAltText": "Memphis Showboats",
+                  "imageAltText": "Pittsburgh Maulers",
                   "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png"
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
                 },
                 {
                   "index": 2,
-                  "text": "2-3",
+                  "text": "2-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".400",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "97",
+                  "text": "82",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "119",
+                  "text": "108",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-1",
+                  "text": "0-2",
                   "emphasized": false
                 },
                 {
@@ -1548,34 +1548,34 @@
                 },
                 {
                   "index": 8,
-                  "text": "1-2",
+                  "text": "2-1",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
               "isCutoff": false,
               "selected": false,
               "entityLink": {
-                "title": "MEMPHIS SHOWBOATS",
-                "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                 "imageType": "image-logo",
-                "imageAltText": "Memphis Showboats",
-                "contentUri": "football/usfl/teams/20",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
                 "contentType": "team",
                 "layout": {
                   "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
                   "tokens": {
-                    "id": "20",
-                    "contentUri": "football/usfl/teams/20"
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
                   }
                 },
-                "analyticsName": "memphis-showboats",
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
