@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "66",
-    "liveStartTime": "2023-05-21T15:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/66/data",
     "eventStatus": 3,
     "eventTime": "2023-05-21T16:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Orleans Breakers at Philadelphia Stars",
-    "oddsStartTime": "2023-05-21T19:09:58Z",
+    "oddsStartTime": "2023-05-21T19:29:39Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -143,7 +142,7 @@
             "rows": [
               {
                 "title": "Time Of Possession",
-                "leftStat": "32:05",
+                "leftStat": "32:16",
                 "rightStat": "27:44",
                 "betterStat": "left"
               },
@@ -1481,6 +1480,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Reed",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JUSTUS REED",
+                    "webUrl": "/usfl/justus-reed-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Justus Reed",
+                    "contentUri": "football/usfl/athletes/645",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "645",
+                        "contentUri": "football/usfl/athletes/645"
+                      }
+                    },
+                    "analyticsName": "justus-reed",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "D. Rakestraw",
                       "emphasized": false
                     },
@@ -1542,74 +1609,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/679.vresize.140.170.medium.77.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "J. Reed",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JUSTUS REED",
-                    "webUrl": "/usfl/justus-reed-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Justus Reed",
-                    "contentUri": "football/usfl/athletes/645",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "645",
-                        "contentUri": "football/usfl/athletes/645"
-                      }
-                    },
-                    "analyticsName": "justus-reed",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/645.vresize.140.170.medium.97.png"
                   },
                   "isFaded": false
                 },
@@ -2443,7 +2442,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "31",
+                      "text": "32",
                       "emphasized": true
                     },
                     {
@@ -2453,7 +2452,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": true
                     },
                     {
@@ -4513,7 +4512,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C Brown",
+                      "text": "C. Brown",
                       "emphasized": false
                     },
                     {
@@ -4543,7 +4542,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
@@ -4785,7 +4784,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C Taylor",
+                      "text": "C. Taylor",
                       "emphasized": false
                     },
                     {
@@ -5767,7 +5766,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "6",
+                      "text": "7",
                       "emphasized": true
                     },
                     {
@@ -7853,7 +7852,7 @@
           {
             "id": "8",
             "title": "END OF HALF",
-            "subtitle": "1 plays \u00b7 4 yards \u00b7 0:11",
+            "subtitle": "1 plays \u00b7 4 yards \u00b7 0:22",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "New Orleans Breakers",
@@ -8718,7 +8717,7 @@
                 "imageAltText": "Chris Nelson",
                 "title": "3RD AND 6",
                 "subtitle": "NO45",
-                "playDescription": "M.Bethel-Thompson pass deep middle INTERCEPTED at NO 34. Intercepted by L.Wiley at NO 34. Tackled by J.Adams at NO 40. PENALTY on PHI-C.Nelson, Unnecessary Roughness / Defense, 15 yards, accepted.",
+                "playDescription": "M.Bethel-Thompson pass deep middle INTERCEPTED at PHI 34. Intercepted by L.Wiley at PHI 34. Tackled by J.Adams at PHI 40. PENALTY on PHI-C.Nelson, Unnecessary Roughness / Defense, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "9:06",
@@ -8868,7 +8867,7 @@
                 "imageAltText": "Diondre Overton",
                 "title": "3RD AND 1",
                 "subtitle": "NO1",
-                "playDescription": "C.Cookus pass short left complete to NO 1. Catch made by M.Colburn at NO 1. Gain of yards. M.Colburn for yards, TOUCHDOWN. PENALTY on PHI-D.Overton, Offensive Pass Interference, 10 yards, accepted. No Play.",
+                "playDescription": "C.Cookus pass short left complete to NO End Zone. Catch made by M.Colburn at NO End Zone. Gain of yards. M.Colburn for yards, TOUCHDOWN. PENALTY on PHI-D.Overton, Offensive Pass Interference, 10 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "4:13",
@@ -8952,7 +8951,7 @@
           {
             "id": "16",
             "title": "DOWNS",
-            "subtitle": "6 plays \u00b7 4 yards \u00b7 2:15",
+            "subtitle": "6 plays \u00b7 19 yards \u00b7 2:15",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "New Orleans Breakers",
@@ -8970,7 +8969,7 @@
                 "imageAltText": "Zakoby McClain",
                 "title": "KICKOFF",
                 "subtitle": "PHI20",
-                "playDescription": "L.Hajrullahu kicks 66 yards from PHI 20 to the NO 14. E.Stove returns the kickoff. Pushed out of bounds by B.Bello at NO 37. PENALTY on NO-Z.McClain, Illegal Block Above the Waist, 10 yards, accepted.",
+                "playDescription": "L.Hajrullahu kicks 66 yards from PHI 20 to the NO 14. E.Stove returns the kickoff. Pushed out of bounds by B.Bello at NO 50. PENALTY on NO-Z.McClain, Illegal Block Above the Waist, 10 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "3:12",
@@ -9092,14 +9091,14 @@
                 "imageAltText": "McLeod Bethel-Thompson",
                 "title": "4TH AND 13",
                 "subtitle": "NO46",
-                "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete deep left intended for L.Morris. PENALTY on NO-NO, Unsportsmanlike Conduct / Offense, 15 yards, accepted.",
+                "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete deep left intended for L.Morris.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:02",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png"
               },
               {
-                "id": "177",
+                "id": "176",
                 "title": "1ST AND 10",
                 "subtitle": "NO46",
                 "playDescription": "PENALTY on NO-NO, Unsportsmanlike Conduct / Defense, 15 yards, accepted.",
@@ -9145,7 +9144,7 @@
             "rightTeamAbbr": "PHI",
             "plays": [
               {
-                "id": "179",
+                "id": "178",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Matt Colburn II",
@@ -9158,7 +9157,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
               },
               {
-                "id": "180",
+                "id": "179",
                 "title": "2ND AND 8",
                 "subtitle": "NO29",
                 "playDescription": "Timeout #2 by NO.",
@@ -9167,20 +9166,20 @@
                 "timeOfPlay": "0:53"
               },
               {
-                "id": "181",
+                "id": "180",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Matt Colburn II",
                 "title": "2ND AND 8",
                 "subtitle": "NO29",
-                "playDescription": "M.Colburn rushed left guard to NO 32 for -3 yards. Tackled by J.Reed; J.Fernandez at NO 32.",
+                "playDescription": "M.Colburn rushed left guard to NO 32 for -3 yards. Tackled by J.Reed, J.Fernandez at NO 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:53",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
               },
               {
-                "id": "182",
+                "id": "181",
                 "title": "3RD AND 11",
                 "subtitle": "NO32",
                 "playDescription": "Timeout #3 by NO.",
@@ -9189,7 +9188,7 @@
                 "timeOfPlay": "0:49"
               },
               {
-                "id": "183",
+                "id": "182",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Matt Colburn II",
@@ -9202,7 +9201,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
               },
               {
-                "id": "184",
+                "id": "183",
                 "title": "4TH AND 5",
                 "subtitle": "NO26",
                 "playDescription": "Timeout #1 by PHI.",
@@ -9211,7 +9210,7 @@
                 "timeOfPlay": "0:08"
               },
               {
-                "id": "185",
+                "id": "184",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Luis Aguilar",
@@ -9248,7 +9247,7 @@
           },
           {
             "id": "18",
-            "title": "CURRENT - BALL ON ",
+            "title": "END OF GAME",
             "subtitle": "1 plays \u00b7 0 yards \u00b7 0:03",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
@@ -9261,17 +9260,25 @@
             "rightTeamAbbr": "PHI",
             "plays": [
               {
-                "id": "186",
+                "id": "185",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png",
                 "imageType": "image-headshot",
                 "imageAltText": "McLeod Bethel-Thompson",
                 "title": "1ST AND 10",
                 "subtitle": "NO34",
-                "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete intended for L.Morris.",
+                "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete deep middle intended for L.Morris (C.Brown).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:03",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png"
+              },
+              {
+                "id": "186",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
