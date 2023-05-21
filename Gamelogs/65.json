@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "65",
-    "liveStartTime": "2023-05-20T19:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/65/data",
     "eventStatus": 3,
     "eventTime": "2023-05-20T20:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Birmingham Stallions at Michigan Panthers",
-    "oddsStartTime": "2023-05-20T23:12:24Z",
+    "oddsStartTime": "2023-05-21T00:24:46Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1084,7 +1083,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Jo Johnson",
+                      "text": "J. Johnson",
                       "emphasized": false
                     },
                     {
@@ -4270,7 +4269,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Jo Walker",
+                      "text": "J. Walker",
                       "emphasized": false
                     },
                     {
@@ -5307,6 +5306,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Milan",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JAMAL MILAN",
+                    "webUrl": "/usfl/jamal-milan-player",
+                    "color": "0, 112, 46, 62",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/554.vresize.140.170.medium.70.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Jamal Milan",
+                    "contentUri": "football/usfl/athletes/554",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "554",
+                        "contentUri": "football/usfl/athletes/554"
+                      }
+                    },
+                    "analyticsName": "jamal-milan",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/554.vresize.140.170.medium.70.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "T Williams",
                       "emphasized": false
                     },
@@ -5504,74 +5571,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/332.vresize.140.170.medium.86.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "J. Milan",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JAMAL MILAN",
-                    "webUrl": "/usfl/jamal-milan-player",
-                    "color": "0, 112, 46, 62",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/554.vresize.140.170.medium.70.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Jamal Milan",
-                    "contentUri": "football/usfl/athletes/554",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "554",
-                        "contentUri": "football/usfl/athletes/554"
-                      }
-                    },
-                    "analyticsName": "jamal-milan",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/554.vresize.140.170.medium.70.png"
                   },
                   "isFaded": false
                 },
@@ -5856,7 +5855,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "68",
+                      "text": "69",
                       "emphasized": true
                     },
                     {
@@ -5952,7 +5951,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Jo Walker",
+                      "text": "J. Walker",
                       "emphasized": false
                     },
                     {
@@ -9454,7 +9453,7 @@
           {
             "id": "16",
             "title": "END OF GAME",
-            "subtitle": "5 plays \u00b7 7 yards \u00b7 1:26",
+            "subtitle": "5 plays \u00b7 7 yards \u00b7 1:37",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Birmingham Stallions",
@@ -9480,6 +9479,15 @@
               },
               {
                 "id": "168",
+                "title": "2ND AND 4",
+                "subtitle": "BHAM44",
+                "playDescription": "Timeout #2 by MICH.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "1:29"
+              },
+              {
+                "id": "169",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
                 "imageType": "image-headshot",
                 "imageAltText": "CJ Marable",
@@ -9492,7 +9500,16 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
-                "id": "169",
+                "id": "170",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM48",
+                "playDescription": "Timeout #3 by MICH.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "1:23"
+              },
+              {
+                "id": "171",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM48",
                 "playDescription": "A.McGough kneels at the BHAM 47.",
@@ -9501,7 +9518,7 @@
                 "timeOfPlay": "1:23"
               },
               {
-                "id": "170",
+                "id": "172",
                 "title": "2ND AND 11",
                 "subtitle": "BHAM47",
                 "playDescription": "A.McGough kneels at the BHAM 46.",
@@ -9510,13 +9527,21 @@
                 "timeOfPlay": "0:47"
               },
               {
-                "id": "171",
+                "id": "173",
                 "title": "3RD AND 12",
                 "subtitle": "BHAM46",
                 "playDescription": "A.McGough kneels at the BHAM 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:17"
+              },
+              {
+                "id": "174",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
