@@ -834,7 +834,7 @@ def main():
     get_usfl_schedule(json_list, True)
 
     get_usfl_standings(2023, key, True)
-    get_usfl_rosters(2023, key, 6, True)
+    get_usfl_rosters(2023, key, 7, True)
 
 
 if __name__ == "__main__":
