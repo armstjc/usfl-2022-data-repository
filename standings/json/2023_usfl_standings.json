@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-27T23:30:21Z",
+      "lastUpdated": "2023-05-28T04:11:49Z",
       "standings": [
         {
           "template": "table-standings",
@@ -113,22 +113,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-3",
+                  "text": "4-3",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".500",
+                  "text": ".571",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "106",
+                  "text": "143",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "140",
+                  "text": "171",
                   "emphasized": false
                 },
                 {
@@ -138,17 +138,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "1-0",
+                  "text": "2-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "1-2",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "W3",
                   "emphasized": false
                 }
               ],
@@ -266,87 +266,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".333",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "82",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "108",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -414,6 +333,87 @@
                   }
                 },
                 "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-5",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".286",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "113",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "145",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-27T23:30:21Z",
+      "lastUpdated": "2023-05-28T04:11:49Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1104,6 +1104,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "4-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".571",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "143",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "171",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-0",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W3",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
+                  }
+                },
+                "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Breakers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1171,87 +1252,6 @@
                   }
                 },
                 "analyticsName": "new-orleans-breakers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "3-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".500",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "106",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "140",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "1-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "1-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W2",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
-                  }
-                },
-                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1428,87 +1428,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".333",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "82",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "108",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "5",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1576,6 +1495,87 @@
                   }
                 },
                 "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "6",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-5",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".286",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "113",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "145",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L2",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
