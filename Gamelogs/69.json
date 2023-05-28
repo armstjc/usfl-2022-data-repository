@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "69",
-    "liveStartTime": "2023-05-28T00:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/69/data",
     "eventStatus": 3,
     "eventTime": "2023-05-28T01:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Philadelphia Stars at Pittsburgh Maulers",
-    "oddsStartTime": "2023-05-28T04:15:28Z",
+    "oddsStartTime": "2023-05-28T04:30:50Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -43,7 +42,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
       "imageType": "image-logo",
       "imageAltText": "Philadelphia Stars",
-      "record": "3-3",
+      "record": "4-3",
       "score": 37,
       "isLoser": false,
       "hasPossession": false,
@@ -94,7 +93,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
       "imageType": "image-logo",
       "imageAltText": "Pittsburgh Maulers",
-      "record": "2-4",
+      "record": "2-5",
       "score": 31,
       "isLoser": true,
       "hasPossession": false,
@@ -4764,7 +4763,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. McCleskey",
+                      "text": "C. Turner",
                       "emphasized": false
                     },
                     {
@@ -4801,25 +4800,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "JALEN MCCLESKEY",
-                    "webUrl": "/usfl/jalen-mccleskey-player",
+                    "title": "C.J. TURNER",
+                    "webUrl": "/usfl/cj-turner-player",
                     "color": "0, 0, 0, 0",
-                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/770.vresize.140.170.medium.54.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Default Headshot",
-                    "contentUri": "football/usfl/athletes/464",
+                    "imageAltText": "C.J. Turner",
+                    "contentUri": "football/usfl/athletes/770",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "464",
-                        "contentUri": "football/usfl/athletes/464"
+                        "id": "770",
+                        "contentUri": "football/usfl/athletes/770"
                       }
                     },
-                    "analyticsName": "jalen-mccleskey",
+                    "analyticsName": "cj-turner",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/770.vresize.140.170.medium.54.png"
                   },
                   "isFaded": false
                 },
@@ -9885,16 +9884,16 @@
               },
               {
                 "id": "147",
-                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/770.vresize.140.170.medium.54.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Default Headshot",
+                "imageAltText": "C.J. Turner",
                 "title": "2ND AND 20",
                 "subtitle": "PIT18",
-                "playDescription": "T.Williams pass deep right complete to PIT 34. Catch made by J.McCleskey at PIT 34. Gain of 17 yards. Tackled by D.Taylor at PIT 35.",
+                "playDescription": "T.Williams pass deep right complete to PIT 34. Catch made by C.Turner at PIT 34. Gain of 17 yards. Tackled by D.Taylor at PIT 35.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "8:08",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/770.vresize.140.170.medium.54.png"
               },
               {
                 "id": "148",
@@ -10396,8 +10395,8 @@
           },
           {
             "id": "26",
-            "title": "CURRENT - BALL ON ",
-            "subtitle": "3 plays \u00b7 -5 yards \u00b7 0:26",
+            "title": "END OF GAME",
+            "subtitle": "3 plays \u00b7 -5 yards \u00b7 0:30",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
             "imageType": "image-logo",
             "imageAltText": "Pittsburgh Maulers",
@@ -10459,6 +10458,14 @@
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/614.vresize.140.170.medium.21.png"
+              },
+              {
+                "id": "181",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
