@@ -4,15 +4,22 @@
     "id": "69",
     "liveStartTime": "2023-05-28T00:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/69/data",
-    "eventStatus": 2,
+    "eventStatus": 1,
     "eventTime": "2023-05-28T01:00:00Z",
     "isTba": false,
     "tvStation": "FS1",
     "broadcasts": [
       {
-        "callsign": "FS1"
+        "callsign": "FS1",
+        "cta": {
+          "text": "WATCH LIVE ON FS1",
+          "type": "basic",
+          "link": "https://foxsports.onelink.me/SY6x/ijxt5i12"
+        }
       }
     ],
+    "statusLine": "1ST 12:05",
+    "statusLine2": "1st & 10 on PIT 35",
     "venueName": "Tom Benson Hall of Fame Stadium",
     "venueLocation": "Canton, OH",
     "analyticsSport": "usfl",
@@ -23,13 +30,11 @@
     "contentUri": "football/usfl/events/69",
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
-    "countdownText": "KICKOFF IN",
     "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Tom-Benson-Hall-of-Fame-Stadium.vresize.2240.1260.medium.0.jpg",
     "countdownImageAltText": "Tom Benson Hall of Fame Stadium",
     "shareText": "FOX Sports: Philadelphia Stars at Pittsburgh Maulers",
-    "oddsStartTime": "2023-05-27T22:43:14Z",
+    "oddsStartTime": "2023-05-28T01:15:41Z",
     "importance": 0,
-    "ticketLink": "https://www.ticketmaster.com/event/05005E63DBBA5158",
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
       "name": "PHI",
@@ -53,8 +58,13 @@
       "imageType": "image-logo",
       "imageAltText": "Philadelphia Stars",
       "record": "3-3",
+      "score": 7,
       "isLoser": false,
       "hasPossession": false,
+      "timeouts": {
+        "total": 3,
+        "remaining": 3
+      },
       "entityLink": {
         "title": "PHILADELPHIA STARS",
         "webUrl": "/usfl/philadelphia-stars-team",
@@ -103,8 +113,13 @@
       "imageType": "image-logo",
       "imageAltText": "Pittsburgh Maulers",
       "record": "2-4",
+      "score": 0,
       "isLoser": false,
-      "hasPossession": false,
+      "hasPossession": true,
+      "timeouts": {
+        "total": 3,
+        "remaining": 3
+      },
       "entityLink": {
         "title": "PITTSBURGH MAULERS",
         "webUrl": "/usfl/pittsburgh-maulers-team",
@@ -131,6 +146,3534 @@
       "primaryColor": "0, 0, 0, 0",
       "alternateColor": "0, 255, 183, 27"
     }
+  },
+  "boxscore": {
+    "boxscoreSections": [
+      {
+        "title": "MATCHUP",
+        "boxscoreMatchup": [
+          {
+            "title": "POSSESSION",
+            "leftImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "leftImageType": "image-logo",
+            "leftImageAltText": "Philadelphia Stars",
+            "leftAlternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+            "rightImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "rightImageType": "image-logo",
+            "rightImageAltText": "Pittsburgh Maulers",
+            "rightAlternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "rows": [
+              {
+                "title": "Time Of Possession",
+                "leftStat": "2:55",
+                "rightStat": "0:06",
+                "betterStat": "left"
+              },
+              {
+                "title": "Total Drives",
+                "leftStat": "1",
+                "rightStat": "1",
+                "betterStat": "none"
+              },
+              {
+                "title": "Total Plays",
+                "leftStat": "7",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Total Yards",
+                "leftStat": "47",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Yards Per Play",
+                "leftStat": "6.7",
+                "rightStat": "-",
+                "betterStat": "left"
+              },
+              {
+                "title": "Red Zone TDs",
+                "leftStat": "1",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Red Zone Attempts",
+                "leftStat": "1",
+                "rightStat": "0",
+                "betterStat": "left"
+              }
+            ]
+          },
+          {
+            "title": "PASSING",
+            "leftImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "leftImageType": "image-logo",
+            "leftImageAltText": "Philadelphia Stars",
+            "rightImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "rightImageType": "image-logo",
+            "rightImageAltText": "Pittsburgh Maulers",
+            "rows": [
+              {
+                "title": "Total Yards",
+                "leftStat": "19",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Completions",
+                "leftStat": "4",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Passing Attempts",
+                "leftStat": "4",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Yards Per Attempt",
+                "leftStat": "4.8",
+                "rightStat": "-",
+                "betterStat": "left"
+              },
+              {
+                "title": "Passing TDs",
+                "leftStat": "0",
+                "rightStat": "0",
+                "betterStat": "none"
+              }
+            ]
+          },
+          {
+            "title": "RUSHING",
+            "leftImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "leftImageType": "image-logo",
+            "leftImageAltText": "Philadelphia Stars",
+            "rightImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "rightImageType": "image-logo",
+            "rightImageAltText": "Pittsburgh Maulers",
+            "rows": [
+              {
+                "title": "Total Yards",
+                "leftStat": "28",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Attempts",
+                "leftStat": "3",
+                "rightStat": "0",
+                "betterStat": "left"
+              },
+              {
+                "title": "Yards Per Rush",
+                "leftStat": "9.3",
+                "rightStat": "-",
+                "betterStat": "left"
+              },
+              {
+                "title": "Rushing TDs",
+                "leftStat": "1",
+                "rightStat": "0",
+                "betterStat": "left"
+              }
+            ]
+          },
+          {
+            "title": "TURNOVERS",
+            "leftImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "leftImageType": "image-logo",
+            "leftImageAltText": "Philadelphia Stars",
+            "rightImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "rightImageType": "image-logo",
+            "rightImageAltText": "Pittsburgh Maulers",
+            "rows": [
+              {
+                "title": "Total",
+                "leftStat": "0",
+                "rightStat": "0",
+                "betterStat": "none"
+              },
+              {
+                "title": "Fumbles Lost",
+                "leftStat": "0",
+                "rightStat": "0",
+                "betterStat": "none"
+              },
+              {
+                "title": "Interceptions",
+                "leftStat": "0",
+                "rightStat": "0",
+                "betterStat": "none"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "STARS",
+        "boxscoreItems": [
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PASSING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.3,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "COM",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.5,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "PCT",
+                      "priority": 8,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "AVG",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.7,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "INT",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 0.7,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "QBR",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.5,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. Cookus",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4/4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "100.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "19",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "4.8",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "86.5",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CASE COOKUS",
+                    "webUrl": "/usfl/case-cookus-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Case Cookus",
+                    "contentUri": "football/usfl/athletes/65",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "65",
+                        "contentUri": "football/usfl/athletes/65"
+                      }
+                    },
+                    "analyticsName": "case-cookus",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "4/4",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "100.0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "19",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "4.8",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 7,
+                      "text": "-",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "RUSHING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "ATT",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "M. Colburn II",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "28",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "9.3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "22",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "MATT COLBURN II",
+                    "webUrl": "/usfl/matt-colburn-ii-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Matt Colburn II",
+                    "contentUri": "football/usfl/athletes/40",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "40",
+                        "contentUri": "football/usfl/athletes/40"
+                      }
+                    },
+                    "analyticsName": "matt-colburn-ii",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "28",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "9.3",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "22",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "RECEIVING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "REC",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.4,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TD",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.8,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "TGT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "T. Wright",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "9",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "4.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "8",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "2",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "TERRY WRIGHT",
+                    "webUrl": "/usfl/terry-wright-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Terry Wright",
+                    "contentUri": "football/usfl/athletes/793",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "793",
+                        "contentUri": "football/usfl/athletes/793"
+                      }
+                    },
+                    "analyticsName": "terry-wright",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "M. Colburn II",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "7",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "7.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "7",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "MATT COLBURN II",
+                    "webUrl": "/usfl/matt-colburn-ii-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Matt Colburn II",
+                    "contentUri": "football/usfl/athletes/40",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "40",
+                        "contentUri": "football/usfl/athletes/40"
+                      }
+                    },
+                    "analyticsName": "matt-colburn-ii",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "D. Overton",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "3.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DIONDRE OVERTON",
+                    "webUrl": "/usfl/diondre-overton-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Diondre Overton",
+                    "contentUri": "football/usfl/athletes/62",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "62",
+                        "contentUri": "football/usfl/athletes/62"
+                      }
+                    },
+                    "analyticsName": "diondre-overton",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "19",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "4.8",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "8",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "4",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "DEFENSIVE",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "TCK",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "SOL",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "SCK",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TFL",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "INT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "PD",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "TD",
+                      "priority": 8,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "FUMBLES",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 5.2,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "FUM",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "LST",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "FF",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "REC",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "KICK RETURN",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "RET",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "LNG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "T. Wright",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "48",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "48.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "48",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "TERRY WRIGHT",
+                    "webUrl": "/usfl/terry-wright-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Terry Wright",
+                    "contentUri": "football/usfl/athletes/793",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "793",
+                        "contentUri": "football/usfl/athletes/793"
+                      }
+                    },
+                    "analyticsName": "terry-wright",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "48",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "48.0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "48",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PUNT RETURN",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "RET",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "LNG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "KICKING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "FG",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "PCT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "LNG",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "XP",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "PTS",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "L. Aguilar",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "0/0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "-",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1/1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "LUIS AGUILAR",
+                    "webUrl": "/usfl/luis-aguilar-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Luis Aguilar",
+                    "contentUri": "football/usfl/athletes/422",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "422",
+                        "contentUri": "football/usfl/athletes/422"
+                      }
+                    },
+                    "analyticsName": "luis-aguilar",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0/0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "1/1",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "1",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PUNTING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 4.1,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "NO",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "AVG",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.4,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "20",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TB",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 0.8,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "BLK",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "title": "MAULERS",
+        "boxscoreItems": [
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PASSING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.3,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "COM",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.5,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "PCT",
+                      "priority": 8,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "AVG",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.7,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "INT",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 0.7,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "QBR",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.5,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0/0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 7,
+                      "text": "-",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "RUSHING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "ATT",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "-",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "RECEIVING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "REC",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.4,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TD",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.8,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "TGT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "DEFENSIVE",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "TCK",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "SOL",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "SCK",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TFL",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "INT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "PD",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "TD",
+                      "priority": 8,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "M. Gilbert",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "MARK GILBERT",
+                    "webUrl": "/usfl/mark-gilbert-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/820.vresize.140.170.medium.37.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Mark Gilbert",
+                    "contentUri": "football/usfl/athletes/820",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "820",
+                        "contentUri": "football/usfl/athletes/820"
+                      }
+                    },
+                    "analyticsName": "mark-gilbert",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/820.vresize.140.170.medium.37.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "K. Tezino",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "KYAHVA TEZINO",
+                    "webUrl": "/usfl/kyahva-tezino-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/216.vresize.140.170.medium.77.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Kyahva Tezino",
+                    "contentUri": "football/usfl/athletes/216",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "216",
+                        "contentUri": "football/usfl/athletes/216"
+                      }
+                    },
+                    "analyticsName": "kyahva-tezino",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/216.vresize.140.170.medium.77.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "R. Foster",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "REUBEN FOSTER",
+                    "webUrl": "/usfl/reuben-foster-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Reuben Foster",
+                    "contentUri": "football/usfl/athletes/692",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "692",
+                        "contentUri": "football/usfl/athletes/692"
+                      }
+                    },
+                    "analyticsName": "reuben-foster",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "B. Torneden",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "BRYCE TORNEDEN",
+                    "webUrl": "/usfl/bryce-torneden-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Bryce Torneden",
+                    "contentUri": "football/usfl/athletes/240",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "240",
+                        "contentUri": "football/usfl/athletes/240"
+                      }
+                    },
+                    "analyticsName": "bryce-torneden",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/240.vresize.140.170.medium.43.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "A. Tarpley III",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ARNOLD TARPLEY III",
+                    "webUrl": "/usfl/arnold-tarpley-iii-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Arnold Tarpley III",
+                    "contentUri": "football/usfl/athletes/217",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "217",
+                        "contentUri": "football/usfl/athletes/217"
+                      }
+                    },
+                    "analyticsName": "arnold-tarpley-iii",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/217.vresize.140.170.medium.78.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. Blewitt",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CHRIS BLEWITT",
+                    "webUrl": "/usfl/chris-blewitt-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/844",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "844",
+                        "contentUri": "football/usfl/athletes/844"
+                      }
+                    },
+                    "analyticsName": "chris-blewitt",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "10",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "5",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "FUMBLES",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 5.2,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "FUM",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "LST",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "FF",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "REC",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.2,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "KICK RETURN",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "RET",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "LNG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "J. Simmons",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "23",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "23.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "23",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOSH SIMMONS",
+                    "webUrl": "/usfl/josh-simmons-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/519.vresize.140.170.medium.91.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Josh Simmons",
+                    "contentUri": "football/usfl/athletes/519",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "519",
+                        "contentUri": "football/usfl/athletes/519"
+                      }
+                    },
+                    "analyticsName": "josh-simmons",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/519.vresize.140.170.medium.91.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "23",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "23.0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "23",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PUNT RETURN",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.9,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "RET",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "YDS",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "AVG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.6,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "LNG",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.1,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "TD",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "KICKING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 3.8,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "FG",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "PCT",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "LNG",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "XP",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 1.3,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "PTS",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0/0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0/0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          },
+          {
+            "boxscoreTable": {
+              "template": "table-boxscore",
+              "headers": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "PUNTING",
+                      "priority": 1,
+                      "template": "cell-entity-text",
+                      "weight": 4.1,
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "NO",
+                      "priority": 2,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "AVG",
+                      "priority": 3,
+                      "template": "cell-number",
+                      "weight": 1.4,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "20",
+                      "priority": 4,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "TB",
+                      "priority": 5,
+                      "template": "cell-number",
+                      "weight": 0.8,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "LNG",
+                      "priority": 6,
+                      "template": "cell-number",
+                      "weight": 1.0,
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "BLK",
+                      "priority": 7,
+                      "template": "cell-number",
+                      "weight": 0.9,
+                      "emphasized": false
+                    }
+                  ],
+                  "isPrimary": true
+                }
+              ],
+              "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "TOTALS",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 2,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 5,
+                      "text": "-",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": true
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "isFaded": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "pbp": {
+    "sections": [
+      {
+        "title": "1ST QUARTER",
+        "groups": [
+          {
+            "id": "2",
+            "title": "CURRENT - BALL ON PIT 35",
+            "subtitle": "0 plays \u00b7 0 yards \u00b7 0:06",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+            "imageType": "image-logo",
+            "imageAltText": "Pittsburgh Maulers",
+            "leftTeamScore": "7",
+            "rightTeamScore": "0",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "PIT",
+            "plays": [
+              {
+                "id": "10",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Luis Aguilar",
+                "title": "KICKOFF",
+                "subtitle": "PHI20",
+                "playDescription": "L.Aguilar kicks 68 yards from PHI 20 to the PIT 12. J.Simmons returns the kickoff. Tackled by PHI at PIT 35.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "12:05",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png"
+              }
+            ],
+            "entityLink": {
+              "title": "PITTSBURGH MAULERS",
+              "webUrl": "/usfl/pittsburgh-maulers-team",
+              "color": "0, 0, 0, 0",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+              "imageType": "image-logo",
+              "imageAltText": "Pittsburgh Maulers",
+              "contentUri": "football/usfl/teams/16",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "16",
+                  "contentUri": "football/usfl/teams/16"
+                }
+              },
+              "analyticsName": "pittsburgh-maulers",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+          },
+          {
+            "id": "1",
+            "title": "TOUCHDOWN",
+            "subtitle": "7 plays \u00b7 47 yards \u00b7 2:55",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Philadelphia Stars",
+            "leftTeamScore": "7",
+            "rightTeamScore": "0",
+            "leftTeamScoreChange": true,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "PIT",
+            "plays": [
+              {
+                "id": "9",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Luis Aguilar",
+                "title": "PAT",
+                "subtitle": "PIT15",
+                "playDescription": "L.Aguilar extra point is good.",
+                "leftTeamScore": "7",
+                "rightTeamScore": "0",
+                "leftTeamScoreChange": true,
+                "rightTeamScoreChange": false,
+                "leftTeamAbbr": "PHI",
+                "rightTeamAbbr": "PIT",
+                "timeOfPlay": "12:05",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png"
+              },
+              {
+                "id": "8",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Matt Colburn II",
+                "title": "1ST AND 1",
+                "subtitle": "PIT1",
+                "playDescription": "M.Colburn rushed up the middle to PIT End Zone for 1 yards. M.Colburn for 1 yards, TOUCHDOWN.",
+                "leftTeamScore": "6",
+                "rightTeamScore": "0",
+                "leftTeamScoreChange": true,
+                "rightTeamScoreChange": false,
+                "leftTeamAbbr": "PHI",
+                "rightTeamAbbr": "PIT",
+                "timeOfPlay": "12:10",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+              },
+              {
+                "id": "7",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Matt Colburn II",
+                "title": "1ST AND 10",
+                "subtitle": "PIT23",
+                "playDescription": "M.Colburn rushed left tackle to PIT 1 for 22 yards. Tackled by K.Tezino; A.Tarpley at PIT 1.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "12:44",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+              },
+              {
+                "id": "6",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Diondre Overton",
+                "title": "2ND AND 3",
+                "subtitle": "PIT26",
+                "playDescription": "C.Cookus pass short right complete to PIT 23. Catch made by D.Overton at PIT 23. Gain of 3 yards. Tackled by M.Gilbert at PIT 23.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "13:28",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png"
+              },
+              {
+                "id": "5",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Matt Colburn II",
+                "title": "1ST AND 10",
+                "subtitle": "PIT33",
+                "playDescription": "C.Cookus pass short middle complete to PIT 34. Catch made by M.Colburn at PIT 34. Gain of 7 yards. Tackled by K.Tezino, R.Foster at PIT 26.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "13:51",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+              },
+              {
+                "id": "4",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Matt Colburn II",
+                "title": "3RD AND 1",
+                "subtitle": "PIT38",
+                "playDescription": "M.Colburn rushed left guard to PIT 33 for 5 yards. Tackled by B.Torneden, R.Foster at PIT 33.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:13",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
+              },
+              {
+                "id": "3",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Terry Wright",
+                "title": "2ND AND 9",
+                "subtitle": "PIT46",
+                "playDescription": "C.Cookus pass short right complete to PIT 43. Catch made by T.Wright at PIT 43. Gain of 8 yards. Pushed out of bounds by M.Gilbert at PIT 38.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:31",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png"
+              },
+              {
+                "id": "2",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Terry Wright",
+                "title": "1ST AND 10",
+                "subtitle": "PIT47",
+                "playDescription": "C.Cookus pass short right complete to PIT 47. Catch made by T.Wright at PIT 47. Gain of 1 yards. Tackled by M.Gilbert at PIT 46.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:52",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png"
+              },
+              {
+                "id": "1",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "KICKOFF",
+                "subtitle": "PIT20",
+                "playDescription": "C.Blewitt kicks 75 yards from PIT 20 to the PHI 5. T.Wright returns the kickoff. Pushed out of bounds by C.Blewitt at PIT 47.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "15:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              }
+            ],
+            "entityLink": {
+              "title": "PHILADELPHIA STARS",
+              "webUrl": "/usfl/philadelphia-stars-team",
+              "color": "0, 193, 2, 48",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Philadelphia Stars",
+              "contentUri": "football/usfl/teams/4",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "4",
+                  "contentUri": "football/usfl/teams/4"
+                }
+              },
+              "analyticsName": "philadelphia-stars",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+          }
+        ]
+      }
+    ]
+  },
+  "linescore": {
+    "template": "table-linescore",
+    "headers": [
+      {
+        "columns": [
+          {
+            "index": 0,
+            "priority": 1,
+            "template": "cell-text",
+            "weight": 1.0,
+            "emphasized": false,
+            "pinColumn": true
+          },
+          {
+            "index": 1,
+            "text": "1",
+            "priority": 6,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "2",
+            "priority": 5,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "3",
+            "priority": 4,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "4",
+            "priority": 3,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "T",
+            "priority": 2,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": true,
+            "pinColumn": true
+          }
+        ],
+        "isPrimary": true
+      }
+    ],
+    "rows": [
+      {
+        "columns": [
+          {
+            "index": 0,
+            "text": "PHI",
+            "emphasized": false
+          },
+          {
+            "index": 1,
+            "text": "7",
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "7",
+            "emphasized": true
+          }
+        ],
+        "isCutoff": false,
+        "selected": false,
+        "isFaded": false
+      },
+      {
+        "columns": [
+          {
+            "index": 0,
+            "text": "PIT",
+            "emphasized": false
+          },
+          {
+            "index": 1,
+            "text": "0",
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "0",
+            "emphasized": true
+          }
+        ],
+        "isCutoff": false,
+        "selected": false,
+        "isFaded": false
+      }
+    ]
+  },
+  "alternateLinescore": {
+    "template": "table-linescore",
+    "headers": [
+      {
+        "columns": [
+          {
+            "index": 0,
+            "text": "TEAM",
+            "priority": 1,
+            "template": "cell-entity",
+            "weight": 1.0,
+            "emphasized": false,
+            "pinColumn": true
+          },
+          {
+            "index": 1,
+            "text": "1",
+            "priority": 6,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "2",
+            "priority": 5,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "3",
+            "priority": 4,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "4",
+            "priority": 3,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "T",
+            "priority": 2,
+            "template": "cell-number",
+            "weight": 1.0,
+            "emphasized": true,
+            "pinColumn": true
+          }
+        ],
+        "isPrimary": true
+      }
+    ],
+    "rows": [
+      {
+        "columns": [
+          {
+            "index": 0,
+            "text": "Philadelphia Stars",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.80.80.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Philadelphia Stars",
+            "emphasized": false,
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.80.80.medium.1.png"
+          },
+          {
+            "index": 1,
+            "text": "7",
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "7",
+            "emphasized": true
+          }
+        ],
+        "isCutoff": false,
+        "selected": false,
+        "isFaded": false
+      },
+      {
+        "columns": [
+          {
+            "index": 0,
+            "text": "Pittsburgh Maulers",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png",
+            "imageType": "image-logo",
+            "imageAltText": "Pittsburgh Maulers",
+            "emphasized": false,
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.80.80.medium.5.png"
+          },
+          {
+            "index": 1,
+            "text": "0",
+            "emphasized": false
+          },
+          {
+            "index": 2,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 3,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 4,
+            "text": "-",
+            "emphasized": false
+          },
+          {
+            "index": 5,
+            "text": "0",
+            "emphasized": true
+          }
+        ],
+        "isCutoff": false,
+        "selected": false,
+        "isFaded": false
+      }
+    ]
+  },
+  "keyPlays": {
+    "keyPlaysList": [
+      {
+        "id": "5453201",
+        "template": "keyplay-left",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "title": "PHI SCORE",
+        "description": "(Q1 12:10) 1st & goal - M. Colburn II rushed for a 1-yard TD. (XP: L. Aguilar)",
+        "timestamp": "2023-05-28T01:11:28Z",
+        "leftScore": "PHI 7",
+        "rightScore": "PIT 0",
+        "leftEmphasized": true,
+        "rightEmphasized": false,
+        "entityLink": {
+          "title": "PHILADELPHIA STARS",
+          "webUrl": "/usfl/philadelphia-stars-team",
+          "color": "0, 193, 2, 48",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Philadelphia Stars",
+          "contentUri": "football/usfl/teams/4",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "4",
+              "contentUri": "football/usfl/teams/4"
+            }
+          },
+          "analyticsName": "philadelphia-stars",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+      }
+    ]
   },
   "favoriteCta": {
     "title": "FOLLOW",
