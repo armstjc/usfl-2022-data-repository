@@ -4,7 +4,7 @@
       "id": "1",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-28T22:30:23Z",
+      "lastUpdated": "2023-05-29T00:47:10Z",
       "standings": [
         {
           "template": "table-standings",
@@ -185,87 +185,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".333",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "106",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "103",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L3",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
-                  }
-                },
-                "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -275,22 +194,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-4",
+                  "text": "3-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".333",
+                  "text": ".429",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "96",
+                  "text": "121",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "130",
+                  "text": "152",
                   "emphasized": false
                 },
                 {
@@ -300,17 +219,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "2-0",
+                  "text": "3-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "1-2",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L4",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -333,6 +252,87 @@
                   }
                 },
                 "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-5",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".286",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "128",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "128",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L4",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "2",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-28T22:30:23Z",
+      "lastUpdated": "2023-05-29T00:47:10Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1347,87 +1347,6 @@
                 },
                 {
                   "index": 1,
-                  "text": "Generals",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "New Jersey Generals",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".333",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "106",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "103",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L3",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "NEW JERSEY GENERALS",
-                "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "New Jersey Generals",
-                "contentUri": "football/usfl/teams/12",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "12",
-                    "contentUri": "football/usfl/teams/12"
-                  }
-                },
-                "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1437,22 +1356,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-4",
+                  "text": "3-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".333",
+                  "text": ".429",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "96",
+                  "text": "121",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "130",
+                  "text": "152",
                   "emphasized": false
                 },
                 {
@@ -1462,17 +1381,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "2-0",
+                  "text": "3-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "1-2",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L4",
+                  "text": "W1",
                   "emphasized": false
                 }
               ],
@@ -1495,6 +1414,87 @@
                   }
                 },
                 "analyticsName": "michigan-panthers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
+                  "text": "Generals",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "New Jersey Generals",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "2-5",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".286",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "128",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "128",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "0-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L4",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "NEW JERSEY GENERALS",
+                "webUrl": "/usfl/new-jersey-generals-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "New Jersey Generals",
+                "contentUri": "football/usfl/teams/12",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "12",
+                    "contentUri": "football/usfl/teams/12"
+                  }
+                },
+                "analyticsName": "new-jersey-generals",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
