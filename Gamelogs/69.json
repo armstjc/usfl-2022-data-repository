@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Philadelphia Stars at Pittsburgh Maulers",
-    "oddsStartTime": "2023-05-31T01:47:31Z",
+    "oddsStartTime": "2023-06-01T02:24:27Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1465,7 +1465,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "5",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
@@ -1931,6 +1931,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "A. Rodriguez",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ADAM RODRIGUEZ",
+                    "webUrl": "/usfl/adam-rodriguez-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Adam Rodriguez",
+                    "contentUri": "football/usfl/athletes/300",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "300",
+                        "contentUri": "football/usfl/athletes/300"
+                      }
+                    },
+                    "analyticsName": "adam-rodriguez",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "L. Wiley",
                       "emphasized": false
                     },
@@ -2196,74 +2264,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/291.vresize.140.170.medium.16.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "A. Rodriguez",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ADAM RODRIGUEZ",
-                    "webUrl": "/usfl/adam-rodriguez-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Adam Rodriguez",
-                    "contentUri": "football/usfl/athletes/300",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "300",
-                        "contentUri": "football/usfl/athletes/300"
-                      }
-                    },
-                    "analyticsName": "adam-rodriguez",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png"
                   },
                   "isFaded": false
                 },
@@ -2752,7 +2752,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "58",
+                      "text": "59",
                       "emphasized": true
                     },
                     {
@@ -3164,12 +3164,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "142",
+                      "text": "135",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "47.3",
+                      "text": "45.0",
                       "emphasized": false
                     },
                     {
@@ -3280,12 +3280,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "163",
+                      "text": "156",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "40.8",
+                      "text": "39.0",
                       "emphasized": true
                     },
                     {
@@ -5203,7 +5203,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "14",
+                      "text": "15",
                       "emphasized": false
                     },
                     {
@@ -5412,7 +5412,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "4",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -6359,12 +6359,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "62",
+                      "text": "63",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "32",
+                      "text": "31",
                       "emphasized": true
                     },
                     {
@@ -6771,12 +6771,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "233",
+                      "text": "234",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "33.3",
+                      "text": "33.4",
                       "emphasized": false
                     },
                     {
@@ -6829,12 +6829,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "233",
+                      "text": "234",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "33.3",
+                      "text": "33.4",
                       "emphasized": true
                     },
                     {
@@ -7374,7 +7374,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "KICKOFF",
                 "subtitle": "PIT20",
-                "playDescription": "C.Blewitt kicks 75 yards from PIT 20 to the PHI 5. T.Wright returns the kickoff. Pushed out of bounds by C.Blewitt at PIT 47.",
+                "playDescription": "C.Blewitt kicks 68 yards from PIT 20 to the PHI 12. T.Wright returns the kickoff. Pushed out of bounds by C.Blewitt at PIT 47.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00",
@@ -7442,7 +7442,7 @@
                 "playDescription": "C.Cookus pass short right complete to PIT 23. Catch made by D.Overton at PIT 23. Gain of 3 yards. Tackled by M.Gilbert at PIT 23.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:28",
+                "timeOfPlay": "13:30",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/62.vresize.140.170.medium.14.png"
               },
               {
@@ -7455,7 +7455,7 @@
                 "playDescription": "M.Colburn rushed left tackle to PIT 1 for 22 yards. Tackled by K.Tezino; A.Tarpley at PIT 1.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:44",
+                "timeOfPlay": "12:54",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
               },
               {
@@ -7561,7 +7561,7 @@
                 "playDescription": "T.Williams pass short left complete to PIT 48. Catch made by J.Simmons at PIT 48. Gain of 6 yards. Tackled by G.Sewell at PIT 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:23",
+                "timeOfPlay": "11:25",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/519.vresize.140.170.medium.91.png"
               },
               {
@@ -7574,7 +7574,7 @@
                 "playDescription": "G.Groshek rushed right guard to PIT 48 for -2 yards. Tackled by L.Ray, G.Sewell at PIT 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:46",
+                "timeOfPlay": "10:51",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/221.vresize.140.170.medium.34.png"
               },
               {
@@ -7622,7 +7622,7 @@
                 "playDescription": "T.Williams pass short left complete to PHI 36. Catch made by M.Stokke at PHI 36. Gain of 5 yards. Tackled by G.Sewell, S.Samuels at PHI 28.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "8:10",
+                "timeOfPlay": "8:15",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/540.vresize.140.170.medium.5.png"
               },
               {
@@ -7648,7 +7648,7 @@
                 "playDescription": "M.London rushed left guard to PHI 3 for 2 yards. Tackled by T.Clark, C.Brown at PHI 3.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:54",
+                "timeOfPlay": "6:52",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/372.vresize.140.170.medium.60.png"
               },
               {
@@ -7758,7 +7758,7 @@
                 "playDescription": "C.Cookus pass deep middle complete to PIT 16. Catch made by P.Wells at PIT 16. Gain of 25 yards. Tackled by A.Tarpley at PIT 12.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:28",
+                "timeOfPlay": "5:29",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/370.vresize.140.170.medium.6.png"
               },
               {
@@ -7952,7 +7952,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "2:37"
+                "timeOfPlay": "2:41"
               },
               {
                 "id": "33",
@@ -7965,7 +7965,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "2:37",
+                "timeOfPlay": "2:41",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/40.vresize.140.170.medium.50.png"
               },
               {
@@ -7979,7 +7979,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "2:06",
+                "timeOfPlay": "2:08",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
               },
               {
@@ -8007,7 +8007,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "0:50",
+                "timeOfPlay": "0:51",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/140.vresize.140.170.medium.97.png"
               },
               {
@@ -8041,7 +8041,7 @@
                 "imageAltText": "Devin Gray",
                 "title": "2ND AND 7",
                 "subtitle": "PIT31",
-                "playDescription": "C.Cookus pass short middle complete to PIT 27. Catch made by D.Gray at PIT 27. Gain of 5 yards. Tackled by B.Torneden at PIT 26.",
+                "playDescription": "C.Cookus pass short middle complete to PIT 26. Catch made by D.Gray at PIT 26. Gain of 5 yards. Tackled by B.Torneden at PIT 26.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00",
@@ -8057,7 +8057,7 @@
                 "playDescription": "C.Cookus steps back to pass. C.Cookus sacked at PIT 28 for -2 yards (W.Miles)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:24",
+                "timeOfPlay": "14:23",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/460.vresize.140.170.medium.58.png"
               },
               {
@@ -8163,7 +8163,7 @@
                 "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short left intended for B.Gaither.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:30",
+                "timeOfPlay": "12:31",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/549.vresize.140.170.medium.65.png"
               },
               {
@@ -8199,7 +8199,7 @@
                 "imageAltText": "Troy Williams",
                 "title": "4TH AND 2",
                 "subtitle": "PHI41",
-                "playDescription": "T.Williams rushed up the middle to PHI 38 for 3 yards. Tackled by G.Sewell at PHI 38.",
+                "playDescription": "T.Williams rushed up the middle to PHI 38 for 3 yards. Tackled by A.Rodriguez, G.Sewell at PHI 38.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:38",
@@ -8262,7 +8262,7 @@
                 "imageAltText": "Pro Wells",
                 "title": "1ST AND 10",
                 "subtitle": "PIT43",
-                "playDescription": "C.Cookus pass short middle complete to PIT 36. Catch made by P.Wells at PIT 36. Gain of 8 yards. Tackled by R.Foster; K.Tezino at PIT 35.",
+                "playDescription": "C.Cookus pass short middle complete to PIT 35. Catch made by P.Wells at PIT 35. Gain of 8 yards. Tackled by R.Foster; K.Tezino at PIT 35.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "9:49",
@@ -8291,7 +8291,7 @@
                 "playDescription": "D.Williams rushed up the middle to PIT 31 for -1 yards. Tackled by W.Miles at PIT 31.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "8:49",
+                "timeOfPlay": "8:51",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png"
               },
               {
@@ -8326,7 +8326,7 @@
                 "playDescription": "R.Navarro FUMBLES (aborted). Fumble RECOVERED by PIT-K.Tezino at PHI 47. Tackled by L.Aguilar at PHI 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:18",
+                "timeOfPlay": "7:22",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/43.vresize.140.170.medium.4.png"
               }
             ],
@@ -8415,7 +8415,7 @@
                 "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short left intended for I.Hennie.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:19",
+                "timeOfPlay": "5:24",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/549.vresize.140.170.medium.65.png"
               },
               {
@@ -8425,7 +8425,7 @@
                 "playDescription": "T.Williams scrambles up the middle to PHI 20 for 12 yards. Tackled by at PHI 20.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:42"
+                "timeOfPlay": "4:46"
               },
               {
                 "id": "64",
@@ -8437,7 +8437,7 @@
                 "playDescription": "G.Groshek rushed up the middle to PHI 20 for 0 yards. Tackled by L.Ray, C.Taylor at PHI 20.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:05",
+                "timeOfPlay": "4:09",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/221.vresize.140.170.medium.34.png"
               },
               {
@@ -8553,7 +8553,7 @@
                 "imageAltText": "Devin Gray",
                 "title": "2ND AND 10",
                 "subtitle": "PIT48",
-                "playDescription": "C.Cookus pass short left complete to PIT 46. Catch made by D.Gray at PIT 46. Gain of 5 yards. Tackled by K.Tezino, B.Torneden at PIT 43.",
+                "playDescription": "C.Cookus pass short left complete to PIT 44. Catch made by D.Gray at PIT 44. Gain of 5 yards. Tackled by K.Tezino, B.Torneden at PIT 43.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:33",
@@ -8614,7 +8614,7 @@
                 "imageAltText": "Matt Colburn II",
                 "title": "1ST AND 10",
                 "subtitle": "PIT22",
-                "playDescription": "M.Colburn rushed up the middle to PIT 18 for 4 yards. Tackled by N.Player, K.Tezino at PIT 18.",
+                "playDescription": "M.Colburn rushed up the middle to PIT 18 for 4 yards. Tackled by K.Tezino; N.Player at PIT 18.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:17",
@@ -8916,7 +8916,7 @@
                 "imageAltText": "Ryan Izzo",
                 "title": "1ST AND 10",
                 "subtitle": "PIT47",
-                "playDescription": "C.Cookus pass deep middle complete to PIT 38. Catch made by R.Izzo at PIT 38. Gain of 22 yards. Tackled by A.Tarpley at PIT 25.",
+                "playDescription": "C.Cookus pass short middle complete to PIT 38. Catch made by R.Izzo at PIT 38. Gain of 22 yards. Tackled by A.Tarpley at PIT 25.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "14:45",
@@ -8932,7 +8932,7 @@
                 "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete short right intended for C.Coleman.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:16",
+                "timeOfPlay": "14:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
               },
               {
@@ -9030,7 +9030,7 @@
                 "playDescription": "T.Williams steps back to pass. T.Williams sacked at PIT 20 for -4 yards (L.Ray)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:16",
+                "timeOfPlay": "12:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -9548,17 +9548,17 @@
             "plays": [
               {
                 "id": "123",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/215.vresize.140.170.medium.76.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/356.vresize.140.170.medium.99.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Tre Walker",
+                "imageAltText": "Dale Warren",
                 "title": "KICKOFF",
                 "subtitle": "PHI20",
-                "playDescription": "L.Hajrullahu kicks 66 yards from PHI 20 to the PIT 14. J.Simmons returns the kickoff. Tackled by D.Taylor at PIT 41. PENALTY on PIT-T.Walker, Offensive Holding, 10 yards, accepted.",
+                "playDescription": "L.Hajrullahu kicks 67 yards from PHI 20 to the PIT 13. J.Simmons returns the kickoff. Tackled by D.Taylor at PIT 41. PENALTY on PIT-D.Warren, Offensive Holding, 10 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "3RD",
                 "timeOfPlay": "2:11",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/215.vresize.140.170.medium.76.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/356.vresize.140.170.medium.99.png"
               },
               {
                 "id": "125",
@@ -9624,16 +9624,16 @@
               },
               {
                 "id": "131",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/54.vresize.140.170.medium.8.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Mengel",
+                "imageAltText": "Default Headshot",
                 "title": "4TH AND 6",
                 "subtitle": "PIT35",
-                "playDescription": "M.Mengel punts 50 yards to PHI 15, Center-L.Barnes. Fair catch by C.Coleman. PENALTY on PHI-PHI, Running Into the Kicker, 5 yards, declined.",
+                "playDescription": "M.Mengel punts 50 yards to PHI 15, Center-L.Barnes. Fair catch by C.Coleman. PENALTY on PHI-D.Hodge, Running Into the Kicker, 5 yards, declined.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/54.vresize.140.170.medium.8.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
             "entityLink": {
@@ -9679,7 +9679,7 @@
                 "imageAltText": "Matt Colburn II",
                 "title": "1ST AND 10",
                 "subtitle": "PHI14",
-                "playDescription": "M.Colburn rushed right end to PHI 19 for 5 yards. Tackled by N.Player at PHI 19.",
+                "playDescription": "M.Colburn rushed right end to PHI 19 for 5 yards. Tackled by N.Player, K.Tezino at PHI 19.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "14:52",
@@ -9744,7 +9744,7 @@
                 "playDescription": "C.Cookus scrambles up the middle to PIT 11 for 4 yards. Tackled by K.Tezino at PIT 11.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:31"
+                "timeOfPlay": "11:29"
               },
               {
                 "id": "139",
@@ -9858,16 +9858,16 @@
               },
               {
                 "id": "144",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/439.vresize.140.170.medium.47.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Isiah Hennie",
+                "imageAltText": "Adam Rodriguez",
                 "title": "1ST AND 10",
                 "subtitle": "PIT23",
-                "playDescription": "T.Williams pass short right complete to PIT 23. Catch made by I.Hennie at PIT 23. Gain of yards. Tackled by L.Wiley; J.Alfieri at PIT 24. PENALTY on PHI-PHI, Illegal Use of Hands / Defense, 5 yards, accepted. No Play.",
+                "playDescription": "T.Williams pass short right complete to PIT 16. Catch made by I.Hennie at PIT 16. Gain of yards. Tackled by L.Wiley; J.Alfieri at PIT 24. PENALTY on PHI-A.Rodriguez, Illegal Use of Hands / Defense, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "9:18",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/439.vresize.140.170.medium.47.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/300.vresize.140.170.medium.20.png"
               },
               {
                 "id": "146",
@@ -9905,7 +9905,7 @@
                 "playDescription": "T.Williams pass short left complete to PIT 31. Catch made by M.London at PIT 31. Gain of 5 yards. Pushed out of bounds by S.Samuels at PIT 40.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:31",
+                "timeOfPlay": "7:32",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/372.vresize.140.170.medium.60.png"
               },
               {
@@ -9998,12 +9998,16 @@
               },
               {
                 "id": "158",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/594.vresize.140.170.medium.53.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Airon Servais",
                 "title": "1ST AND 10",
                 "subtitle": "PHI2",
-                "playDescription": "PENALTY on PHI-PHI, False Start, 1 yards, accepted. No Play.",
+                "playDescription": "PENALTY on PHI-A.Servais, False Start, 1 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:00"
+                "timeOfPlay": "4:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/594.vresize.140.170.medium.53.png"
               }
             ],
             "entityLink": {
@@ -10049,7 +10053,7 @@
                 "imageAltText": "Matt Colburn II",
                 "title": "1ST AND 11",
                 "subtitle": "PHI1",
-                "playDescription": "M.Colburn rushed left guard to PHI 2 for 1 yards. Tackled by K.Tezino at PHI 2.",
+                "playDescription": "M.Colburn rushed up the middle to PHI 2 for 1 yards. Tackled by K.Tezino at PHI 2.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "4:00",
@@ -10135,7 +10139,7 @@
                 "playDescription": "L.Hajrullahu punts yards to PIT 30, Center-R.Navarro. I.Hennie returned punt from the PIT 30. I.Hennie for yards, TOUCHDOWN. The Replay Official reviewed the runner was in bounds and the play was overturned. L.Hajrullahu punts 48 yards to PIT 30, Center-R.Navarro. I.Hennie returned punt from the PIT 30. Pushed out of bounds by L.Wiley at PHI 1.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "2:05",
+                "timeOfPlay": "2:24",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
