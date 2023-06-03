@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Memphis Showboats at Houston Gamblers",
-    "oddsStartTime": "2023-06-02T02:07:14Z",
+    "oddsStartTime": "2023-06-03T01:12:32Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -4949,6 +4949,69 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "K. Chism",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "6",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "6.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "6",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "KEKE CHISM",
+                    "webUrl": "/usfl/keke-chism-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/545.vresize.140.170.medium.8.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Keke Chism",
+                    "contentUri": "football/usfl/athletes/545",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "545",
+                        "contentUri": "football/usfl/athletes/545"
+                      }
+                    },
+                    "analyticsName": "keke-chism",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/545.vresize.140.170.medium.8.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "B. Barnes",
                       "emphasized": false
                     },
@@ -7830,13 +7893,17 @@
               },
               {
                 "id": "31",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/545.vresize.140.170.medium.8.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Keke Chism",
                 "title": "1ST AND 10",
                 "subtitle": "HOU47",
                 "playDescription": "K.Bahar pass short left complete to MEM 47. Catch made by K.Chism at MEM 47. Gain of 6 yards. Pushed out of bounds by J.Kelly at MEM 47.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "1:59"
+                "timeOfPlay": "1:59",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/545.vresize.140.170.medium.8.png"
               },
               {
                 "id": "32",
