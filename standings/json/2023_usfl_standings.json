@@ -4,7 +4,7 @@
       "id": "division",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-05-29T00:47:10Z",
+      "lastUpdated": "2023-06-03T18:49:17Z",
       "standings": [
         {
           "template": "table-standings",
@@ -356,27 +356,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-5",
+                  "text": "2-6",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".286",
+                  "text": ".250",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "113",
+                  "text": "132",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "145",
+                  "text": "165",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-3",
+                  "text": "0-4",
                   "emphasized": false
                 },
                 {
@@ -391,7 +391,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "L2",
+                  "text": "L3",
                   "emphasized": false
                 }
               ],
@@ -600,6 +600,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "5-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".625",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "198",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "181",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Showboats",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -676,7 +757,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -752,87 +833,6 @@
                 "type": "entity"
               },
               "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "4-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".571",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "178",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "162",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
             }
           ]
         }
@@ -842,7 +842,7 @@
       "id": "league",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-05-29T00:47:10Z",
+      "lastUpdated": "2023-06-03T18:49:17Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1023,6 +1023,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Gamblers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Houston Gamblers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "5-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".625",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "198",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "181",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "HOUSTON GAMBLERS",
+                "webUrl": "/usfl/houston-gamblers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Houston Gamblers",
+                "contentUri": "football/usfl/teams/6",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "6",
+                    "contentUri": "football/usfl/teams/6"
+                  }
+                },
+                "analyticsName": "houston-gamblers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Stars",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1099,7 +1180,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -1180,7 +1261,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -1261,88 +1342,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "2",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Gamblers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Houston Gamblers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "4-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".571",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "178",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "162",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "2-1",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L1",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "HOUSTON GAMBLERS",
-                "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Houston Gamblers",
-                "contentUri": "football/usfl/teams/6",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "6",
-                    "contentUri": "football/usfl/teams/6"
-                  }
-                },
-                "analyticsName": "houston-gamblers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -1423,7 +1423,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "4",
+                  "text": "5",
                   "emphasized": false
                 },
                 {
@@ -1504,7 +1504,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "4",
+                  "text": "6",
                   "emphasized": false
                 },
                 {
@@ -1518,27 +1518,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "2-5",
+                  "text": "2-6",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".286",
+                  "text": ".250",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "113",
+                  "text": "132",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "145",
+                  "text": "165",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "0-3",
+                  "text": "0-4",
                   "emphasized": false
                 },
                 {
@@ -1553,7 +1553,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "L2",
+                  "text": "L3",
                   "emphasized": false
                 }
               ],
