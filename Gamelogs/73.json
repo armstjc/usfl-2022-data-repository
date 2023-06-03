@@ -26,8 +26,8 @@
         }
       }
     ],
-    "statusLine": "2ND 0:47",
-    "statusLine2": "1st & 10 on BHAM 25",
+    "statusLine": "4TH 13:29",
+    "statusLine2": "1st & 10 on BHAM 30",
     "venueName": "Protective Stadium",
     "venueLocation": "Birmingham, AL",
     "analyticsSport": "usfl",
@@ -41,7 +41,7 @@
     "countdownImage": "https://b.fssta.com/uploads/application/usfl/venues/Protective-Stadium.vresize.2240.1260.medium.1.jpg",
     "countdownImageAltText": "Protective Stadium",
     "shareText": "FOX Sports: Philadelphia Stars at Birmingham Stallions",
-    "oddsStartTime": "2023-06-03T20:14:32Z",
+    "oddsStartTime": "2023-06-03T21:11:07Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -68,7 +68,7 @@
       "record": "4-3",
       "score": 14,
       "isLoser": false,
-      "hasPossession": false,
+      "hasPossession": true,
       "timeouts": {
         "total": 3,
         "remaining": 3
@@ -121,12 +121,12 @@
       "imageType": "image-logo",
       "imageAltText": "Birmingham Stallions",
       "record": "5-2",
-      "score": 7,
+      "score": 17,
       "isLoser": false,
-      "hasPossession": true,
+      "hasPossession": false,
       "timeouts": {
         "total": 3,
-        "remaining": 2
+        "remaining": 3
       },
       "entityLink": {
         "title": "BIRMINGHAM STALLIONS",
@@ -173,45 +173,45 @@
             "rows": [
               {
                 "title": "Time Of Possession",
-                "leftStat": "13:45",
-                "rightStat": "15:28",
+                "leftStat": "25:10",
+                "rightStat": "26:18",
                 "betterStat": "right"
               },
               {
                 "title": "Total Drives",
-                "leftStat": "4",
-                "rightStat": "4",
+                "leftStat": "7",
+                "rightStat": "7",
                 "betterStat": "none"
               },
               {
                 "title": "Total Plays",
-                "leftStat": "27",
-                "rightStat": "25",
-                "betterStat": "left"
+                "leftStat": "39",
+                "rightStat": "45",
+                "betterStat": "right"
               },
               {
                 "title": "Total Yards",
-                "leftStat": "168",
-                "rightStat": "148",
-                "betterStat": "left"
+                "leftStat": "259",
+                "rightStat": "326",
+                "betterStat": "right"
               },
               {
                 "title": "Yards Per Play",
-                "leftStat": "6.2",
-                "rightStat": "5.9",
-                "betterStat": "left"
+                "leftStat": "6.6",
+                "rightStat": "7.2",
+                "betterStat": "right"
               },
               {
                 "title": "Red Zone TDs",
                 "leftStat": "1",
-                "rightStat": "1",
-                "betterStat": "none"
+                "rightStat": "2",
+                "betterStat": "right"
               },
               {
                 "title": "Red Zone Attempts",
                 "leftStat": "1",
-                "rightStat": "1",
-                "betterStat": "none"
+                "rightStat": "4",
+                "betterStat": "right"
               }
             ]
           },
@@ -226,33 +226,33 @@
             "rows": [
               {
                 "title": "Total Yards",
-                "leftStat": "114",
-                "rightStat": "86",
-                "betterStat": "left"
+                "leftStat": "190",
+                "rightStat": "224",
+                "betterStat": "right"
               },
               {
                 "title": "Completions",
-                "leftStat": "11",
-                "rightStat": "8",
-                "betterStat": "left"
+                "leftStat": "14",
+                "rightStat": "15",
+                "betterStat": "right"
               },
               {
                 "title": "Passing Attempts",
-                "leftStat": "16",
-                "rightStat": "14",
-                "betterStat": "left"
+                "leftStat": "23",
+                "rightStat": "24",
+                "betterStat": "right"
               },
               {
                 "title": "Yards Per Attempt",
-                "leftStat": "7.1",
-                "rightStat": "6.1",
-                "betterStat": "left"
+                "leftStat": "8.3",
+                "rightStat": "9.3",
+                "betterStat": "right"
               },
               {
                 "title": "Passing TDs",
                 "leftStat": "2",
-                "rightStat": "1",
-                "betterStat": "left"
+                "rightStat": "2",
+                "betterStat": "none"
               }
             ]
           },
@@ -267,20 +267,20 @@
             "rows": [
               {
                 "title": "Total Yards",
-                "leftStat": "54",
-                "rightStat": "62",
+                "leftStat": "69",
+                "rightStat": "102",
                 "betterStat": "right"
               },
               {
                 "title": "Attempts",
-                "leftStat": "11",
-                "rightStat": "11",
-                "betterStat": "none"
+                "leftStat": "16",
+                "rightStat": "20",
+                "betterStat": "right"
               },
               {
                 "title": "Yards Per Rush",
-                "leftStat": "4.9",
-                "rightStat": "5.6",
+                "leftStat": "4.3",
+                "rightStat": "5.1",
                 "betterStat": "right"
               },
               {
@@ -303,13 +303,13 @@
               {
                 "title": "Total",
                 "leftStat": "0",
-                "rightStat": "1",
+                "rightStat": "2",
                 "betterStat": "left"
               },
               {
                 "title": "Fumbles Lost",
                 "leftStat": "0",
-                "rightStat": "1",
+                "rightStat": "2",
                 "betterStat": "left"
               },
               {
@@ -409,22 +409,22 @@
                     },
                     {
                       "index": 1,
-                      "text": "11/16",
+                      "text": "14/23",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "68.8",
+                      "text": "60.9",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "114",
+                      "text": "190",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "7.1",
+                      "text": "8.3",
                       "emphasized": false
                     },
                     {
@@ -439,7 +439,7 @@
                     },
                     {
                       "index": 7,
-                      "text": "128.6",
+                      "text": "116.2",
                       "emphasized": false
                     }
                   ],
@@ -477,22 +477,22 @@
                     },
                     {
                       "index": 1,
-                      "text": "11/16",
+                      "text": "14/23",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "68.8",
+                      "text": "60.9",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "114",
+                      "text": "190",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "7.1",
+                      "text": "8.3",
                       "emphasized": true
                     },
                     {
@@ -586,17 +586,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "8",
+                      "text": "11",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "30",
+                      "text": "41",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "3.8",
+                      "text": "3.7",
                       "emphasized": false
                     },
                     {
@@ -632,6 +632,64 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. Cookus",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "15",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "3.8",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "7",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CASE COOKUS",
+                    "webUrl": "/usfl/case-cookus-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Case Cookus",
+                    "contentUri": "football/usfl/athletes/65",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "65",
+                        "contentUri": "football/usfl/athletes/65"
+                      }
+                    },
+                    "analyticsName": "case-cookus",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
                   },
                   "isFaded": false
                 },
@@ -697,80 +755,22 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C. Cookus",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "11",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "5.5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "7",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "CASE COOKUS",
-                    "webUrl": "/usfl/case-cookus-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Case Cookus",
-                    "contentUri": "football/usfl/athletes/65",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "65",
-                        "contentUri": "football/usfl/athletes/65"
-                      }
-                    },
-                    "analyticsName": "case-cookus",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "TOTALS",
                       "emphasized": true
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "16",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "54",
+                      "text": "69",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "4.9",
+                      "text": "4.3",
                       "emphasized": true
                     },
                     {
@@ -867,17 +867,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "52",
+                      "text": "107",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "17.3",
+                      "text": "26.8",
                       "emphasized": false
                     },
                     {
@@ -887,12 +887,12 @@
                     },
                     {
                       "index": 5,
-                      "text": "24",
+                      "text": "55",
                       "emphasized": false
                     },
                     {
                       "index": 6,
-                      "text": "4",
+                      "text": "7",
                       "emphasized": false
                     }
                   ],
@@ -918,6 +918,69 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "D. Gray",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "39",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "19.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "20",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "3",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DEVIN GRAY",
+                    "webUrl": "/usfl/devin-gray-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Devin Gray",
+                    "contentUri": "football/usfl/athletes/37",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "37",
+                        "contentUri": "football/usfl/athletes/37"
+                      }
+                    },
+                    "analyticsName": "devin-gray",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png"
                   },
                   "isFaded": false
                 },
@@ -955,7 +1018,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "4",
+                      "text": "6",
                       "emphasized": false
                     }
                   ],
@@ -988,85 +1051,22 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "D. Gray",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "19",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "19.0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "19",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "2",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "DEVIN GRAY",
-                    "webUrl": "/usfl/devin-gray-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Devin Gray",
-                    "contentUri": "football/usfl/athletes/37",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "37",
-                        "contentUri": "football/usfl/athletes/37"
-                      }
-                    },
-                    "analyticsName": "devin-gray",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "T. Wright",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "9",
+                      "text": "10",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "9.0",
+                      "text": "5.0",
                       "emphasized": false
                     },
                     {
@@ -1081,7 +1081,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     }
                   ],
@@ -1245,17 +1245,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "14",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "114",
+                      "text": "190",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "10.4",
+                      "text": "13.6",
                       "emphasized": true
                     },
                     {
@@ -1265,12 +1265,12 @@
                     },
                     {
                       "index": 5,
-                      "text": "24",
+                      "text": "55",
                       "emphasized": true
                     },
                     {
                       "index": 6,
-                      "text": "15",
+                      "text": "22",
                       "emphasized": true
                     }
                   ],
@@ -1360,17 +1360,85 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Alfieri",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "8",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "6",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOEY ALFIERI",
+                    "webUrl": "/usfl/joey-alfieri-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/670.vresize.140.170.medium.69.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Joey Alfieri",
+                    "contentUri": "football/usfl/athletes/670",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "670",
+                        "contentUri": "football/usfl/athletes/670"
+                      }
+                    },
+                    "analyticsName": "joey-alfieri",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/670.vresize.140.170.medium.69.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "C Brown",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "4",
+                      "text": "7",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "4",
+                      "text": "6",
                       "emphasized": false
                     },
                     {
@@ -1428,85 +1496,17 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Alfieri",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JOEY ALFIERI",
-                    "webUrl": "/usfl/joey-alfieri-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/670.vresize.140.170.medium.69.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Joey Alfieri",
-                    "contentUri": "football/usfl/athletes/670",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "670",
-                        "contentUri": "football/usfl/athletes/670"
-                      }
-                    },
-                    "analyticsName": "joey-alfieri",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/670.vresize.140.170.medium.69.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "S. Samuels III",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "5",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "2",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
@@ -1564,7 +1564,211 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "L. Wiley",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "LADARIUS WILEY",
+                    "webUrl": "/usfl/ladarius-wiley-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/59.vresize.140.170.medium.13.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "LaDarius Wiley",
+                    "contentUri": "football/usfl/athletes/59",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "59",
+                        "contentUri": "football/usfl/athletes/59"
+                      }
+                    },
+                    "analyticsName": "ladarius-wiley",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/59.vresize.140.170.medium.13.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "G. Sewell Jr.",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "GABRIEL SEWELL JR.",
+                    "webUrl": "/usfl/gabriel-sewell-jr-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/299.vresize.140.170.medium.19.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Gabriel Sewell Jr.",
+                    "contentUri": "football/usfl/athletes/299",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "299",
+                        "contentUri": "football/usfl/athletes/299"
+                      }
+                    },
+                    "analyticsName": "gabriel-sewell-jr",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/299.vresize.140.170.medium.19.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "D. Hodge",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DARIUS HODGE",
+                    "webUrl": "/usfl/darius-hodge-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/687",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "687",
+                        "contentUri": "football/usfl/athletes/687"
+                      }
+                    },
+                    "analyticsName": "darius-hodge",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "J. Dublanko",
                       "emphasized": false
                     },
                     {
@@ -1606,25 +1810,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "GABRIEL SEWELL JR.",
-                    "webUrl": "/usfl/gabriel-sewell-jr-player",
+                    "title": "JOEL DUBLANKO",
+                    "webUrl": "/usfl/joel-dublanko-player",
                     "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/299.vresize.140.170.medium.19.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Gabriel Sewell Jr.",
-                    "contentUri": "football/usfl/athletes/299",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/845",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "299",
-                        "contentUri": "football/usfl/athletes/299"
+                        "id": "845",
+                        "contentUri": "football/usfl/athletes/845"
                       }
                     },
-                    "analyticsName": "gabriel-sewell-jr",
+                    "analyticsName": "joel-dublanko",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/299.vresize.140.170.medium.19.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
                   },
                   "isFaded": false
                 },
@@ -1700,6 +1904,210 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "C. Nelson",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CHRIS NELSON",
+                    "webUrl": "/usfl/chris-nelson-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/52.vresize.140.170.medium.7.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Chris Nelson",
+                    "contentUri": "football/usfl/athletes/52",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "52",
+                        "contentUri": "football/usfl/athletes/52"
+                      }
+                    },
+                    "analyticsName": "chris-nelson",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/52.vresize.140.170.medium.7.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. Stribling",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CHANNING STRIBLING",
+                    "webUrl": "/usfl/channing-stribling-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/70.vresize.140.170.medium.17.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Channing Stribling",
+                    "contentUri": "football/usfl/athletes/70",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "70",
+                        "contentUri": "football/usfl/athletes/70"
+                      }
+                    },
+                    "analyticsName": "channing-stribling",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/70.vresize.140.170.medium.17.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "E. Worthington",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "EVAN WORTHINGTON",
+                    "webUrl": "/usfl/evan-worthington-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/291.vresize.140.170.medium.16.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Evan Worthington",
+                    "contentUri": "football/usfl/athletes/291",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "291",
+                        "contentUri": "football/usfl/athletes/291"
+                      }
+                    },
+                    "analyticsName": "evan-worthington",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/291.vresize.140.170.medium.16.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "A. Dennis",
                       "emphasized": false
                     },
@@ -1761,74 +2169,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/301.vresize.140.170.medium.21.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "D. Hodge",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "DARIUS HODGE",
-                    "webUrl": "/usfl/darius-hodge-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Default Headshot",
-                    "contentUri": "football/usfl/athletes/687",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "687",
-                        "contentUri": "football/usfl/athletes/687"
-                      }
-                    },
-                    "analyticsName": "darius-hodge",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
                   },
                   "isFaded": false
                 },
@@ -1904,7 +2244,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Dublanko",
+                      "text": "L. Ray",
                       "emphasized": false
                     },
                     {
@@ -1914,12 +2254,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "0",
+                      "text": "0.5",
                       "emphasized": false
                     },
                     {
@@ -1946,93 +2286,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "JOEL DUBLANKO",
-                    "webUrl": "/usfl/joel-dublanko-player",
+                    "title": "LABRYAN RAY",
+                    "webUrl": "/usfl/labryan-ray-player",
                     "color": "0, 193, 2, 48",
                     "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                     "imageType": "image-headshot",
                     "imageAltText": "Default Headshot",
-                    "contentUri": "football/usfl/athletes/845",
+                    "contentUri": "football/usfl/athletes/850",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "845",
-                        "contentUri": "football/usfl/athletes/845"
+                        "id": "850",
+                        "contentUri": "football/usfl/athletes/850"
                       }
                     },
-                    "analyticsName": "joel-dublanko",
+                    "analyticsName": "labryan-ray",
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "L. Wiley",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "LADARIUS WILEY",
-                    "webUrl": "/usfl/ladarius-wiley-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/59.vresize.140.170.medium.13.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "LaDarius Wiley",
-                    "contentUri": "football/usfl/athletes/59",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "59",
-                        "contentUri": "football/usfl/athletes/59"
-                      }
-                    },
-                    "analyticsName": "ladarius-wiley",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/59.vresize.140.170.medium.13.png"
                   },
                   "isFaded": false
                 },
@@ -2244,74 +2516,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C. Nelson",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "CHRIS NELSON",
-                    "webUrl": "/usfl/chris-nelson-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/52.vresize.140.170.medium.7.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Chris Nelson",
-                    "contentUri": "football/usfl/athletes/52",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "52",
-                        "contentUri": "football/usfl/athletes/52"
-                      }
-                    },
-                    "analyticsName": "chris-nelson",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/52.vresize.140.170.medium.7.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "B. Bello",
                       "emphasized": false
                     },
@@ -2385,22 +2589,22 @@
                     },
                     {
                       "index": 1,
-                      "text": "21",
+                      "text": "45",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "14",
+                      "text": "28",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "0",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -2481,6 +2685,112 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "C. Coleman",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "COREY COLEMAN",
+                    "webUrl": "/usfl/corey-coleman-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Corey Coleman",
+                    "contentUri": "football/usfl/athletes/705",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "705",
+                        "contentUri": "football/usfl/athletes/705"
+                      }
+                    },
+                    "analyticsName": "corey-coleman",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "J. Dublanko",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOEL DUBLANKO",
+                    "webUrl": "/usfl/joel-dublanko-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/845",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "845",
+                        "contentUri": "football/usfl/athletes/845"
+                      }
+                    },
+                    "analyticsName": "joel-dublanko",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "A. Rodriguez",
                       "emphasized": false
                     },
@@ -2534,12 +2844,65 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "C Brown",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CODY BROWN",
+                    "webUrl": "/usfl/cody-brown-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/53.vresize.140.170.medium.56.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Cody Brown",
+                    "contentUri": "football/usfl/athletes/53",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "53",
+                        "contentUri": "football/usfl/athletes/53"
+                      }
+                    },
+                    "analyticsName": "cody-brown",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/53.vresize.140.170.medium.56.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "TOTALS",
                       "emphasized": true
                     },
                     {
                       "index": 1,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
@@ -2549,12 +2912,12 @@
                     },
                     {
                       "index": 3,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     }
                   ],
@@ -2633,17 +2996,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "23",
+                      "text": "43",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "23.0",
+                      "text": "21.5",
                       "emphasized": false
                     },
                     {
@@ -2691,17 +3054,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "23",
+                      "text": "43",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "23.0",
+                      "text": "21.5",
                       "emphasized": true
                     },
                     {
@@ -2785,27 +3148,85 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "C. Coleman",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "11",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "11.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "11",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "COREY COLEMAN",
+                    "webUrl": "/usfl/corey-coleman-player",
+                    "color": "0, 193, 2, 48",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Corey Coleman",
+                    "contentUri": "football/usfl/athletes/705",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "705",
+                        "contentUri": "football/usfl/athletes/705"
+                      }
+                    },
+                    "analyticsName": "corey-coleman",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "TOTALS",
                       "emphasized": true
                     },
                     {
                       "index": 1,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "0",
+                      "text": "11",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "-",
+                      "text": "11.0",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "-",
+                      "text": "11",
                       "emphasized": true
                     },
                     {
@@ -3054,17 +3475,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "42.0",
+                      "text": "35.5",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -3117,17 +3538,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "4",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "42.0",
+                      "text": "35.5",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": true
                     },
                     {
@@ -3242,27 +3663,27 @@
                     },
                     {
                       "index": 1,
-                      "text": "8/14",
+                      "text": "15/24",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "57.1",
+                      "text": "62.5",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "86",
+                      "text": "227",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "6.1",
+                      "text": "9.5",
                       "emphasized": false
                     },
                     {
                       "index": 5,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
@@ -3272,7 +3693,7 @@
                     },
                     {
                       "index": 7,
-                      "text": "99.1",
+                      "text": "121.4",
                       "emphasized": false
                     }
                   ],
@@ -3310,27 +3731,27 @@
                     },
                     {
                       "index": 1,
-                      "text": "8/14",
+                      "text": "15/24",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "57.1",
+                      "text": "62.5",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "86",
+                      "text": "227",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "6.1",
+                      "text": "9.5",
                       "emphasized": true
                     },
                     {
                       "index": 5,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -3419,17 +3840,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "4",
+                      "text": "10",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "23",
+                      "text": "54",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "5.8",
+                      "text": "5.4",
                       "emphasized": false
                     },
                     {
@@ -3439,7 +3860,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "14",
+                      "text": "28",
                       "emphasized": false
                     }
                   ],
@@ -3477,17 +3898,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "5",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "22",
+                      "text": "29",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "7.3",
+                      "text": "5.8",
                       "emphasized": false
                     },
                     {
@@ -3535,17 +3956,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "4",
+                      "text": "5",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "17",
+                      "text": "19",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "4.2",
+                      "text": "3.8",
                       "emphasized": false
                     },
                     {
@@ -3593,17 +4014,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "20",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "62",
+                      "text": "102",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "5.6",
+                      "text": "5.1",
                       "emphasized": true
                     },
                     {
@@ -3613,7 +4034,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "14",
+                      "text": "28",
                       "emphasized": true
                     }
                   ],
@@ -3695,7 +4116,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "D. Cain",
+                      "text": "D Davis",
                       "emphasized": false
                     },
                     {
@@ -3705,12 +4126,75 @@
                     },
                     {
                       "index": 2,
-                      "text": "28",
+                      "text": "105",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "9.3",
+                      "text": "35.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "71",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "5",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DAVION DAVIS",
+                    "webUrl": "/usfl/davion-davis-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Davion Davis",
+                    "contentUri": "football/usfl/athletes/805",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "805",
+                        "contentUri": "football/usfl/athletes/805"
+                      }
+                    },
+                    "analyticsName": "davion-davis",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "D. Cain",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "42",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "10.5",
                       "emphasized": false
                     },
                     {
@@ -3720,12 +4204,12 @@
                     },
                     {
                       "index": 5,
-                      "text": "13",
+                      "text": "14",
                       "emphasized": false
                     },
                     {
                       "index": 6,
-                      "text": "4",
+                      "text": "5",
                       "emphasized": false
                     }
                   ],
@@ -3763,17 +4247,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "24",
+                      "text": "32",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "12.0",
+                      "text": "10.7",
                       "emphasized": false
                     },
                     {
@@ -3788,7 +4272,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "2",
+                      "text": "4",
                       "emphasized": false
                     }
                   ],
@@ -3821,7 +4305,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "D Davis",
+                      "text": "T. Moss",
                       "emphasized": false
                     },
                     {
@@ -3831,52 +4315,52 @@
                     },
                     {
                       "index": 2,
-                      "text": "17",
+                      "text": "21",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "17.0",
+                      "text": "21.0",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
                       "index": 5,
-                      "text": "17",
+                      "text": "21",
                       "emphasized": false
                     },
                     {
                       "index": 6,
-                      "text": "2",
+                      "text": "1",
                       "emphasized": false
                     }
                   ],
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "DAVION DAVIS",
-                    "webUrl": "/usfl/davion-davis-player",
+                    "title": "THADDEUS MOSS",
+                    "webUrl": "/usfl/thaddeus-moss-player",
                     "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Davion Davis",
-                    "contentUri": "football/usfl/athletes/805",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/835",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "805",
-                        "contentUri": "football/usfl/athletes/805"
+                        "id": "835",
+                        "contentUri": "football/usfl/athletes/835"
                       }
                     },
-                    "analyticsName": "davion-davis",
+                    "analyticsName": "thaddeus-moss",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
                   },
                   "isFaded": false
                 },
@@ -3947,6 +4431,69 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Sternberger",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "10",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "10.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "10",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "3",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JACE STERNBERGER",
+                    "webUrl": "/usfl/jace-sternberger-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Jace Sternberger",
+                    "contentUri": "football/usfl/athletes/681",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "681",
+                        "contentUri": "football/usfl/athletes/681"
+                      }
+                    },
+                    "analyticsName": "jace-sternberger",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "A. Hardy",
                       "emphasized": false
                     },
@@ -4003,6 +4550,69 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/475.vresize.140.170.medium.16.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "R. Person Jr.",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "RICKY PERSON JR.",
+                    "webUrl": "/usfl/ricky-person-jr-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/847",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "847",
+                        "contentUri": "football/usfl/athletes/847"
+                      }
+                    },
+                    "analyticsName": "ricky-person-jr",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
                   },
                   "isFaded": false
                 },
@@ -4073,100 +4683,37 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Sternberger",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "-",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JACE STERNBERGER",
-                    "webUrl": "/usfl/jace-sternberger-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Jace Sternberger",
-                    "contentUri": "football/usfl/athletes/681",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "681",
-                        "contentUri": "football/usfl/athletes/681"
-                      }
-                    },
-                    "analyticsName": "jace-sternberger",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "TOTALS",
                       "emphasized": true
                     },
                     {
                       "index": 1,
-                      "text": "8",
+                      "text": "15",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "86",
+                      "text": "227",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "10.8",
+                      "text": "15.1",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
                       "index": 5,
-                      "text": "17",
+                      "text": "71",
                       "emphasized": true
                     },
                     {
                       "index": 6,
-                      "text": "14",
+                      "text": "24",
                       "emphasized": true
                     }
                   ],
@@ -4256,6 +4803,142 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "N. Brooks",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "NATE BROOKS",
+                    "webUrl": "/usfl/nate-brooks-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/617.vresize.140.170.medium.24.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Nate Brooks",
+                    "contentUri": "football/usfl/athletes/617",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "617",
+                        "contentUri": "football/usfl/athletes/617"
+                      }
+                    },
+                    "analyticsName": "nate-brooks",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/617.vresize.140.170.medium.24.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "R Smith",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "RASHAD SMITH",
+                    "webUrl": "/usfl/rashad-smith-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/593.vresize.140.170.medium.52.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Rashad Smith",
+                    "contentUri": "football/usfl/athletes/593",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "593",
+                        "contentUri": "football/usfl/athletes/593"
+                      }
+                    },
+                    "analyticsName": "rashad-smith",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/593.vresize.140.170.medium.52.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "T. Robinson",
                       "emphasized": false
                     },
@@ -4317,74 +5000,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/16.vresize.140.170.medium.37.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "N. Brooks",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "NATE BROOKS",
-                    "webUrl": "/usfl/nate-brooks-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/617.vresize.140.170.medium.24.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Nate Brooks",
-                    "contentUri": "football/usfl/athletes/617",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "617",
-                        "contentUri": "football/usfl/athletes/617"
-                      }
-                    },
-                    "analyticsName": "nate-brooks",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/617.vresize.140.170.medium.24.png"
                   },
                   "isFaded": false
                 },
@@ -4460,6 +5075,142 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Tillery",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOJO TILLERY",
+                    "webUrl": "/usfl/jojo-tillery-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "JoJo Tillery",
+                    "contentUri": "football/usfl/athletes/287",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "287",
+                        "contentUri": "football/usfl/athletes/287"
+                      }
+                    },
+                    "analyticsName": "jojo-tillery",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "J. Newsome",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JONATHAN NEWSOME",
+                    "webUrl": "/usfl/jonathan-newsome-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/14.vresize.140.170.medium.36.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Jonathan Newsome",
+                    "contentUri": "football/usfl/athletes/14",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "14",
+                        "contentUri": "football/usfl/athletes/14"
+                      }
+                    },
+                    "analyticsName": "jonathan-newsome",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/14.vresize.140.170.medium.36.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "W. Yarbary",
                       "emphasized": false
                     },
@@ -4528,7 +5279,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Newsome",
+                      "text": "B. Mills",
                       "emphasized": false
                     },
                     {
@@ -4558,7 +5309,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -4570,25 +5321,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "JONATHAN NEWSOME",
-                    "webUrl": "/usfl/jonathan-newsome-player",
+                    "title": "BRYAN MILLS",
+                    "webUrl": "/usfl/bryan-mills-player",
                     "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/14.vresize.140.170.medium.36.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/33.vresize.140.170.medium.46.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Jonathan Newsome",
-                    "contentUri": "football/usfl/athletes/14",
+                    "imageAltText": "Bryan Mills",
+                    "contentUri": "football/usfl/athletes/33",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "14",
-                        "contentUri": "football/usfl/athletes/14"
+                        "id": "33",
+                        "contentUri": "football/usfl/athletes/33"
                       }
                     },
-                    "analyticsName": "jonathan-newsome",
+                    "analyticsName": "bryan-mills",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/14.vresize.140.170.medium.36.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/33.vresize.140.170.medium.46.png"
                   },
                   "isFaded": false
                 },
@@ -4664,74 +5415,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "B. Mills",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "BRYAN MILLS",
-                    "webUrl": "/usfl/bryan-mills-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/33.vresize.140.170.medium.46.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Bryan Mills",
-                    "contentUri": "football/usfl/athletes/33",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "33",
-                        "contentUri": "football/usfl/athletes/33"
-                      }
-                    },
-                    "analyticsName": "bryan-mills",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/33.vresize.140.170.medium.46.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "J. Ozougwu",
                       "emphasized": false
                     },
@@ -4793,74 +5476,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/689.vresize.140.170.medium.84.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "R Smith",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "RASHAD SMITH",
-                    "webUrl": "/usfl/rashad-smith-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/593.vresize.140.170.medium.52.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Rashad Smith",
-                    "contentUri": "football/usfl/athletes/593",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "593",
-                        "contentUri": "football/usfl/athletes/593"
-                      }
-                    },
-                    "analyticsName": "rashad-smith",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/593.vresize.140.170.medium.52.png"
                   },
                   "isFaded": false
                 },
@@ -5004,7 +5619,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Tillery",
+                      "text": "B. Buck",
                       "emphasized": false
                     },
                     {
@@ -5046,25 +5661,161 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "JOJO TILLERY",
-                    "webUrl": "/usfl/jojo-tillery-player",
+                    "title": "BRODY BUCK",
+                    "webUrl": "/usfl/brody-buck-player",
                     "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/30.vresize.140.170.medium.45.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "JoJo Tillery",
-                    "contentUri": "football/usfl/athletes/287",
+                    "imageAltText": "Brody Buck",
+                    "contentUri": "football/usfl/athletes/30",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "287",
-                        "contentUri": "football/usfl/athletes/287"
+                        "id": "30",
+                        "contentUri": "football/usfl/athletes/30"
                       }
                     },
-                    "analyticsName": "jojo-tillery",
+                    "analyticsName": "brody-buck",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/30.vresize.140.170.medium.45.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "R. Langan",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "RYAN LANGAN",
+                    "webUrl": "/usfl/ryan-langan-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/387.vresize.140.170.medium.66.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Ryan Langan",
+                    "contentUri": "football/usfl/athletes/387",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "387",
+                        "contentUri": "football/usfl/athletes/387"
+                      }
+                    },
+                    "analyticsName": "ryan-langan",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/387.vresize.140.170.medium.66.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "W. Henry",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "WILLIE HENRY",
+                    "webUrl": "/usfl/willie-henry-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/400.vresize.140.170.medium.76.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Willie Henry",
+                    "contentUri": "football/usfl/athletes/400",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "400",
+                        "contentUri": "football/usfl/athletes/400"
+                      }
+                    },
+                    "analyticsName": "willie-henry",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/400.vresize.140.170.medium.76.png"
                   },
                   "isFaded": false
                 },
@@ -5276,17 +6027,85 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "D. Tillman",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DONDREA TILLMAN",
+                    "webUrl": "/usfl/dondrea-tillman-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/290.vresize.140.170.medium.15.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Dondrea Tillman",
+                    "contentUri": "football/usfl/athletes/290",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "290",
+                        "contentUri": "football/usfl/athletes/290"
+                      }
+                    },
+                    "analyticsName": "dondrea-tillman",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/290.vresize.140.170.medium.15.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "TOTALS",
                       "emphasized": true
                     },
                     {
                       "index": 1,
-                      "text": "29",
+                      "text": "39",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "12",
+                      "text": "16",
                       "emphasized": true
                     },
                     {
@@ -5306,7 +6125,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "3",
                       "emphasized": true
                     },
                     {
@@ -5377,6 +6196,59 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "C. Marable",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CJ MARABLE",
+                    "webUrl": "/usfl/cj-marable-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "CJ Marable",
+                    "contentUri": "football/usfl/athletes/25",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "25",
+                        "contentUri": "football/usfl/athletes/25"
+                      }
+                    },
+                    "analyticsName": "cj-marable",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "A. McGough",
                       "emphasized": false
                     },
@@ -5435,12 +6307,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -5681,6 +6553,64 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "D Davis",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "11",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "11.0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "11",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "DAVION DAVIS",
+                    "webUrl": "/usfl/davion-davis-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Davion Davis",
+                    "contentUri": "football/usfl/athletes/805",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "805",
+                        "contentUri": "football/usfl/athletes/805"
+                      }
+                    },
+                    "analyticsName": "davion-davis",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "M. Mitchell",
                       "emphasized": false
                     },
@@ -5744,22 +6674,22 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "-2",
+                      "text": "9",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "-2.0",
+                      "text": "4.5",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "-2",
+                      "text": "11",
                       "emphasized": true
                     },
                     {
@@ -5843,27 +6773,27 @@
                     },
                     {
                       "index": 1,
-                      "text": "0/0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "-",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "-",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
                       "text": "1/1",
                       "emphasized": false
                     },
                     {
+                      "index": 2,
+                      "text": "100",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "30",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "2/2",
+                      "emphasized": false
+                    },
+                    {
                       "index": 5,
-                      "text": "1",
+                      "text": "5",
                       "emphasized": false
                     }
                   ],
@@ -5901,27 +6831,27 @@
                     },
                     {
                       "index": 1,
-                      "text": "0/0",
-                      "emphasized": true
-                    },
-                    {
-                      "index": 2,
-                      "text": "-",
-                      "emphasized": true
-                    },
-                    {
-                      "index": 3,
-                      "text": "-",
-                      "emphasized": true
-                    },
-                    {
-                      "index": 4,
                       "text": "1/1",
                       "emphasized": true
                     },
                     {
+                      "index": 2,
+                      "text": "100",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 3,
+                      "text": "30",
+                      "emphasized": true
+                    },
+                    {
+                      "index": 4,
+                      "text": "2/2",
+                      "emphasized": true
+                    },
+                    {
                       "index": 5,
-                      "text": "1",
+                      "text": "5",
                       "emphasized": true
                     }
                   ],
@@ -6008,17 +6938,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "50.0",
+                      "text": "57.0",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
@@ -6028,7 +6958,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "50",
+                      "text": "64",
                       "emphasized": false
                     },
                     {
@@ -6071,17 +7001,17 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "50.0",
+                      "text": "57.0",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -6091,7 +7021,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "50",
+                      "text": "64",
                       "emphasized": true
                     },
                     {
@@ -6114,12 +7044,774 @@
   "pbp": {
     "sections": [
       {
+        "title": "4TH QUARTER",
+        "groups": [
+          {
+            "id": "14",
+            "title": "CURRENT - BALL ON BHAM 30",
+            "subtitle": "5 plays \u00b7 8 yards \u00b7 5:35",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Philadelphia Stars",
+            "leftTeamScore": "14",
+            "rightTeamScore": "17",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "122",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Devin Gray",
+                "title": "3RD AND 4",
+                "subtitle": "50",
+                "playDescription": "C.Cookus pass complete to PHI 50. Catch made by D.Gray at PHI 50. Gain of 20 yards. Tackled by BHAM at BHAM 30.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "13:29",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/37.vresize.140.170.medium.49.png"
+              },
+              {
+                "id": "121",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Dexter Williams",
+                "title": "2ND AND 10",
+                "subtitle": "PHI44",
+                "playDescription": "D.Williams rushed to PHI 50 for 6 yards. Tackled by BHAM at PHI 50.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:14",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png"
+              },
+              {
+                "id": "120",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Case Cookus",
+                "title": "1ST AND 10",
+                "subtitle": "PHI44",
+                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete deep right intended for D.Overton.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:50",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+              },
+              {
+                "id": "119",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/518.vresize.140.170.medium.90.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Jahmir Johnson",
+                "title": "KICKOFF",
+                "subtitle": "BHAM20",
+                "playDescription": "B.Aubrey kicks 56 yards from BHAM 20 to the PHI 24. T.Wright returns the kickoff. Tackled by B.Buck at PHI 44.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:55",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/518.vresize.140.170.medium.90.png"
+              },
+              {
+                "id": "115",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Alex McGough",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM29",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete intended for J.Sternberger. PENALTY on BHAM-J.Johnson, Offensive Holding, 10 yards, accepted. No Play.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "2:16",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
+              },
+              {
+                "id": "114",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "3RD AND 1",
+                "subtitle": "BHAM26",
+                "playDescription": "R.Person rushed left tackle to BHAM 29 for 3 yards. Tackled by L.Wiley, J.Alfieri at BHAM 29.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "2:59",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "113",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/799.vresize.140.170.medium.62.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Ali Fayad",
+                "title": "2ND AND 5",
+                "subtitle": "BHAM22",
+                "playDescription": "R.Person rushed left tackle to BHAM 26 for 4 yards. Tackled by G.Sewell, S.Samuels at BHAM 26.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "3:41",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/799.vresize.140.170.medium.62.png"
+              },
+              {
+                "id": "111",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "2ND AND 10",
+                "subtitle": "BHAM17",
+                "playDescription": "A.McGough steps back to pass. A.McGough sacked at BHAM 12 for yards (D.Hodge) PENALTY on PHI-A.Fayad, Defensive Offside, 5 yards, accepted. No Play.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "4:10",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "110",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM17",
+                "playDescription": "A.McGough pass short right complete to BHAM 17. Catch made by R.Person at BHAM 17. Gain of 0 yards. Pushed out of bounds by J.Alfieri at BHAM 17.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "4:41",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              }
+            ],
+            "entityLink": {
+              "title": "PHILADELPHIA STARS",
+              "webUrl": "/usfl/philadelphia-stars-team",
+              "color": "0, 193, 2, 48",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Philadelphia Stars",
+              "contentUri": "football/usfl/teams/4",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "4",
+                  "contentUri": "football/usfl/teams/4"
+                }
+              },
+              "analyticsName": "philadelphia-stars",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+          },
+          {
+            "id": "13",
+            "title": "TOUCHDOWN",
+            "subtitle": "9 plays \u00b7 139 yards \u00b7 8:00",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Birmingham Stallions",
+            "leftTeamScore": "14",
+            "rightTeamScore": "17",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": true,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "118",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Brandon Aubrey",
+                "title": "PAT",
+                "subtitle": "PHI15",
+                "playDescription": "B.Aubrey extra point is good.",
+                "leftTeamScore": "14",
+                "rightTeamScore": "17",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": true,
+                "leftTeamAbbr": "PHI",
+                "rightTeamAbbr": "BHAM",
+                "timeOfPlay": "14:55",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png"
+              },
+              {
+                "id": "117",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Jace Sternberger",
+                "title": "3RD AND 10",
+                "subtitle": "PHI10",
+                "playDescription": "A.McGough pass short left complete to PHI End Zone. Catch made by J.Sternberger at PHI End Zone. Gain of 10 yards. J.Sternberger for 10 yards, TOUCHDOWN.",
+                "leftTeamScore": "14",
+                "rightTeamScore": "16",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": true,
+                "leftTeamAbbr": "PHI",
+                "rightTeamAbbr": "BHAM",
+                "timeOfPlay": "15:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/681.vresize.140.170.medium.79.png"
+              },
+              {
+                "id": "109",
+                "title": "3RD AND 10",
+                "subtitle": "PHI10",
+                "playDescription": "End Quarter 3",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "0:00"
+              },
+              {
+                "id": "108",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "2ND AND 7",
+                "subtitle": "PHI7",
+                "playDescription": "C.Marable rushed left tackle to PHI 10 for -3 yards. Tackled by J.Alfieri at PHI 10.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "0:23",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "107",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "1ST AND 10",
+                "subtitle": "PHI10",
+                "playDescription": "C.Marable rushed right tackle to PHI 7 for 3 yards. Tackled by C.Nelson, J.Alfieri at PHI 7.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "1:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "106",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Davion Davis",
+                "title": "1ST AND 20",
+                "subtitle": "BHAM19",
+                "playDescription": "A.McGough pass deep right complete to BHAM 34. Catch made by D.Davis at BHAM 34. Gain of 71 yards. Tackled by E.Worthington at PHI 10.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "1:50",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png"
+              },
+              {
+                "id": "105",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "4TH AND 9",
+                "subtitle": "BHAM38",
+                "playDescription": "L.Hajrullahu punts 21 yards to BHAM 17, Center-R.Navarro. Fair catch by D.Davis.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "4:44",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "104",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Case Cookus",
+                "title": "3RD AND 9",
+                "subtitle": "BHAM38",
+                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete short left intended for C.Coleman (B.Mills).",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "5:13",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+              },
+              {
+                "id": "103",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Case Cookus",
+                "title": "2ND AND 9",
+                "subtitle": "BHAM38",
+                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete short right intended for D.Overton (N.Brooks).",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "5:49",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+              },
+              {
+                "id": "102",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Terry Wright",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM39",
+                "playDescription": "C.Cookus pass short left complete to BHAM 38. Catch made by T.Wright at BHAM 38. Gain of 1 yards. Tackled by J.Tillery at BHAM 38.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "6:27",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/793.vresize.140.170.medium.56.png"
+              },
+              {
+                "id": "101",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Corey Coleman",
+                "title": "2ND AND 8",
+                "subtitle": "PHI6",
+                "playDescription": "C.Cookus pass deep right complete to PHI 37. Catch made by C.Coleman at PHI 37. Gain of 55 yards. Tackled by R.Smith, N.Brooks at BHAM 39.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "7:16",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/705.vresize.140.170.medium.49.png"
+              },
+              {
+                "id": "100",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Dexter Williams",
+                "title": "1ST AND 10",
+                "subtitle": "PHI4",
+                "playDescription": "D.Williams rushed left guard to PHI 6 for 2 yards. Tackled by R.Smith; W.Henry at PHI 6.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "periodOfPlay": "3RD",
+                "timeOfPlay": "7:55",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png"
+              }
+            ],
+            "entityLink": {
+              "title": "BIRMINGHAM STALLIONS",
+              "webUrl": "/usfl/birmingham-stallions-team",
+              "color": "0, 163, 32, 53",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Birmingham Stallions",
+              "contentUri": "football/usfl/teams/2",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "2",
+                  "contentUri": "football/usfl/teams/2"
+                }
+              },
+              "analyticsName": "birmingham-stallions",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+          }
+        ]
+      },
+      {
+        "title": "3RD QUARTER",
+        "groups": [
+          {
+            "id": "12",
+            "title": "FUMBLE",
+            "subtitle": "3 plays \u00b7 47 yards \u00b7 1:13",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Birmingham Stallions",
+            "leftTeamScore": "14",
+            "rightTeamScore": "10",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "98",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "1ST AND 10",
+                "subtitle": "PHI10",
+                "playDescription": "C.Marable rushed left tackle to PHI 12 for -2 yards. C.Marable FUMBLES, forced by C.Brown. Fumble RECOVERED by PHI-J.Dublanko at PHI 4. J.Dublanko ran out of bounds.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "8:02",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "97",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "1ST AND 10",
+                "subtitle": "PHI31",
+                "playDescription": "A.McGough pass deep right complete to PHI 10. Catch made by T.Moss at PHI 10. Gain of 21 yards. Tackled by L.Wiley at PHI 10.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "8:37",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "96",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM41",
+                "playDescription": "C.Marable rushed left tackle to PHI 31 for 28 yards. Tackled by L.Wiley; D.Hodge at PHI 31.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "9:08",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              }
+            ],
+            "entityLink": {
+              "title": "BIRMINGHAM STALLIONS",
+              "webUrl": "/usfl/birmingham-stallions-team",
+              "color": "0, 163, 32, 53",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Birmingham Stallions",
+              "contentUri": "football/usfl/teams/2",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "2",
+                  "contentUri": "football/usfl/teams/2"
+                }
+              },
+              "analyticsName": "birmingham-stallions",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+          },
+          {
+            "id": "11",
+            "title": "PUNT",
+            "subtitle": "3 plays \u00b7 8 yards \u00b7 1:46",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Philadelphia Stars",
+            "leftTeamScore": "14",
+            "rightTeamScore": "10",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "95",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "4TH AND 2",
+                "subtitle": "PHI33",
+                "playDescription": "L.Hajrullahu punts 37 yards to BHAM 30, Center-R.Navarro. D.Davis returned punt from the BHAM 30. Tackled by L.Wiley at BHAM 41.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "9:17",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "94",
+                "title": "3RD AND 7",
+                "subtitle": "PHI28",
+                "playDescription": "C.Cookus scrambles left guard to PHI 33 for 5 yards. Tackled by J.Tillery, J.Newsome at PHI 33.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "9:51"
+              },
+              {
+                "id": "93",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Case Cookus",
+                "title": "2ND AND 7",
+                "subtitle": "PHI28",
+                "playDescription": "C.Cookus steps back to pass. C.Cookus pass incomplete short left intended for C.Coleman (D.Tillman).",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "10:21",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/65.vresize.140.170.medium.15.png"
+              },
+              {
+                "id": "92",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Dexter Williams",
+                "title": "1ST AND 10",
+                "subtitle": "PHI25",
+                "playDescription": "D.Williams rushed left tackle to PHI 28 for 3 yards. Tackled by R.Smith at PHI 28.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "10:54",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/498.vresize.140.170.medium.28.png"
+              },
+              {
+                "id": "91",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Brandon Aubrey",
+                "title": "KICKOFF",
+                "subtitle": "BHAM20",
+                "playDescription": "B.Aubrey kicks 80 yards from BHAM 20 to the PHI End Zone. Touchback.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "10:54",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png"
+              }
+            ],
+            "entityLink": {
+              "title": "PHILADELPHIA STARS",
+              "webUrl": "/usfl/philadelphia-stars-team",
+              "color": "0, 193, 2, 48",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Philadelphia Stars",
+              "contentUri": "football/usfl/teams/4",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "4",
+                  "contentUri": "football/usfl/teams/4"
+                }
+              },
+              "analyticsName": "philadelphia-stars",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+          },
+          {
+            "id": "10",
+            "title": "FIELD GOAL",
+            "subtitle": "8 plays \u00b7 38 yards \u00b7 4:06",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Birmingham Stallions",
+            "leftTeamScore": "14",
+            "rightTeamScore": "10",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": true,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "90",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Brandon Aubrey",
+                "title": "4TH AND 5",
+                "subtitle": "PHI12",
+                "playDescription": "B.Aubrey 30 yard field goal attempt is good, Center-R.Langan, Holder-C.Wadman.",
+                "leftTeamScore": "14",
+                "rightTeamScore": "10",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": true,
+                "leftTeamAbbr": "PHI",
+                "rightTeamAbbr": "BHAM",
+                "timeOfPlay": "10:57",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/8.vresize.140.170.medium.32.png"
+              },
+              {
+                "id": "89",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Alex McGough",
+                "title": "3RD AND 5",
+                "subtitle": "PHI12",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short middle intended for J.Sternberger.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "11:27",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
+              },
+              {
+                "id": "88",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "2ND AND 3",
+                "subtitle": "PHI10",
+                "playDescription": "C.Marable rushed right tackle to PHI 12 for -2 yards. Tackled by G.Sewell at PHI 12.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "12:11",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "87",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "1ST AND 10",
+                "subtitle": "PHI17",
+                "playDescription": "C.Marable rushed left tackle to PHI 10 for 7 yards. Tackled by C.Brown, J.Dublanko at PHI 10.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "12:52",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "86",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Davion Davis",
+                "title": "3RD AND 8",
+                "subtitle": "PHI34",
+                "playDescription": "A.McGough pass short right complete to PHI 29. Catch made by D.Davis at PHI 29. Gain of 17 yards. Tackled by S.Samuels, C.Brown at PHI 17.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "13:31",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/805.vresize.140.170.medium.67.png"
+              },
+              {
+                "id": "85",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Alex McGough",
+                "title": "2ND AND 10",
+                "subtitle": "PHI36",
+                "playDescription": "A.McGough rushed right end to PHI 34 for 2 yards. Pushed out of bounds by J.Alfieri at PHI 34.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:03",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
+              },
+              {
+                "id": "84",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Alex McGough",
+                "title": "1ST AND 10",
+                "subtitle": "PHI36",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short left intended for D.Davis.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "14:37",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
+              },
+              {
+                "id": "83",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/803.vresize.140.170.medium.66.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Deon Cain",
+                "title": "1ST AND 10",
+                "subtitle": "50",
+                "playDescription": "A.McGough pass short right complete to PHI 41. Catch made by D.Cain at PHI 41. Gain of 14 yards. Tackled by C.Stribling at PHI 36.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "15:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/803.vresize.140.170.medium.66.png"
+              },
+              {
+                "id": "82",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "KICKOFF",
+                "subtitle": "PHI20",
+                "playDescription": "L.Hajrullahu kicks 55 yards from PHI 20 to the BHAM 25. Out of bounds.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "15:00",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              }
+            ],
+            "entityLink": {
+              "title": "BIRMINGHAM STALLIONS",
+              "webUrl": "/usfl/birmingham-stallions-team",
+              "color": "0, 163, 32, 53",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Birmingham Stallions",
+              "contentUri": "football/usfl/teams/2",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "2",
+                  "contentUri": "football/usfl/teams/2"
+                }
+              },
+              "analyticsName": "birmingham-stallions",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+          }
+        ]
+      },
+      {
         "title": "2ND QUARTER",
         "groups": [
           {
+            "id": "9",
+            "title": "END OF HALF",
+            "subtitle": "1 plays \u00b7 -1 yards \u00b7 0:18",
+            "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+            "imageType": "image-logo",
+            "imageAltText": "Philadelphia Stars",
+            "leftTeamScore": "14",
+            "rightTeamScore": "7",
+            "leftTeamScoreChange": false,
+            "rightTeamScoreChange": false,
+            "leftTeamAbbr": "PHI",
+            "rightTeamAbbr": "BHAM",
+            "plays": [
+              {
+                "id": "81",
+                "title": "END QUARTER",
+                "playDescription": "End Quarter 2",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
+              },
+              {
+                "id": "80",
+                "title": "1ST AND 10",
+                "subtitle": "PHI3",
+                "playDescription": "C.Cookus kneels at the PHI 2.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:18"
+              }
+            ],
+            "entityLink": {
+              "title": "PHILADELPHIA STARS",
+              "webUrl": "/usfl/philadelphia-stars-team",
+              "color": "0, 193, 2, 48",
+              "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+              "imageType": "image-logo",
+              "imageAltText": "Philadelphia Stars",
+              "contentUri": "football/usfl/teams/4",
+              "contentType": "team",
+              "layout": {
+                "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                "tokens": {
+                  "id": "4",
+                  "contentUri": "football/usfl/teams/4"
+                }
+              },
+              "analyticsName": "philadelphia-stars",
+              "analyticsSport": "usfl",
+              "type": "entity"
+            },
+            "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+          },
+          {
             "id": "8",
-            "title": "CURRENT - BALL ON BHAM 25",
-            "subtitle": "0 plays \u00b7 0 yards \u00b7 0:00",
+            "title": "PUNT",
+            "subtitle": "3 plays \u00b7 5 yards \u00b7 0:29",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Birmingham Stallions",
@@ -6131,17 +7823,74 @@
             "rightTeamAbbr": "BHAM",
             "plays": [
               {
-                "id": "72",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png",
+                "id": "77",
+                "title": "4TH AND 5",
+                "subtitle": "BHAM30",
+                "playDescription": "C.Wadman punts 64 yards to PHI 6, Center-R.Langan. C.Coleman MUFFS catch. Fumble RECOVERED by PHI-C.Coleman at PHI 6. Tackled by R.Langan at PHI 17. PENALTY on PHI-S.Akem, Defensive Holding, 3 yards, accepted.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:31"
+              },
+              {
+                "id": "76",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Luis Aguilar",
-                "title": "KICKOFF",
-                "subtitle": "PHI20",
-                "playDescription": "L.Aguilar kicks 80 yards from PHI 20 to the BHAM End Zone. Touchback.",
+                "imageAltText": "Alex McGough",
+                "title": "3RD AND 5",
+                "subtitle": "BHAM30",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short right intended for C.Marable.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:36",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
+              },
+              {
+                "id": "75",
+                "title": "3RD AND 5",
+                "subtitle": "BHAM30",
+                "playDescription": "Timeout #2 by BHAM.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:36"
+              },
+              {
+                "id": "74",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "2ND AND 2",
+                "subtitle": "BHAM33",
+                "playDescription": "A.McGough steps back to pass. A.McGough sacked at BHAM 30 for -3 yards (L.Ray; D.Hodge)",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:41",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "73",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png",
+                "imageType": "image-headshot",
+                "imageAltText": "CJ Marable",
+                "title": "1ST AND 10",
+                "subtitle": "BHAM25",
+                "playDescription": "A.McGough pass short left complete to BHAM 25. Catch made by C.Marable at BHAM 25. Gain of 8 yards. Pushed out of bounds by S.Samuels at BHAM 33.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:47",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/422.vresize.140.170.medium.39.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
+              },
+              {
+                "id": "72",
+                "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Default Headshot",
+                "title": "KICKOFF",
+                "subtitle": "PHI20",
+                "playDescription": "L.Hajrullahu kicks 80 yards from PHI 20 to the BHAM End Zone. Touchback.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:47",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
             "entityLink": {
@@ -7400,12 +9149,12 @@
           },
           {
             "index": 3,
-            "text": "-",
+            "text": "0",
             "emphasized": false
           },
           {
             "index": 4,
-            "text": "-",
+            "text": "0",
             "emphasized": false
           },
           {
@@ -7437,17 +9186,17 @@
           },
           {
             "index": 3,
-            "text": "-",
+            "text": "3",
             "emphasized": false
           },
           {
             "index": 4,
-            "text": "-",
+            "text": "7",
             "emphasized": false
           },
           {
             "index": 5,
-            "text": "7",
+            "text": "17",
             "emphasized": true
           }
         ],
@@ -7540,12 +9289,12 @@
           },
           {
             "index": 3,
-            "text": "-",
+            "text": "0",
             "emphasized": false
           },
           {
             "index": 4,
-            "text": "-",
+            "text": "0",
             "emphasized": false
           },
           {
@@ -7581,17 +9330,17 @@
           },
           {
             "index": 3,
-            "text": "-",
+            "text": "3",
             "emphasized": false
           },
           {
             "index": 4,
-            "text": "-",
+            "text": "7",
             "emphasized": false
           },
           {
             "index": 5,
-            "text": "7",
+            "text": "17",
             "emphasized": true
           }
         ],
@@ -7603,6 +9352,186 @@
   },
   "keyPlays": {
     "keyPlaysList": [
+      {
+        "id": "5466247",
+        "template": "keyplay-right",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "title": "BHAM SCORE",
+        "description": "(Q4 15:00) 3rd & goal - A. McGough passed to J. Sternberger for a 10-yard TD. (XP: B. Aubrey)",
+        "timestamp": "2023-06-03T21:07:04Z",
+        "leftScore": "PHI 14",
+        "rightScore": "BHAM 17",
+        "leftEmphasized": false,
+        "rightEmphasized": true,
+        "entityLink": {
+          "title": "BIRMINGHAM STALLIONS",
+          "webUrl": "/usfl/birmingham-stallions-team",
+          "color": "0, 163, 32, 53",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Birmingham Stallions",
+          "contentUri": "football/usfl/teams/2",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "2",
+              "contentUri": "football/usfl/teams/2"
+            }
+          },
+          "analyticsName": "birmingham-stallions",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+      },
+      {
+        "id": "5466221",
+        "template": "keyplay-right",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "title": "BHAM KEY STAT",
+        "description": "(Q3 1:50) D. Davis (BHAM) has 3 receptions for 106 receiving yards and 1 receiving TD.",
+        "timestamp": "2023-06-03T20:59:40Z",
+        "leftScore": "PHI 14",
+        "rightScore": "BHAM 10",
+        "leftEmphasized": false,
+        "rightEmphasized": true,
+        "entityLink": {
+          "title": "BIRMINGHAM STALLIONS",
+          "webUrl": "/usfl/birmingham-stallions-team",
+          "color": "0, 163, 32, 53",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Birmingham Stallions",
+          "contentUri": "football/usfl/teams/2",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "2",
+              "contentUri": "football/usfl/teams/2"
+            }
+          },
+          "analyticsName": "birmingham-stallions",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+      },
+      {
+        "id": "5466174",
+        "template": "keyplay-left",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "title": "PHI KEY STAT",
+        "description": "(Q3 7:16) C. Coleman (PHI) has 4 receptions for 108 receiving yards and 1 receiving TD.",
+        "timestamp": "2023-06-03T20:50:24Z",
+        "leftScore": "PHI 14",
+        "rightScore": "BHAM 10",
+        "leftEmphasized": true,
+        "rightEmphasized": false,
+        "entityLink": {
+          "title": "PHILADELPHIA STARS",
+          "webUrl": "/usfl/philadelphia-stars-team",
+          "color": "0, 193, 2, 48",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Philadelphia Stars",
+          "contentUri": "football/usfl/teams/4",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "4",
+              "contentUri": "football/usfl/teams/4"
+            }
+          },
+          "analyticsName": "philadelphia-stars",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+      },
+      {
+        "id": "5466134",
+        "template": "keyplay-left",
+        "color": "0, 193, 2, 48",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Philadelphia Stars",
+        "title": "PHI KEY PLAY",
+        "description": "(Q3 8:02) 1st & goal - BHAM Turnover - C. Marable's fumble was recovered by J. Dublanko. Stars take over on PHI 10.",
+        "timestamp": "2023-06-03T20:46:28Z",
+        "leftScore": "PHI 14",
+        "rightScore": "BHAM 10",
+        "leftEmphasized": true,
+        "rightEmphasized": false,
+        "entityLink": {
+          "title": "PHILADELPHIA STARS",
+          "webUrl": "/usfl/philadelphia-stars-team",
+          "color": "0, 193, 2, 48",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Philadelphia Stars",
+          "contentUri": "football/usfl/teams/4",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "4",
+              "contentUri": "football/usfl/teams/4"
+            }
+          },
+          "analyticsName": "philadelphia-stars",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+      },
+      {
+        "id": "5466049",
+        "template": "keyplay-right",
+        "color": "0, 163, 32, 53",
+        "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+        "imageType": "image-logo",
+        "imageAltText": "Birmingham Stallions",
+        "title": "BHAM SCORE",
+        "description": "(Q3 10:57) 4th & 5 - B. Aubrey kicked a 30-yard FG.",
+        "timestamp": "2023-06-03T20:37:02Z",
+        "leftScore": "PHI 14",
+        "rightScore": "BHAM 10",
+        "leftEmphasized": false,
+        "rightEmphasized": true,
+        "entityLink": {
+          "title": "BIRMINGHAM STALLIONS",
+          "webUrl": "/usfl/birmingham-stallions-team",
+          "color": "0, 163, 32, 53",
+          "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
+          "imageType": "image-logo",
+          "imageAltText": "Birmingham Stallions",
+          "contentUri": "football/usfl/teams/2",
+          "contentType": "team",
+          "layout": {
+            "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+            "tokens": {
+              "id": "2",
+              "contentUri": "football/usfl/teams/2"
+            }
+          },
+          "analyticsName": "birmingham-stallions",
+          "analyticsSport": "usfl",
+          "type": "entity"
+        },
+        "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png"
+      },
       {
         "id": "5465818",
         "template": "keyplay-left",
