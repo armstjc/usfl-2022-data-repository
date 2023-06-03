@@ -4,7 +4,7 @@
       "id": "division",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-06-03T18:49:17Z",
+      "lastUpdated": "2023-06-03T21:55:46Z",
       "standings": [
         {
           "template": "table-standings",
@@ -113,22 +113,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "4-3",
+                  "text": "4-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".571",
+                  "text": ".500",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "143",
+                  "text": "167",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "171",
+                  "text": "198",
                   "emphasized": false
                 },
                 {
@@ -138,7 +138,7 @@
                 },
                 {
                   "index": 7,
-                  "text": "2-0",
+                  "text": "2-1",
                   "emphasized": false
                 },
                 {
@@ -148,7 +148,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W3",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -528,27 +528,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "5-2",
+                  "text": "6-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".714",
+                  "text": ".750",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "195",
+                  "text": "222",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "137",
+                  "text": "161",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "2-2",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
@@ -563,7 +563,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "W3",
                   "emphasized": false
                 }
               ],
@@ -842,7 +842,7 @@
       "id": "league",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-06-03T18:49:17Z",
+      "lastUpdated": "2023-06-03T21:55:46Z",
       "standings": [
         {
           "template": "table-standings",
@@ -951,27 +951,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "5-2",
+                  "text": "6-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".714",
+                  "text": ".750",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "195",
+                  "text": "222",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "137",
+                  "text": "161",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "2-2",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
@@ -986,7 +986,7 @@
                 },
                 {
                   "index": 9,
-                  "text": "W2",
+                  "text": "W3",
                   "emphasized": false
                 }
               ],
@@ -1090,87 +1090,6 @@
                   }
                 },
                 "analyticsName": "houston-gamblers",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "3",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Stars",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Philadelphia Stars",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
-                },
-                {
-                  "index": 2,
-                  "text": "4-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".571",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "143",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "171",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "2-3",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-0",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "W3",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PHILADELPHIA STARS",
-                "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
-                "imageType": "image-logo",
-                "imageAltText": "Philadelphia Stars",
-                "contentUri": "football/usfl/teams/4",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "4",
-                    "contentUri": "football/usfl/teams/4"
-                  }
-                },
-                "analyticsName": "philadelphia-stars",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -1347,6 +1266,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Stars",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars.vresize.200.200.medium.1.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Philadelphia Stars",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png"
+                },
+                {
+                  "index": 2,
+                  "text": "4-4",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".500",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "167",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "198",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "2-3",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-1",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "L1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PHILADELPHIA STARS",
+                "webUrl": "/usfl/philadelphia-stars-team",
+                "color": "0, 193, 2, 48",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
+                "imageType": "image-logo",
+                "imageAltText": "Philadelphia Stars",
+                "contentUri": "football/usfl/teams/4",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "4",
+                    "contentUri": "football/usfl/teams/4"
+                  }
+                },
+                "analyticsName": "philadelphia-stars",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "5",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1423,7 +1423,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "5",
+                  "text": "6",
                   "emphasized": false
                 },
                 {
@@ -1504,7 +1504,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "6",
+                  "text": "7",
                   "emphasized": false
                 },
                 {
