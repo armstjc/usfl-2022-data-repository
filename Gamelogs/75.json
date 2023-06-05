@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "75",
-    "liveStartTime": "2023-06-04T19:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/75/data",
     "eventStatus": 3,
     "eventTime": "2023-06-04T20:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Michigan Panthers at New Orleans Breakers",
-    "oddsStartTime": "2023-06-04T23:13:31Z",
+    "oddsStartTime": "2023-06-05T01:18:52Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -143,7 +142,7 @@
             "rows": [
               {
                 "title": "Time Of Possession",
-                "leftStat": "26:27",
+                "leftStat": "26:30",
                 "rightStat": "33:30",
                 "betterStat": "right"
               },
@@ -832,7 +831,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Jo Walker",
+                      "text": "J. Walker",
                       "emphasized": false
                     },
                     {
@@ -988,7 +987,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "5",
+                      "text": "6",
                       "emphasized": false
                     }
                   ],
@@ -1366,7 +1365,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "31",
+                      "text": "32",
                       "emphasized": true
                     }
                   ],
@@ -2476,6 +2475,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "T. Quinn",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "TREY QUINN",
+                    "webUrl": "/usfl/trey-quinn-player",
+                    "color": "0, 112, 46, 62",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/653.vresize.140.170.medium.4.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Trey Quinn",
+                    "contentUri": "football/usfl/athletes/653",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "653",
+                        "contentUri": "football/usfl/athletes/653"
+                      }
+                    },
+                    "analyticsName": "trey-quinn",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/653.vresize.140.170.medium.4.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "W. Saba",
                       "emphasized": false
                     },
@@ -2617,7 +2684,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "69",
+                      "text": "70",
                       "emphasized": true
                     },
                     {
@@ -4265,7 +4332,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J Adams",
+                      "text": "J. Adams",
                       "emphasized": false
                     },
                     {
@@ -9952,7 +10019,7 @@
                 "imageAltText": "Jarey Elder",
                 "title": "1ST AND 10",
                 "subtitle": "NO43",
-                "playDescription": "J.Love pass INTERCEPTED at NO 6. Intercepted by J.Elder at NO 6. Tackled by MICH at NO 6.",
+                "playDescription": "J.Love pass deep left INTERCEPTED at NO 6. Intercepted by J.Elder at NO 6. Tackled by T.Quinn at NO 6.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:03",
