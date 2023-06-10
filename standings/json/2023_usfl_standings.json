@@ -4,7 +4,7 @@
       "id": "division",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-06-04T23:04:08Z",
+      "lastUpdated": "2023-06-10T19:30:21Z",
       "standings": [
         {
           "template": "table-standings",
@@ -185,6 +185,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "3-6",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".333",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "151",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "172",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-4",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "3",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -194,22 +275,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-5",
+                  "text": "3-6",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".375",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "141",
+                  "text": "148",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "176",
+                  "text": "195",
                   "emphasized": false
                 },
                 {
@@ -219,17 +300,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "3-1",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "2-3",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "L2",
                   "emphasized": false
                 }
               ],
@@ -261,7 +342,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "3",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -333,87 +414,6 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "4",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-6",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".250",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "132",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "165",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L3",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },
@@ -842,7 +842,7 @@
       "id": "league",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-06-04T23:04:08Z",
+      "lastUpdated": "2023-06-10T19:30:21Z",
       "standings": [
         {
           "template": "table-standings",
@@ -1347,6 +1347,87 @@
                 },
                 {
                   "index": 1,
+                  "text": "Maulers",
+                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                  "imageType": "image-logo",
+                  "imageAltText": "Pittsburgh Maulers",
+                  "emphasized": false,
+                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
+                },
+                {
+                  "index": 2,
+                  "text": "3-6",
+                  "emphasized": false
+                },
+                {
+                  "index": 3,
+                  "text": ".333",
+                  "emphasized": false
+                },
+                {
+                  "index": 4,
+                  "text": "151",
+                  "emphasized": false
+                },
+                {
+                  "index": 5,
+                  "text": "172",
+                  "emphasized": false
+                },
+                {
+                  "index": 6,
+                  "text": "1-4",
+                  "emphasized": false
+                },
+                {
+                  "index": 7,
+                  "text": "2-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 8,
+                  "text": "3-2",
+                  "emphasized": false
+                },
+                {
+                  "index": 9,
+                  "text": "W1",
+                  "emphasized": false
+                }
+              ],
+              "isCutoff": false,
+              "selected": false,
+              "entityLink": {
+                "title": "PITTSBURGH MAULERS",
+                "webUrl": "/usfl/pittsburgh-maulers-team",
+                "color": "0, 0, 0, 0",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
+                "imageType": "image-logo",
+                "imageAltText": "Pittsburgh Maulers",
+                "contentUri": "football/usfl/teams/16",
+                "contentType": "team",
+                "layout": {
+                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
+                  "tokens": {
+                    "id": "16",
+                    "contentUri": "football/usfl/teams/16"
+                  }
+                },
+                "analyticsName": "pittsburgh-maulers",
+                "analyticsSport": "usfl",
+                "type": "entity"
+              },
+              "isFaded": false
+            },
+            {
+              "columns": [
+                {
+                  "index": 0,
+                  "text": "4",
+                  "emphasized": false
+                },
+                {
+                  "index": 1,
                   "text": "Panthers",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
@@ -1356,22 +1437,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "3-5",
+                  "text": "3-6",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".375",
+                  "text": ".333",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "141",
+                  "text": "148",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "176",
+                  "text": "195",
                   "emphasized": false
                 },
                 {
@@ -1381,17 +1462,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "3-1",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "2-3",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "L1",
+                  "text": "L2",
                   "emphasized": false
                 }
               ],
@@ -1495,87 +1576,6 @@
                   }
                 },
                 "analyticsName": "new-jersey-generals",
-                "analyticsSport": "usfl",
-                "type": "entity"
-              },
-              "isFaded": false
-            },
-            {
-              "columns": [
-                {
-                  "index": 0,
-                  "text": "5",
-                  "emphasized": false
-                },
-                {
-                  "index": 1,
-                  "text": "Maulers",
-                  "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                  "imageType": "image-logo",
-                  "imageAltText": "Pittsburgh Maulers",
-                  "emphasized": false,
-                  "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png"
-                },
-                {
-                  "index": 2,
-                  "text": "2-6",
-                  "emphasized": false
-                },
-                {
-                  "index": 3,
-                  "text": ".250",
-                  "emphasized": false
-                },
-                {
-                  "index": 4,
-                  "text": "132",
-                  "emphasized": false
-                },
-                {
-                  "index": 5,
-                  "text": "165",
-                  "emphasized": false
-                },
-                {
-                  "index": 6,
-                  "text": "0-4",
-                  "emphasized": false
-                },
-                {
-                  "index": 7,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 8,
-                  "text": "2-2",
-                  "emphasized": false
-                },
-                {
-                  "index": 9,
-                  "text": "L3",
-                  "emphasized": false
-                }
-              ],
-              "isCutoff": false,
-              "selected": false,
-              "entityLink": {
-                "title": "PITTSBURGH MAULERS",
-                "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
-                "imageType": "image-logo",
-                "imageAltText": "Pittsburgh Maulers",
-                "contentUri": "football/usfl/teams/16",
-                "contentType": "team",
-                "layout": {
-                  "path": "/layouts?type=layout&subtype=teamsLayout&elementId=usfl",
-                  "tokens": {
-                    "id": "16",
-                    "contentUri": "football/usfl/teams/16"
-                  }
-                },
-                "analyticsName": "pittsburgh-maulers",
                 "analyticsSport": "usfl",
                 "type": "entity"
               },

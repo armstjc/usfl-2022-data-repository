@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "76",
-    "liveStartTime": "2023-06-10T15:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/76/data",
     "eventStatus": 3,
     "eventTime": "2023-06-10T16:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Michigan Panthers at Pittsburgh Maulers",
-    "oddsStartTime": "2023-06-10T19:10:38Z",
+    "oddsStartTime": "2023-06-10T19:22:19Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -162,7 +161,7 @@
               {
                 "title": "Total Yards",
                 "leftStat": "245",
-                "rightStat": "225",
+                "rightStat": "226",
                 "betterStat": "left"
               },
               {
@@ -238,7 +237,7 @@
               {
                 "title": "Total Yards",
                 "leftStat": "50",
-                "rightStat": "96",
+                "rightStat": "97",
                 "betterStat": "right"
               },
               {
@@ -389,7 +388,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "234",
+                      "text": "233",
                       "emphasized": false
                     },
                     {
@@ -409,7 +408,7 @@
                     },
                     {
                       "index": 7,
-                      "text": "50.1",
+                      "text": "50",
                       "emphasized": false
                     }
                   ],
@@ -457,7 +456,7 @@
                     },
                     {
                       "index": 3,
-                      "text": "234",
+                      "text": "233",
                       "emphasized": true
                     },
                     {
@@ -842,12 +841,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "100",
+                      "text": "99",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "20.0",
+                      "text": "19.8",
                       "emphasized": false
                     },
                     {
@@ -1283,7 +1282,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "234",
+                      "text": "233",
                       "emphasized": true
                     },
                     {
@@ -4344,12 +4343,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "-2",
+                      "text": "-1",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "-2.0",
+                      "text": "-1.0",
                       "emphasized": false
                     },
                     {
@@ -4359,7 +4358,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "-2",
+                      "text": "-1",
                       "emphasized": false
                     }
                   ],
@@ -4402,7 +4401,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "96",
+                      "text": "97",
                       "emphasized": true
                     },
                     {
@@ -10151,7 +10150,7 @@
           {
             "id": "24",
             "title": "DOWNS",
-            "subtitle": "10 plays \u00b7 55 yards \u00b7 1:05",
+            "subtitle": "10 plays \u00b7 55 yards \u00b7 1:11",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Michigan Panthers",
@@ -10203,6 +10202,15 @@
               },
               {
                 "id": "169",
+                "title": "1ST AND 10",
+                "subtitle": "PIT44",
+                "playDescription": "Timeout #1 by PIT.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "1:11"
+              },
+              {
+                "id": "170",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/589.vresize.140.170.medium.49.png",
                 "imageType": "image-headshot",
                 "imageAltText": "AJ Richardson",
@@ -10215,7 +10223,16 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/589.vresize.140.170.medium.49.png"
               },
               {
-                "id": "170",
+                "id": "171",
+                "title": "1ST AND 10",
+                "subtitle": "PIT27",
+                "playDescription": "Timeout #2 by PIT.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "1:02"
+              },
+              {
+                "id": "172",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Josh Love",
@@ -10228,7 +10245,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png"
               },
               {
-                "id": "171",
+                "id": "173",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/569.vresize.140.170.medium.81.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Cole Hikutini",
@@ -10241,20 +10258,20 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/569.vresize.140.170.medium.81.png"
               },
               {
-                "id": "172",
+                "id": "174",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/235.vresize.140.170.medium.41.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Nasir Player",
                 "title": "1ST AND 10",
                 "subtitle": "PIT15",
-                "playDescription": "J.Love steps back to pass. J.Love sacked at PIT 24 for -9 yards (N.Player) PENALTY on MICH-MICH, Illegal Shift, 5 yards, declined.",
+                "playDescription": "J.Love steps back to pass. J.Love sacked at PIT 23 for -8 yards (N.Player) PENALTY on MICH-MICH, Illegal Shift, 5 yards, declined.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:49",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/235.vresize.140.170.medium.41.png"
               },
               {
-                "id": "174",
+                "id": "176",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Josh Love",
@@ -10267,7 +10284,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png"
               },
               {
-                "id": "175",
+                "id": "177",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Josh Love",
@@ -10280,13 +10297,13 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/219.vresize.140.170.medium.79.png"
               },
               {
-                "id": "176",
+                "id": "178",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/589.vresize.140.170.medium.49.png",
                 "imageType": "image-headshot",
                 "imageAltText": "AJ Richardson",
                 "title": "4TH AND 18",
                 "subtitle": "PIT23",
-                "playDescription": "J.Love pass short right complete to PIT 16. Catch made by A.Richardson at PIT 16. Gain of 13 yards. Tackled by F.Jordan at PIT 10.",
+                "playDescription": "J.Love pass short right complete to PIT 16. Catch made by A.Richardson at PIT 16. Gain of 12 yards. Tackled by F.Jordan at PIT 11.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:34",
@@ -10317,8 +10334,8 @@
           },
           {
             "id": "25",
-            "title": "CURRENT - BALL ON ",
-            "subtitle": "1 plays \u00b7 -2 yards \u00b7 0:09",
+            "title": "END OF GAME",
+            "subtitle": "1 plays \u00b7 -1 yards \u00b7 0:28",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
             "imageType": "image-logo",
             "imageAltText": "Pittsburgh Maulers",
@@ -10330,13 +10347,21 @@
             "rightTeamAbbr": "PIT",
             "plays": [
               {
-                "id": "177",
+                "id": "179",
                 "title": "1ST AND 10",
                 "subtitle": "PIT11",
-                "playDescription": "B.Roberts kneels at the PIT 9.",
+                "playDescription": "B.Roberts kneels at the PIT 10.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:28"
+              },
+              {
+                "id": "180",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
