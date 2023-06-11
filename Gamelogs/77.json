@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Orleans Breakers at Memphis Showboats",
-    "oddsStartTime": "2023-06-11T00:49:01Z",
+    "oddsStartTime": "2023-06-11T01:49:01Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -42,7 +42,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.80.80.medium.1.png",
       "imageType": "image-logo",
       "imageAltText": "New Orleans Breakers",
-      "record": "5-3",
+      "record": "6-3",
       "score": 31,
       "isLoser": false,
       "hasPossession": false,
@@ -93,7 +93,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats.vresize.80.80.medium.1.png",
       "imageType": "image-logo",
       "imageAltText": "Memphis Showboats",
-      "record": "5-3",
+      "record": "5-4",
       "score": 3,
       "isLoser": true,
       "hasPossession": false,
@@ -1204,7 +1204,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J Adams",
+                      "text": "J. Adams",
                       "emphasized": false
                     },
                     {
@@ -1455,7 +1455,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "10",
+                      "text": "11",
                       "emphasized": false
                     },
                     {
@@ -2667,74 +2667,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/453.vresize.140.170.medium.55.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "Z. McClain",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ZAKOBY MCCLAIN",
-                    "webUrl": "/usfl/zakoby-mcclain-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/661.vresize.140.170.medium.12.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Zakoby McClain",
-                    "contentUri": "football/usfl/athletes/661",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "661",
-                        "contentUri": "football/usfl/athletes/661"
-                      }
-                    },
-                    "analyticsName": "zakoby-mcclain",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/661.vresize.140.170.medium.12.png"
                   },
                   "isFaded": false
                 },
@@ -6616,59 +6548,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. McCray",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JORDAN MCCRAY",
-                    "webUrl": "/usfl/jordan-mccray-player",
-                    "color": "0, 18, 40, 76",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/7.vresize.140.170.medium.88.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Jordan McCray",
-                    "contentUri": "football/usfl/athletes/7",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "7",
-                        "contentUri": "football/usfl/athletes/7"
-                      }
-                    },
-                    "analyticsName": "jordan-mccray",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/7.vresize.140.170.medium.88.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "J. Wilson",
                       "emphasized": false
                     },
@@ -6727,7 +6606,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -9902,7 +9781,7 @@
                 "imageAltText": "Alex Thomas",
                 "title": "1ST AND 10",
                 "subtitle": "NO29",
-                "playDescription": "C.Kelley pass short right complete to NO 31. Catch made by R.McDaniel at NO 31. Gain of 9 yards. Tackled by D.Rakestraw, Z.McClain at NO 20. PENALTY on NO-A.Thomas, Personal Foul / Defense, 10 yards, accepted.",
+                "playDescription": "C.Kelley pass short right complete to NO 31. Catch made by R.McDaniel at NO 31. Gain of 9 yards. Tackled by D.Rakestraw, J.Fernandez at NO 20. PENALTY on NO-A.Thomas, Personal Foul / Defense, 10 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:32",
@@ -10052,20 +9931,24 @@
                 "imageAltText": "Matt White",
                 "title": "4TH AND 8",
                 "subtitle": "NO13",
-                "playDescription": "M.White punts 52 yards to MEM 35, Center-T.Bernard. V.Papale returned punt from the MEM 35. Pushed out of bounds by E.Bibbs at MEM 45. PENALTY on NO-NO, Unnecessary Roughness / Offense, 15 yards, accepted.",
+                "playDescription": "M.White punts 52 yards to MEM 35, Center-T.Bernard. V.Papale returned punt from the MEM 35. Pushed out of bounds by E.Bibbs at MEM 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "6:33",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
-                "id": "162",
+                "id": "161",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/591.vresize.140.170.medium.50.png",
+                "imageType": "image-headshot",
+                "imageAltText": "John Mitchell",
                 "title": "1ST AND 10",
-                "subtitle": "MEM47",
-                "playDescription": "PENALTY on MEM-MEM, Offensive Illegal Block Above the Waist, 15 yards, accepted.",
+                "subtitle": "MEM45",
+                "playDescription": "PENALTY on MEM-J.Mitchell, Illegal Blindside Block, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:22"
+                "timeOfPlay": "6:22",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/591.vresize.140.170.medium.50.png"
               }
             ],
             "entityLink": {
@@ -10105,7 +9988,7 @@
             "rightTeamAbbr": "MEM",
             "plays": [
               {
-                "id": "163",
+                "id": "162",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10143,7 +10026,7 @@
           {
             "id": "22",
             "title": "END OF GAME",
-            "subtitle": "10 plays \u00b7 24 yards \u00b7 5:35",
+            "subtitle": "10 plays \u00b7 24 yards \u00b7 6:11",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "New Orleans Breakers",
@@ -10155,7 +10038,7 @@
             "rightTeamAbbr": "MEM",
             "plays": [
               {
-                "id": "164",
+                "id": "163",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10168,7 +10051,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "165",
+                "id": "164",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10181,7 +10064,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "166",
+                "id": "165",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10194,7 +10077,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "167",
+                "id": "166",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10207,7 +10090,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "168",
+                "id": "167",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10220,7 +10103,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "169",
+                "id": "168",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10233,7 +10116,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
-                "id": "170",
+                "id": "169",
                 "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Default Headshot",
@@ -10244,6 +10127,15 @@
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:38",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+              },
+              {
+                "id": "170",
+                "title": "1ST AND 10",
+                "subtitle": "MEM18",
+                "playDescription": "Two minute warning.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "2:00"
               },
               {
                 "id": "171",
@@ -10279,6 +10171,14 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:41"
+              },
+              {
+                "id": "174",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
