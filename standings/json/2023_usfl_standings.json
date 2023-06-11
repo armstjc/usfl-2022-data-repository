@@ -4,7 +4,7 @@
       "id": "division",
       "title": "DIVISION",
       "pageTitle": "2023 USFL DIVISION STANDINGS",
-      "lastUpdated": "2023-06-11T00:50:55Z",
+      "lastUpdated": "2023-06-11T20:30:23Z",
       "standings": [
         {
           "template": "table-standings",
@@ -520,6 +520,7 @@
                 {
                   "index": 1,
                   "text": "Stallions",
+                  "superscript": "X",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
                   "imageAltText": "Birmingham Stallions",
@@ -528,22 +529,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "6-2",
+                  "text": "7-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".750",
+                  "text": ".778",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "222",
+                  "text": "260",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "161",
+                  "text": "176",
                   "emphasized": false
                 },
                 {
@@ -553,17 +554,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "3-0",
+                  "text": "4-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W3",
+                  "text": "W4",
                   "emphasized": false
                 }
               ],
@@ -690,27 +691,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "5-3",
+                  "text": "5-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".625",
+                  "text": ".556",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "198",
+                  "text": "213",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "181",
+                  "text": "219",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "2-1",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
@@ -720,12 +721,12 @@
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "2-3",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -836,13 +837,25 @@
             }
           ]
         }
-      ]
+      ],
+      "legend": {
+        "details": [
+          {
+            "key": "Y",
+            "text": "Clinched Division"
+          },
+          {
+            "key": "X",
+            "text": "Clinched Playoffs"
+          }
+        ]
+      }
     },
     {
       "id": "league",
       "title": "LEAGUE",
       "pageTitle": "2023 USFL LEAGUE STANDINGS",
-      "lastUpdated": "2023-06-11T00:50:55Z",
+      "lastUpdated": "2023-06-11T20:30:23Z",
       "standings": [
         {
           "template": "table-standings",
@@ -943,6 +956,7 @@
                 {
                   "index": 1,
                   "text": "Stallions",
+                  "superscript": "X",
                   "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                   "imageType": "image-logo",
                   "imageAltText": "Birmingham Stallions",
@@ -951,22 +965,22 @@
                 },
                 {
                   "index": 2,
-                  "text": "6-2",
+                  "text": "7-2",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".750",
+                  "text": ".778",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "222",
+                  "text": "260",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "161",
+                  "text": "176",
                   "emphasized": false
                 },
                 {
@@ -976,17 +990,17 @@
                 },
                 {
                   "index": 7,
-                  "text": "3-0",
+                  "text": "4-0",
                   "emphasized": false
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "3-2",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W3",
+                  "text": "W4",
                   "emphasized": false
                 }
               ],
@@ -1113,27 +1127,27 @@
                 },
                 {
                   "index": 2,
-                  "text": "5-3",
+                  "text": "5-4",
                   "emphasized": false
                 },
                 {
                   "index": 3,
-                  "text": ".625",
+                  "text": ".556",
                   "emphasized": false
                 },
                 {
                   "index": 4,
-                  "text": "198",
+                  "text": "213",
                   "emphasized": false
                 },
                 {
                   "index": 5,
-                  "text": "181",
+                  "text": "219",
                   "emphasized": false
                 },
                 {
                   "index": 6,
-                  "text": "2-1",
+                  "text": "2-2",
                   "emphasized": false
                 },
                 {
@@ -1143,12 +1157,12 @@
                 },
                 {
                   "index": 8,
-                  "text": "2-2",
+                  "text": "2-3",
                   "emphasized": false
                 },
                 {
                   "index": 9,
-                  "text": "W1",
+                  "text": "L1",
                   "emphasized": false
                 }
               ],
@@ -1180,7 +1194,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "4",
+                  "text": "3",
                   "emphasized": false
                 },
                 {
@@ -1261,7 +1275,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "5",
+                  "text": "4",
                   "emphasized": false
                 },
                 {
@@ -1342,7 +1356,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "6",
+                  "text": "5",
                   "emphasized": false
                 },
                 {
@@ -1423,7 +1437,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "6",
+                  "text": "5",
                   "emphasized": false
                 },
                 {
@@ -1504,7 +1518,7 @@
               "columns": [
                 {
                   "index": 0,
-                  "text": "7",
+                  "text": "6",
                   "emphasized": false
                 },
                 {
@@ -1583,7 +1597,19 @@
             }
           ]
         }
-      ]
+      ],
+      "legend": {
+        "details": [
+          {
+            "key": "Y",
+            "text": "Clinched Division"
+          },
+          {
+            "key": "X",
+            "text": "Clinched Playoffs"
+          }
+        ]
+      }
     }
   ],
   "selections": [

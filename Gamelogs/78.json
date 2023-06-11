@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "78",
-    "liveStartTime": "2023-06-11T16:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/78/data",
     "eventStatus": 3,
     "eventTime": "2023-06-11T17:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Birmingham Stallions at Houston Gamblers",
-    "oddsStartTime": "2023-06-11T20:13:41Z",
+    "oddsStartTime": "2023-06-11T20:31:12Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -43,7 +42,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.80.80.medium.1.png",
       "imageType": "image-logo",
       "imageAltText": "Birmingham Stallions",
-      "record": "6-2",
+      "record": "7-2",
       "score": 38,
       "isLoser": false,
       "hasPossession": false,
@@ -94,7 +93,7 @@
       "logoUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.80.80.medium.1.png",
       "imageType": "image-logo",
       "imageAltText": "Houston Gamblers",
-      "record": "5-3",
+      "record": "5-4",
       "score": 15,
       "isLoser": true,
       "hasPossession": false,
@@ -1529,7 +1528,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "R Smith",
+                      "text": "R. Smith",
                       "emphasized": false
                     },
                     {
@@ -5791,7 +5790,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "Jer Johnson",
+                      "text": "J. Johnson",
                       "emphasized": false
                     },
                     {
@@ -10154,7 +10153,7 @@
                 "imageAltText": "Alex McGough",
                 "title": "3RD AND 16",
                 "subtitle": "BHAM24",
-                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete deep right intended for.",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short right intended for.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:17",
@@ -10657,7 +10656,7 @@
                 "imageAltText": "Clint Sigg Jr.",
                 "title": "2ND AND 13",
                 "subtitle": "BHAM25",
-                "playDescription": "M.Cozart pass short left complete to BHAM 18. Catch made by C.Sigg at BHAM 18. Gain of 7 yards. Tackled by N.Brooks, T.Carter at BHAM 18.",
+                "playDescription": "M.Cozart pass short left complete to BHAM 19. Catch made by C.Sigg at BHAM 19. Gain of 7 yards. Tackled by N.Brooks, T.Carter at BHAM 18.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:24",
@@ -10747,6 +10746,14 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:11"
+              },
+              {
+                "id": "177",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
