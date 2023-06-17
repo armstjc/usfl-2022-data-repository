@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Orleans Breakers at Memphis Showboats",
-    "oddsStartTime": "2023-06-16T01:00:34Z",
+    "oddsStartTime": "2023-06-17T00:55:25Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1455,7 +1455,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "10",
                       "emphasized": false
                     },
                     {
@@ -1586,6 +1586,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "A. Alexander",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "7",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ADONIS ALEXANDER",
+                    "webUrl": "/usfl/adonis-alexander-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/120.vresize.140.170.medium.90.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Adonis Alexander",
+                    "contentUri": "football/usfl/athletes/120",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "120",
+                        "contentUri": "football/usfl/athletes/120"
+                      }
+                    },
+                    "analyticsName": "adonis-alexander",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/120.vresize.140.170.medium.90.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "K. Schad",
                       "emphasized": false
                     },
@@ -1654,7 +1722,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "A. Alexander",
+                      "text": "V. Diggs",
                       "emphasized": false
                     },
                     {
@@ -1665,142 +1733,6 @@
                     {
                       "index": 2,
                       "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ADONIS ALEXANDER",
-                    "webUrl": "/usfl/adonis-alexander-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/120.vresize.140.170.medium.90.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Adonis Alexander",
-                    "contentUri": "football/usfl/athletes/120",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "120",
-                        "contentUri": "football/usfl/athletes/120"
-                      }
-                    },
-                    "analyticsName": "adonis-alexander",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/120.vresize.140.170.medium.90.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "A. Saint-Amour",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ANREE SAINT-AMOUR",
-                    "webUrl": "/usfl/anree-saint-amour-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Anree Saint-Amour",
-                    "contentUri": "football/usfl/athletes/139",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "139",
-                        "contentUri": "football/usfl/athletes/139"
-                      }
-                    },
-                    "analyticsName": "anree-saint-amour",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "V. Diggs",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -1851,6 +1783,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/113.vresize.140.170.medium.87.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "A. Saint-Amour",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ANREE SAINT-AMOUR",
+                    "webUrl": "/usfl/anree-saint-amour-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Anree Saint-Amour",
+                    "contentUri": "football/usfl/athletes/139",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "139",
+                        "contentUri": "football/usfl/athletes/139"
+                      }
+                    },
+                    "analyticsName": "anree-saint-amour",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png"
                   },
                   "isFaded": false
                 },
@@ -1956,7 +1956,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -1987,74 +1987,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/796.vresize.140.170.medium.59.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "M. Stevens",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "MICHAEL STEVENS",
-                    "webUrl": "/usfl/mike-stevens-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/379.vresize.140.170.medium.62.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Michael Stevens",
-                    "contentUri": "football/usfl/athletes/379",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "379",
-                        "contentUri": "football/usfl/athletes/379"
-                      }
-                    },
-                    "analyticsName": "mike-stevens",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/379.vresize.140.170.medium.62.png"
                   },
                   "isFaded": false
                 },
@@ -2191,6 +2123,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/693.vresize.140.170.medium.87.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "M. Stevens",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "MICHAEL STEVENS",
+                    "webUrl": "/usfl/mike-stevens-player",
+                    "color": "0, 0, 53, 149",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/379.vresize.140.170.medium.62.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Michael Stevens",
+                    "contentUri": "football/usfl/athletes/379",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "379",
+                        "contentUri": "football/usfl/athletes/379"
+                      }
+                    },
+                    "analyticsName": "mike-stevens",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/379.vresize.140.170.medium.62.png"
                   },
                   "isFaded": false
                 },
@@ -2395,74 +2395,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "J. Brailford",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JORDAN BRAILFORD",
-                    "webUrl": "/usfl/jordan-brailford-player",
-                    "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/683.vresize.140.170.medium.81.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Jordan Brailford",
-                    "contentUri": "football/usfl/athletes/683",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "683",
-                        "contentUri": "football/usfl/athletes/683"
-                      }
-                    },
-                    "analyticsName": "jordan-brailford",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/683.vresize.140.170.medium.81.png"
                   },
                   "isFaded": false
                 },
@@ -2742,7 +2674,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "N. Chavis",
+                      "text": "J. Brailford",
                       "emphasized": false
                     },
                     {
@@ -2772,7 +2704,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -2784,25 +2716,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "NIGEL CHAVIS",
-                    "webUrl": "/usfl/nigel-chavis-player",
+                    "title": "JORDAN BRAILFORD",
+                    "webUrl": "/usfl/jordan-brailford-player",
                     "color": "0, 0, 53, 149",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/131.vresize.140.170.medium.95.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/683.vresize.140.170.medium.81.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Nigel Chavis",
-                    "contentUri": "football/usfl/athletes/131",
+                    "imageAltText": "Jordan Brailford",
+                    "contentUri": "football/usfl/athletes/683",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "131",
-                        "contentUri": "football/usfl/athletes/131"
+                        "id": "683",
+                        "contentUri": "football/usfl/athletes/683"
                       }
                     },
-                    "analyticsName": "nigel-chavis",
+                    "analyticsName": "jordan-brailford",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/131.vresize.140.170.medium.95.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/683.vresize.140.170.medium.81.png"
                   },
                   "isFaded": false
                 },
@@ -2883,7 +2815,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "65",
+                      "text": "64",
                       "emphasized": true
                     },
                     {
@@ -2908,7 +2840,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "8",
+                      "text": "9",
                       "emphasized": true
                     },
                     {
@@ -5039,12 +4971,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "9",
+                      "text": "11",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "5",
+                      "text": "6",
                       "emphasized": false
                     },
                     {
@@ -5316,7 +5248,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "3",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
@@ -5367,6 +5299,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/603.vresize.140.170.medium.60.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. Thomas",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "2",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "CORY THOMAS",
+                    "webUrl": "/usfl/cory-thomas-player",
+                    "color": "0, 18, 40, 76",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/72.vresize.140.170.medium.18.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Cory Thomas",
+                    "contentUri": "football/usfl/athletes/72",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "72",
+                        "contentUri": "football/usfl/athletes/72"
+                      }
+                    },
+                    "analyticsName": "cory-thomas",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/72.vresize.140.170.medium.18.png"
                   },
                   "isFaded": false
                 },
@@ -5503,74 +5503,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/389.vresize.140.170.medium.68.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "C. Thomas",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "CORY THOMAS",
-                    "webUrl": "/usfl/cory-thomas-player",
-                    "color": "0, 18, 40, 76",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/72.vresize.140.170.medium.18.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Cory Thomas",
-                    "contentUri": "football/usfl/athletes/72",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "72",
-                        "contentUri": "football/usfl/athletes/72"
-                      }
-                    },
-                    "analyticsName": "cory-thomas",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/72.vresize.140.170.medium.18.png"
                   },
                   "isFaded": false
                 },
@@ -5719,7 +5651,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "4",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -6399,7 +6331,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "67",
+                      "text": "69",
                       "emphasized": true
                     },
                     {
@@ -6548,6 +6480,59 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. McCray",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JORDAN MCCRAY",
+                    "webUrl": "/usfl/jordan-mccray-player",
+                    "color": "0, 18, 40, 76",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/7.vresize.140.170.medium.88.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Jordan McCray",
+                    "contentUri": "football/usfl/athletes/7",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "7",
+                        "contentUri": "football/usfl/athletes/7"
+                      }
+                    },
+                    "analyticsName": "jordan-mccray",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/7.vresize.140.170.medium.88.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "J. Wilson",
                       "emphasized": false
                     },
@@ -6606,7 +6591,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": true
                     },
                     {
@@ -7395,7 +7380,7 @@
                 "playDescription": "W.Hills rushed up the middle to MEM 32 for 9 yards. Tackled by D.Abrams at MEM 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:19",
+                "timeOfPlay": "14:18",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -7421,7 +7406,7 @@
                 "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete short left intended for W.Hills.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:09",
+                "timeOfPlay": "13:07",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png"
               },
               {
@@ -7511,7 +7496,7 @@
                 "playDescription": "K.Whyte rushed left tackle to MEM 27 for 7 yards. Tackled by A.Alexander at MEM 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:58",
+                "timeOfPlay": "10:53",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/600.vresize.140.170.medium.58.png"
               },
               {
@@ -7524,7 +7509,7 @@
                 "playDescription": "C.Kelley pass short left complete to MEM 28. Catch made by J.Wilson at MEM 28. Gain of 15 yards. J.Wilson FUMBLES, forced by J.Wiggins. Fumble RECOVERED by NO-A.Alexander at MEM 41. Tackled by C.Kelley at MEM 26.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:34",
+                "timeOfPlay": "10:29",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -7587,7 +7572,7 @@
                 "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 31. Catch made by W.Hills at MEM 31. Gain of 10 yards. Tackled by M.Lawal at MEM 25.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:31",
+                "timeOfPlay": "9:37",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -7659,16 +7644,16 @@
             "plays": [
               {
                 "id": "18",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 57 yards from NO 20 to the MEM 23. V.Papale returns the kickoff. Pushed out of bounds by L.Morris at MEM 26.",
+                "playDescription": "M.White kicks 57 yards from NO 20 to the MEM 23. V.Papale returns the kickoff. Pushed out of bounds by L.Morris at MEM 26.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "8:33",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "19",
@@ -7690,10 +7675,10 @@
                 "imageAltText": "Kerrith Whyte",
                 "title": "2ND AND 9",
                 "subtitle": "MEM27",
-                "playDescription": "C.Kelley pass short left complete to MEM 21. Catch made by K.Whyte at MEM 21. Gain of 1 yards. Tackled by A.Saint-Amour, D.Brooks at MEM 28.",
+                "playDescription": "C.Kelley pass short left complete to MEM 21. Catch made by K.Whyte at MEM 21. Gain of 1 yards. Tackled by A.Saint-Amour; D.Brooks at MEM 28.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:51",
+                "timeOfPlay": "7:54",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/600.vresize.140.170.medium.58.png"
               },
               {
@@ -7719,7 +7704,7 @@
                 "playDescription": "B.Wright punts 52 yards to NO 20, Center-R.DiSalvo. J.Elder returned punt from the NO 20. Tackled by G.Reaves, T.Neal at MEM 35.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:46",
+                "timeOfPlay": "6:49",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/263.vresize.140.170.medium.50.png"
               }
             ],
@@ -7782,7 +7767,7 @@
                 "playDescription": "W.Hills rushed right guard to MEM 25 for 4 yards. Tackled by D.Faamatau; C.Thomas at MEM 25.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:00",
+                "timeOfPlay": "5:59",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -7795,7 +7780,7 @@
                 "playDescription": "W.Hills rushed right guard to MEM 25 for 0 yards. Tackled by G.Reaves at MEM 25.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:28",
+                "timeOfPlay": "5:25",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -7808,7 +7793,7 @@
                 "playDescription": "M.Bethel-Thompson pass short left complete to MEM 21. Catch made by L.Morris at MEM 21. Gain of 12 yards. Tackled by T.Warner at MEM 13.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:53",
+                "timeOfPlay": "4:51",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/398.vresize.140.170.medium.74.png"
               },
               {
@@ -7818,7 +7803,7 @@
                 "imageAltText": "Wes Hills",
                 "title": "1ST AND 10",
                 "subtitle": "MEM13",
-                "playDescription": "W.Hills rushed right guard to MEM 9 for 4 yards. Tackled by D.Faamatau, A.Butler at MEM 9.",
+                "playDescription": "W.Hills rushed right guard to MEM 9 for 4 yards. Tackled by D.Faamatau, T.Warner at MEM 9.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "4:15",
@@ -7840,7 +7825,7 @@
                 "imageAltText": "Johnnie Dixon",
                 "title": "2ND AND 6",
                 "subtitle": "MEM9",
-                "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 2. Catch made by J.Dixon at MEM 2. Gain of 7 yards. Tackled by M.Lawal at MEM 2.",
+                "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 3. Catch made by J.Dixon at MEM 3. Gain of 7 yards. Tackled by M.Lawal at MEM 2.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "3:42",
@@ -7919,16 +7904,16 @@
             "plays": [
               {
                 "id": "32",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 70 yards from NO 20 to the MEM 10. D.Dillon returns the kickoff. Tackled by S.Salmon at MEM 31.",
+                "playDescription": "M.White kicks 70 yards from NO 20 to the MEM 10. D.Dillon returns the kickoff. Tackled by S.Salmon at MEM 31.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:59",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "33",
@@ -7937,7 +7922,7 @@
                 "imageAltText": "Kerrith Whyte",
                 "title": "1ST AND 10",
                 "subtitle": "MEM31",
-                "playDescription": "K.Whyte rushed up the middle to MEM 32 for 1 yards. Tackled by J.Elder, J.Brailford at MEM 32.",
+                "playDescription": "K.Whyte rushed up the middle to MEM 32 for 1 yards. Tackled by J.Elder, J.Fernandez at MEM 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "2:53",
@@ -7950,7 +7935,7 @@
                 "playDescription": "C.Kelley scrambles up the middle to MEM 35 for 3 yards. Tackled by K.Schad at MEM 35.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "2:16"
+                "timeOfPlay": "2:15"
               },
               {
                 "id": "35",
@@ -7966,7 +7951,7 @@
                 "rightTeamScoreChange": false,
                 "leftTeamAbbr": "NO",
                 "rightTeamAbbr": "MEM",
-                "timeOfPlay": "1:28",
+                "timeOfPlay": "1:42",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/7.vresize.140.170.medium.88.png"
               },
               {
@@ -8030,17 +8015,17 @@
             "plays": [
               {
                 "id": "38",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 75 yards from NO 20 to the MEM 5. D.Dillon returns the kickoff. Tackled by S.Salmon; A.Jones at NO 42.",
+                "playDescription": "M.White kicks 75 yards from NO 20 to the MEM 5. D.Dillon returns the kickoff. Tackled by S.Salmon; A.Jones at NO 42.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
                 "timeOfPlay": "1:29",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "39",
@@ -8081,7 +8066,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "0:21",
+                "timeOfPlay": "0:19",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8167,7 +8152,7 @@
                 "playDescription": "W.Hills rushed up the middle to NO 48 for 2 yards. Tackled by J.Williams at NO 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:00",
+                "timeOfPlay": "13:59",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -8177,10 +8162,10 @@
                 "imageAltText": "Lee Morris",
                 "title": "1ST AND 10",
                 "subtitle": "NO48",
-                "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 46. Catch made by L.Morris at MEM 46. Gain of 8 yards. Tackled by T.Warner at MEM 44.",
+                "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 45. Catch made by L.Morris at MEM 45. Gain of 8 yards. Tackled by T.Warner at MEM 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:27",
+                "timeOfPlay": "13:26",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/398.vresize.140.170.medium.74.png"
               },
               {
@@ -8193,7 +8178,7 @@
                 "playDescription": "W.Hills rushed left end to MEM 46 for -2 yards. Pushed out of bounds by M.Lawal at MEM 46.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:51",
+                "timeOfPlay": "12:49",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -8282,17 +8267,17 @@
                 "playDescription": "C.Kelley pass short right complete to MEM 7. Catch made by J.Washington at MEM 7. Gain of 7 yards. Tackled by A.Thomas, J.Fernandez at MEM 17.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:53",
+                "timeOfPlay": "10:52",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
                 "id": "52",
                 "title": "3RD AND 3",
                 "subtitle": "MEM17",
-                "playDescription": "C.Kelley scrambles left tackle to MEM 27 for 10 yards. Tackled by A.Thomas at MEM 27.",
+                "playDescription": "C.Kelley scrambles left end to MEM 27 for 10 yards. Tackled by A.Thomas at MEM 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:18"
+                "timeOfPlay": "10:17"
               },
               {
                 "id": "53",
@@ -8304,7 +8289,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete short left intended for J.Wilson.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:38",
+                "timeOfPlay": "9:37",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -8343,7 +8328,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete deep left intended for R.McDaniel (A.Alexander).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:42",
+                "timeOfPlay": "7:48",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -8356,7 +8341,7 @@
                 "playDescription": "C.Kelley pass short left complete to MEM 41. Catch made by D.Dillon at MEM 41. Gain of 8 yards. Tackled by A.Alexander, K.Schad at MEM 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:15",
+                "timeOfPlay": "7:13",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/249.vresize.140.170.medium.44.png"
               },
               {
@@ -8369,7 +8354,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete deep left intended for O.Mitchell. PENALTY on NO-R.Howard, Defensive Offside, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:35",
+                "timeOfPlay": "6:33",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/274.vresize.140.170.medium.54.png"
               },
               {
@@ -8382,7 +8367,7 @@
                 "playDescription": "J.Washington rushed left tackle to NO 30 for 20 yards. Tackled by A.Alexander at NO 30.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:25",
+                "timeOfPlay": "6:21",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8395,7 +8380,7 @@
                 "playDescription": "J.Washington rushed left guard to NO 24 for 6 yards. Tackled by J.Fernandez; V.Diggs at NO 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:59",
+                "timeOfPlay": "5:56",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8408,7 +8393,7 @@
                 "playDescription": "C.Kelley pass short left complete to NO 23. Catch made by J.Washington at NO 23. Gain of 1 yards. Tackled by V.Diggs at NO 23.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:21",
+                "timeOfPlay": "5:20",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8421,7 +8406,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley sacked at NO 32 for -9 yards (J.Elder)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:43",
+                "timeOfPlay": "4:41",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/324.vresize.140.170.medium.31.png"
               },
               {
@@ -8514,7 +8499,7 @@
                 "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete short right intended for J.Adams.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:13",
+                "timeOfPlay": "3:12",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png"
               },
               {
@@ -8635,10 +8620,10 @@
                 "imageAltText": "Osirus Mitchell",
                 "title": "1ST AND 10",
                 "subtitle": "MEM34",
-                "playDescription": "C.Kelley pass deep left complete to NO 48. Catch made by O.Mitchell at NO 48. Gain of 26 yards. Pushed out of bounds by A.Alexander; M.Stevens at NO 40.",
+                "playDescription": "C.Kelley pass deep left complete to NO 48. Catch made by O.Mitchell at NO 48. Gain of 26 yards. Pushed out of bounds by A.Alexander; V.Diggs at NO 40.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:54",
+                "timeOfPlay": "1:50",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/1.vresize.140.170.medium.28.png"
               },
               {
@@ -8648,7 +8633,7 @@
                 "imageAltText": "Vinny Papale",
                 "title": "1ST AND 10",
                 "subtitle": "NO40",
-                "playDescription": "C.Kelley pass short right complete to NO 35. Catch made by V.Papale at NO 35. Gain of 8 yards. Tackled by M.Stevens, J.Fernandez at NO 32.",
+                "playDescription": "C.Kelley pass short right complete to NO 35. Catch made by V.Papale at NO 35. Gain of 8 yards. Tackled by M.Stevens at NO 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:40",
@@ -8664,7 +8649,7 @@
                 "playDescription": "C.Kelley pass deep right complete to NO 15. Catch made by D.Dillon at NO 15. Gain of 17 yards. Tackled by J.Elder at NO 15.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:15",
+                "timeOfPlay": "1:12",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/249.vresize.140.170.medium.44.png"
               },
               {
@@ -8677,7 +8662,7 @@
                 "playDescription": "C.Kelley pass short right complete to NO 11. Catch made by J.Washington at NO 11. Gain of 12 yards. Tackled by J.Fernandez; J.Elder at NO 3.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:55",
+                "timeOfPlay": "0:56",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8918,16 +8903,16 @@
             "plays": [
               {
                 "id": "98",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 65 yards from NO 20 to the MEM 15. D.Dillon returns the kickoff. Tackled by A.Saint-Amour, N.Chavis at MEM 46.",
+                "playDescription": "M.White kicks 65 yards from NO 20 to the MEM 15. D.Dillon returns the kickoff. Tackled by A.Saint-Amour at MEM 46.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "99",
@@ -8939,7 +8924,7 @@
                 "playDescription": "J.Washington rushed left tackle to MEM 47 for 1 yards. Tackled by K.Schad at MEM 47.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:52",
+                "timeOfPlay": "14:54",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -8952,7 +8937,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete deep right intended for D.Dillon. PENALTY on NO-A.Thomas, Defensive Holding, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:20",
+                "timeOfPlay": "14:19",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/796.vresize.140.170.medium.59.png"
               },
               {
@@ -8965,7 +8950,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley sacked at MEM 39 for -13 yards (K.Schad)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "14:04",
+                "timeOfPlay": "14:05",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/818.vresize.140.170.medium.35.png"
               },
               {
@@ -8978,7 +8963,7 @@
                 "playDescription": "C.Kelley pass short right complete to MEM 38. Catch made by J.Wilson at MEM 38. Gain of 9 yards. Tackled by J.Fernandez at MEM 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:06",
+                "timeOfPlay": "13:16",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/636.vresize.140.170.medium.39.png"
               },
               {
@@ -9004,7 +8989,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete short right intended for D.Helm.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:15",
+                "timeOfPlay": "12:16",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -9030,7 +9015,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete short right intended for R.McDaniel.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:08",
+                "timeOfPlay": "11:09",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -9043,7 +9028,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley sacked at NO 39 for -2 yards (A.Saint-Amour)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:38",
+                "timeOfPlay": "10:36",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/139.vresize.140.170.medium.96.png"
               }
             ],
@@ -9106,7 +9091,7 @@
                 "playDescription": "M.Bethel-Thompson pass deep middle complete to MEM 48. Catch made by L.Morris at MEM 48. Gain of 24 yards. Tackled by A.Reed at MEM 46.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:50",
+                "timeOfPlay": "9:47",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/398.vresize.140.170.medium.74.png"
               },
               {
@@ -9116,10 +9101,10 @@
                 "imageAltText": "Antonio Reed",
                 "title": "1ST AND 10",
                 "subtitle": "MEM46",
-                "playDescription": "W.Hills rushed up the middle to MEM 43 for 3 yards. Tackled by D.Faamatau at MEM 43. PENALTY on MEM-A.Reed, Unnecessary Roughness / Defense, 15 yards, accepted.",
+                "playDescription": "W.Hills rushed up the middle to MEM 43 for 3 yards. Tackled by T.Warner, D.Faamatau at MEM 43. PENALTY on MEM-A.Reed, Unnecessary Roughness / Defense, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:11",
+                "timeOfPlay": "9:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/363.vresize.140.170.medium.4.png"
               },
               {
@@ -9154,7 +9139,7 @@
                 "playDescription": "M.Bethel-Thompson pass short middle complete to MEM 15. Catch made by A.Jones at MEM 15. Gain of 6 yards. Tackled by T.Warner; A.Reed at MEM 15.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:55",
+                "timeOfPlay": "7:53",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/406.vresize.140.170.medium.77.png"
               },
               {
@@ -9164,10 +9149,10 @@
                 "imageAltText": "Anthony Jones",
                 "title": "1ST AND 10",
                 "subtitle": "MEM15",
-                "playDescription": "M.Bethel-Thompson pass short right complete to MEM 10. Catch made by A.Jones at MEM 10. Gain of 13 yards. Pushed out of bounds by A.Reed at MEM 2.",
+                "playDescription": "M.Bethel-Thompson pass short right complete to MEM 9. Catch made by A.Jones at MEM 9. Gain of 13 yards. Pushed out of bounds by A.Reed at MEM 2.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:16",
+                "timeOfPlay": "7:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/406.vresize.140.170.medium.77.png"
               },
               {
@@ -9193,7 +9178,7 @@
                 "playDescription": "M.Bethel-Thompson steps back to pass. M.Bethel-Thompson pass incomplete short left intended for J.Adams.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:02",
+                "timeOfPlay": "6:01",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/794.vresize.140.170.medium.57.png"
               },
               {
@@ -9278,16 +9263,16 @@
             "plays": [
               {
                 "id": "123",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 80 yards from NO 20 to the MEM End Zone. Touchback.",
+                "playDescription": "M.White kicks 80 yards from NO 20 to the MEM End Zone. Touchback.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "5:27",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "124",
@@ -9312,7 +9297,7 @@
                 "playDescription": "C.Kelley pass short left complete to MEM 20. Catch made by J.Washington at MEM 20. Gain of 2 yards. Pushed out of bounds by V.Diggs at MEM 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:59",
+                "timeOfPlay": "5:00",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -9325,7 +9310,7 @@
                 "playDescription": "C.Kelley pass short left complete to MEM 39. Catch made by D.Dillon at MEM 39. Gain of 12 yards. Tackled by A.Alexander at MEM 39.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:27",
+                "timeOfPlay": "4:26",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/249.vresize.140.170.medium.44.png"
               },
               {
@@ -9338,7 +9323,7 @@
                 "playDescription": "C.Kelley pass short middle complete to NO 47. Catch made by D.Helm at NO 47. Gain of 15 yards. Tackled by D.Rakestraw at NO 46.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:55",
+                "timeOfPlay": "3:53",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/659.vresize.140.170.medium.10.png"
               },
               {
@@ -9364,7 +9349,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley sacked at NO 45 for -14 yards (C.Christian)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:03",
+                "timeOfPlay": "3:04",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/128.vresize.140.170.medium.93.png"
               },
               {
@@ -9377,7 +9362,7 @@
                 "playDescription": "J.Washington rushed left end to NO 43 for 2 yards. Tackled by D.Rakestraw; A.Alexander at NO 43.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "2:14",
+                "timeOfPlay": "2:20",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -9390,7 +9375,7 @@
                 "playDescription": "C.Kelley pass short middle complete to NO 43. Catch made by J.Washington at NO 43. Gain of 13 yards. Tackled by J.Elder at NO 30.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:47",
+                "timeOfPlay": "1:46",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -9403,7 +9388,7 @@
                 "playDescription": "C.Kelley pass short left INTERCEPTED at NO 15. Intercepted by J.Wiggins at NO 15. Tackled by R.McDaniel at NO 30.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:04",
+                "timeOfPlay": "1:02",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -9473,7 +9458,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "3RD",
-                "timeOfPlay": "0:23",
+                "timeOfPlay": "0:17",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/706.vresize.140.170.medium.50.png"
               },
               {
@@ -9556,7 +9541,7 @@
                 "imageAltText": "Juwan Washington",
                 "title": "1ST AND 10",
                 "subtitle": "MEM20",
-                "playDescription": "J.Washington rushed left guard to MEM 24 for 4 yards. Tackled by V.Diggs; J.Fernandez at MEM 24.",
+                "playDescription": "J.Washington rushed left guard to MEM 24 for 4 yards. Tackled by V.Diggs at MEM 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "14:17",
@@ -9569,10 +9554,10 @@
                 "imageAltText": "Cole Kelley",
                 "title": "2ND AND 6",
                 "subtitle": "MEM24",
-                "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete deep right intended for D.Dillon.",
+                "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete deep right intended for D.Dillon (A.Thomas).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:52",
+                "timeOfPlay": "13:54",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -9665,7 +9650,7 @@
                 "rightTeamScoreChange": false,
                 "leftTeamAbbr": "NO",
                 "rightTeamAbbr": "MEM",
-                "timeOfPlay": "12:28",
+                "timeOfPlay": "12:25",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/586.vresize.140.170.medium.47.png"
               },
               {
@@ -9724,16 +9709,16 @@
             "plays": [
               {
                 "id": "146",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Matt Coghlin",
+                "imageAltText": "Matt White",
                 "title": "KICKOFF",
                 "subtitle": "NO20",
-                "playDescription": "M.Coghlin kicks 62 yards from NO 20 to the MEM 18. D.Dillon returns the kickoff. Tackled by W.Hills at MEM 33.",
+                "playDescription": "M.White kicks 62 yards from NO 20 to the MEM 18. D.Dillon returns the kickoff. Tackled by W.Hills at MEM 33.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "12:19",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/798.vresize.140.170.medium.61.png"
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
                 "id": "147",
@@ -9758,7 +9743,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley sacked at NO 46 for -4 yards (K.Schad)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:43",
+                "timeOfPlay": "11:45",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/818.vresize.140.170.medium.35.png"
               },
               {
@@ -9771,7 +9756,7 @@
                 "playDescription": "C.Kelley pass deep left complete to NO 29. Catch made by V.Papale at NO 29. Gain of 17 yards. Tackled by J.Elder at NO 29.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:16",
+                "timeOfPlay": "11:18",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/275.vresize.140.170.medium.55.png"
               },
               {
@@ -9781,10 +9766,10 @@
                 "imageAltText": "Alex Thomas",
                 "title": "1ST AND 10",
                 "subtitle": "NO29",
-                "playDescription": "C.Kelley pass short right complete to NO 31. Catch made by R.McDaniel at NO 31. Gain of 9 yards. Tackled by D.Rakestraw, J.Fernandez at NO 20. PENALTY on NO-A.Thomas, Personal Foul / Defense, 10 yards, accepted.",
+                "playDescription": "C.Kelley pass short right complete to NO 32. Catch made by R.McDaniel at NO 32. Gain of 9 yards. Tackled by D.Rakestraw, J.Fernandez at NO 20. PENALTY on NO-A.Thomas, Personal Foul / Defense, 10 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:32",
+                "timeOfPlay": "10:52",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/796.vresize.140.170.medium.59.png"
               },
               {
@@ -9810,7 +9795,7 @@
                 "playDescription": "C.Kelley pass short right complete to NO 11. Catch made by J.Washington at NO 11. Gain of -1 yards. Tackled by J.Fernandez at NO 11.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:42",
+                "timeOfPlay": "9:41",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/251.vresize.140.170.medium.63.png"
               },
               {
@@ -9823,7 +9808,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete short left intended for V.Papale (A.Alexander).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:10",
+                "timeOfPlay": "9:09",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               },
               {
@@ -9836,7 +9821,7 @@
                 "playDescription": "C.Kelley steps back to pass. C.Kelley pass incomplete short middle intended for O.Mitchell.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "8:38",
+                "timeOfPlay": "8:37",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/685.vresize.140.170.medium.82.png"
               }
             ],
@@ -9899,7 +9884,7 @@
                 "playDescription": "C.Habibi-Likio rushed right guard to NO 15 for 1 yards. Tackled by J.Ferguson; T.Warner at NO 15.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:54",
+                "timeOfPlay": "7:52",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -9912,7 +9897,7 @@
                 "playDescription": "C.Habibi-Likio rushed right guard to NO 13 for -2 yards. Tackled by A.Butler at NO 13.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:15",
+                "timeOfPlay": "7:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -9922,7 +9907,7 @@
                 "playDescription": "Timeout #2 by NO.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:33"
+                "timeOfPlay": "6:32"
               },
               {
                 "id": "160",
@@ -9934,7 +9919,7 @@
                 "playDescription": "M.White punts 52 yards to MEM 35, Center-T.Bernard. V.Papale returned punt from the MEM 35. Pushed out of bounds by E.Bibbs at MEM 45.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:33",
+                "timeOfPlay": "6:32",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/312.vresize.140.170.medium.25.png"
               },
               {
@@ -10060,7 +10045,7 @@
                 "playDescription": "C.Habibi-Likio rushed up the middle to MEM 34 for 3 yards. Tackled by D.Faamatau at MEM 34.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:18",
+                "timeOfPlay": "5:32",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10070,10 +10055,10 @@
                 "imageAltText": "Default Headshot",
                 "title": "3RD AND 4",
                 "subtitle": "MEM34",
-                "playDescription": "C.Habibi-Likio rushed up the middle to MEM 32 for 2 yards. Tackled by A.Reed at MEM 32.",
+                "playDescription": "C.Habibi-Likio rushed up the middle to MEM 32 for 2 yards. Tackled by A.Reed, C.Thomas at MEM 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:53",
+                "timeOfPlay": "4:52",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10086,7 +10071,7 @@
                 "playDescription": "C.Habibi-Likio rushed left guard to MEM 29 for 3 yards. Tackled by G.Reaves; T.Neal at MEM 29.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:03",
+                "timeOfPlay": "4:09",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10099,7 +10084,7 @@
                 "playDescription": "C.Habibi-Likio rushed up the middle to MEM 24 for 5 yards. Tackled by T.Green at MEM 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:23",
+                "timeOfPlay": "3:29",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10125,7 +10110,7 @@
                 "playDescription": "C.Habibi-Likio rushed right guard to MEM 18 for 5 yards. Tackled by S.Griffin at MEM 18.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "2:38",
+                "timeOfPlay": "2:15",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10160,7 +10145,7 @@
                 "playDescription": "C.Habibi-Likio rushed right tackle to MEM 15 for 3 yards. Tackled by G.Reaves, A.Butler at MEM 15.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "1:23",
+                "timeOfPlay": "1:21",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -10170,7 +10155,7 @@
                 "playDescription": "M.Bethel-Thompson kneels at the MEM 16.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:41"
+                "timeOfPlay": "0:39"
               },
               {
                 "id": "174",
@@ -10486,6 +10471,7 @@
       }
     ]
   },
+  "eventHeadline": "Showboats having trouble holding on to the ball (5 TOs)",
   "keyPlays": {
     "title": "KEY PLAYS",
     "keyPlaysList": [

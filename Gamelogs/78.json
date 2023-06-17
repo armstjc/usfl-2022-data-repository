@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Birmingham Stallions at Houston Gamblers",
-    "oddsStartTime": "2023-06-16T01:31:40Z",
+    "oddsStartTime": "2023-06-17T00:20:51Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -161,13 +161,13 @@
               {
                 "title": "Total Yards",
                 "leftStat": "292",
-                "rightStat": "232",
+                "rightStat": "231",
                 "betterStat": "left"
               },
               {
                 "title": "Yards Per Play",
                 "leftStat": "6.8",
-                "rightStat": "3.4",
+                "rightStat": "3.3",
                 "betterStat": "left"
               },
               {
@@ -237,7 +237,7 @@
               {
                 "title": "Total Yards",
                 "leftStat": "84",
-                "rightStat": "99",
+                "rightStat": "98",
                 "betterStat": "right"
               },
               {
@@ -1397,7 +1397,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "12",
                       "emphasized": false
                     },
                     {
@@ -1465,7 +1465,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "7",
+                      "text": "8",
                       "emphasized": false
                     },
                     {
@@ -1664,6 +1664,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "J. Tillery",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "6",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOJO TILLERY",
+                    "webUrl": "/usfl/jojo-tillery-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "JoJo Tillery",
+                    "contentUri": "football/usfl/athletes/287",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "287",
+                        "contentUri": "football/usfl/athletes/287"
+                      }
+                    },
+                    "analyticsName": "jojo-tillery",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "K Davis",
                       "emphasized": false
                     },
@@ -1674,7 +1742,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "4",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -1725,6 +1793,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/822.vresize.140.170.medium.38.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "E. Sullivan",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "3",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "ELIJAH SULLIVAN",
+                    "webUrl": "/usfl/elijah-sullivan-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Elijah Sullivan",
+                    "contentUri": "football/usfl/athletes/522",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "522",
+                        "contentUri": "football/usfl/athletes/522"
+                      }
+                    },
+                    "analyticsName": "elijah-sullivan",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png"
                   },
                   "isFaded": false
                 },
@@ -1800,211 +1936,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Tillery",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0.5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JOJO TILLERY",
-                    "webUrl": "/usfl/jojo-tillery-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "JoJo Tillery",
-                    "contentUri": "football/usfl/athletes/287",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "287",
-                        "contentUri": "football/usfl/athletes/287"
-                      }
-                    },
-                    "analyticsName": "jojo-tillery",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "C. McFarland",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "CHRISTIAN MCFARLAND",
-                    "webUrl": "/usfl/christian-mcfarland-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/24.vresize.140.170.medium.40.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Christian McFarland",
-                    "contentUri": "football/usfl/athletes/24",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "24",
-                        "contentUri": "football/usfl/athletes/24"
-                      }
-                    },
-                    "analyticsName": "christian-mcfarland",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/24.vresize.140.170.medium.40.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "T. Carter",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "5",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "T.J. CARTER",
-                    "webUrl": "/usfl/tj-carter-2-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/812.vresize.140.170.medium.29.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "T.J. Carter",
-                    "contentUri": "football/usfl/athletes/812",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "812",
-                        "contentUri": "football/usfl/athletes/812"
-                      }
-                    },
-                    "analyticsName": "tj-carter-2",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/812.vresize.140.170.medium.29.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "W. Yarbary",
+                      "text": "T. Robinson",
                       "emphasized": false
                     },
                     {
@@ -2019,25 +1951,25 @@
                     },
                     {
                       "index": 3,
-                      "text": "1.5",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
                       "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
                       "text": "1",
                       "emphasized": false
                     },
                     {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
                       "index": 7,
                       "text": "0",
                       "emphasized": false
@@ -2046,93 +1978,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "WILLIE YARBARY",
-                    "webUrl": "/usfl/willie-yarbary-player",
+                    "title": "TYREE ROBINSON",
+                    "webUrl": "/usfl/tyree-robinson-player",
                     "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/16.vresize.140.170.medium.37.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Willie Yarbary",
-                    "contentUri": "football/usfl/athletes/35",
+                    "imageAltText": "Tyree Robinson",
+                    "contentUri": "football/usfl/athletes/16",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "35",
-                        "contentUri": "football/usfl/athletes/35"
+                        "id": "16",
+                        "contentUri": "football/usfl/athletes/16"
                       }
                     },
-                    "analyticsName": "willie-yarbary",
+                    "analyticsName": "tyree-robinson",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "E. Sullivan",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "3",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "ELIJAH SULLIVAN",
-                    "webUrl": "/usfl/elijah-sullivan-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Elijah Sullivan",
-                    "contentUri": "football/usfl/athletes/522",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "522",
-                        "contentUri": "football/usfl/athletes/522"
-                      }
-                    },
-                    "analyticsName": "elijah-sullivan",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/16.vresize.140.170.medium.37.png"
                   },
                   "isFaded": false
                 },
@@ -2208,7 +2072,75 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T. Robinson",
+                      "text": "W. Yarbary",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "1.5",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "WILLIE YARBARY",
+                    "webUrl": "/usfl/willie-yarbary-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Willie Yarbary",
+                    "contentUri": "football/usfl/athletes/35",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "35",
+                        "contentUri": "football/usfl/athletes/35"
+                      }
+                    },
+                    "analyticsName": "willie-yarbary",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "C. McFarland",
                       "emphasized": false
                     },
                     {
@@ -2238,7 +2170,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
@@ -2250,25 +2182,93 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "TYREE ROBINSON",
-                    "webUrl": "/usfl/tyree-robinson-player",
+                    "title": "CHRISTIAN MCFARLAND",
+                    "webUrl": "/usfl/christian-mcfarland-player",
                     "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/16.vresize.140.170.medium.37.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/24.vresize.140.170.medium.40.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Tyree Robinson",
-                    "contentUri": "football/usfl/athletes/16",
+                    "imageAltText": "Christian McFarland",
+                    "contentUri": "football/usfl/athletes/24",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "16",
-                        "contentUri": "football/usfl/athletes/16"
+                        "id": "24",
+                        "contentUri": "football/usfl/athletes/24"
                       }
                     },
-                    "analyticsName": "tyree-robinson",
+                    "analyticsName": "christian-mcfarland",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/16.vresize.140.170.medium.37.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/24.vresize.140.170.medium.40.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "T. Carter",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "T.J. CARTER",
+                    "webUrl": "/usfl/tj-carter-2-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/812.vresize.140.170.medium.29.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "T.J. Carter",
+                    "contentUri": "football/usfl/athletes/812",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "812",
+                        "contentUri": "football/usfl/athletes/812"
+                      }
+                    },
+                    "analyticsName": "tj-carter-2",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/812.vresize.140.170.medium.29.png"
                   },
                   "isFaded": false
                 },
@@ -2286,7 +2286,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "3",
+                      "text": "2",
                       "emphasized": false
                     },
                     {
@@ -2296,7 +2296,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "1",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
@@ -2344,148 +2344,12 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "N. Holley",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "NATE HOLLEY",
-                    "webUrl": "/usfl/nate-holley-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/289.vresize.140.170.medium.14.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Nate Holley",
-                    "contentUri": "football/usfl/athletes/289",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "289",
-                        "contentUri": "football/usfl/athletes/289"
-                      }
-                    },
-                    "analyticsName": "nate-holley",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/289.vresize.140.170.medium.14.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "J. Ozougwu",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "2",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JOE OZOUGWU",
-                    "webUrl": "/usfl/joe-ozougwu-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/689.vresize.140.170.medium.84.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Joe Ozougwu",
-                    "contentUri": "football/usfl/athletes/689",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "689",
-                        "contentUri": "football/usfl/athletes/689"
-                      }
-                    },
-                    "analyticsName": "joe-ozougwu",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/689.vresize.140.170.medium.84.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "M. Hankins",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
@@ -2541,6 +2405,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "N. Holley",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "NATE HOLLEY",
+                    "webUrl": "/usfl/nate-holley-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/289.vresize.140.170.medium.14.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Nate Holley",
+                    "contentUri": "football/usfl/athletes/289",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "289",
+                        "contentUri": "football/usfl/athletes/289"
+                      }
+                    },
+                    "analyticsName": "nate-holley",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/289.vresize.140.170.medium.14.png"
                   },
                   "isFaded": false
                 },
@@ -2677,6 +2609,74 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "J. Ozougwu",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "JOE OZOUGWU",
+                    "webUrl": "/usfl/joe-ozougwu-player",
+                    "color": "0, 163, 32, 53",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/689.vresize.140.170.medium.84.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Joe Ozougwu",
+                    "contentUri": "football/usfl/athletes/689",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "689",
+                        "contentUri": "football/usfl/athletes/689"
+                      }
+                    },
+                    "analyticsName": "joe-ozougwu",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/689.vresize.140.170.medium.84.png"
                   },
                   "isFaded": false
                 },
@@ -2893,12 +2893,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "86",
+                      "text": "87",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "43",
+                      "text": "38",
                       "emphasized": true
                     },
                     {
@@ -2908,7 +2908,7 @@
                     },
                     {
                       "index": 4,
-                      "text": "7",
+                      "text": "6",
                       "emphasized": true
                     },
                     {
@@ -4444,12 +4444,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "28",
+                      "text": "27",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "28.0",
+                      "text": "27.0",
                       "emphasized": false
                     },
                     {
@@ -4459,7 +4459,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "28",
+                      "text": "27",
                       "emphasized": false
                     }
                   ],
@@ -4734,7 +4734,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "99",
+                      "text": "98",
                       "emphasized": true
                     },
                     {
@@ -4749,7 +4749,7 @@
                     },
                     {
                       "index": 5,
-                      "text": "28",
+                      "text": "27",
                       "emphasized": true
                     }
                   ],
@@ -7842,7 +7842,7 @@
                 "playDescription": "K.Bahar steps back to pass. K.Bahar sacked at HOU 29 for -14 yards (W.Henry)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:34",
+                "timeOfPlay": "13:32",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/400.vresize.140.170.medium.76.png"
               },
               {
@@ -7855,7 +7855,7 @@
                 "playDescription": "H.Niswander punts 56 yards to BHAM 15, Center-R.Reiter. N.Brooks returned punt from the BHAM 15. Tackled by I.Pryor, I.Lewis at BHAM 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:57",
+                "timeOfPlay": "12:55",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -7918,7 +7918,7 @@
                 "playDescription": "C.Marable rushed left tackle to BHAM 30 for -1 yards. Tackled by I.Chambers at BHAM 30.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:13",
+                "timeOfPlay": "12:07",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
@@ -7928,10 +7928,10 @@
                 "imageAltText": "Alex McGough",
                 "title": "3RD AND 7",
                 "subtitle": "BHAM30",
-                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete deep left intended for D.Cain.",
+                "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short left intended for D.Cain.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:36",
+                "timeOfPlay": "11:30",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
               },
               {
@@ -7944,7 +7944,7 @@
                 "playDescription": "C.Wadman punts 47 yards to HOU 23, Center-R.Langan. J.Hall returned punt from the HOU 23. Pushed out of bounds by J.Tillery at HOU 29.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:35",
+                "timeOfPlay": "10:39",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/18.vresize.140.170.medium.37.png"
               }
             ],
@@ -8007,7 +8007,7 @@
                 "playDescription": "K.Bahar pass short right complete to HOU 42. Catch made by M.Thompson at HOU 42. Gain of 5 yards. Pushed out of bounds by E.Sullivan at HOU 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:00",
+                "timeOfPlay": "9:55",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -8020,7 +8020,7 @@
                 "playDescription": "K.Bahar pass short left complete to HOU 45. Catch made by J.Pederson at HOU 45. Gain of 0 yards. J.Pederson FUMBLES. Out of bounds.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:27",
+                "timeOfPlay": "9:23",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/443.vresize.140.170.medium.49.png"
               },
               {
@@ -8033,7 +8033,7 @@
                 "playDescription": "K.Bahar pass short middle complete to HOU 48. Catch made by I.Zuber at HOU 48. Gain of 16 yards. Tackled by Q.Poling at BHAM 40.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "8:48",
+                "timeOfPlay": "8:46",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/77.vresize.140.170.medium.67.png"
               },
               {
@@ -8046,7 +8046,7 @@
                 "playDescription": "M.Thompson rushed left tackle to BHAM 24 for 17 yards. Tackled by C.McFarland; J.Ozougwu at BHAM 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "8:10",
+                "timeOfPlay": "8:05",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -8059,7 +8059,7 @@
                 "playDescription": "M.Thompson rushed left guard to BHAM 24 for 0 yards. Tackled by Q.Poling at BHAM 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:38",
+                "timeOfPlay": "7:26",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -8072,21 +8072,21 @@
                 "playDescription": "M.Thompson rushed up the middle to BHAM 24 for 0 yards. Tackled by W.Henry; W.Yarbary at BHAM 24.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:56",
+                "timeOfPlay": "6:48",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
                 "id": "18",
-                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png",
                 "imageType": "image-headshot",
-                "imageAltText": "Elijah Sullivan",
+                "imageAltText": "Willie Yarbary",
                 "title": "3RD AND 10",
                 "subtitle": "BHAM24",
-                "playDescription": "K.Bahar pass short left INTERCEPTED at BHAM 16. Intercepted by Q.Poling at BHAM 16. Tackled by K.Bahar at BHAM 36. PENALTY on BHAM-E.Sullivan, Defensive Illegal Blindside Block, 15 yards, accepted.",
+                "playDescription": "K.Bahar pass short left INTERCEPTED at BHAM 16. Intercepted by Q.Poling at BHAM 16. Tackled by K.Bahar at BHAM 36. PENALTY on BHAM-W.Yarbary, Defensive Illegal Blindside Block, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:17",
-                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/522.vresize.140.170.medium.94.png"
+                "timeOfPlay": "6:10",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/35.vresize.140.170.medium.47.png"
               }
             ],
             "entityLink": {
@@ -8241,7 +8241,7 @@
                 "rightTeamScoreChange": true,
                 "leftTeamAbbr": "BHAM",
                 "rightTeamAbbr": "HOU",
-                "timeOfPlay": "3:10",
+                "timeOfPlay": "3:11",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/73.vresize.140.170.medium.19.png"
               }
             ],
@@ -8343,7 +8343,7 @@
                 "imageAltText": "Justin Hall",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM26",
-                "playDescription": "K.Bahar pass short right complete to BHAM 28. Catch made by J.Hall at BHAM 28. Gain of 5 yards. Tackled by C.McFarland at BHAM 21.",
+                "playDescription": "K.Bahar pass short right complete to BHAM 28. Catch made by J.Hall at BHAM 28. Gain of 5 yards. Tackled by T.Robinson; M.Hankins at BHAM 21.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
@@ -8361,7 +8361,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "2:20",
+                "timeOfPlay": "2:19",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/77.vresize.140.170.medium.67.png"
               },
               {
@@ -8389,7 +8389,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "1ST",
-                "timeOfPlay": "0:58",
+                "timeOfPlay": "0:57",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/84.vresize.140.170.medium.22.png"
               },
               {
@@ -8420,7 +8420,7 @@
                 "id": "35",
                 "title": "3RD AND 8",
                 "subtitle": "BHAM12",
-                "playDescription": "K.Bahar scrambles right guard to BHAM 7 for 5 yards. Tackled by N.Holley, T.Carter at BHAM 7.",
+                "playDescription": "K.Bahar scrambles right guard to BHAM 7 for 5 yards. Tackled by R.Smith, T.Carter at BHAM 7.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00"
@@ -8528,7 +8528,7 @@
                 "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete short right intended for.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:37",
+                "timeOfPlay": "12:38",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
               },
               {
@@ -8588,7 +8588,7 @@
                 "imageAltText": "Mark Thompson",
                 "title": "1ST AND 10",
                 "subtitle": "HOU20",
-                "playDescription": "M.Thompson rushed left end to HOU 19 for -1 yards. Tackled by B.Allen, D.Tillman at HOU 19.",
+                "playDescription": "M.Thompson rushed left end to HOU 19 for -1 yards. Tackled by D.Tillman; B.Allen at HOU 19.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "11:56",
@@ -8604,7 +8604,7 @@
                 "playDescription": "K.Bahar steps back to pass. K.Bahar pass incomplete short middle intended for (J.Thompson).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "11:17",
+                "timeOfPlay": "11:18",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/84.vresize.140.170.medium.22.png"
               },
               {
@@ -8614,7 +8614,7 @@
                 "playDescription": "K.Bahar scrambles left end to HOU 23 for 4 yards. Pushed out of bounds by R.Smith; D.Tillman at HOU 23.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:42"
+                "timeOfPlay": "10:43"
               },
               {
                 "id": "45",
@@ -8626,7 +8626,7 @@
                 "playDescription": "H.Niswander FUMBLES (aborted). Fumble RECOVERED by HOU-H.Niswander at HOU 10. H.Niswander rushed left end to HOU 16 for -7 yards. H.Niswander FUMBLES, forced by R.Person. Fumble RECOVERED by BHAM-M.Dereus at HOU 20. Tackled by J.Tyler at HOU 20.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:06",
+                "timeOfPlay": "10:10",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -8689,7 +8689,7 @@
                 "playDescription": "C.Marable rushed left tackle to HOU 8 for 7 yards. Tackled by N.Grant at HOU 8.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:21",
+                "timeOfPlay": "9:22",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
@@ -8830,7 +8830,7 @@
                 "playDescription": "M.Thompson rushed left guard to HOU 48 for 4 yards. Tackled by W.Henry; T.Carter at HOU 48.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:45",
+                "timeOfPlay": "5:47",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -8856,7 +8856,7 @@
                 "playDescription": "M.Thompson rushed up the middle to HOU 46 for 0 yards. Tackled by K.Davis at HOU 46.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:25",
+                "timeOfPlay": "4:26",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -8879,10 +8879,10 @@
                 "imageAltText": "Default Headshot",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM36",
-                "playDescription": "A.Shampklin rushed right guard to BHAM 34 for 2 yards. Tackled by Q.Poling, T.Robinson at BHAM 34.",
+                "playDescription": "A.Shampklin rushed right tackle to BHAM 34 for 2 yards. Tackled by Q.Poling, T.Robinson at BHAM 34.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:05",
+                "timeOfPlay": "3:07",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               },
               {
@@ -8940,7 +8940,7 @@
                 "imageAltText": "Mark Thompson",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM25",
-                "playDescription": "M.Thompson rushed right tackle to BHAM 23 for 2 yards. Tackled by N.Brooks; W.Yarbary at BHAM 23.",
+                "playDescription": "M.Thompson rushed right tackle to BHAM 23 for 2 yards. Tackled by N.Brooks; E.Sullivan at BHAM 23.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:49",
@@ -9075,7 +9075,7 @@
                 "playDescription": "A.McGough steps back to pass. A.McGough pass incomplete deep left intended for J.Sternberger.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:34",
+                "timeOfPlay": "0:35",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
               },
               {
@@ -9085,7 +9085,7 @@
                 "imageAltText": "CJ Marable",
                 "title": "2ND AND 10",
                 "subtitle": "HOU27",
-                "playDescription": "A.McGough pass short left complete to HOU 30. Catch made by C.Marable at HOU 30. Gain of 26 yards. Pushed out of bounds by D.Lake; K.Tolson at HOU 1.",
+                "playDescription": "A.McGough pass short left complete to HOU 29. Catch made by C.Marable at HOU 29. Gain of 26 yards. Pushed out of bounds by D.Lake; K.Tolson at HOU 1.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:31",
@@ -9336,7 +9336,7 @@
                 "rightTeamScoreChange": false,
                 "leftTeamAbbr": "BHAM",
                 "rightTeamAbbr": "HOU",
-                "timeOfPlay": "13:08",
+                "timeOfPlay": "13:10",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/803.vresize.140.170.medium.66.png"
               },
               {
@@ -9439,7 +9439,7 @@
                 "imageAltText": "Justin Hall",
                 "title": "1ST AND 10",
                 "subtitle": "HOU47",
-                "playDescription": "K.Bahar pass short left complete to HOU 43. Catch made by J.Hall at HOU 43. Gain of 12 yards. Pushed out of bounds by C.McFarland at BHAM 41.",
+                "playDescription": "K.Bahar pass short left complete to HOU 44. Catch made by J.Hall at HOU 44. Gain of 12 yards. Pushed out of bounds by C.McFarland at BHAM 41.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "11:29",
@@ -9452,7 +9452,7 @@
                 "imageAltText": "Mark Thompson",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM41",
-                "playDescription": "M.Thompson rushed left guard to BHAM 32 for 9 yards. Tackled by E.Sullivan at BHAM 32.",
+                "playDescription": "M.Thompson rushed left guard to BHAM 32 for 9 yards. Tackled by E.Sullivan, N.Brooks at BHAM 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:51",
@@ -9468,7 +9468,7 @@
                 "playDescription": "K.Bahar pass short left complete to BHAM 27. Catch made by T.Redding at BHAM 27. Gain of 6 yards. Pushed out of bounds by N.Brooks at BHAM 26.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "10:15",
+                "timeOfPlay": "10:14",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/307.vresize.140.170.medium.23.png"
               },
               {
@@ -9488,7 +9488,7 @@
                 "id": "99",
                 "title": "1ST AND 5",
                 "subtitle": "BHAM21",
-                "playDescription": "K.Bahar scrambles left end to BHAM 16 for 5 yards. Pushed out of bounds by R.Smith at BHAM 16.",
+                "playDescription": "K.Bahar scrambles left end to BHAM 16 for 5 yards. K.Bahar ran out of bounds.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "9:23"
@@ -9700,7 +9700,7 @@
                 "imageAltText": "Mark Thompson",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM17",
-                "playDescription": "M.Thompson rushed up the middle to BHAM 16 for 1 yards. Tackled by K.Davis at BHAM 16.",
+                "playDescription": "M.Thompson rushed up the middle to BHAM 16 for 1 yards. Tackled by K.Davis; Q.Poling at BHAM 16.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "4:56",
@@ -9746,7 +9746,7 @@
                 "rightTeamScoreChange": true,
                 "leftTeamAbbr": "BHAM",
                 "rightTeamAbbr": "HOU",
-                "timeOfPlay": "3:18",
+                "timeOfPlay": "3:19",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/73.vresize.140.170.medium.19.png"
               }
             ],
@@ -9844,7 +9844,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "3RD",
-                "timeOfPlay": "1:57",
+                "timeOfPlay": "1:58",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/97.vresize.140.170.medium.80.png"
               },
               {
@@ -9858,7 +9858,7 @@
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "periodOfPlay": "3RD",
-                "timeOfPlay": "1:30",
+                "timeOfPlay": "1:31",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
@@ -9926,7 +9926,7 @@
                 "rightTeamScoreChange": false,
                 "leftTeamAbbr": "BHAM",
                 "rightTeamAbbr": "HOU",
-                "timeOfPlay": "14:22",
+                "timeOfPlay": "14:23",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
@@ -10019,7 +10019,7 @@
                 "playDescription": "M.Thompson rushed right guard to HOU 32 for 1 yards. Tackled by R.Smith; D.Tillman at HOU 32.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "13:36",
+                "timeOfPlay": "13:37",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/95.vresize.140.170.medium.25.png"
               },
               {
@@ -10032,7 +10032,7 @@
                 "playDescription": "K.Bahar steps back to pass. K.Bahar pass incomplete short left intended for J.Pederson (T.Robinson).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:54",
+                "timeOfPlay": "12:55",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/84.vresize.140.170.medium.22.png"
               },
               {
@@ -10045,7 +10045,7 @@
                 "playDescription": "H.Niswander punts 57 yards to BHAM 11, Center-R.Reiter. D.Davis returned punt from the BHAM 11. Pushed out of bounds by M.Bunch at BHAM 35. PENALTY on BHAM-R.Person, Defensive Illegal Blindside Block, 14 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "12:29",
+                "timeOfPlay": "12:32",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -10169,7 +10169,7 @@
                 "playDescription": "C.Wadman punts 59 yards to HOU 17, Center-R.Langan. J.Hall returned punt from the HOU 17. Tackled by Q.Poling, J.Tillery at HOU 28.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "9:40",
+                "timeOfPlay": "9:41",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/18.vresize.140.170.medium.37.png"
               }
             ],
@@ -10329,7 +10329,7 @@
                 "playDescription": "K.Bahar steps back to pass. K.Bahar sacked at HOU 18 for -10 yards (J.Tillery; D.Tillman)",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:58",
+                "timeOfPlay": "7:59",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/287.vresize.140.170.medium.12.png"
               },
               {
@@ -10339,10 +10339,10 @@
                 "imageAltText": "Keke Chism",
                 "title": "3RD AND 19",
                 "subtitle": "HOU18",
-                "playDescription": "K.Bahar pass short right complete to HOU 27. Catch made by K.Chism at HOU 27. Gain of 9 yards. Tackled by J.Ozougwu at HOU 27.",
+                "playDescription": "K.Bahar pass short right complete to HOU 27. Catch made by K.Chism at HOU 27. Gain of 9 yards. Tackled by J.Tillery at HOU 27.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "7:15",
+                "timeOfPlay": "7:16",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/545.vresize.140.170.medium.8.png"
               },
               {
@@ -10355,7 +10355,7 @@
                 "playDescription": "H.Niswander punts 46 yards to BHAM 27, Center-R.Reiter. D.Davis returned punt from the BHAM 27. Tackled by R.Reiter; K.Tolson at BHAM 41.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "6:41",
+                "timeOfPlay": "6:43",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
               }
             ],
@@ -10415,7 +10415,7 @@
                 "imageAltText": "Andrew Soroh",
                 "title": "2ND AND 12",
                 "subtitle": "BHAM39",
-                "playDescription": "A.McGough pass short right complete to HOU 42. Catch made by A.Hardy at HOU 42. Gain of 19 yards. Tackled by A.Soroh at HOU 42. PENALTY on HOU-A.Soroh, Unnecessary Roughness / Defense, 15 yards, declined. PENALTY on HOU-A.Soroh, Taunting / Defense, 15 yards, accepted.",
+                "playDescription": "A.McGough pass short right complete to HOU 46. Catch made by A.Hardy at HOU 46. Gain of 19 yards. Tackled by A.Soroh at HOU 42. PENALTY on HOU-A.Soroh, Unnecessary Roughness / Defense, 15 yards, declined. PENALTY on HOU-A.Soroh, Taunting / Defense, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "5:54",
@@ -10431,7 +10431,7 @@
                 "playDescription": "C.Marable rushed up the middle to HOU 22 for 5 yards. Tackled by K.Tolson, A.Soroh at HOU 22.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "5:32",
+                "timeOfPlay": "5:33",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/25.vresize.140.170.medium.42.png"
               },
               {
@@ -10507,7 +10507,7 @@
           {
             "id": "24",
             "title": "DOWNS",
-            "subtitle": "11 plays \u00b7 46 yards \u00b7 3:22",
+            "subtitle": "11 plays \u00b7 45 yards \u00b7 3:22",
             "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers.vresize.200.200.medium.1.png",
             "imageType": "image-logo",
             "imageAltText": "Houston Gamblers",
@@ -10554,17 +10554,17 @@
                 "playDescription": "M.Cozart pass short left complete to HOU 30. Catch made by J.Hall at HOU 30. Gain of 12 yards. Tackled by L.Burns, N.Brooks at HOU 39.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:34",
+                "timeOfPlay": "3:35",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/597.vresize.140.170.medium.55.png"
               },
               {
                 "id": "164",
                 "title": "1ST AND 10",
                 "subtitle": "HOU39",
-                "playDescription": "M.Cozart scrambles right end to BHAM 33 for 28 yards. Tackled by T.Carter at BHAM 33.",
+                "playDescription": "M.Cozart scrambles right end to BHAM 34 for 27 yards. Tackled by at BHAM 34.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "3:03"
+                "timeOfPlay": "3:02"
               },
               {
                 "id": "165",
@@ -10576,7 +10576,7 @@
                 "playDescription": "M.Cozart pass short right complete to BHAM 32. Catch made by R.Rahmaan at BHAM 32. Gain of 4 yards. Pushed out of bounds by T.Carter at BHAM 30.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "2:21",
+                "timeOfPlay": "2:20",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/823.vresize.140.170.medium.39.png"
               },
               {
@@ -11061,6 +11061,7 @@
       }
     ]
   },
+  "eventHeadline": "Stallions close game on 35-6 run, handle Gamblers 38-15",
   "keyPlays": {
     "title": "KEY PLAYS",
     "keyPlaysList": [
