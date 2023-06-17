@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Pittsburgh Maulers at New Jersey Generals",
-    "oddsStartTime": "2023-06-17T20:24:53Z",
+    "oddsStartTime": "2023-06-17T21:24:55Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -373,7 +373,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "T. Williams",
                       "emphasized": false
                     },
                     {
@@ -676,7 +676,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Williams",
+                      "text": "T. Williams",
                       "emphasized": false
                     },
                     {
@@ -6004,7 +6004,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "B Young",
+                      "text": "B. Young",
                       "emphasized": false
                     },
                     {
@@ -10451,11 +10451,20 @@
                 "playDescription": "PENALTY on NJ-C.Carter, False Start, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:57",
+                "timeOfPlay": "0:58",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/830.vresize.140.170.medium.44.png"
               },
               {
                 "id": "176",
+                "title": "1ST AND 15",
+                "subtitle": "PIT39",
+                "playDescription": "Timeout #2 by NJ.",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:58"
+              },
+              {
+                "id": "177",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/336.vresize.140.170.medium.87.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Brandon Haskin",
@@ -10464,11 +10473,11 @@
                 "playDescription": "PENALTY on NJ-B.Haskin, False Start, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:57",
+                "timeOfPlay": "0:58",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/336.vresize.140.170.medium.87.png"
               },
               {
-                "id": "178",
+                "id": "179",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png",
                 "imageType": "image-headshot",
                 "imageAltText": "De'Andre Johnson",
@@ -10477,11 +10486,11 @@
                 "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep middle intended for W.Newman (K.Tezino).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:57",
+                "timeOfPlay": "0:58",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
               },
               {
-                "id": "179",
+                "id": "180",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/337.vresize.140.170.medium.87.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Darius Victor",
@@ -10494,7 +10503,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/337.vresize.140.170.medium.87.png"
               },
               {
-                "id": "180",
+                "id": "181",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/337.vresize.140.170.medium.87.png",
                 "imageType": "image-headshot",
                 "imageAltText": "Darius Victor",
@@ -10507,7 +10516,7 @@
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/337.vresize.140.170.medium.87.png"
               },
               {
-                "id": "181",
+                "id": "182",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png",
                 "imageType": "image-headshot",
                 "imageAltText": "De'Andre Johnson",
@@ -10518,6 +10527,14 @@
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "0:12",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
+              },
+              {
+                "id": "183",
+                "title": "END QUARTER",
+                "playDescription": "End Game",
+                "leftTeamScoreChange": false,
+                "rightTeamScoreChange": false,
+                "timeOfPlay": "0:00"
               }
             ],
             "entityLink": {
