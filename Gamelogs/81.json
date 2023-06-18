@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "81",
-    "liveStartTime": "2023-06-17T19:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/81/data",
     "eventStatus": 3,
     "eventTime": "2023-06-17T20:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Birmingham Stallions at Memphis Showboats",
-    "oddsStartTime": "2023-06-17T23:13:26Z",
+    "oddsStartTime": "2023-06-18T00:29:57Z",
     "importance": 1,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1461,7 +1460,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "R Smith",
+                      "text": "R. Smith",
                       "emphasized": false
                     },
                     {
@@ -3043,59 +3042,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "C. Cabral",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "COHL CABRAL",
-                    "webUrl": "/usfl/cohl-cabral-player",
-                    "color": "0, 163, 32, 53",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/523.vresize.140.170.medium.95.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Cohl Cabral",
-                    "contentUri": "football/usfl/athletes/523",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "523",
-                        "contentUri": "football/usfl/athletes/523"
-                      }
-                    },
-                    "analyticsName": "cohl-cabral",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/523.vresize.140.170.medium.95.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "J. Sternberger",
                       "emphasized": false
                     },
@@ -3154,7 +3100,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -4663,7 +4609,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "O Mitchell",
+                      "text": "O. Mitchell",
                       "emphasized": false
                     },
                     {
@@ -5229,7 +5175,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "7",
+                      "text": "8",
                       "emphasized": false
                     },
                     {
@@ -6657,7 +6603,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "52",
+                      "text": "53",
                       "emphasized": true
                     },
                     {
@@ -9220,7 +9166,7 @@
                 "imageAltText": "Nate Brooks",
                 "title": "1ST AND 10",
                 "subtitle": "BHAM12",
-                "playDescription": "C.Kelley pass deep middle INTERCEPTED at BHAM End Zone. Intercepted by N.Brooks at BHAM End Zone. Touchback.",
+                "playDescription": "C.Kelley pass short middle INTERCEPTED at BHAM End Zone. Intercepted by N.Brooks at BHAM End Zone. Touchback.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "6:27",
@@ -10254,7 +10200,7 @@
                 "imageAltText": "Cohl Cabral",
                 "title": "1ST AND 10",
                 "subtitle": "MEM36",
-                "playDescription": "C.Cabral FUMBLES (aborted). Fumble RECOVERED by BHAM-R.Person at MEM 40. R.Person rushed to MEM 40 for yards. Tackled by D.Faamatau at MEM 40.",
+                "playDescription": "C.Cabral FUMBLES (aborted). Fumble RECOVERED by BHAM-R.Person at MEM 40. Tackled by D.Faamatau at MEM 40.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:48",
@@ -10276,7 +10222,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "2ND AND 14",
                 "subtitle": "MEM40",
-                "playDescription": "R.Person rushed up the middle to MEM 37 for 3 yards. Tackled by D.Faamatau at MEM 37.",
+                "playDescription": "R.Person rushed up the middle to MEM 37 for 3 yards. Tackled by D.Faamatau, A.Butler at MEM 37.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:05",
@@ -10293,12 +10239,16 @@
               },
               {
                 "id": "171",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Alex McGough",
                 "title": "3RD AND 11",
                 "subtitle": "MEM37",
-                "playDescription": "A.McGough scrambles up the middle to MEM 18 for 19 yards. Tackled by at MEM 18.",
+                "playDescription": "A.McGough rushed up the middle to MEM 18 for 19 yards. Tackled by at MEM 18.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:58"
+                "timeOfPlay": "0:58",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/27.vresize.140.170.medium.44.png"
               },
               {
                 "id": "172",
