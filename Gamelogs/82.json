@@ -2,7 +2,6 @@
   "header": {
     "template": "event-header-team",
     "id": "82",
-    "liveStartTime": "2023-06-18T16:30:00Z",
     "uri": "https://api.foxsports.com/bifrost/v1/usfl/event/82/data",
     "eventStatus": 3,
     "eventTime": "2023-06-18T17:00:00Z",
@@ -19,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: New Orleans Breakers at Houston Gamblers",
-    "oddsStartTime": "2023-06-18T20:13:47Z",
+    "oddsStartTime": "2023-06-18T20:25:08Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -3175,17 +3174,17 @@
                     },
                     {
                       "index": 2,
-                      "text": "85",
+                      "text": "84",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "42.5",
+                      "text": "42.0",
                       "emphasized": false
                     },
                     {
                       "index": 4,
-                      "text": "44",
+                      "text": "43",
                       "emphasized": false
                     },
                     {
@@ -3291,17 +3290,17 @@
                     },
                     {
                       "index": 2,
-                      "text": "120",
+                      "text": "119",
                       "emphasized": true
                     },
                     {
                       "index": 3,
-                      "text": "40.0",
+                      "text": "39.7",
                       "emphasized": true
                     },
                     {
                       "index": 4,
-                      "text": "44",
+                      "text": "43",
                       "emphasized": true
                     },
                     {
@@ -7281,7 +7280,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "52.0",
+                      "text": "52.2",
                       "emphasized": false
                     },
                     {
@@ -7344,7 +7343,7 @@
                     },
                     {
                       "index": 2,
-                      "text": "52.0",
+                      "text": "52.2",
                       "emphasized": true
                     },
                     {
@@ -9633,7 +9632,7 @@
                 "imageAltText": "Nick Vogel",
                 "title": "KICKOFF",
                 "subtitle": "HOU20",
-                "playDescription": "N.Vogel kicks 80 yards from HOU 20 to the NO End Zone. A.Jones returns the kickoff. Tackled by C.Garrett at NO 44.",
+                "playDescription": "N.Vogel kicks 79 yards from HOU 20 to the NO 1. A.Jones returns the kickoff. Tackled by C.Garrett at NO 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "8:32",
@@ -9769,12 +9768,16 @@
               },
               {
                 "id": "150",
+                "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/96.vresize.140.170.medium.26.png",
+                "imageType": "image-headshot",
+                "imageAltText": "Nick Buchanan",
                 "title": "1ST AND 10",
                 "subtitle": "HOU37",
-                "playDescription": "PENALTY on HOU-HOU, False Start, 5 yards, accepted. No Play.",
+                "playDescription": "PENALTY on HOU-N.Buchanan, False Start, 5 yards, accepted. No Play.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "4:41"
+                "timeOfPlay": "4:41",
+                "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/96.vresize.140.170.medium.26.png"
               },
               {
                 "id": "152",
@@ -9870,7 +9873,7 @@
                 "imageAltText": "Default Headshot",
                 "title": "4TH AND 13",
                 "subtitle": "HOU46",
-                "playDescription": "H.Niswander punts 40 yards to NO 14, Center-R.Reiter. Fair catch by J.Elder.",
+                "playDescription": "H.Niswander punts 41 yards to NO 13, Center-R.Reiter. Fair catch by J.Elder.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:32",
