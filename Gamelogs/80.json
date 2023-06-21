@@ -18,7 +18,7 @@
     "sportLogoUrl": "https://b.fssta.com/uploads/application/leagues/logos/USFL.vresize.200.200.medium.0.png",
     "sportLogoAltText": "United States Football League",
     "shareText": "FOX Sports: Pittsburgh Maulers at New Jersey Generals",
-    "oddsStartTime": "2023-06-20T01:34:22Z",
+    "oddsStartTime": "2023-06-21T01:51:22Z",
     "importance": 0,
     "leagueUri": "football/usfl/league/1",
     "leftTeam": {
@@ -1760,6 +1760,74 @@
                   "columns": [
                     {
                       "index": 0,
+                      "text": "R. Foster",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "8",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "4",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 5,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 6,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 7,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "REUBEN FOSTER",
+                    "webUrl": "/usfl/reuben-foster-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Reuben Foster",
+                    "contentUri": "football/usfl/athletes/692",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "692",
+                        "contentUri": "football/usfl/athletes/692"
+                      }
+                    },
+                    "analyticsName": "reuben-foster",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png"
+                  },
+                  "isFaded": false
+                },
+                {
+                  "columns": [
+                    {
+                      "index": 0,
                       "text": "K. Tezino",
                       "emphasized": false
                     },
@@ -1821,74 +1889,6 @@
                     "analyticsSport": "usfl",
                     "type": "entity",
                     "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/216.vresize.140.170.medium.77.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
-                      "text": "R. Foster",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "7",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "4",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 5,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 6,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 7,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "REUBEN FOSTER",
-                    "webUrl": "/usfl/reuben-foster-player",
-                    "color": "0, 0, 0, 0",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Reuben Foster",
-                    "contentUri": "football/usfl/athletes/692",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "692",
-                        "contentUri": "football/usfl/athletes/692"
-                      }
-                    },
-                    "analyticsName": "reuben-foster",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/692.vresize.140.170.medium.86.png"
                   },
                   "isFaded": false
                 },
@@ -2105,7 +2105,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "3",
+                      "text": "4",
                       "emphasized": false
                     },
                     {
@@ -2989,7 +2989,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "48",
+                      "text": "50",
                       "emphasized": true
                     },
                     {
@@ -3014,7 +3014,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "8",
+                      "text": "9",
                       "emphasized": true
                     },
                     {
@@ -3081,6 +3081,59 @@
                 }
               ],
               "rows": [
+                {
+                  "columns": [
+                    {
+                      "index": 0,
+                      "text": "R. Lovingood",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 1,
+                      "text": "1",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 2,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 3,
+                      "text": "0",
+                      "emphasized": false
+                    },
+                    {
+                      "index": 4,
+                      "text": "0",
+                      "emphasized": false
+                    }
+                  ],
+                  "isCutoff": false,
+                  "selected": false,
+                  "entityLink": {
+                    "title": "RILEY LOVINGOOD",
+                    "webUrl": "/usfl/riley-lovingood-player",
+                    "color": "0, 0, 0, 0",
+                    "imageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png",
+                    "imageType": "image-headshot",
+                    "imageAltText": "Default Headshot",
+                    "contentUri": "football/usfl/athletes/834",
+                    "contentType": "athlete",
+                    "layout": {
+                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
+                      "tokens": {
+                        "id": "834",
+                        "contentUri": "football/usfl/athletes/834"
+                      }
+                    },
+                    "analyticsName": "riley-lovingood",
+                    "analyticsSport": "usfl",
+                    "type": "entity",
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/fs-app/default-headshot_dark.vresize.140.170.medium.0.png"
+                  },
+                  "isFaded": false
+                },
                 {
                   "columns": [
                     {
@@ -3249,7 +3302,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "1",
+                      "text": "2",
                       "emphasized": true
                     },
                     {
@@ -5329,12 +5382,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "11",
+                      "text": "12",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "5",
+                      "text": "6",
                       "emphasized": false
                     },
                     {
@@ -5397,7 +5450,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "9",
+                      "text": "8",
                       "emphasized": false
                     },
                     {
@@ -5460,22 +5513,22 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "D. Askew-Henry",
+                      "text": "T Johnson",
                       "emphasized": false
                     },
                     {
                       "index": 1,
-                      "text": "7",
+                      "text": "6",
                       "emphasized": false
                     },
                     {
                       "index": 2,
-                      "text": "4",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "0",
+                      "text": "0.5",
                       "emphasized": false
                     },
                     {
@@ -5502,25 +5555,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "DRAVON ASKEW-HENRY",
-                    "webUrl": "/usfl/dravon-askew-henry-player",
+                    "title": "TOBY JOHNSON",
+                    "webUrl": "/usfl/toby-johnson-player",
                     "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/185.vresize.140.170.medium.62.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/189.vresize.140.170.medium.65.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Dravon Askew-Henry",
-                    "contentUri": "football/usfl/athletes/185",
+                    "imageAltText": "Toby Johnson",
+                    "contentUri": "football/usfl/athletes/189",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "185",
-                        "contentUri": "football/usfl/athletes/185"
+                        "id": "189",
+                        "contentUri": "football/usfl/athletes/189"
                       }
                     },
-                    "analyticsName": "dravon-askew-henry",
+                    "analyticsName": "toby-johnson",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/185.vresize.140.170.medium.62.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/189.vresize.140.170.medium.65.png"
                   },
                   "isFaded": false
                 },
@@ -5596,7 +5649,7 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "T Johnson",
+                      "text": "D. Askew-Henry",
                       "emphasized": false
                     },
                     {
@@ -5606,12 +5659,12 @@
                     },
                     {
                       "index": 2,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": false
                     },
                     {
                       "index": 3,
-                      "text": "0.5",
+                      "text": "0",
                       "emphasized": false
                     },
                     {
@@ -5638,25 +5691,25 @@
                   "isCutoff": false,
                   "selected": false,
                   "entityLink": {
-                    "title": "TOBY JOHNSON",
-                    "webUrl": "/usfl/toby-johnson-player",
+                    "title": "DRAVON ASKEW-HENRY",
+                    "webUrl": "/usfl/dravon-askew-henry-player",
                     "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/189.vresize.140.170.medium.65.png",
+                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/185.vresize.140.170.medium.62.png",
                     "imageType": "image-headshot",
-                    "imageAltText": "Toby Johnson",
-                    "contentUri": "football/usfl/athletes/189",
+                    "imageAltText": "Dravon Askew-Henry",
+                    "contentUri": "football/usfl/athletes/185",
                     "contentType": "athlete",
                     "layout": {
                       "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
                       "tokens": {
-                        "id": "189",
-                        "contentUri": "football/usfl/athletes/189"
+                        "id": "185",
+                        "contentUri": "football/usfl/athletes/185"
                       }
                     },
-                    "analyticsName": "toby-johnson",
+                    "analyticsName": "dravon-askew-henry",
                     "analyticsSport": "usfl",
                     "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/189.vresize.140.170.medium.65.png"
+                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/185.vresize.140.170.medium.62.png"
                   },
                   "isFaded": false
                 },
@@ -6170,7 +6223,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "0",
+                      "text": "1",
                       "emphasized": false
                     },
                     {
@@ -6689,12 +6742,12 @@
                     },
                     {
                       "index": 1,
-                      "text": "75",
+                      "text": "74",
                       "emphasized": true
                     },
                     {
                       "index": 2,
-                      "text": "39",
+                      "text": "40",
                       "emphasized": true
                     },
                     {
@@ -6714,7 +6767,7 @@
                     },
                     {
                       "index": 6,
-                      "text": "2",
+                      "text": "3",
                       "emphasized": true
                     },
                     {
@@ -6838,59 +6891,6 @@
                   "columns": [
                     {
                       "index": 0,
-                      "text": "J. Lacina",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 1,
-                      "text": "1",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 2,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 3,
-                      "text": "0",
-                      "emphasized": false
-                    },
-                    {
-                      "index": 4,
-                      "text": "0",
-                      "emphasized": false
-                    }
-                  ],
-                  "isCutoff": false,
-                  "selected": false,
-                  "entityLink": {
-                    "title": "JAKE LACINA",
-                    "webUrl": "/usfl/jake-lacina-player",
-                    "color": "0, 193, 2, 48",
-                    "imageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/197.vresize.140.170.medium.68.png",
-                    "imageType": "image-headshot",
-                    "imageAltText": "Jake Lacina",
-                    "contentUri": "football/usfl/athletes/197",
-                    "contentType": "athlete",
-                    "layout": {
-                      "path": "/layouts?type=layout&subtype=playersLayout&elementId=usfl",
-                      "tokens": {
-                        "id": "197",
-                        "contentUri": "football/usfl/athletes/197"
-                      }
-                    },
-                    "analyticsName": "jake-lacina",
-                    "analyticsSport": "usfl",
-                    "type": "entity",
-                    "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/197.vresize.140.170.medium.68.png"
-                  },
-                  "isFaded": false
-                },
-                {
-                  "columns": [
-                    {
-                      "index": 0,
                       "text": "D. Askew-Henry",
                       "emphasized": false
                     },
@@ -7002,7 +7002,7 @@
                     },
                     {
                       "index": 1,
-                      "text": "2",
+                      "text": "1",
                       "emphasized": true
                     },
                     {
@@ -8341,7 +8341,7 @@
                 "id": "42",
                 "title": "3RD AND 2",
                 "subtitle": "PIT34",
-                "playDescription": "T.Williams scrambles right tackle to PIT 37 for 3 yards. Tackled by D.Hines at PIT 37.",
+                "playDescription": "T.Williams scrambles right guard to PIT 37 for 3 yards. Tackled by D.Hines at PIT 37.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "15:00"
@@ -8353,7 +8353,7 @@
                 "imageAltText": "Troy Williams",
                 "title": "1ST AND 10",
                 "subtitle": "PIT37",
-                "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short left intended for M.Seybert.",
+                "playDescription": "T.Williams steps back to pass. T.Williams pass incomplete short left intended for M.Seybert (D.Daniel).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "14:16",
@@ -8437,7 +8437,7 @@
                 "id": "51",
                 "title": "3RD AND 10",
                 "subtitle": "NJ46",
-                "playDescription": "T.Williams scrambles up the middle to NJ 44 for 2 yards. Tackled by C.Orr; T.Johnson at NJ 44.",
+                "playDescription": "T.Williams scrambles up the middle to NJ 44 for 2 yards. Tackled by T.Johnson at NJ 44.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "11:02"
@@ -8499,7 +8499,7 @@
                 "imageAltText": "Darius Victor",
                 "title": "1ST AND 10",
                 "subtitle": "NJ20",
-                "playDescription": "D.Victor rushed left tackle to NJ 23 for 3 yards. Tackled by B.Roberts at NJ 23.",
+                "playDescription": "D.Victor rushed left guard to NJ 23 for 3 yards. Tackled by B.Roberts at NJ 23.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:14",
@@ -8917,7 +8917,7 @@
                 "imageAltText": "De'Andre Johnson",
                 "title": "3RD AND 14",
                 "subtitle": "PIT29",
-                "playDescription": "D.Johnson rushed right guard to PIT 17 for 12 yards. Pushed out of bounds by K.Tezino at PIT 17.",
+                "playDescription": "D.Johnson rushed right guard to PIT 17 for 12 yards. Pushed out of bounds by K.Tezino, E.Walker at PIT 17.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "1:52",
@@ -9293,7 +9293,7 @@
                 "imageAltText": "Ishmael Hyman",
                 "title": "2ND AND 6",
                 "subtitle": "NJ48",
-                "playDescription": "I.Hyman rushed right end to NJ 42 for 6 yards. Pushed out of bounds by D.Askew-Henry at NJ 42.",
+                "playDescription": "I.Hyman rushed right end to NJ 42 for 6 yards. Pushed out of bounds by D.Hines at NJ 42.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "12:12",
@@ -9369,7 +9369,7 @@
                 "imageAltText": "Darius Victor",
                 "title": "1ST AND 10",
                 "subtitle": "NJ28",
-                "playDescription": "D.Victor rushed right tackle to NJ 34 for 6 yards. Tackled by V.Taylor at NJ 34.",
+                "playDescription": "D.Victor rushed right tackle to NJ 34 for 6 yards. Tackled by V.Taylor, R.Foster at NJ 34.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "10:50",
@@ -9870,7 +9870,7 @@
                 "imageAltText": "De'Andre Johnson",
                 "title": "2ND AND 10",
                 "subtitle": "NJ25",
-                "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep left intended for C.Echols-Luper.",
+                "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep left intended for C.Echols-Luper (R.Foster).",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "12:25",
@@ -10178,7 +10178,7 @@
                 "imageAltText": "Eli Walker",
                 "title": "2ND AND 9",
                 "subtitle": "NJ39",
-                "playDescription": "D.Johnson pass deep left complete to PIT 46. Catch made by D.Stewart at PIT 46. Gain of 4 yards. Tackled by E.Walker at PIT 43. PENALTY on PIT-E.Walker, Offensive Facemask, 15 yards, accepted.",
+                "playDescription": "D.Johnson pass deep left complete to PIT 46. Catch made by D.Stewart at PIT 46. Gain of 4 yards. Tackled by E.Walker at PIT 43. PENALTY on PIT-E.Walker, Personal Foul / Defense, 15 yards, accepted.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "5:58",
@@ -10204,7 +10204,7 @@
                 "imageAltText": "Mark Gilbert",
                 "title": "2ND AND 10",
                 "subtitle": "PIT28",
-                "playDescription": "D.Johnson pass deep middle INTERCEPTED at PIT End Zone. Intercepted by M.Gilbert at PIT End Zone. Tackled by A.Moore at PIT End Zone. Touchback.",
+                "playDescription": "D.Johnson pass deep right INTERCEPTED at PIT End Zone. Intercepted by M.Gilbert at PIT End Zone. Tackled by A.Moore at PIT End Zone. Touchback.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
                 "timeOfPlay": "5:10",
@@ -10525,7 +10525,7 @@
                 "playDescription": "D.Johnson steps back to pass. D.Johnson pass incomplete deep middle intended for B.Bowman.",
                 "leftTeamScoreChange": false,
                 "rightTeamScoreChange": false,
-                "timeOfPlay": "0:12",
+                "timeOfPlay": "0:05",
                 "alternateImageUrl": "https://b.fssta.com/uploads/application/usfl/headshots/192.vresize.140.170.medium.66.png"
               },
               {
