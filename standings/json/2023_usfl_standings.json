@@ -17,14 +17,16 @@
                   "priority": 1,
                   "template": "cell-rank",
                   "weight": 0.5,
-                  "emphasized": true
+                  "emphasized": true,
+                  "sortable": "none"
                 },
                 {
                   "index": 1,
                   "priority": 2,
                   "template": "cell-entity",
                   "weight": 4.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 2,
@@ -32,7 +34,8 @@
                   "priority": 3,
                   "template": "cell-record",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 3,
@@ -40,7 +43,8 @@
                   "priority": 4,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 4,
@@ -48,7 +52,8 @@
                   "priority": 6,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 5,
@@ -56,7 +61,8 @@
                   "priority": 7,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 6,
@@ -64,7 +70,8 @@
                   "priority": 9,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 7,
@@ -72,7 +79,8 @@
                   "priority": 10,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 8,
@@ -80,7 +88,8 @@
                   "priority": 8,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 9,
@@ -88,7 +97,8 @@
                   "priority": 5,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 }
               ],
               "isPrimary": true
@@ -158,7 +168,7 @@
               "entityLink": {
                 "title": "PITTSBURGH MAULERS",
                 "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
+                "color": "1, 0, 0, 0",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                 "imageType": "image-logo",
                 "imageAltText": "Pittsburgh Maulers",
@@ -240,7 +250,7 @@
               "entityLink": {
                 "title": "MICHIGAN PANTHERS",
                 "webUrl": "/usfl/michigan-panthers-team",
-                "color": "0, 112, 46, 62",
+                "color": "1, 112, 46, 62",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Michigan Panthers",
@@ -321,7 +331,7 @@
               "entityLink": {
                 "title": "PHILADELPHIA STARS",
                 "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
+                "color": "1, 193, 2, 48",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Philadelphia Stars",
@@ -402,7 +412,7 @@
               "entityLink": {
                 "title": "NEW JERSEY GENERALS",
                 "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
+                "color": "1, 193, 2, 48",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "New Jersey Generals",
@@ -434,14 +444,16 @@
                   "priority": 1,
                   "template": "cell-rank",
                   "weight": 0.5,
-                  "emphasized": true
+                  "emphasized": true,
+                  "sortable": "none"
                 },
                 {
                   "index": 1,
                   "priority": 2,
                   "template": "cell-entity",
                   "weight": 4.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 2,
@@ -449,7 +461,8 @@
                   "priority": 3,
                   "template": "cell-record",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 3,
@@ -457,7 +470,8 @@
                   "priority": 4,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 4,
@@ -465,7 +479,8 @@
                   "priority": 6,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 5,
@@ -473,7 +488,8 @@
                   "priority": 7,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 6,
@@ -481,7 +497,8 @@
                   "priority": 9,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 7,
@@ -489,7 +506,8 @@
                   "priority": 10,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 8,
@@ -497,7 +515,8 @@
                   "priority": 8,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 9,
@@ -505,7 +524,8 @@
                   "priority": 5,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 }
               ],
               "isPrimary": true
@@ -575,7 +595,7 @@
               "entityLink": {
                 "title": "BIRMINGHAM STALLIONS",
                 "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
+                "color": "1, 163, 32, 53",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Birmingham Stallions",
@@ -657,7 +677,7 @@
               "entityLink": {
                 "title": "NEW ORLEANS BREAKERS",
                 "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
+                "color": "1, 0, 53, 149",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "New Orleans Breakers",
@@ -738,7 +758,7 @@
               "entityLink": {
                 "title": "HOUSTON GAMBLERS",
                 "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
+                "color": "1, 0, 0, 0",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Houston Gamblers",
@@ -819,7 +839,7 @@
               "entityLink": {
                 "title": "MEMPHIS SHOWBOATS",
                 "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
+                "color": "1, 18, 40, 76",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Memphis Showboats",
@@ -871,14 +891,16 @@
                   "priority": 1,
                   "template": "cell-rank",
                   "weight": 0.5,
-                  "emphasized": true
+                  "emphasized": true,
+                  "sortable": "none"
                 },
                 {
                   "index": 1,
                   "priority": 2,
                   "template": "cell-entity",
                   "weight": 4.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 2,
@@ -886,7 +908,8 @@
                   "priority": 3,
                   "template": "cell-record",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 3,
@@ -894,7 +917,8 @@
                   "priority": 4,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 4,
@@ -902,7 +926,8 @@
                   "priority": 6,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 5,
@@ -910,7 +935,8 @@
                   "priority": 7,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 6,
@@ -918,7 +944,8 @@
                   "priority": 9,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 7,
@@ -926,7 +953,8 @@
                   "priority": 10,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 8,
@@ -934,7 +962,8 @@
                   "priority": 8,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 },
                 {
                   "index": 9,
@@ -942,7 +971,8 @@
                   "priority": 5,
                   "template": "cell-number",
                   "weight": 2.5,
-                  "emphasized": false
+                  "emphasized": false,
+                  "sortable": "none"
                 }
               ],
               "isPrimary": true
@@ -1012,7 +1042,7 @@
               "entityLink": {
                 "title": "BIRMINGHAM STALLIONS",
                 "webUrl": "/usfl/birmingham-stallions-team",
-                "color": "0, 163, 32, 53",
+                "color": "1, 163, 32, 53",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stallions.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Birmingham Stallions",
@@ -1094,7 +1124,7 @@
               "entityLink": {
                 "title": "NEW ORLEANS BREAKERS",
                 "webUrl": "/usfl/new-orleans-breakers-team",
-                "color": "0, 0, 53, 149",
+                "color": "1, 0, 53, 149",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Breakers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "New Orleans Breakers",
@@ -1175,7 +1205,7 @@
               "entityLink": {
                 "title": "HOUSTON GAMBLERS",
                 "webUrl": "/usfl/houston-gamblers-team",
-                "color": "0, 0, 0, 0",
+                "color": "1, 0, 0, 0",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Gamblers-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Houston Gamblers",
@@ -1256,7 +1286,7 @@
               "entityLink": {
                 "title": "MEMPHIS SHOWBOATS",
                 "webUrl": "/usfl/memphis-showboats-team",
-                "color": "0, 18, 40, 76",
+                "color": "1, 18, 40, 76",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Showboats-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Memphis Showboats",
@@ -1338,7 +1368,7 @@
               "entityLink": {
                 "title": "PITTSBURGH MAULERS",
                 "webUrl": "/usfl/pittsburgh-maulers-team",
-                "color": "0, 0, 0, 0",
+                "color": "1, 0, 0, 0",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Maulers.vresize.200.200.medium.5.png",
                 "imageType": "image-logo",
                 "imageAltText": "Pittsburgh Maulers",
@@ -1420,7 +1450,7 @@
               "entityLink": {
                 "title": "MICHIGAN PANTHERS",
                 "webUrl": "/usfl/michigan-panthers-team",
-                "color": "0, 112, 46, 62",
+                "color": "1, 112, 46, 62",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Panthers.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Michigan Panthers",
@@ -1501,7 +1531,7 @@
               "entityLink": {
                 "title": "PHILADELPHIA STARS",
                 "webUrl": "/usfl/philadelphia-stars-team",
-                "color": "0, 193, 2, 48",
+                "color": "1, 193, 2, 48",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Stars-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "Philadelphia Stars",
@@ -1582,7 +1612,7 @@
               "entityLink": {
                 "title": "NEW JERSEY GENERALS",
                 "webUrl": "/usfl/new-jersey-generals-team",
-                "color": "0, 193, 2, 48",
+                "color": "1, 193, 2, 48",
                 "imageUrl": "https://b.fssta.com/uploads/application/usfl/team-logos/Generals-alternate.vresize.200.200.medium.1.png",
                 "imageType": "image-logo",
                 "imageAltText": "New Jersey Generals",

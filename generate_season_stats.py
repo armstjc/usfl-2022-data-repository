@@ -71,7 +71,12 @@ def generate_usfl_player_season_stats(season: int, save=False):
             ["season", "team", "team_nickname", "player_id", "player_name"],
             as_index=False,
         )[[
-            "RUSH_LONG", "REC_LONG", "PUNT_LONG", "FG_LONG", "PR_LONG", "KR_LONG"
+            "RUSH_LONG",
+            "REC_LONG",
+            "PUNT_LONG",
+            "FG_LONG",
+            "PR_LONG",
+            "KR_LONG"
         ]].max()
     )
 
@@ -79,8 +84,13 @@ def generate_usfl_player_season_stats(season: int, save=False):
         season_df,
         season_max_df,
         how="left",
-        left_on=["season", "team", "team_nickname", "player_id", "player_name"],
-        right_on=["season", "team", "team_nickname", "player_id", "player_name"],
+        on=[
+            "season",
+            "team",
+            "team_nickname",
+            "player_id",
+            "player_name"
+        ]
     )
     season_df.loc[season_df["ATT"] > 0, "COMP%"] = (
         season_df["COMP"] / season_df["ATT"]
@@ -175,7 +185,9 @@ def generate_usfl_player_season_stats(season: int, save=False):
     )
     season_df["RUSH_AVG"] = season_df["RUSH_AVG"].round(3)
 
-    season_df.loc[season_df["G"] > 0, "RUSH_ATT/G"] = season_df["RUSH"] / season_df["G"]
+    season_df.loc[season_df["G"] > 0, "RUSH_ATT/G"] = (
+        season_df["RUSH"] / season_df["G"]
+    )
     season_df["RUSH_ATT/G"] = season_df["RUSH_ATT/G"].round(3)
 
     season_df.loc[season_df["G"] > 0, "RUSH_YDS/G"] = (
@@ -203,7 +215,9 @@ def generate_usfl_player_season_stats(season: int, save=False):
     )
     season_df["REC_YDS/G"] = season_df["REC_YDS/G"].round(3)
 
-    season_df.loc[season_df["FGM"] > 0, "FG%"] = season_df["FGM"] / season_df["FGA"]
+    season_df.loc[season_df["FGM"] > 0, "FG%"] = (
+        season_df["FGM"] / season_df["FGA"]
+    )
     season_df["FG%"] = season_df["FG%"].round(3)
 
     season_df.loc[season_df["FGM"] > 0, "GROSS_PUNT_AVG"] = (
@@ -214,10 +228,14 @@ def generate_usfl_player_season_stats(season: int, save=False):
     season_df["NET_PUNT_YDS"] = None
     season_df["NET_PUNT_AVG"] = None
 
-    season_df.loc[season_df["PR"] > 0, "PR_AVG"] = season_df["PR_YDS"] / season_df["PR"]
+    season_df.loc[season_df["PR"] > 0, "PR_AVG"] = (
+        season_df["PR_YDS"] / season_df["PR"]
+    )
     season_df["PR_AVG"] = season_df["PR_AVG"].round(3)
 
-    season_df.loc[season_df["PR"] > 0, "PR_AVG"] = season_df["PR_YDS"] / season_df["PR"]
+    season_df.loc[season_df["PR"] > 0, "PR_AVG"] = (
+        season_df["PR_YDS"] / season_df["PR"]
+    )
     season_df["PR_AVG"] = season_df["PR_AVG"].round(3)
 
     season_df.to_csv("test.csv")
@@ -300,13 +318,14 @@ def generate_usfl_player_season_stats(season: int, save=False):
 
     season_df = season_df[cols]
 
-    if save == True:
+    if save is True:
         season_df.to_csv(
             f"player_stats/season_stats/csv/{season}_player_season_stats.csv",
             index=False,
         )
         season_df.to_parquet(
-            f"player_stats/season_stats/parquet/{season}_player_season_stats.parquet",
+            "player_stats/season_stats/parquet/" +
+            f"{season}_player_season_stats.parquet",
             index=False,
         )
 

@@ -21,20 +21,22 @@ def get_usfl_headshots(season: int):
         player_id = player_ids_arr[i]
 
         if (
-            url
-            == "https://b.fssta.com/uploads/application/fs-app/default-headshot.vresize.140.170.medium.0.png"
+            url == "https://b.fssta.com/uploads/application/fs-app/" +
+            "default-headshot.vresize.140.170.medium.0.png"
         ):
             pass
-            # This URL coresponds to the default (blank) headshot.
-            # We don't need to save that, so we skip players who's 
+            # This URL corresponds to the default (blank) headshot.
+            # We don't need to save that, so we skip players who's
             # headshot url is equal to this URL.
         else:
             try:
                 urllib.request.urlretrieve(
                     url, filename=f"rosters/headshots/{player_id}.png"
                 )
-            except:
-                print(f"\nCould not retrive the photo for player #{player_id}.")
+            except Exception:
+                print(
+                    f"\nCould not retrieve the photo for player #{player_id}."
+                )
             time.sleep(1)
 
 

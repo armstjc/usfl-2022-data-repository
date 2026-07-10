@@ -40,7 +40,7 @@ def reformatFolderString(folder: str):
 
 def get_json_in_folder(folder: str):
     """
-    Retrives a list of JSON files in a given directory.
+    Retrieves a list of JSON files in a given directory.
     Be warned, this may not work recursively.
 
     Args:
@@ -67,7 +67,7 @@ def get_json_in_folder(folder: str):
     return json_list
 
 
-def get_usfl_game(gameID: int, apiKey: str, save=False):
+def get_usfl_game(gameID: int, apiKey: str, save=True):
     """
     Retrieves game data for a USFL game, given a proper
     USFL game ID.
@@ -86,24 +86,20 @@ def get_usfl_game(gameID: int, apiKey: str, save=False):
         get_usfl_game(1,"api-key-placeholder",False)
     """
     url = (
-        f"https://api.foxsports.com/bifrost/v1/usfl/event/{gameID}/data?apikey={apiKey}"
+        "https://api.foxsports.com/bifrost/v1/usfl/event/" +
+        f"{gameID}/data?apikey={apiKey}"
     )
-    # try:
-    #     urllib.request.urlretrieve(url, filename=f"Gamelogs/{gameID}.json")
-    #     time.sleep(5)
-    # except:
-    #     time.sleep(5)
     response = urlopen(url)
     json_data = json.loads(response.read())
     time.sleep(1)
-    if save == True:
+    if save is True:
         with open(f"Gamelogs/{gameID}.json", "w+") as f:
             f.write(json.dumps(json_data, indent=2))
 
     return json_data
 
 
-def get_usfl_rosters(season: int, apiKey: str, week=0, save=False):
+def get_usfl_rosters(season: int, apiKey: str, week=0, save=True):
     rosters_df = pd.DataFrame()
     row_df = pd.DataFrame()
 
@@ -120,7 +116,10 @@ def get_usfl_rosters(season: int, apiKey: str, week=0, save=False):
         team_name = team_name_arr[i]
 
         print(f"\nGetting the {season} {team_name} roster.")
-        url = f"https://api.foxsports.com/bifrost/v1/usfl/team/{team_id}/roster?apikey={apiKey}"
+        url = (
+            "https://api.foxsports.com/bifrost/v1/usfl/team/" +
+            f"{team_id}/roster?apikey={apiKey}"
+        )
 
         response = urlopen(url)
         time.sleep(1)
@@ -143,36 +142,48 @@ def get_usfl_rosters(season: int, apiKey: str, week=0, save=False):
                         j["columns"][0]["superscript"]
                     ).replace("#", "")
 
-                    row_df["player_id"] = j["entityLink"]["layout"]["tokens"]["id"]
+                    row_df["player_id"] = j[
+                        "entityLink"
+                    ]["layout"]["tokens"]["id"]
                     try:
                         row_df["player_analytics_name"] = j["entityLink"][
                             "analyticsName"
                         ]
-                    except:
+                    except Exception:
                         row_df["player_analytics_name"] = None
 
                     row_df["player_name"] = j["columns"][0]["text"]
                     row_df["player_pos"] = j["columns"][1]["text"]
                     row_df["player_age"] = j["columns"][2]["text"]
                     row_df["player_height"] = j["columns"][3]["text"]
-                    row_df["player_weight"] = str(j["columns"][4]["text"]).replace(
+                    row_df["player_weight"] = str(
+                        j["columns"][4]["text"]
+                    ).replace(
                         " lbs", ""
                     )
                     row_df["player_college"] = j["columns"][5]["text"]
                     row_df["player_headshot"] = j["entityLink"]["imageUrl"]
                     row_df["player_url"] = j["entityLink"]["contentUri"]
 
-                    rosters_df = pd.concat([rosters_df, row_df], ignore_index=True)
+                    rosters_df = pd.concat(
+                        [rosters_df, row_df],
+                        ignore_index=True
+                    )
 
-    if save == True:
-        rosters_df.to_csv(f"rosters/season/csv/{season}_usfl_rosters.csv", index=False)
+    if save is True:
+        rosters_df.to_csv(
+            f"rosters/season/csv/{season}_usfl_rosters.csv",
+            index=False
+        )
         rosters_df.to_parquet(
-            f"rosters/season/parquet/{season}_usfl_rosters.parquet", index=False
+            f"rosters/season/parquet/{season}_usfl_rosters.parquet",
+            index=False
         )
 
         if week > 0:
             rosters_df.to_csv(
-                f"rosters/weekly/csv/{season}_{week}_usfl_rosters.csv", index=False
+                f"rosters/weekly/csv/{season}_{week}_usfl_rosters.csv",
+                index=False
             )
             rosters_df.to_parquet(
                 f"rosters/weekly/parquet/{season}_{week}_usfl_rosters.parquet",
@@ -181,9 +192,9 @@ def get_usfl_rosters(season: int, apiKey: str, week=0, save=False):
     return rosters_df
 
 
-def get_usfl_schedule(game_jsons: list, save=False):
+def get_usfl_schedule(game_json_list: list, save=True):
     main_df = pd.DataFrame()
-    for i in tqdm(game_jsons):
+    for i in tqdm(game_json_list):
         with open(i, "r", encoding="utf8") as j:
             data = json.load(j)
         # print(f'data: \n {data}')
@@ -192,7 +203,9 @@ def get_usfl_schedule(game_jsons: list, save=False):
         game_date = data["header"]["eventTime"]
         game_df = pd.DataFrame(columns=["game_id"], data=[game_id])
         game_df["season"] = game_date[:4]
-        game_df["analytics_description"] = data["header"]["analyticsDescription"]
+        game_df["analytics_description"] = data[
+            "header"
+        ]["analyticsDescription"]
         game_df["event_status"] = data["header"]["eventStatus"]
 
         game_df["is_tba"] = data["header"]["isTba"]
@@ -201,7 +214,7 @@ def get_usfl_schedule(game_jsons: list, save=False):
 
         try:
             game_df["status_line"] = data["header"]["statusLine"]
-        except:
+        except Exception:
             game_df["status_line"] = None
 
         game_df["venue_name"] = data["header"]["venueName"]
@@ -212,12 +225,14 @@ def get_usfl_schedule(game_jsons: list, save=False):
         # data['header']['leftTeam'] == Away Team
         game_df["away_team_abv"] = data["header"]["leftTeam"]["name"]
         game_df["away_team_nickname"] = data["header"]["leftTeam"]["longName"]
-        game_df["away_team_full_name"] = data["header"]["leftTeam"]["alternateName"]
+        game_df["away_team_full_name"] = data[
+            "header"
+        ]["leftTeam"]["alternateName"]
         game_df["away_team_record"] = data["header"]["leftTeam"]["record"]
 
         try:
             game_df["away_team_score"] = data["header"]["leftTeam"]["score"]
-        except:
+        except Exception:
             game_df["away_team_score"] = None
 
         game_df["away_team_is_loser"] = data["header"]["leftTeam"]["isLoser"]
@@ -228,11 +243,13 @@ def get_usfl_schedule(game_jsons: list, save=False):
         # data['header']['rightTeam'] == Home Team
         game_df["home_team_abv"] = data["header"]["rightTeam"]["name"]
         game_df["home_team_nickname"] = data["header"]["rightTeam"]["longName"]
-        game_df["home_team_full_name"] = data["header"]["rightTeam"]["alternateName"]
+        game_df["home_team_full_name"] = data[
+            "header"
+        ]["rightTeam"]["alternateName"]
         game_df["home_team_record"] = data["header"]["rightTeam"]["record"]
         try:
             game_df["home_team_score"] = data["header"]["rightTeam"]["score"]
-        except:
+        except Exception:
             game_df["home_team_score"] = None
 
         game_df["home_team_is_loser"] = data["header"]["rightTeam"]["isLoser"]
@@ -244,12 +261,14 @@ def get_usfl_schedule(game_jsons: list, save=False):
             game_df["additional_title"] = data["metadata"]["parameters"][
                 "additionalTitle"
             ]
-        except:
+        except Exception:
             pass
 
         try:
-            game_df["event_title"] = data["metadata"]["parameters"]["eventTitle"]
-        except:
+            game_df["event_title"] = data[
+                "metadata"
+            ]["parameters"]["eventTitle"]
+        except Exception:
             pass
         main_df = pd.concat([game_df, main_df], ignore_index=True)
 
@@ -258,24 +277,33 @@ def get_usfl_schedule(game_jsons: list, save=False):
     main_df = main_df.sort_values("game_id")
     # print(main_df.dtypes)
     # print(main_df)
+    maxSeason = int(main_df["season"].max())
+    minSeason = int(main_df["season"].min())
 
-    if save == True:
-        maxSeason = main_df["season"].max()
-        minSeason = main_df["season"].min()
+    print()
+    for i in range(minSeason, maxSeason + 1):
+        main_df.to_csv(f"schedules/{i}_schedule.csv", index=False)
 
-        for i in range(maxSeason, minSeason + 1):
-            main_df.to_csv(f"schedules/{i}_schedule.csv", index=False)
-    else:
-        pass
+    # if save is True:
+    #     maxSeason = main_df["season"].max()
+    #     minSeason = main_df["season"].min()
+
+    #     for i in range(maxSeason, minSeason + 1):
+    #         main_df.to_csv(f"schedules/{i}_schedule.csv", index=False)
+    # else:
+    #     pass
 
     return main_df
 
 
-def get_usfl_standings(season: int, apiKey: str, save=False):
+def get_usfl_standings(season: int, apiKey: str, save=True):
 
     main_df = pd.DataFrame()
     row_df = pd.DataFrame()
-    url = f"https://api.foxsports.com/bifrost/v1/usfl/league/standings?season={season}&apikey={apiKey}"
+    url = (
+        "https://api.foxsports.com/bifrost/v1/usfl/league/standings?" +
+        f"season={season}&apikey={apiKey}"
+    )
     response = urlopen(url)
     json_data = json.loads(response.read())
 
@@ -301,26 +329,31 @@ def get_usfl_standings(season: int, apiKey: str, save=False):
             row_df["team_logo_alt_url"] = j["columns"][1]["alternateImageUrl"]
             row_df["team_id"] = j["entityLink"]["layout"]["tokens"]["id"]
             row_df["overall_record_txt"] = j["columns"][2]["text"]
-            row_df[["overall_W", "overall_L"]] = row_df["overall_record_txt"].str.split(
+            row_df[["overall_W", "overall_L"]] = row_df[
+                "overall_record_txt"
+            ].str.split(
                 "-", expand=True
             )
             # USFL should not have any ties, per their rulebook.
             row_df["overall_T"] = 0
-            # However, if they do, this and other columns representing the number of ties should be updated to hold the actual number of ties this team has.
+            # However, if they do, this and other columns representing
+            # the number of ties should be updated to hold
+            # the actual number of ties this team has.
             row_df["overall_win_pct"] = j["columns"][3]["text"]
 
             try:
                 row_df["overall_points_scored"] = int(j["columns"][4]["text"])
-            except:
+            except Exception:
                 row_df["overall_points_scored"] = 0
 
             try:
                 row_df["overall_points_allowed"] = int(j["columns"][5]["text"])
-            except:
+            except Exception:
                 row_df["overall_points_allowed"] = 0
 
             row_df["overall_point_diff"] = (
-                row_df["overall_points_scored"] - row_df["overall_points_allowed"]
+                row_df["overall_points_scored"] -
+                row_df["overall_points_allowed"]
             )
 
             row_df["home_record_txt"] = j["columns"][6]["text"]
@@ -330,19 +363,23 @@ def get_usfl_standings(season: int, apiKey: str, save=False):
             row_df["home_T"] = 0
 
             try:
-                row_df[["home_W", "home_L"]] = row_df[["home_W", "home_L"]].astype(
+                row_df[["home_W", "home_L"]] = row_df[
+                    ["home_W", "home_L"]
+                ].astype(
                     "int"
                 )
-            except:
+            except Exception:
                 print(
-                    f"No games played for the {team_analytics_name} in this season so far."
+                    f"No games played for the {team_analytics_name} " +
+                    "in this season so far."
                 )
             try:
-                row_df["home_win_pct"] = (row_df["home_W"] + row_df["home_T"]) / (
-                    row_df["home_W"] + row_df["home_L"] + row_df["home_T"]
+                row_df["home_win_pct"] = (
+                    (row_df["home_W"] + row_df["home_T"]) /
+                    (row_df["home_W"] + row_df["home_L"] + row_df["home_T"])
                 )
                 row_df["home_win_pct"] = row_df["home_win_pct"].round(3)
-            except:
+            except Exception:
                 row_df["home_win_pct"] = 0
 
             row_df["away_record_txt"] = j["columns"][7]["text"]
@@ -352,14 +389,17 @@ def get_usfl_standings(season: int, apiKey: str, save=False):
             row_df["away_T"] = 0
 
             try:
-                row_df[["away_W", "away_L"]] = row_df[["away_W", "away_L"]].astype(
+                row_df[["away_W", "away_L"]] = row_df[
+                    ["away_W", "away_L"]
+                ].astype(
                     "int"
                 )
-                row_df["away_win_pct"] = (row_df["away_W"] + row_df["away_T"]) / (
-                    row_df["away_W"] + row_df["away_L"] + row_df["away_T"]
+                row_df["away_win_pct"] = (
+                    (row_df["away_W"] + row_df["away_T"]) /
+                    (row_df["away_W"] + row_df["away_L"] + row_df["away_T"])
                 )
                 row_df["away_win_pct"] = row_df["away_win_pct"].round(3)
-            except:
+            except Exception:
                 row_df["away_win_pct"] = 0
 
             row_df["division_record_txt"] = j["columns"][8]["text"]
@@ -373,19 +413,29 @@ def get_usfl_standings(season: int, apiKey: str, save=False):
                     ["division_W", "division_L"]
                 ].astype("int")
                 row_df["division_win_pct"] = (
-                    row_df["division_W"] + row_df["division_T"]
-                ) / (row_df["division_W"] + row_df["division_L"] + row_df["division_T"])
-                row_df["division_win_pct"] = row_df["division_win_pct"].round(3)
-            except:
+                    (row_df["division_W"] + row_df["division_T"]) /
+                    (
+                        row_df["division_W"] +
+                        row_df["division_L"] +
+                        row_df["division_T"]
+                    )
+                )
+                row_df["division_win_pct"] = row_df[
+                    "division_win_pct"
+                ].round(3)
+            except Exception:
                 row_df["division_win_pct"] = 0
 
             row_df["streak"] = j["columns"][9]["text"]
 
             main_df = pd.concat([main_df, row_df], ignore_index=True)
 
-    if save == True:
+    if save is True:
         # raise NotImplementedError('help')
-        main_df.to_csv(f"standings/csv/{season}_usfl_standings.csv", index=False)
+        main_df.to_csv(
+            f"standings/csv/{season}_usfl_standings.csv",
+            index=False
+        )
         # main_df.to_parquet(f'standings/parquet/{season}_usfl_standings.parquet',index=False)
         with open(f"standings/json/{season}_usfl_standings.json", "w+") as f:
             f.write(json.dumps(json_data, indent=2))
@@ -393,7 +443,7 @@ def get_usfl_standings(season: int, apiKey: str, save=False):
     return main_df
 
 
-def parse_usfl_player_stats(game_jsons: list, saveResults=False):
+def parse_usfl_player_stats(game_json_list: list, saveResults=False):
     main_df = pd.DataFrame()
     # game_df = pd.DataFrame()
     s_df = pd.DataFrame()
@@ -411,7 +461,7 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     index_0 = ""
     # game_df = pd.DataFrame()
 
-    for i in tqdm(game_jsons):
+    for i in tqdm(game_json_list):
         # game_df = pd.DataFrame()
         with open(i, "r", encoding="utf8") as j:
             data = json.load(j)
@@ -431,8 +481,8 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                 if j["title"] != "MATCHUP":
                     for k in j["boxscoreItems"]:
                         column_list = []
-                        for l in k["boxscoreTable"]["headers"]:
-                            for m in l["columns"]:
+                        for header in k["boxscoreTable"]["headers"]:
+                            for m in header["columns"]:
                                 if m["index"] == 0:
                                     index_0 = m["text"]
                                     # print(index_0)
@@ -440,13 +490,16 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                                 else:
                                     column_list.append(m["text"])
                         # print(column_list)
-                        for l in k["boxscoreTable"]["rows"]:
+                        for header in k["boxscoreTable"]["rows"]:
                             stat_column = []
 
-                            for m in l["columns"]:
+                            for m in header["columns"]:
                                 stat_column.append(m["text"])
 
-                            s_df = pd.DataFrame(columns=column_list, data=[stat_column])
+                            s_df = pd.DataFrame(
+                                columns=column_list,
+                                data=[stat_column]
+                            )
                             s_df["season"] = season
                             s_df["game_id"] = game_id
                             s_df["game_date"] = game_date
@@ -467,24 +520,28 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                                 pass
 
                             try:
-                                s_df["analytics_id"] = l["entityLink"]["analyticsName"]
-                            except:
+                                s_df["analytics_id"] = header[
+                                    "entityLink"
+                                ]["analyticsName"]
+                            except Exception:
                                 pass
                             try:
                                 s_df["player_name"] = str(
-                                    l["entityLink"]["title"]
+                                    header["entityLink"]["title"]
                                 ).title()
-                            except:
+                            except Exception:
                                 pass
                             try:
-                                s_df["player_id"] = l["entityLink"]["layout"]["tokens"][
-                                    "id"
-                                ]
-                            except:
+                                s_df["player_id"] = header[
+                                    "entityLink"
+                                ]["layout"]["tokens"]["id"]
+                            except Exception:
                                 pass
                             try:
-                                s_df["player_image"] = l["entityLink"]["imageUrl"]
-                            except:
+                                s_df["player_image"] = header[
+                                    "entityLink"
+                                ]["imageUrl"]
+                            except Exception:
                                 pass
 
                             if index_0 == "PASSING":
@@ -493,7 +550,10 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                                 )
 
                             elif index_0 == "RUSHING":
-                                rush_df = pd.concat([rush_df, s_df], ignore_index=True)
+                                rush_df = pd.concat(
+                                    [rush_df, s_df],
+                                    ignore_index=True
+                                )
                             elif index_0 == "RECEIVING":
                                 receiving_df = pd.concat(
                                     [receiving_df, s_df], ignore_index=True
@@ -524,7 +584,7 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
                                 )
                             else:
                                 print(f"Need DF for {index_0}")
-        except:
+        except Exception:
             print(f"Cannot parse player game stats from {i}.")
 
     pass_column_names = [
@@ -551,9 +611,12 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         "YPC",
     ]
     try:
-        passing_df[["COMP", "ATT"]] = passing_df["COM"].str.split("/", expand=True)
+        passing_df[["COMP", "ATT"]] = passing_df["COM"].str.split(
+            "/",
+            expand=True
+        )
         passing_df.drop(["COM"], axis=1, inplace=True)
-    except:
+    except Exception:
         pass
 
     # PASSING
@@ -570,18 +633,47 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         inplace=True,
     )
     passing_df["NFL_QBR"] = passing_df["NFL_QBR"].replace(["-"], None)
-    passing_df[
-        ["COMP", "ATT", "COMP%", "PASS_YDS", "YPA", "PASS_TD", "PASS_INT", "NFL_QBR"]
-    ] = passing_df[
-        ["COMP", "ATT", "COMP%", "PASS_YDS", "YPA", "PASS_TD", "PASS_INT", "NFL_QBR"]
-    ].replace(
+    passing_df[[
+        "COMP",
+        "ATT",
+        "COMP%",
+        "PASS_YDS",
+        "YPA",
+        "PASS_TD",
+        "PASS_INT",
+        "NFL_QBR"
+    ]] = passing_df[[
+        "COMP",
+        "ATT",
+        "COMP%",
+        "PASS_YDS",
+        "YPA",
+        "PASS_TD",
+        "PASS_INT",
+        "NFL_QBR"
+    ]].replace(
         "-", "0"
     )
-    passing_df[
-        ["COMP", "ATT", "COMP%", "PASS_YDS", "YPA", "PASS_TD", "PASS_INT", "NFL_QBR"]
-    ] = passing_df[
-        ["COMP", "ATT", "COMP%", "PASS_YDS", "YPA", "PASS_TD", "PASS_INT", "NFL_QBR"]
-    ].apply(
+
+    passing_df[[
+        "COMP",
+        "ATT",
+        "COMP%",
+        "PASS_YDS",
+        "YPA",
+        "PASS_TD",
+        "PASS_INT",
+        "NFL_QBR"
+    ]] = passing_df[[
+        "COMP",
+        "ATT",
+        "COMP%",
+        "PASS_YDS",
+        "YPA",
+        "PASS_TD",
+        "PASS_INT",
+        "NFL_QBR"
+    ]].apply(
         pd.to_numeric
     )
     passing_df["COMP%"] = (passing_df["COMP"] / passing_df["ATT"]) * 100
@@ -621,17 +713,40 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         },
         inplace=True,
     )
-    rush_df[["RUSH", "RUSH_YDS", "RUSH_AVG", "RUSH_TD", "RUSH_LONG"]] = rush_df[
-        ["RUSH", "RUSH_YDS", "RUSH_AVG", "RUSH_TD", "RUSH_LONG"]
-    ].replace("-", "0")
-    rush_df[["RUSH", "RUSH_YDS", "RUSH_AVG", "RUSH_TD", "RUSH_LONG"]] = rush_df[
-        ["RUSH", "RUSH_YDS", "RUSH_AVG", "RUSH_TD", "RUSH_LONG"]
-    ].apply(pd.to_numeric)
+
+    rush_df[[
+        "RUSH",
+        "RUSH_YDS",
+        "RUSH_AVG",
+        "RUSH_TD",
+        "RUSH_LONG"
+    ]] = rush_df[[
+        "RUSH",
+        "RUSH_YDS",
+        "RUSH_AVG",
+        "RUSH_TD",
+        "RUSH_LONG"
+    ]].replace("-", "0")
+
+    rush_df[[
+        "RUSH",
+        "RUSH_YDS",
+        "RUSH_AVG",
+        "RUSH_TD",
+        "RUSH_LONG"
+    ]] = rush_df[[
+        "RUSH",
+        "RUSH_YDS",
+        "RUSH_AVG",
+        "RUSH_TD",
+        "RUSH_LONG"
+    ]].apply(pd.to_numeric)
+
     rush_df["RUSH_AVG"] = rush_df["RUSH_YDS"] / rush_df["RUSH"]
     rush_df = rush_df.reindex(columns=rush_column_names)
     # rush_df.to_csv('test_rush.csv',index=False)
 
-    # Reciving
+    # Receiving
     receiving_df = receiving_df.drop_duplicates()
     rec_column_names = [
         "season",
@@ -666,18 +781,45 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         inplace=True,
     )
     receiving_df["REC_AVG"] = receiving_df["REC_AVG"].replace(["-"], None)
-    receiving_df[["REC_TARGETS", "REC", "REC_YDS", "REC_AVG", "REC_TD", "REC_LONG"]] = (
-        receiving_df[
-            ["REC_TARGETS", "REC", "REC_YDS", "REC_AVG", "REC_TD", "REC_LONG"]
-        ].replace("-", "0")
+    receiving_df[[
+        "REC_TARGETS",
+        "REC",
+        "REC_YDS",
+        "REC_AVG",
+        "REC_TD",
+        "REC_LONG"
+    ]] = (
+        receiving_df[[
+            "REC_TARGETS",
+            "REC",
+            "REC_YDS",
+            "REC_AVG",
+            "REC_TD",
+            "REC_LONG"
+        ]].replace("-", "0")
     )
-    receiving_df[["REC_TARGETS", "REC", "REC_YDS", "REC_AVG", "REC_TD", "REC_LONG"]] = (
-        receiving_df[
-            ["REC_TARGETS", "REC", "REC_YDS", "REC_AVG", "REC_TD", "REC_LONG"]
-        ].apply(pd.to_numeric)
+    receiving_df[[
+        "REC_TARGETS",
+        "REC",
+        "REC_YDS",
+        "REC_AVG",
+        "REC_TD",
+        "REC_LONG"
+    ]] = (
+        receiving_df[[
+            "REC_TARGETS",
+            "REC",
+            "REC_YDS",
+            "REC_AVG",
+            "REC_TD",
+            "REC_LONG"
+        ]].apply(pd.to_numeric)
     )
     receiving_df["REC_AVG"] = receiving_df["REC_YDS"] / receiving_df["REC"]
-    receiving_df["CATCH%"] = (receiving_df["REC"] / receiving_df["REC_TARGETS"]) * 100
+    receiving_df["CATCH%"] = (
+        receiving_df["REC"] /
+        receiving_df["REC_TARGETS"]
+    ) * 100
     receiving_df["YDS/TARGET"] = receiving_df["REC_YDS"] / receiving_df["REC"]
     receiving_df = receiving_df.reindex(columns=rec_column_names)
     # receiving_df.to_csv('test_rec.csv',index=False)
@@ -703,7 +845,12 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         "FR",
     ]
     fumbles_df.rename(
-        columns={"FUM": "FUMBLES", "LST": "FUMBLES_LOST", "REC": "FR"}, inplace=True
+        columns={
+            "FUM": "FUMBLES",
+            "LST": "FUMBLES_LOST",
+            "REC": "FR"
+        },
+        inplace=True
     )
     fumbles_df = fumbles_df.reindex(columns=fum_column_names)
     fumbles_df[["FUMBLES", "FUMBLES_LOST", "FF", "FR"]] = fumbles_df[
@@ -740,17 +887,54 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         "DEF_TD",
     ]
     defensive_df.rename(
-        columns={"TCK": "TOTAL", "SOL": "SOLO", "SCK": "SACKS", "TD": "DEF_TD"},
+        columns={
+            "TCK": "TOTAL",
+            "SOL": "SOLO",
+            "SCK": "SACKS",
+            "TD": "DEF_TD"
+        },
         inplace=True,
     )
-    defensive_df[["TOTAL", "SOLO", "TFL", "SACKS", "INT", "PD", "DEF_TD"]] = (
-        defensive_df[["TOTAL", "SOLO", "TFL", "SACKS", "INT", "PD", "DEF_TD"]].replace(
+    defensive_df[[
+        "TOTAL",
+        "SOLO",
+        "TFL",
+        "SACKS",
+        "INT",
+        "PD",
+        "DEF_TD"
+    ]] = (
+        defensive_df[[
+            "TOTAL",
+            "SOLO",
+            "TFL",
+            "SACKS",
+            "INT",
+            "PD",
+            "DEF_TD"
+        ]].replace(
             "-", "0"
         )
     )
 
-    defensive_df[["TOTAL", "SOLO", "TFL", "SACKS", "INT", "PD", "DEF_TD"]] = (
-        defensive_df[["TOTAL", "SOLO", "TFL", "SACKS", "INT", "PD", "DEF_TD"]].apply(
+    defensive_df[[
+        "TOTAL",
+        "SOLO",
+        "TFL",
+        "SACKS",
+        "INT",
+        "PD",
+        "DEF_TD"
+    ]] = (
+        defensive_df[[
+            "TOTAL",
+            "SOLO",
+            "TFL",
+            "SACKS",
+            "INT",
+            "PD",
+            "DEF_TD"
+        ]].apply(
             pd.to_numeric
         )
     )
@@ -760,28 +944,28 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
 
     # FG Kicking
     kicking_df = kicking_df.drop_duplicates()
-    kicking_column_names = [
-        "season",
-        "game_id",
-        "game_date",
-        "team",
-        "team_nickname",
-        "loc",
-        "opponent",
-        "opponent_nickname",
-        "analytics_id",
-        "player_id",
-        "player_image",
-        "player_name",
-        "FGM",
-        "FGA",
-        "FG%",
-        "FG_LONG",
-        "XPM",
-        "XPA",
-        "XP%",
-    ]
-    # kicking_df = kicking_df.reindex(columns=kicking_column_names)
+    # kicking_column_names = [
+    #     "season",
+    #     "game_id",
+    #     "game_date",
+    #     "team",
+    #     "team_nickname",
+    #     "loc",
+    #     "opponent",
+    #     "opponent_nickname",
+    #     "analytics_id",
+    #     "player_id",
+    #     "player_image",
+    #     "player_name",
+    #     "FGM",
+    #     "FGA",
+    #     "FG%",
+    #     "FG_LONG",
+    #     "XPM",
+    #     "XPA",
+    #     "XP%",
+    # ]
+    # # kicking_df = kicking_df.reindex(columns=kicking_column_names)
 
     kicking_df.drop(["PTS", "PCT"], axis=1, inplace=True)
     kicking_df[["FGM", "FGA"]] = kicking_df["FG"].str.split("/", expand=True)
@@ -839,18 +1023,38 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         },
         inplace=True,
     )
-    punting_df[
-        ["PUNTS", "GROSS_PUNT_AVG", "PUNT_TB", "PUNTS_IN_20", "PUNTS_BLK", "PUNT_LONG"]
-    ] = punting_df[
-        ["PUNTS", "GROSS_PUNT_AVG", "PUNT_TB", "PUNTS_IN_20", "PUNTS_BLK", "PUNT_LONG"]
-    ].replace(
+    punting_df[[
+        "PUNTS",
+        "GROSS_PUNT_AVG",
+        "PUNT_TB",
+        "PUNTS_IN_20",
+        "PUNTS_BLK",
+        "PUNT_LONG"
+    ]] = punting_df[[
+        "PUNTS",
+        "GROSS_PUNT_AVG",
+        "PUNT_TB",
+        "PUNTS_IN_20",
+        "PUNTS_BLK",
+        "PUNT_LONG"
+    ]].replace(
         "-", "0"
     )
-    punting_df[
-        ["PUNTS", "GROSS_PUNT_AVG", "PUNT_TB", "PUNTS_IN_20", "PUNTS_BLK", "PUNT_LONG"]
-    ] = punting_df[
-        ["PUNTS", "GROSS_PUNT_AVG", "PUNT_TB", "PUNTS_IN_20", "PUNTS_BLK", "PUNT_LONG"]
-    ].apply(
+    punting_df[[
+        "PUNTS",
+        "GROSS_PUNT_AVG",
+        "PUNT_TB",
+        "PUNTS_IN_20",
+        "PUNTS_BLK",
+        "PUNT_LONG"
+    ]] = punting_df[[
+        "PUNTS",
+        "GROSS_PUNT_AVG",
+        "PUNT_TB",
+        "PUNTS_IN_20",
+        "PUNTS_BLK",
+        "PUNT_LONG"
+    ]].apply(
         pd.to_numeric
     )
     punting_df["GROSS_PUNT_YDS"] = (
@@ -890,13 +1094,33 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         },
         inplace=True,
     )
-    kick_return_df[["KR", "KR_YDS", "KR_AVG", "KR_TD", "KR_LONG"]] = kick_return_df[
-        ["KR", "KR_YDS", "KR_AVG", "KR_TD", "KR_LONG"]
-    ].replace("-", "0")
+    kick_return_df[[
+        "KR",
+        "KR_YDS",
+        "KR_AVG",
+        "KR_TD",
+        "KR_LONG"
+    ]] = kick_return_df[[
+        "KR",
+        "KR_YDS",
+        "KR_AVG",
+        "KR_TD",
+        "KR_LONG"
+    ]].replace("-", "0")
 
-    kick_return_df[["KR", "KR_YDS", "KR_AVG", "KR_TD", "KR_LONG"]] = kick_return_df[
-        ["KR", "KR_YDS", "KR_AVG", "KR_TD", "KR_LONG"]
-    ].apply(pd.to_numeric)
+    kick_return_df[[
+        "KR",
+        "KR_YDS",
+        "KR_AVG",
+        "KR_TD",
+        "KR_LONG"
+    ]] = kick_return_df[[
+        "KR",
+        "KR_YDS",
+        "KR_AVG",
+        "KR_TD",
+        "KR_LONG"
+    ]].apply(pd.to_numeric)
     kick_return_df["KR_AVG"] = kick_return_df["KR_YDS"] / kick_return_df["KR"]
     kick_return_df = kick_return_df.reindex(columns=kr_column_names)
     # kick_return_df.to_csv('test_kr.csv',index=False)
@@ -934,13 +1158,33 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
     )
     punt_return_df["PR_LONG"] = punt_return_df["PR_LONG"].replace(["-"], None)
     punt_return_df["PR_AVG"] = punt_return_df["PR_AVG"].replace(["-"], None)
-    punt_return_df[["PR", "PR_YDS", "PR_AVG", "PR_TD", "PR_LONG"]] = punt_return_df[
-        ["PR", "PR_YDS", "PR_AVG", "PR_TD", "PR_LONG"]
-    ].replace("-", "0")
+    punt_return_df[[
+        "PR",
+        "PR_YDS",
+        "PR_AVG",
+        "PR_TD",
+        "PR_LONG"
+    ]] = punt_return_df[[
+        "PR",
+        "PR_YDS",
+        "PR_AVG",
+        "PR_TD",
+        "PR_LONG"
+    ]].replace("-", "0")
 
-    punt_return_df[["PR", "PR_YDS", "PR_AVG", "PR_TD", "PR_LONG"]] = punt_return_df[
-        ["PR", "PR_YDS", "PR_AVG", "PR_TD", "PR_LONG"]
-    ].apply(pd.to_numeric)
+    punt_return_df[[
+        "PR",
+        "PR_YDS",
+        "PR_AVG",
+        "PR_TD",
+        "PR_LONG"
+    ]] = punt_return_df[[
+        "PR",
+        "PR_YDS",
+        "PR_AVG",
+        "PR_TD",
+        "PR_LONG"
+    ]].apply(pd.to_numeric)
     punt_return_df["PR_AVG"] = punt_return_df["PR_YDS"] / punt_return_df["PR"]
     punt_return_df = punt_return_df.reindex(columns=pr_column_names)
     # punt_return_df.to_csv('test_pr.csv',index=False)
@@ -1029,11 +1273,11 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
             "season",
             "game_id",
             "game_date",
-            "team",
-            "team_nickname",
-            "loc",
-            "opponent",
-            "opponent_nickname",
+            # "team",
+            # "team_nickname",
+            # "loc",
+            # "opponent",
+            # "opponent_nickname",
             "analytics_id",
             "player_id",
             "player_image",
@@ -1121,22 +1365,23 @@ def parse_usfl_player_stats(game_jsons: list, saveResults=False):
         by=["season", "game_date", "game_id", "loc", "player_id"]
     )
 
-    if saveResults == True:
+    if saveResults is True:
         min_season = int(main_df["season"].min())
         max_season = int(main_df["season"].max())
         for i in range(min_season, max_season + 1):
             main_df.to_csv(
-                f"player_stats/game_stats/{i}_player_game_stats.csv", index=False
+                f"player_stats/game_stats/{i}_player_game_stats.csv",
+                index=False
             )
 
     return main_df
 
 
-def parse_usfl_pbp(game_jsons: list, saveResults=False):
+def parse_usfl_pbp(game_json_list: list, saveResults=False):
     main_df = pd.DataFrame()
     game_df = pd.DataFrame()
     play_df = pd.DataFrame()
-    for i in tqdm(game_jsons):
+    for i in tqdm(game_json_list):
         away_score = 0
         home_score = 0
 
@@ -1168,7 +1413,8 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
                     drive_id = k["id"]
                     drive_result = k["title"]
                     drive_summary = str(k["subtitle"])
-                    drive_plays, drive_yards, drive_time = drive_summary.split(" · ")
+                    drive_plays, drive_yards, drive_time = \
+                        drive_summary.split(" · ")
                     drive_plays = drive_plays.replace(" plays", "")
                     drive_yards = drive_yards.replace(" yards", "")
 
@@ -1190,7 +1436,10 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
                         def_team_full_name = away_team_full_name
                     for play in k["plays"]:
                         # print(play['id'])
-                        play_df = pd.DataFrame(columns=["game_id"], data=[game_id])
+                        play_df = pd.DataFrame(
+                            columns=["game_id"],
+                            data=[game_id]
+                        )
                         play_df["season"] = season
                         play_df["game_date"] = game_date
                         play_df["away_team_id"] = away_team_id
@@ -1211,7 +1460,7 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
 
                         try:
                             down_and_distance = play["title"]
-                        except:
+                        except Exception:
                             down_and_distance = None
                         play_df["down_and_distance"] = down_and_distance
                         play_down = 0
@@ -1220,11 +1469,12 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
                             down_and_distance == "END QUARTER"
                             or down_and_distance == "KICKOFF"
                             or down_and_distance == "PAT"
-                            or down_and_distance == None
+                            or down_and_distance is None
                         ):
                             pass
                         else:
-                            play_down, play_distance = down_and_distance.split(" AND ")
+                            play_down, play_distance = \
+                                down_and_distance.split(" AND ")
                             play_down = play_down[0]
                             # print(down)
                         play_df["down"] = play_down
@@ -1232,24 +1482,31 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
 
                         try:
                             play_df["ball_on"] = play["subtitle"]
-                        except:
+                        except Exception:
                             play_df["ball_on"] = None
 
                         play_df["time_of_play"] = play["timeOfPlay"]
-                        play_df[["time_of_play_min", "time_of_play_sec"]] = play_df[
+                        play_df[[
+                            "time_of_play_min",
+                            "time_of_play_sec"
+                        ]] = play_df[
                             "time_of_play"
                         ].str.split(":", expand=True)
 
                         play_df["drive_play_num"] = drive_play_num
 
                         play_df["play_description"] = play["playDescription"]
-                        play_df["away_team_score_change"] = play["leftTeamScoreChange"]
-                        play_df["home_team_score_change"] = play["rightTeamScoreChange"]
+                        play_df["away_team_score_change"] = play[
+                            "leftTeamScoreChange"
+                        ]
+                        play_df["home_team_score_change"] = play[
+                            "rightTeamScoreChange"
+                        ]
 
                         try:
                             away_score = play["leftTeamScore"]
                             home_score = play["rightTeamScore"]
-                        except:
+                        except Exception:
                             pass
                         play_df["away_score"] = away_score
                         play_df["home_score"] = home_score
@@ -1258,23 +1515,33 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
                         play_df["drive_plays"] = drive_plays
                         play_df["drive_yards"] = drive_yards
                         play_df["drive_time"] = drive_time
-                        # kicking_df[['XPM','XPA']] = kicking_df['XP'].str.split('/',expand=True)
-                        play_df[["drive_time_min", "drive_time_sec"]] = play_df[
+                        # kicking_df[[
+                        # 'XPM','XPA'
+                        # ]] = kicking_df['XP'].str.split('/',expand=True)
+                        play_df[[
+                            "drive_time_min",
+                            "drive_time_sec"
+                        ]] = play_df[
                             "drive_time"
                         ].str.split(":", expand=True)
 
                         play_df["drive_result"] = drive_result
-                        game_df = pd.concat([game_df, play_df], ignore_index=True)
+                        game_df = pd.concat(
+                            [game_df, play_df],
+                            ignore_index=True
+                        )
                         drive_play_num += 1
             main_df = pd.concat([main_df, game_df], ignore_index=True)
-        except:
+        except Exception:
             print(f"Cannot parse play-by-play data from game #{game_id}.")
 
-    main_df[["game_id", "play_id"]] = main_df[["game_id", "play_id"]].astype("int")
+    main_df[["game_id", "play_id"]] = main_df[[
+        "game_id", "play_id"
+    ]].astype("int")
 
     main_df = main_df.sort_values(by=["game_id", "play_id"])
 
-    if saveResults == True:
+    if saveResults is True:
         min_season = int(main_df["season"].min())
         max_season = int(main_df["season"].max())
         for i in range(min_season, max_season + 1):
@@ -1287,13 +1554,13 @@ def parse_usfl_pbp(game_jsons: list, saveResults=False):
 def main():
     print("Starting up")
     key = get_usfl_api_key()
-    for i in tqdm(range(87, 90)):
-        get_usfl_game(i, key, True)
+    # for i in tqdm(range(87, 90)):
+    #     get_usfl_game(i, key, True)
     json_list = get_json_in_folder("Gamelogs")
 
+    get_usfl_schedule(json_list, True)
     parse_usfl_player_stats(json_list, True)
     parse_usfl_pbp(json_list, True)
-    get_usfl_schedule(json_list, True)
 
     get_usfl_standings(2023, key, True)
     get_usfl_rosters(2023, key, 10, True)
